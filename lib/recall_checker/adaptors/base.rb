@@ -30,6 +30,10 @@ module RecallChecker
       def response
         @response ||= self.class.get("", options)
       end
+
+      def parsed_response
+        @parsed_response ||= response.parsed_response
+      end
       
     end
   end
