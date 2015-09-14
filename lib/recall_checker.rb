@@ -5,5 +5,6 @@ Dir[File.dirname(__FILE__) + '/recall_checker/adaptors/*.rb'].each { |file| requ
 
 module RecallChecker
   extend SingleForwardable
-  def_delegator "RecallChecker::Adaptors::Base", :find_by_make_and_vin  
+  def_delegator "RecallChecker::Adaptors::Base", :find_by_make_and_vin
+  def_delegator "RecallChecker::Adaptors::Base", :supported?
 end

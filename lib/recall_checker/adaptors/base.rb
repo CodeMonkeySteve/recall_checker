@@ -5,12 +5,18 @@ module RecallChecker
       
       @@adaptors = {}
 
-      def self.make make
-        @@adaptors[make] = self
-      end
+      class << self
+        def make make
+          @@adaptors[make] = self
+        end
       
-      def self.find_by_make_and_vin make, vin
-        @@adaptors[make].new(vin)
+        def find_by_make_and_vin make, vin
+          @@adaptors[make].new(vin)
+        end
+
+        def supported? make
+          @@adaptors.include? make
+        end
       end
 
       def initialize vin
