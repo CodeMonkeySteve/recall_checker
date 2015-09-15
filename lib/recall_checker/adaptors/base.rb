@@ -2,7 +2,7 @@ module RecallChecker
   module Adaptors
     class Base
       include HTTParty
-      
+
       @@adaptors = {}
 
       class << self
@@ -23,12 +23,20 @@ module RecallChecker
         @vin = vin
       end
 
+      def url
+        ""
+      end
+
       def options
-        {query: {vin: @vin}}
+        url.empty? ? {query: {vin: @vin}} : {}
       end
 
       def response
-        @response ||= self.class.get("", options)
+        begin
+          @response ||= self.class.get(url, options)
+        rescue HTTParty::Error, Errno::ECONNREFUSED => e
+          @response = {}
+        end
       end
 
       def parsed_response

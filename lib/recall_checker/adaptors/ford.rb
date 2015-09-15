@@ -10,7 +10,7 @@ module RecallChecker
       end
 
       def add_items_to_recalls key
-        if parsed.response.is_a?(Hash) && parsed_response.has_key?(key)
+        if parsed_response.is_a?(Hash) && parsed_response.has_key?(key)
           parsed_response[key].each do |k,v| 
             @recalls << v["description_eng"] if v.is_a?(Hash) && v.has_key?("description_eng")
           end
