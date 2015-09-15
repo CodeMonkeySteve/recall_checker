@@ -37,7 +37,7 @@ module RecallChecker
       end
       
       def lookup_field field
-        FIELDS.fetch(field, field)
+        self.class::FIELDS.fetch(field, field)
       end
 
       def has_recalls?

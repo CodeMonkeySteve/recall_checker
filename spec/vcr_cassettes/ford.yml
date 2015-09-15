@@ -1,0 +1,143 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://owner.ford.com/sharedServices/recalls/query.do?country=USA&language=EN&vin=1ZVBP8AMXD5277023
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Powered-By:
+      - Servlet/3.0
+      Content-Length:
+      - '2073'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Access-Control-Allow-Origin:
+      - origin.owner.ford.com
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Tue, 15 Sep 2015 18:29:41 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"lang_script_c":"","return_status":{"description":"Required data found","code":"00"},"recalls":{"nhtsa_recall_item":{"nhtsa_recall_number":"15V319","description_lang":"DRIVER
+        AIRBAG INFLATOR REPLACEMENT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ","mfr_recall_number":"15S21","refresh_date":"SEP
+        15, 2015","safety_risk_description":"IN INFLATOR RUPTURE COULD RESULT IN METAL
+        FRAGMENTS STRIKING AND POTENTIALLY INJURING VEHICLE OCCUPANTS","mfr_recall_status":"12
+        - RECALL INCOMPLETE. REMEDY NOT YET AVAILABLE.","description_eng":"DRIVER
+        AIRBAG INFLATOR REPLACEMENT","mfr_notes":"TO CHECK FOR NON-SAFETY-RELATED
+        PROGRAMS APPLICABLE TO YOUR VEHICLE, SEE HTTP://WWW.FORD.COM/ OR CALL YOUR
+        FORD DEALER.","recall_date":"MAY 27, 2015","remedy_description":"DEALERS WILL
+        REPLACE THE DRIVER AIRBAG INFLATOR WITH A NEW ONE, FREE OF CHARGE.","recall_description":"IN
+        THE SUBJECT VEHICLES, CONTINUED EXPOSURE TO HIGH LEVELS OF ABSOLUTE HUMIDITY
+        MAY CAUSE THE DRIVER AIRBAG INFLATOR HOUSING TO RUPTURE IF THE VEHICLE IS
+        INVOLVED IN A CRASH WHERE THE SUPPLEMENTAL FRONT AIRBAGS ARE DESIGNED TO DEPLOY."}},"nhtsa_header_details":{"number_of_recalls":"01","refresh_date":"SEP
+        15, 2015","status":true,"manufacturer_id":"0002","model":"Mustang","recalls_available":true,"year":2013,"make":"FORD"},"lang_iso_c":"EN","lang_region_c":"","stpr_state_c":"  ","country_iso3_c":"USA","vin":"1ZVBP8AMXD5277023"}'
+    http_version: 
+  recorded_at: Tue, 15 Sep 2015 18:29:45 GMT
+- request:
+    method: get
+    uri: http://owner.ford.com/sharedServices/recalls/query.do?country=USA&language=EN&vin=1ZVBP8AMXD5277000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Powered-By:
+      - Servlet/3.0
+      Content-Length:
+      - '220'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Access-Control-Allow-Origin:
+      - origin.owner.ford.com
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Tue, 15 Sep 2015 19:35:37 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"lang_script_c":"","return_status":{"description":"Input parameter
+        invalid","code":"01"},"fsa_items":{"count":0},"lang_iso_c":"EN","lang_region_c":"","stpr_state_c":"  ","country_iso3_c":"USA","vin":"1ZVBP8AMXD5277000"}'
+    http_version: 
+  recorded_at: Tue, 15 Sep 2015 19:35:41 GMT
+- request:
+    method: get
+    uri: http://owner.ford.com/sharedServices/recalls/query.do?country=USA&language=EN&vin=1FADP5AU9DL504830
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Powered-By:
+      - Servlet/3.0
+      Content-Length:
+      - '1164'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Access-Control-Allow-Origin:
+      - origin.owner.ford.com
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Tue, 15 Sep 2015 19:37:25 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"lang_script_c":"","return_status":{"description":"Required data found","code":"00"},"fsa_items":{"fsa_item":{"description_lang":"SYNC
+        WITH MYFORD/MYLINCOLN TOUCH - WARRANTY EXTENSION COVERING ACCESSORY PROTOCOL
+        INTERFACE MODULE (APIM)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ","local_fsa_r":"12M02","description_eng":"SYNC
+        WITH MYFORD/MYLINCOLN TOUCH - WARRANTY EXTENSION COVERING ACCESSORY PROTOCOL
+        INTERFACE MODULE (APIM)"},"count":1},"lang_iso_c":"EN","lang_region_c":"","stpr_state_c":"  ","country_iso3_c":"USA","vin":"1FADP5AU9DL504830"}'
+    http_version: 
+  recorded_at: Tue, 15 Sep 2015 19:37:29 GMT
+recorded_with: VCR 2.9.3
