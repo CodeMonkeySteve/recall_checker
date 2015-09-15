@@ -9,10 +9,29 @@ module RecallChecker
         {query: {country: 'USA', language: 'EN', vin: @vin}}
       end
 
-      def add_items_to_recalls key
-        if parsed_response.is_a?(Hash) && parsed_response.has_key?(key)
-          parsed_response[key].each do |k,v| 
-            @recalls << v["description_eng"] if v.is_a?(Hash) && v.has_key?("description_eng")
+      def matching_fields
+        { title: "description_eng",
+          date: "recall_date",
+          refresh_date: "refresh_date",
+          nhtsa_id: "nhtsa_recall_number",
+          manufacturer_id: "mfr_recall_number",
+          summary: "recall_description",
+          safety_risk: "safety_risk_description",
+          remedy: "remedy_description",
+          status: "mfr_recall_status",
+          manufacturer_notes: "mfr_notes" }
+      end
+
+      def add_items_to_recalls
+        if (b = get_branch(parsed_response, "recalls"))
+          b.each_value do |bv|
+            recall = new_recall_record
+            bv.each do |k,v|
+              if matching_fields.has_value?(k)
+                recall[matching_fields.key(k)] = v
+              end
+            end 
+            @recalls << recall
           end
         end
       end
@@ -20,8 +39,7 @@ module RecallChecker
       def recalls
         if @recalls.nil?
           @recalls = []
-          add_items_to_recalls "recalls"
-          add_items_to_recalls "fsa_items"
+          add_items_to_recalls
         end
         return @recalls
       end
