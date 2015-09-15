@@ -4,6 +4,7 @@ module RecallChecker
       include HTTParty
 
       @@adaptors = {}
+      FIELDS = {}
 
       class << self
         def make make
@@ -31,52 +32,47 @@ module RecallChecker
         url.empty? ? {query: {vin: @vin}} : {}
       end
 
-      def model_fields
-        [ :title,
-          :date, # to be changed to created_at
-          :refresh_date, # to be changed to refreshed_at
-          :nhtsa_id, 
-          :manufacturer_id, 
-          :summary, 
-          :safety_risk, 
-          :remedy, 
-          :status, 
-          :manufacturer_notes ]
+      def fields
+        %w(title nhtsa_id manufacturer_id description risks remedy status notes created_at updated_at)
+      end
+      
+      def lookup_field field
+        FIELDS.fetch(field, field)
       end
 
-      def new_recall_record
-        Hash[model_fields.map { |i| [i, nil] }]
+      def has_recalls?
+        recalls_raw.any?
       end
 
       def response
-        begin
-          @response ||= self.class.get(url, options)
-        rescue HTTParty::Error, Errno::ECONNREFUSED => e
-          @response = {}
-        end
+        @response ||= self.class.get(url, options)
       end
 
       def parsed_response
         @parsed_response ||= response.parsed_response
       end
+
+      def recalls_raw
+        parsed_response.fetch('recalls', [])
+      end
       
-      # abstractions - redefine them in each particular class!
-      def convert_time
-        Time.now
-      end
-
-      def add_items_to_recalls
-      end
-
       def recalls
-        []
+        recalls_raw.map do |recall|
+          Hash[fields.map do |field|
+            converter = "convert_#{field}"
+            value = recall.fetch(lookup_field(field))
+            [field, respond_to?(converter) ? send(converter, value) : value ]
+          end]
+        end
+      end
+      
+      def convert_created_at time
+        Time.parse(time)
       end
 
-      # helpers
-      def get_branch hsh, key
-        return hsh[key] if hsh.is_a?(Hash) && hsh.has_key?(key) && hsh[key].is_a?(Hash)
+      def convert_updated_at time
+        Time.parse(time)
       end
-
     end
   end
 end
