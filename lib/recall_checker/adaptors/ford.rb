@@ -25,14 +25,6 @@ module RecallChecker
         parsed_response.has_key?('recalls') ? parsed_response['recalls'].values : []
       end
 
-#      def lookup_field field
-#        FIELDS.fetch(field, field)
-        # f = FIELDS.fetch(field, field)
-        # puts "lookup_field: #{field} - #{f}"
-        # return f
-#      end
-
-
     end
   end
 end
