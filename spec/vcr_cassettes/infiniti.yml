@@ -92,4 +92,87 @@ http_interactions:
       string: '{"lang_script_c":"","return_status":{"description":"Data not found","code":"02"},"fsa_items":{"count":0},"lang_iso_c":"EN","lang_region_c":"","stpr_state_c":"  ","country_iso3_c":"USA","vin":"JNKDA31A43T102577"}'
     http_version: 
   recorded_at: Wed, 16 Sep 2015 11:51:27 GMT
+- request:
+    method: get
+    uri: http://www.infinitiusa.com/dealercenter/api/recalls?vin=JN1CV6AP9FM501289
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Wed, 16 Sep 2015 17:41:00 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Wed, 16 Sep 2015 17:41:21 GMT
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"make":"INFINITI","modelYear":2015,"recalls":[],"vehicleName":"Q40
+        Q40","vin":"JN1CV6AP9FM501289"}'
+    http_version: 
+  recorded_at: Wed, 16 Sep 2015 17:41:27 GMT
+- request:
+    method: get
+    uri: http://www.infinitiusa.com/dealercenter/api/recalls?vin=JN1CV6AP9FM500000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Wed, 16 Sep 2015 17:41:10 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Wed, 16 Sep 2015 17:41:21 GMT
+      Content-Length:
+      - '81'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"make":"","modelYear":0,"recalls":[],"vehicleName":"","vin":"JN1CV6AP9FM500000"}'
+    http_version: 
+  recorded_at: Wed, 16 Sep 2015 17:41:27 GMT
 recorded_with: VCR 2.9.3

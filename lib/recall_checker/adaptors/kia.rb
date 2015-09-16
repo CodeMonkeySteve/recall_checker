@@ -22,19 +22,15 @@ module RecallChecker
       end
 
       def recalls_raw
-        if parsed_response.has_key?('result') 
-          parsed_response.fetch('result', {}).fetch('recallsResult', {}).fetch('recalls', [])
-        else
-          []
-        end
+        parsed_response.fetch('result', {}).fetch('recallsResult', {}).fetch('recalls', [])
       end
 
       def convert_created_at time
-        Time.at(time[0..9].to_i)
+        Time.at(time.to_i / 1000)
       end
 
       def convert_updated_at time
-        Time.at(time[0..9].to_i)
+        Time.at(time.to_i / 1000)
       end
 
     end

@@ -1,0 +1,162 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://owners.acura.com/Recalls/GetRecallsByVin/5FRYD4H41FB013225/true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '2004'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/6.0
+      P3p:
+      - policyref="http://owners.honda.com/w3c/P3P.xml", CP="IDC DSP COR ADMi DEVi
+        TAIa PS
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Aspnetmvc-Version:
+      - '3.0'
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - ASP.NET_SessionId=1vgvopmtlkoyyhomaan1pfl4; path=/; HttpOnly
+      Date:
+      - Wed, 16 Sep 2015 15:11:55 GMT
+    body:
+      encoding: UTF-8
+      string: '{"LastUpdated":"Sep 15, 2015","Warning":false,"WarningCode":null,"WarningText":null,"DivisionMismatch":false,"VIN":"5FRYD4H41FB013225","Make":"Acura","ModelYear":"2015","DivisionCd":"B","ModelGroupId":null,"ModelGroupName":"MDX","RecallsUrl":"//owners.acura.com/recalls/5FRYD4H41FB013225","SaveVinUrl":"/account/add-vehicle/5FRYD4H41FB013225","IsLoggedIn":false,"CampaignTypes":[{"SortOrder":1,"Campaigns":[{"AgencyTypeCd":"N","AgencyType":"National
+        Highway Transportation Safety Administration (NHTSA)","AgencyName":"NHTSA","RecallNumber":"15V-417","Description":"A/C
+        Compressor Clutch Bolt","Id":"JQ7","RecallDate":"06/24/2015","RecallStatus":"Recall
+        INCOMPLETE","RecallDescription":"AMERICAN HONDA MOTOR CO., INC. (HONDA) IS
+        RECALLING CERTAIN MODEL YEAR2014-2015 ACURA MDX VEHICLES. DURING MANUFACTURING
+        OF THE A/C COMPRESSOR CLUTCH DRIVE BOLTS, CERTAIN LOTS FAILED TO RECEIVE THE
+        PROPER DIELECTRIC TOPCOAT. WITHOUT THE TOPCOAT, THE BOLTS ARE SUSCEPTIBLE
+        TO CORROSION AND MAY BREAK DURING OPERATION.                                  IN
+        ADDITION, THERE WERE CERTAIN LOTS THAT DID NOT HAVE SUFFICIENT CURING OF THE
+        E-COAT APPLIED TO THE BOLTS. INSUFFICIENT E-COAT CURING MAY CAUSE LOW TORQUE
+        VALUES AND LOW HARDNESS, RESULTING IN THE BOLT BECOMING LOOSE OR FALLING OFF
+        DURING OPERATION.","SafetyRiskDescription":"EITHER OF THESE CONDITIONS CAN
+        CAUSE THE A/C UNIT TO BLOW WARM AIR, ORIN SEVERE CASES THE A/C CLUTCH DRIVE
+        PLATE MAY FALL OFF THE VEHICLE   DURING OPERATION.","RemedyDescription":"HONDA
+        WILL NOTIFY OWNERS, AND DEALERS WILL REPLACE THE CLUTCH DRIVE  BOLT, AND IF
+        NECESSARY INSTALL A NEW CLUTCH PLATE AND/OR COMPRESSOR, FREE OF CHARGE. BECAUSE
+        THE NEW VEHICLE WARRANTY ON ALL AFFECTED VEHICLES WOULD HAVE PROVIDED A FREE
+        REPAIR FOR THE PROBLEM ADDRESSED BY THIS RECALL, WITHOUT ANY PAYMENT BY THE
+        OWNER, REIMBURSEMENT FOR PRE-NOTIFICATION REPAIRS WILL NOT BE OFFERED. OWNERS
+        MAY CONTACT ACURA CLIENT RELATIONS AT 1-800-382-2238, OPTION 4. ACURA''S CAMPAIGN
+        NUMBER FOR THIS RECALL IS JQ7."}]}]}'
+    http_version: 
+  recorded_at: Wed, 16 Sep 2015 15:12:02 GMT
+- request:
+    method: get
+    uri: http://owners.acura.com/Recalls/GetRecallsByVin/5FRYD4H25FB015560/true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '413'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/6.0
+      P3p:
+      - policyref="http://owners.honda.com/w3c/P3P.xml", CP="IDC DSP COR ADMi DEVi
+        TAIa PS
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Aspnetmvc-Version:
+      - '3.0'
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - ASP.NET_SessionId=crgueq4uqs5lfpwow5uppuet; path=/; HttpOnly
+      Date:
+      - Wed, 16 Sep 2015 17:20:05 GMT
+    body:
+      encoding: UTF-8
+      string: '{"LastUpdated":"Sep 15, 2015","Warning":false,"WarningCode":null,"WarningText":null,"DivisionMismatch":false,"VIN":"5FRYD4H25FB015560","Make":"Acura","ModelYear":"2015","DivisionCd":"B","ModelGroupId":null,"ModelGroupName":"MDX","RecallsUrl":"//owners.acura.com/recalls/5FRYD4H25FB015560","SaveVinUrl":"/account/add-vehicle/5FRYD4H25FB015560","IsLoggedIn":false,"CampaignTypes":[{"SortOrder":1,"Campaigns":null}]}'
+    http_version: 
+  recorded_at: Wed, 16 Sep 2015 17:20:12 GMT
+- request:
+    method: get
+    uri: http://owners.acura.com/Recalls/GetRecallsByVin/5FRYD4H25FB000000/true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '310'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/6.0
+      P3p:
+      - policyref="http://owners.honda.com/w3c/P3P.xml", CP="IDC DSP COR ADMi DEVi
+        TAIa PS
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Aspnetmvc-Version:
+      - '3.0'
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - ASP.NET_SessionId=nm5owtbj4izxksfitvtrgckz; path=/; HttpOnly
+      Date:
+      - Wed, 16 Sep 2015 17:20:17 GMT
+    body:
+      encoding: UTF-8
+      string: '{"LastUpdated":"Sep 15, 2015","Warning":true,"WarningCode":"1000","WarningText":"Invalid
+        VIN","DivisionMismatch":false,"VIN":"5FRYD4H25FB000000","Make":null,"ModelYear":null,"DivisionCd":null,"ModelGroupId":null,"ModelGroupName":null,"RecallsUrl":null,"SaveVinUrl":null,"IsLoggedIn":false,"CampaignTypes":null}'
+    http_version: 
+  recorded_at: Wed, 16 Sep 2015 17:20:23 GMT
+recorded_with: VCR 2.9.3
