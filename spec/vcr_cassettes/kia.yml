@@ -1,0 +1,155 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.kia.com/us/en/data/owners/recalls/search/KNAFZ4A87E5050719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Language:
+      - en-US
+      X-Kma-Cache-Key:
+      - LS4EX-W2PK3
+      X-Edgeconnect-Midmile-Rtt:
+      - '23'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '1236'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=86365
+      Expires:
+      - Thu, 17 Sep 2015 12:28:57 GMT
+      Date:
+      - Wed, 16 Sep 2015 12:29:32 GMT
+      Content-Length:
+      - '1413'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n\r\n\r\n{\"statusCode\":200,\"statusDesc\":\"Successfully completed
+        request\",\"result\":{\"recallsResult\":{\"make\":\"Kia\",\"manufacturer_id\":4.0,\"model\":\"FORTE
+        EX AUTO\",\"number_of_recalls\":1.0,\"recalls_available\":true,\"recalls\":[{\"mfr_notes\":\"\",\"mfr_recall_number\":\"SC113A\",\"mfr_recall_status\":11.0,\"nhtsa_recall_number\":\"15V-015\",\"recall_date\":\"1422000000000\",\"recall_description\":\"KIA
+        IS RECALLING CERTAIN MODEL YEAR 2014 KIA FORTE VEHICLES WITH 1.8L AND 2.0L
+        ENGINES PRODUCED FROM DECEMBER 5, 2012 THROUGH APRIL 7, 2014. THE COOLING
+        FAN RESISTOR IN SOME VEHICLES IS DEFECTIVE. UNDER CERTAIN CIRCUMSTANCES, THE
+        COOLING FAN RESISTOR CAN MELT.\",\"refresh_date\":\"1442300400000\",\"remedy_description\":\"KIA
+        WILL NOTIFY OWNERS TO BRING THEIR VEHICLES TO A KIA DEALER TO HAVE THE REPAIRS
+        PERFORMED. VEHICLES PRODUCED FROM DECEMBER 5, 2012 THROUGH JANUARY 27, 2014
+        WILL HAVE THE COOLING FAN RESISTOR AND MULTI-FUSE UNIT REPLACED. VEHICLES
+        PRODUCED FROM JANUARY 28, 2014 THROUGH APRIL 7, 2014 WILL HAVE THE MULTI-FUSE
+        UNIT REPLACED. VEHICLES EQUIPPED WITH THE 1.8L ENGINE WILL FURTHER HAVE THE
+        ENGINE CONTROL UNIT SOFTWARE UPDATED. THESE REPAIRS WILL BE AT NO COST TO
+        THE CUSTOMER.\",\"safety_risk_description\":\"IF THE COOLING FAN RESISTOR
+        OVERHEATS AND MELTS, THERE IS AN INCREASED RISK OF A POTENTIAL FIRE.\",\"recall_status\":\"RECALL
+        INCOMPLETE\"}],\"refresh_date\":\"1442300400000\",\"status\":true,\"vin\":\"KNAFZ4A87E5050719\",\"year\":2014.0}}}"
+    http_version: 
+  recorded_at: Wed, 16 Sep 2015 12:29:34 GMT
+- request:
+    method: get
+    uri: http://www.kia.com/us/en/data/owners/recalls/search/KNAFZ6A39E5246452
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Language:
+      - en-US
+      X-Kma-Cache-Key:
+      - FULVI-W1PK3
+      X-Edgeconnect-Midmile-Rtt:
+      - '24'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '1224'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=86395
+      Expires:
+      - Thu, 17 Sep 2015 12:29:28 GMT
+      Date:
+      - Wed, 16 Sep 2015 12:29:33 GMT
+      Content-Length:
+      - '313'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n\r\n\r\n{\"statusCode\":200,\"statusDesc\":\"Successfully completed
+        request\",\"result\":{\"recallsResult\":{\"make\":\"Kia\",\"manufacturer_id\":4.0,\"model\":\"FORTE
+        KOUP SX AUTO\",\"number_of_recalls\":0.0,\"recalls_available\":false,\"recalls\":[],\"refresh_date\":\"1442386800000\",\"status\":true,\"vin\":\"KNAFZ6A39E5246452\",\"year\":2014.0}}}"
+    http_version: 
+  recorded_at: Wed, 16 Sep 2015 12:29:35 GMT
+- request:
+    method: get
+    uri: http://www.kia.com/us/en/data/owners/recalls/search/KNAFZ6A39E5200000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Language:
+      - en-US
+      X-Kma-Cache-Key:
+      - LS4EX-W2PK3
+      X-Edgeconnect-Midmile-Rtt:
+      - '23'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '156'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=86349
+      Expires:
+      - Thu, 17 Sep 2015 12:28:43 GMT
+      Date:
+      - Wed, 16 Sep 2015 12:29:34 GMT
+      Content-Length:
+      - '65'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n\r\n\r\n{\"statusCode\":500,\"statusDesc\":\"INVALID_VIN\",\"result\":{}}"
+    http_version: 
+  recorded_at: Wed, 16 Sep 2015 12:29:36 GMT
+recorded_with: VCR 2.9.3
