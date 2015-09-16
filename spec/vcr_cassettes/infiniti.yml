@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.infinitiusa.com/dealercenter/api/recalls?vin=JNKDA31A43T102555
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Tue, 15 Sep 2015 11:18:23 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Wed, 16 Sep 2015 11:51:25 GMT
+      Content-Length:
+      - '893'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"make":"INFINITI","modelYear":2003,"recalls":[{"effectiveDate":"2014-08-25T05:00:00Z","make":"INFINITI","modelCode":"I35
+        Luxury","modelYear":2003,"nhtsaId":"14V-361","nnaId":"R1406","primaryDescription":"Infiniti
+        was notified by its supplier that the front passenger air bag inflator in
+        your vehicle may have been manufactured out of specification.","remedyDescription":"Your
+        dealer will replace the affected front passenger air bag inflator with a new
+        one.","riskIfNotRepaired":"If a vehicle with an affected air bag inflator
+        is involved in a crash where the front passenger air bag is designed to deploy,
+        it is possible that the inflator housing may rupture which may increase the
+        risk of an injury to the front seat occupant.","secondaryDescription":"PASSENGER
+        AIR BAG INFLATOR","typeCode":"Recall Campaign","vin":"JNKDA31A43T102555"}],"vehicleName":"I35
+        Luxury","vin":"JNKDA31A43T102555"}'
+    http_version: 
+  recorded_at: Wed, 16 Sep 2015 11:51:26 GMT
+- request:
+    method: get
+    uri: http://owner.ford.com/sharedServices/recalls/query.do?country=USA&language=EN&vin=JNKDA31A43T102577
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Powered-By:
+      - Servlet/3.0
+      Content-Length:
+      - '211'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Access-Control-Allow-Origin:
+      - origin.owner.ford.com
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Wed, 16 Sep 2015 11:51:26 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"lang_script_c":"","return_status":{"description":"Data not found","code":"02"},"fsa_items":{"count":0},"lang_iso_c":"EN","lang_region_c":"","stpr_state_c":"  ","country_iso3_c":"USA","vin":"JNKDA31A43T102577"}'
+    http_version: 
+  recorded_at: Wed, 16 Sep 2015 11:51:27 GMT
+recorded_with: VCR 2.9.3
