@@ -33,7 +33,7 @@ module RecallChecker
       end
 
       def convert_notes notes
-        "" # The side doesn't return notes
+        "" # The site doesn't return notes
       end
 
     end

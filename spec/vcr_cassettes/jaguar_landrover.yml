@@ -1,0 +1,318 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.jaguarusa.com/owners/vin-recall.html?view=vinRecallQuery&vin=SAJWA4FB8ELB54506
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Language:
+      - en-US
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - Apache-Coyote/1.1
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1469'
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 17 Sep 2015 18:10:09 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ2ZWhpY2xlIjoiWEsgNS4wIFY4IE5BIFBldHJvbCBDb3VwZSIsIm1vZGVs
+        IjoiMjAxNCIsInRvdGFsUmVjYWxscyI6IjEgcmVjYWxsIGZvdW5kIGZvciIs
+        InZpbiI6IlNBSldBNEZCOEVMQjU0NTA2IiwicmVzdWx0cyI6W3sibnVtYmVy
+        IjoiMTVWLTAzOCIsImRhdGUiOiIwMS8yNi8yMDE1IiwicmVjYWxsRGVzYyI6
+        IkphZ3VhciBMYW5kIFJvdmVyIGlzIGNvbmR1Y3RpbmcgYSBub24tY29tcGxp
+        YW5jZSByZWNhbGwgY2FtcGFpZ24gaW52b2x2aW5nIGNlcnRhaW4gMjAxMiBN
+        b2RlbCBZZWFyIEphZ3VhciBYSyB2ZWhpY2xlcyBidWlsdCBhdCB0aGUgQ2Fz
+        dGxlIEJyb213aWNoIChVSykgQXNzZW1ibHkgUGxhbnQgZnJvbSBKdWx5IDIs
+        IDIwMTEgdG8gU2VwdGVtYmVyIDI1LCAyMDEyLiIsIm1hbnVmYWN0dXJlclJl
+        Y2FsbE51bWJlciI6IkowNDkiLCJzYWZldHlEZXNjcmlwdGlvbiI6IkEgbm9u
+        LWNvbXBsaWFuY2UgY29uY2VybiBoYXMgYmVlbiBpZGVudGlmaWVkIG9uIDIw
+        MTJNWSBKYWd1YXIgWEsgdmVoaWNsZXMgd2hlcmUgdGhlIGZyb250IHNpZGUg
+        bGlnaHRzLCB3aGVuIHVzZWQgYXMgcGFya2luZyBsYW1wcywgd2lsbCBleHRp
+        bmd1aXNoIGluIGVycm9yIGFmdGVyIGFwcHJveGltYXRlbHkgNSBtaW51dGVz
+        LiAgV2hlcmUgdGhlIHNpZGUgbGlnaHRzIGFyZSBzd2l0Y2hlZCBvbiB3aXRo
+        IHRoZSBpZ25pdGlvbiBvZmYgdGhlIGZyb250IGxpZ2h0cyBzaG91bGQgcmVt
+        YWluIGlsbHVtaW5hdGVkICh1bnRpbCB0aGUgYmF0dGVyeSBpcyBleGhhdXN0
+        ZWQpLiBPbiBKYWd1YXIgWEsgMjAxMk1ZIHZlaGljbGVzIHRoZSBmcm9udCBz
+        aWRlIGxpZ2h0cyB3aGVuIG9wZXJhdGVkIGluIHRoaXMgbWFubmVyIHdpbGwg
+        b25seSByZW1haW4gb24gdW50aWwgdGhlIEJvZHkgQ29udHJvbCBNb2R1bGUg
+        ZW50ZXJzIHNsZWVwIG1vZGUuIFRoZXkgd2lsbCB0aGVuIHR1cm4gb2ZmLiBW
+        ZWhpY2xlcyBpbiB0aGlzIGNvbmRpdGlvbiB3aWxsIG5vdCBjb21wbHkgd2l0
+        aCB0aGUgcmVxdWlyZW1lbnRzIG9mIEZlZGVyYWwgTW90b3IgVmVoaWNsZSBT
+        YWZldHkgU3RhbmRhcmQgKEZNVlNTKSAxMDgg77+977+977+9IExhbXBzLCBS
+        ZWZsZWN0aXZlIERldmljZXMsIGFuZCBBc3NvY2lhdGVkIEVxdWlwbWVudC4g
+        IE5vbi1mdW5jdGlvbmluZyBwYXJraW5nIGxhbXBzIG1heSBpbmNyZWFzZSB0
+        aGUgcmlzayBvZiB0aGUgdmVoaWNsZSBiZWluZyBpbnZvbHZlZCBpbiBhIGNy
+        YXNoLiIsInJlcGFpckRlc2MiOiJPd25lcnMgd2lsbCBiZSBub3RpZmllZCBh
+        bmQgaW5zdHJ1Y3RlZCB0byB0YWtlIHRoZWlyIHZlaGljbGUgdG8gYSBKYWd1
+        YXIgZGVhbGVyIHdobyB3aWxsIHVwZGF0ZSB0aGUgdmVoaWNsZXMgd2l0aCB0
+        aGUgbGF0ZXN0IHNvZnR3YXJlLlxuXG5UaGVyZSB3aWxsIGJlIG5vIGNoYXJn
+        ZSB0byBvd25lcnMgZm9yIHRoaXMgYWN0aW9uIiwic3RhdHVzIjoiSW5jb21w
+        bGV0ZSBCdXQgUmVwYWlyIEF2YWlsYWJsZSJ9XX0=
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 18:10:17 GMT
+- request:
+    method: get
+    uri: http://www.jaguarusa.com/owners/vin-recall.html?view=vinRecallQuery&vin=SAJWA0FB6CLS35961
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Language:
+      - en-US
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - Apache-Coyote/1.1
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '123'
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 17 Sep 2015 18:10:10 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"model":"2012","error":204,"errorTitle":"No recalls found for","vin":"SAJWA0FB6CLS35961","vehicle":"XF
+        5.0 Petrol Luxury"}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 18:10:18 GMT
+- request:
+    method: get
+    uri: http://www.jaguarusa.com/owners/vin-recall.html?view=vinRecallQuery&vin=SAJWA0FB6CLS30000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Language:
+      - en-US
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - Apache-Coyote/1.1
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 17 Sep 2015 18:10:11 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - Transfer-Encoding
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"errorMessage":"Please check your details and try again.","error":400,"errorTitle":"Sorry,
+        that is not a valid VIN.","vin":"SAJWA0FB6CLS30000"}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 18:10:19 GMT
+- request:
+    method: get
+    uri: http://www.jaguarusa.com/owners/vin-recall.html?view=vinRecallQuery&vin=SALWR2WF6EA330923
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Language:
+      - en-US
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - Apache-Coyote/1.1
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '191'
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 17 Sep 2015 18:11:43 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"errorMessage":"Please check your details and try again.","model":"2014","error":400,"errorTitle":"Sorry,
+        that is not a valid VIN.","vin":"SALWR2WF6EA330923","vehicle":"RR SPORT 3.0
+        SC PET"}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 18:11:52 GMT
+- request:
+    method: get
+    uri: http://www.landroverusa.com/ownership/product-recall-search.html?view=vinRecallQuery&vin=SALWR2WF6EA330923
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Language:
+      - en-US
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - Apache-Coyote/1.1
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Thu, 17 Sep 2015 18:12:04 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Thu, 17 Sep 2015 18:12:04 GMT
+      Content-Length:
+      - '3489'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ2ZWhpY2xlIjoiUlIgU1BPUlQgMy4wIFNDIFBFVCIsIm1vZGVsIjoiMjAx
+        NCIsInRvdGFsUmVjYWxscyI6IjMgcmVjYWxscyBmb3VuZCBmb3IiLCJ2aW4i
+        OiJTQUxXUjJXRjZFQTMzMDkyMyIsInJlc3VsdHMiOlt7Im51bWJlciI6IjE1
+        Vi0wNDIiLCJkYXRlIjoiMDEvMjYvMjAxNSIsInJlY2FsbERlc2MiOiJKYWd1
+        YXIgTGFuZCBSb3ZlciBhcmUgY29uZHVjdGluZyBhIHNhZmV0eSByZWNhbGwg
+        Y2FtcGFpZ24gaW52b2x2aW5nIDIwMTMgTW9kZWwgWWVhciBMYW5kIFJvdmVy
+        IFJhbmdlIFJvdmVyIDMuMEwgVjYgUy9DIGFuZCA1LjBMIFY4IFMvQyB2ZWhp
+        Y2xlcyBidWlsdCBhdCB0aGUgU29saWh1bGwgKFVLKSBBc3NlbWJseSBQbGFu
+        dCBiZXR3ZWVuICBBdWd1c3QgMTYsIDIwMTIgYW5kIE1heSAwNywgMjAxMyBm
+        b3IgQnJha2UgVmFjdXVtIEhvc2UgUm91dGluZyIsIm1hbnVmYWN0dXJlclJl
+        Y2FsbE51bWJlciI6IlAwNTIiLCJzYWZldHlEZXNjcmlwdGlvbiI6IkEgY29u
+        Y2VybiBoYXMgYmVlbiBpZGVudGlmaWVkIHdpdGggdGhlIHZlaGljbGUgYXNz
+        ZW1ibHkgcHJvY2VzcyB3aGVyZSB0aGUgaW5zdGFsbGF0aW9uIGluc3RydWN0
+        aW9ucyBmb3IgdGhlIEJyYWtlIFZhY3V1bSBIb3NlIGRpZCBub3QgY29ycmVj
+        dGx5IHNwZWNpZnkgaXRzIHJvdXRpbmcuXG5cbkluY29ycmVjdCByb3V0aW5n
+        IG9mIHRoZSBicmFrZSB2YWN1dW0gaG9zZSBjYW4gbGVhZCB0byBhIGNoYWZp
+        bmcgY29uZGl0aW9uLCBldmVudHVhbCBydXB0dXJlIG9mIHRoZSBob3NlIGFu
+        ZCBjb21wbGV0ZSBsb3NzIG9mIHZhY3V1bSBhc3Npc3RhbmNlIGluIHRoZSBi
+        cmFraW5nIHN5c3RlbS4gVGhpcyBjb25kaXRpb24gd2lsbCByZXN1bHQgaW4g
+        aGFyZCBmZWVsIHRvIHRoZSBicmFrZSBwZWRhbC4gVmVoaWNsZSBicmFraW5n
+        IGRpc3RhbmNlIG1heSBiZSBpbmNyZWFzZWQsIHBvdGVudGlhbGx5IGNhdXNp
+        bmcgYSB2ZWhpY2xlIGNyYXNoLiIsInJlcGFpckRlc2MiOiJPd25lcnMgd2ls
+        bCBiZSBub3RpZmllZCBhbmQgaW5zdHJ1Y3RlZCB0byB0YWtlIHRoZWlyIHZl
+        aGljbGUgdG8gYSBMYW5kIFJvdmVyIGRlYWxlciB3aG8gd2lsbCBpbnNwZWN0
+        IHRoZSBjb25kaXRpb24gb2YgdGhlIHZhY3V1bSBob3NlIGFuZCBpZiBubyBk
+        YW1hZ2VkIGV2aWRlbnQsIGNvcnJlY3RseSByb3V0ZSB0aGUgdmFjdXVtIGhv
+        c2UuIFRoZSB0ZWNobmljaWFuIHdpbGwgYWxzbyBzZXQgdGhlIGRvdWJsZSDv
+        v73vv73vv71D77+977+977+9IGNsaXAgaW4gdGhlIGNvcnJlY3Qgb3JpZW50
+        YXRpb24gYW5kIHBvc2l0aW9uLiBXaGVyZSBkYW1hZ2UgaXMgbm90ZWQsIHRo
+        ZSBob3NlIHdpbGwgYmUgcmVwbGFjZWQuXG5cblRoZXJlIHdpbGwgYmUgbm8g
+        Y2hhcmdlIHRvIG93bmVycyBmb3IgdGhpcyByZXBhaXIuIiwic3RhdHVzIjoi
+        UmVjYWxsIG91dHN0YW5kaW5nIn0seyJudW1iZXIiOiIxNVYwOTMiLCJkYXRl
+        IjoiMDIvMTIvMjAxNSIsInJlY2FsbERlc2MiOiJKYWd1YXIgTGFuZCBSb3Zl
+        ciBpcyBjb25kdWN0aW5nIGEgc2FmZXR5IHJlY2FsbCBjYW1wYWlnbiBpbnZv
+        bHZpbmcgY2VydGFpbiAyMDEzIE1vZGVsIFllYXIgTGFuZCBSb3ZlciBSYW5n
+        ZSBSb3ZlciB2ZWhpY2xlcyBidWlsdCBhdCB0aGUgU29saWh1bGwgKFVLKSBB
+        c3NlbWJseSBQbGFudCBiZXR3ZWVuIEF1Z3VzdCAyMywgMjAxMiBhbmQgTWF5
+        IDA3LCAyMDEzIGZvciBPY2N1cGFudCBDbGFzc2lmaWNhdGlvbiBTeXN0ZW0g
+        c29mdHdhcmUgdXBkYXRlIiwibWFudWZhY3R1cmVyUmVjYWxsTnVtYmVyIjoi
+        UDA1OSIsInNhZmV0eURlc2NyaXB0aW9uIjoiQSBjb25jZXJuIGhhcyBiZWVu
+        IGlkZW50aWZpZWQgd2hlcmUgdGhlIE9jY3VwYW50IENsYXNzaWZpY2F0aW9u
+        IFN5c3RlbSAoT0NTKSBmaXR0ZWQgdG8gY2VydGFpbiAyMDEzIE1vZGVsIFll
+        YXIgTGFuZCBSb3ZlciBSYW5nZSBSb3ZlciB2ZWhpY2xlcyBtYXkgbm90IGZ1
+        bmN0aW9uIGNvcnJlY3RseSBhdCBhbGwgdGltZXMuXG5cbkEgbGlnaHQgd2Vp
+        Z2h0ICg1dGggcGVyY2VudGlsZSBmZW1hbGUpIGFkdWx0IHBhc3NlbmdlciBj
+        b3VsZCBiZSBtaXMtY2xhc3NpZmllZCBhbmQgdGhlIHBhc3NlbmdlciBhaXJi
+        YWcgZGlzYWJsZWQgYXMgYSByZXN1bHQgd2hlbiB0aGUgdmVoaWNsZSBpcyBi
+        ZWluZyBkcml2ZW4gb24gdmVyeSBzbW9vdGggc3VyZmFjZSByb2FkcyBmb3Ig
+        YSBwZXJpb2Qgb2YgdGltZS4gVGhlIO+/ve+/ve+/vVBhc3NlbmdlciBBaXJi
+        YWcgT0ZG77+977+977+9IGxhbXAgaXMgaWxsdW1pbmF0ZWQgaW4gdGhpcyBz
+        aXR1YXRpb24uIiwicmVwYWlyRGVzYyI6Ik93bmVycyB3aWxsIGJlIG5vdGlm
+        aWVkIGFuZCBpbnN0cnVjdGVkIHRvIHRha2UgdGhlaXIgdmVoaWNsZSB0byBh
+        IExhbmQgUm92ZXIgZGVhbGVyIHdobyB3aWxsIGRvd25sb2FkIHRoZSBsYXRl
+        c3QgbGV2ZWwgb2Ygc29mdHdhcmUgdG8gdGhlIHZlaGljbGUuIFRoZXJlIHdp
+        bGwgYmUgbm8gY2hhcmdlIHRvIG93bmVycyBmb3IgdGhpcyBzb2Z0d2FyZSB1
+        cGRhdGUuIiwic3RhdHVzIjoiUmVjYWxsIG91dHN0YW5kaW5nIn0seyJudW1i
+        ZXIiOiIxNVYzODUiLCJkYXRlIjoiMDYvMTEvMjAxNSIsInJlY2FsbERlc2Mi
+        OiJMYW5kIFJvdmVyIGlzIGNvbmR1Y3RpbmcgYSB2b2x1bnRhcnkgc2FmZXR5
+        IHJlY2FsbCBpbnZvbHZpbmcgY2VydGFpbiAyMDE2IE1vZGVsIFllYXIgTGFu
+        ZCBSb3ZlciBSYW5nZSBSb3ZlciB2ZWhpY2xlcyAgYnVpbHQgYXQgdGhlIFNv
+        bGlodWxsIChVSykgQXNzZW1ibHkgUGxhbnQgdG8gdXBkYXRlIHRoZSB2ZWhp
+        Y2xlIHNvZnR3YXJlLiIsIm1hbnVmYWN0dXJlclJlY2FsbE51bWJlciI6IlAw
+        NjgiLCJzYWZldHlEZXNjcmlwdGlvbiI6IkEgY29uY2VybiBoYXMgYmVlbiBp
+        ZGVudGlmaWVkIHdoZXJlIGN1c3RvbWVycyBoYXZlIHJlcG9ydGVkIHRoZSBk
+        b29yIGlzIHVubGF0Y2hlZCB3aGVuIGluIHRoZSBjbG9zZWQgcG9zaXRpb24g
+        YW5kIG5vIGluZGljYXRpb24gcHJvdmlkZWQgb2YgYW4gdW5sYXRjaGVkIGNv
+        bmRpdGlvbi4gU29tZSBjdXN0b21lcnMgaGF2ZSByZXBvcnRlZCB0aGF0IG9u
+        ZSBkb29yIGhhcyBvcGVuZWQgd2hpbGUgdGhlIHZlaGljbGUgd2FzIGluIG1v
+        dGlvbi4gXG5cblZlaGljbGUgZG9vcnMgbm90IGxhdGNoZWQgaW4gZWl0aGVy
+        IHRoZSBwcmltYXJ5IG9mIHNlY29uZGFyeSBzdGF0ZSBtYXksIGR1cmluZyBk
+        cml2aW5nLCBvcGVuLiBUaGlzIGNhbiBpbmNyZWFzZSB0aGUgcmlzayBvZiBh
+        IHZlaGljbGUgY3Jhc2ggb3IgY29tcHJvbWlzZSB0aGUgc2FmZXR5IG9mIHZl
+        aGljbGUgb2NjdXBhbnRzLiIsInJlcGFpckRlc2MiOiJPd25lcnMgd2lsbCBi
+        ZSBub3RpZmllZCBhbmQgaW5zdHJ1Y3RlZCB0byB0YWtlIHRoZWlyIHZlaGlj
+        bGUgdG8gTGFuZCBSb3ZlciBhcHByb3ZlZCBkZWFsZXIgd2hvIHdpbGwgZG93
+        bmxvYWQgdGhlIGxhdGVzdCBzb2Z0d2FyZS5cblxuVGhlcmUgd2lsbCBiZSBu
+        byBjaGFyZ2UgdG8gb3duZXJzIGZvciB0aGlzIHJlcGFpci4iLCJzdGF0dXMi
+        OiJSZWNhbGwgb3V0c3RhbmRpbmcifV19
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 18:12:12 GMT
+recorded_with: VCR 2.9.3

@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 # tests for GM makes using Chevrolet VINS
-describe RecallChecker::Adaptors::Chevrolet do
+describe RecallChecker::Adaptors::GMMakes do
 
     it "loads recall data for VIN 2G1FL1EP7E9800295 with recalls" do
       VCR.use_cassette('chevrolet', :record => :new_episodes) do
