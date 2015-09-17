@@ -1,8 +1,6 @@
 module RecallChecker
   module Adaptors
-    class Acura < Base
-      make 'acura'
-      base_uri 'http://owners.acura.com/Recalls/GetRecallsByVin'
+    class HondaMakes < Base
 
       FIELDS = {
         "title" => "Description",
@@ -21,10 +19,12 @@ module RecallChecker
         "/#{@vin}/true" 
       end
 
+      def invalid_vin?
+        response.fetch('Warning')
+      end
+
       def recalls_raw
-        p = parsed_response.fetch('CampaignTypes', []) # CampaignTypes is nil for invalid VINs
-        c = (p && !p.empty? ? p.first.fetch("Campaigns", []) : []) # Campaigns is nil for VINs with no recalls
-        c && !c.empty? ? c : []
+        invalid_vin? ? [] : parsed_response['CampaignTypes'].first['Campaigns'] or []
       end
 
       def convert_notes str
@@ -41,5 +41,16 @@ module RecallChecker
       end
 
     end
+
+    class Honda < HondaMakes
+      make 'honda'
+      base_uri 'http://owners.honda.com/Recalls/GetRecallsByVin'
+    end
+
+    class Acura < HondaMakes
+      make 'acura'
+      base_uri 'http://owners.acura.com/Recalls/GetRecallsByVin'
+    end
+
   end
 end

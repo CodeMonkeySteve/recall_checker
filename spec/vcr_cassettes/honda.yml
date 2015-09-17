@@ -1,0 +1,147 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://owners.honda.com/Recalls/GetRecallsByVin/19XFB2F56EE264518/true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '750'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/6.0
+      P3p:
+      - policyref="http://owners.honda.com/w3c/P3P.xml", CP="IDC DSP COR ADMi DEVi
+        TAIa PS
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Aspnetmvc-Version:
+      - '3.0'
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - ASP.NET_SessionId=ngbve3wdrayblo5ftg0udixd; path=/; HttpOnly
+      Date:
+      - Thu, 17 Sep 2015 12:28:35 GMT
+    body:
+      encoding: UTF-8
+      string: '{"LastUpdated":"Sep 16, 2015","Warning":false,"WarningCode":null,"WarningText":null,"DivisionMismatch":false,"VIN":"19XFB2F56EE264518","Make":"Honda","ModelYear":"2014","DivisionCd":"A","ModelGroupId":null,"ModelGroupName":"Civic
+        Sedan","RecallsUrl":"//owners.honda.com/recalls/19XFB2F56EE264518","SaveVinUrl":"/account/add-vehicle/19XFB2F56EE264518","IsLoggedIn":false,"CampaignTypes":[{"SortOrder":1,"Campaigns":[{"AgencyTypeCd":"N","AgencyType":"National
+        Highway Transportation Safety Administration (NHTSA)","AgencyName":"NHTSA","RecallNumber":"AWAITING#","Description":"M-CVT
+        DRIVE PULLEY SHAFT","Id":"JU2","RecallDate":"09/04/2015","RecallStatus":"Recall
+        INCOMPLETE","RecallDescription":"","SafetyRiskDescription":"","RemedyDescription":""}]}]}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 12:28:37 GMT
+- request:
+    method: get
+    uri: http://owners.honda.com/Recalls/GetRecallsByVin/1HGCR6F39FA002955/true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '423'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/6.0
+      P3p:
+      - policyref="http://owners.honda.com/w3c/P3P.xml", CP="IDC DSP COR ADMi DEVi
+        TAIa PS
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Aspnetmvc-Version:
+      - '3.0'
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - ASP.NET_SessionId=o1u2cckxzckrxmsa53axmxj5; path=/; HttpOnly
+      Date:
+      - Thu, 17 Sep 2015 12:28:47 GMT
+    body:
+      encoding: UTF-8
+      string: '{"LastUpdated":"Sep 16, 2015","Warning":false,"WarningCode":null,"WarningText":null,"DivisionMismatch":false,"VIN":"1HGCR6F39FA002955","Make":"Honda","ModelYear":"2015","DivisionCd":"A","ModelGroupId":null,"ModelGroupName":"Accord
+        Hybrid","RecallsUrl":"//owners.honda.com/recalls/1HGCR6F39FA002955","SaveVinUrl":"/account/add-vehicle/1HGCR6F39FA002955","IsLoggedIn":false,"CampaignTypes":[{"SortOrder":1,"Campaigns":null}]}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 12:28:48 GMT
+- request:
+    method: get
+    uri: http://owners.honda.com/Recalls/GetRecallsByVin/1HGCR6F39FA000000/true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '310'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/6.0
+      P3p:
+      - policyref="http://owners.honda.com/w3c/P3P.xml", CP="IDC DSP COR ADMi DEVi
+        TAIa PS
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Aspnetmvc-Version:
+      - '3.0'
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - ASP.NET_SessionId=y5n4gkyfwhgqbxo4o4lxx0fu; path=/; HttpOnly
+      Date:
+      - Thu, 17 Sep 2015 12:28:53 GMT
+    body:
+      encoding: UTF-8
+      string: '{"LastUpdated":"Sep 16, 2015","Warning":true,"WarningCode":"1000","WarningText":"Invalid
+        VIN","DivisionMismatch":false,"VIN":"1HGCR6F39FA000000","Make":null,"ModelYear":null,"DivisionCd":null,"ModelGroupId":null,"ModelGroupName":null,"RecallsUrl":null,"SaveVinUrl":null,"IsLoggedIn":false,"CampaignTypes":null}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 12:28:54 GMT
+recorded_with: VCR 2.9.3
