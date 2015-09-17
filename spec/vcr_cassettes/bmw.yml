@@ -1,0 +1,165 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.bmwusa.com/Services/VinRecallService.svc/GetRecallCampaignsForVin/WBA3C3C51EF986010
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json
+      Server:
+      - Microsoft-IIS/7.5
+      - WWW705
+      X-Aspnet-Version:
+      - 4.0.30319
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Thu, 17 Sep 2015 13:09:04 GMT
+      Content-Length:
+      - '1351'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ASP.NET_SessionId=gqwf11exduawejfjf13jd2sp; path=/; HttpOnly
+      - LK9H33C=auc+IUVbscZ1n4BbiqOZuzhNZz0D3UUpmKErEeY6wDs4RiX1Kf6T+4t2CmxG5k8+;
+        expires=Tue, 17-Sep-2019 13:08:34 GMT; path=/
+      - VisitorID=42cc9541-3142-4d81-8fa8-70d43ab4ef2d; expires=Sun, 17-Sep-3015 13:08:34
+        GMT; path=/
+      - WK9733P=XwGTpNX3qW99Ue/3aIuQZDPforTlPla23SPxH5PpikKyYGqUznZNHGarnWY7tjII;
+        path=/
+    body:
+      encoding: UTF-8
+      string: '{"Status":0,"StatusData":{"ContractValidationResults":[],"ExceptionDetail":null},"ViewModel":{"Error":0,"Make":"BMW","Model":"320I
+        XDRIVE US A","RecallCampaigns":[{"ValidationRules":"{\"rules\":{},\"messages\":{}}","ViewModelValidation":{"IsValid":false,"PropertyValidations":[]},"Description":"Your
+        vehicle was updated by a BMW center with a new software version which inadvertently
+        made the front side marker lamps inoperative.  As a result, the front side
+        marker lamps do not illuminate when the parking lamps or headlamps are activated;
+        no warning message is shown in the instrument cluster. ","HasRecallLetter":false,"ManufacturerNotes":"For
+        additional information or assistance, please contact Customer Relations and
+        Service at 1-800-525-7417 or via Email at CustomerRelations@bmwusa.com","ManufacturerRecallNumber":"NA","ManufacturerRecallStatus":11,"RecallDate":"August
+        13, 2015","RecallNumber":"15V-520","RefreshDate":"September 17, 2015","RemedyDescription":"Your
+        BMW center will reprogram your vehicle with the correct software free of charge.
+        ","SafetyRiskDescription":"Your vehicle does not conform to FMVSS No. 108.  Other
+        drivers may not notice the vehicle, especially at night, increasing the risk
+        of a crash.","SortOrder":0,"Title":"FRONT SIDE MARKER LAMPS"}],"RefreshDate":"September
+        17, 2015","Vin":"WBA3C3C51EF986010","Year":2014}}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 13:09:06 GMT
+- request:
+    method: get
+    uri: http://www.bmwusa.com/Services/VinRecallService.svc/GetRecallCampaignsForVin/WBA3N9C55FK248054
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '236'
+      Content-Type:
+      - application/json
+      Server:
+      - Microsoft-IIS/7.5
+      - WWW702
+      X-Aspnet-Version:
+      - 4.0.30319
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Thu, 17 Sep 2015 13:09:05 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ASP.NET_SessionId=upuolf4lgsk3nnavzm2iqjar; path=/; HttpOnly
+      - LK9H33C=BY2hSxFjdz1oBQCUU57LvfFYZ3WzPda2fEPEecrlB5vNkQmNWA1P4zhojbfXKuwB;
+        expires=Tue, 17-Sep-2019 13:08:36 GMT; path=/
+      - VisitorID=068e4f53-064a-42e2-87e0-5172ef4cf8a5; expires=Sun, 17-Sep-3015 13:08:36
+        GMT; path=/
+      - WK9733P=RGHtmppMxX5tJnd22y1OldMzBoRHbVoOOY0kEfuUssRrtJUGCXbLLi3yH9onhHIi;
+        path=/
+    body:
+      encoding: UTF-8
+      string: '{"Status":0,"StatusData":{"ContractValidationResults":[],"ExceptionDetail":null},"ViewModel":{"Error":0,"Make":"BMW","Model":"428I
+        XDRIVE A","RecallCampaigns":[],"RefreshDate":"September 17, 2015","Vin":"WBA3N9C55FK248054","Year":2015}}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 13:09:07 GMT
+- request:
+    method: get
+    uri: http://www.bmwusa.com/Services/VinRecallService.svc/GetRecallCampaignsForVin/WBA3N9C55FK240000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json
+      Server:
+      - Microsoft-IIS/7.5
+      - WWW705
+      X-Aspnet-Version:
+      - 4.0.30319
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Thu, 17 Sep 2015 13:09:06 GMT
+      Content-Length:
+      - '193'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ASP.NET_SessionId=2kt45d0eff0xisecnwsuvq1u; path=/; HttpOnly
+      - LK9H33C=B/lSiBXvOJ4L+yS6CQWwTf2wwVliP/6Y9/BNXXOkpZn+z2dRrnGWwauDtd/AXrOA;
+        expires=Tue, 17-Sep-2019 13:08:36 GMT; path=/
+      - VisitorID=11ed23d9-1b1d-4046-8f80-13b601a2d3ea; expires=Sun, 17-Sep-3015 13:08:36
+        GMT; path=/
+      - WK9733P=pdQHaK/F8bTJZpPAeyoDYVpWdrgxoeMlqhx821roUnM1F1/VkGmhMYiuU905Kxk0;
+        path=/
+    body:
+      encoding: UTF-8
+      string: '{"Status":0,"StatusData":{"ContractValidationResults":[],"ExceptionDetail":null},"ViewModel":{"Error":2,"Make":null,"Model":null,"RecallCampaigns":[],"RefreshDate":null,"Vin":null,"Year":null}}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 13:09:07 GMT
+recorded_with: VCR 2.9.3

@@ -20,7 +20,7 @@ module RecallChecker
       end
 
       def invalid_vin?
-        response.fetch('Warning')
+        response['Warning']
       end
 
       def recalls_raw
