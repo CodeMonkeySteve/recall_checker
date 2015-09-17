@@ -22,7 +22,7 @@ module RecallChecker
       end
 
       def invalid_vin?
-        response['ViewModel']['Error'] > 0
+        parsed_response['ViewModel']['Error'] > 0
       end
 
       def recalls_raw

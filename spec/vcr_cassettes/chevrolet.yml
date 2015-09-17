@@ -1,0 +1,243 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://recalls.gm.com/recall/services/2G1FL1EP7E9800295/recalls
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Location:
+      - https://recalls.gm.com/recall/services/2G1FL1EP7E9800295/recalls
+      Server:
+      - BigIP
+      Content-Length:
+      - '0'
+      Date:
+      - Thu, 17 Sep 2015 14:58:28 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 14:58:33 GMT
+- request:
+    method: get
+    uri: https://recalls.gm.com/recall/services/2G1FL1EP7E9800295/recalls
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Oracle-iPlanet-Web-Server/7.0
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Powered-By:
+      - Servlet/2.5 JSP/2.1
+      Content-Length:
+      - '1716'
+      Date:
+      - Thu, 17 Sep 2015 14:58:29 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=6t84V6VVsFflvPy1XR7w9tPFnp47N8mSQ88g4T1JQBw3YQtPhNM6!990064562;
+        path=/; HttpOnly
+    body:
+      encoding: UTF-8
+      string: '{"messages":[],"serverErrorMsgs":[],"data":{"vin":"2G1FL1EP7E9800295","year":2014,"make":"Chevrolet","model":"Camaro","manufacturer_id":1,"recalls_available":true,"number_of_recalls":1,"recalls":[{"recall_type":"ZPSR","nhtsa_recall_number":"14V346","mfr_recall_number":"N140294","recall_date":"Jun
+        26, 2014","recall_title":"IGNITION KEY","recall_description":"General Motors
+        has decided that a defect which relates to motor vehicle safety exists in
+        all 2010-2014 model year Chevrolet Camaro vehicles.  There is a risk, under
+        certain conditions, that some drivers may bump the ignition key with their
+        knee and unintentionally move the key away from the \"run\" position.  If
+        this occurs, engine power, and power braking will be affected and power steering
+        may be affected, increasing the risk of a crash.","safety_risk_description":"The
+        timing of the key movement out of the \"run\" position, relative to the activation
+        of the sensing algorithm of the crash event, may result in the airbags not
+        deploying, increasing the potential for occupant injury in certain kinds of
+        crashes.  Until the recall has been performed, it is very important that drivers
+        adjust their seat and steering column to allow clearance between their knee
+        and the ignition key.","remedy_description":"Dealers are to provide two replacement
+        key rings. Vehicles with slotted keys will also receive key inserts. This
+        will be provided free of charge. Please contact your dealer now to order parts.
+        Until the recall has been performed, it is very important that you adjust
+        your seat and steering column to allow clearance between your knee and the
+        ignition key.","mfr_recall_status":"11"}],"status":true,"error_code":0,"refresh_date":"Sep
+        17, 2015"}}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 14:58:34 GMT
+- request:
+    method: get
+    uri: http://recalls.gm.com/recall/services/2G1FT3DW8E9240520/recalls
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Location:
+      - https://recalls.gm.com/recall/services/2G1FT3DW8E9240520/recalls
+      Server:
+      - BigIP
+      Content-Length:
+      - '0'
+      Date:
+      - Thu, 17 Sep 2015 14:58:30 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 14:58:35 GMT
+- request:
+    method: get
+    uri: https://recalls.gm.com/recall/services/2G1FT3DW8E9240520/recalls
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Oracle-iPlanet-Web-Server/7.0
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Powered-By:
+      - Servlet/2.5 JSP/2.1
+      Content-Length:
+      - '259'
+      Date:
+      - Thu, 17 Sep 2015 14:58:31 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=HQMkV6VWryd0G4Ft9DKgLRzRxZsFFGxGMqQjGvK6G5v9TqSdZGQp!181313368;
+        path=/; HttpOnly
+    body:
+      encoding: UTF-8
+      string: '{"messages":[],"serverErrorMsgs":[],"data":{"vin":"2G1FT3DW8E9240520","year":2014,"make":"Chevrolet","model":"Camaro","manufacturer_id":1,"recalls_available":false,"number_of_recalls":0,"recalls":[],"status":true,"error_code":0,"refresh_date":"Sep
+        17, 2015"}}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 14:58:36 GMT
+- request:
+    method: get
+    uri: http://recalls.gm.com/recall/services/2G1FT3DW8E9240000/recalls
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Location:
+      - https://recalls.gm.com/recall/services/2G1FT3DW8E9240000/recalls
+      Server:
+      - BigIP
+      Content-Length:
+      - '0'
+      Date:
+      - Thu, 17 Sep 2015 14:58:31 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 14:58:36 GMT
+- request:
+    method: get
+    uri: https://recalls.gm.com/recall/services/2G1FT3DW8E9240000/recalls
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Oracle-iPlanet-Web-Server/7.0
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Powered-By:
+      - Servlet/2.5 JSP/2.1
+      Date:
+      - Thu, 17 Sep 2015 14:58:32 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - Transfer-Encoding
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=fqVKV6VYsLGVrNjQ8W3G1Tc6RXqQvjWZ2zGG3XpxxhzzTkyTbmJr!-1690010652;
+        path=/; HttpOnly
+    body:
+      encoding: UTF-8
+      string: '{"messages":["VEHICLE_INVALID_VIN"],"serverErrorMsgs":[],"data":null}'
+    http_version: 
+  recorded_at: Thu, 17 Sep 2015 14:58:37 GMT
+recorded_with: VCR 2.9.3
