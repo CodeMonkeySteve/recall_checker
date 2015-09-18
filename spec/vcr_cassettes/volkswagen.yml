@@ -1,0 +1,148 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.vw.com/s2f/vwrecall-nhtsa2/vin/3VW517AT4EM819423
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Language:
+      - en-US
+      Content-Type:
+      - application/json;charset=ISO-8859-1
+      Date:
+      - Fri, 18 Sep 2015 11:40:43 GMT
+      Dynatrace:
+      - PT=338641;PA=-130820455;SP=VW.COM PRD;PS=-1731672259
+      Last-Modified:
+      - Fri, 18 Sep 2015 11:34:37 GMT
+      Server:
+      - ECAcc (frf/875F)
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - HIT
+      X-Dynatrace:
+      - PT=338641;PA=-130820455;SP=VW.COM PRD;PS=-1731672259
+      Content-Length:
+      - '430'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"vin":"3VW517AT4EM819423","status":true,"year":2014,"make":"VW","model":"BEETLE
+        CONV. 1.8T AUTO PZEV","manufacturerId":1,"isRecallsAvailable":true,"numberOfRecalls":1,"refreshDate":"Sep
+        18, 2015","recalls":[{"vwgoaActionTitle":"Fuel Rail","mfrRecallNumber":"24BL","nhtsaRecallNumber":"15V-028","recallDate":"Jan
+        22, 2015","recallDescription":"During engine operation, a sealing cap at the
+        fuel rail may fail to seal, allowing fuel to leak into the engine compartment.
+        Leaking fuel, in the presence of an ignition source, may result in a fire.","safetyRiskDescription":"Leaking
+        fuel, in the presence of an ignition source, may result in a fire.","remedyDescription":"Replace
+        the fuel rail.","mfrRecallStatus":11,"mfrNotes":" ","refreshDate":"Sep 18,
+        2015","vwgoaActionType":"SAFETY"}]}'
+    http_version: 
+  recorded_at: Fri, 18 Sep 2015 11:40:53 GMT
+- request:
+    method: get
+    uri: http://www.vw.com/s2f/vwrecall-nhtsa2/vin/3VWFP7ATXEM621206
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Language:
+      - ru-RU
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 18 Sep 2015 11:40:43 GMT
+      Dynatrace:
+      - PT=306234;PA=2034066911;SP=VW.COM PRD;PS=-1731672259
+      Last-Modified:
+      - Fri, 18 Sep 2015 11:31:52 GMT
+      Server:
+      - ECAcc (frf/8732)
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - HIT
+      X-Dynatrace:
+      - PT=306234;PA=2034066911;SP=VW.COM PRD;PS=-1731672259
+      Content-Length:
+      - '194'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"vin":"3VWFP7ATXEM621206","status":true,"year":2014,"make":"VW","model":"BEETLE
+        ENTRY 2.5L AUTO PZEV","manufacturerId":1,"isRecallsAvailable":false,"numberOfRecalls":0,"refreshDate":"Sep
+        18, 2015","recalls":[]}'
+    http_version: 
+  recorded_at: Fri, 18 Sep 2015 11:40:53 GMT
+- request:
+    method: get
+    uri: http://www.vw.com/s2f/vwrecall-nhtsa2/vin/3VWFP7ATXEM620000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Language:
+      - en-US
+      Content-Type:
+      - application/json;charset=ISO-8859-1
+      Date:
+      - Fri, 18 Sep 2015 11:40:44 GMT
+      Dynatrace:
+      - PT=338737;PA=-130820455;SP=VW.COM PRD;PS=-1731672259
+      Last-Modified:
+      - Fri, 18 Sep 2015 11:35:11 GMT
+      Server:
+      - ECAcc (frf/8746)
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - HIT
+      X-Dynatrace:
+      - PT=338737;PA=-130820455;SP=VW.COM PRD;PS=-1731672259
+      Content-Length:
+      - '75'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"vin":"3VWFP7ATXEM620000","status":false,"errorCode":91}'
+    http_version: 
+  recorded_at: Fri, 18 Sep 2015 11:40:53 GMT
+recorded_with: VCR 2.9.3

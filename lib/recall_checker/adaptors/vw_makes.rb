@@ -1,8 +1,6 @@
 module RecallChecker
   module Adaptors
-    class Audi < Base
-      make 'audi'
-      base_uri 'http://web.audiusa.com/audirecall/vin'
+    class VWMakes < Base
 
       FIELDS = {
         "title" => "vwgoaActionTitle",
@@ -29,6 +27,16 @@ module RecallChecker
         status.to_s
       end
 
+    end
+
+    class Audi < VWMakes
+      make 'audi'
+      base_uri 'http://web.audiusa.com/audirecall/vin'
+    end
+
+    class Volkswagen < VWMakes
+      make 'volkswagen'
+      base_uri 'http://www.vw.com/s2f/vwrecall-nhtsa2/vin'
     end
   end
 end

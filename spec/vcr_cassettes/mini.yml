@@ -1,0 +1,181 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.miniusa.com/api/safetyRecall.action?vin=WMWXM5C52ET935269
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Content-Disposition:
+      - inline
+      Content-Type:
+      - application/json
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Fri, 18 Sep 2015 12:13:03 GMT
+      Content-Length:
+      - '3114'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=05f435723289267370247e051688.1; Path=/api; HttpOnly
+      - circle_framework_visitor_id=203305449; Expires=Sat, 17-Sep-2016 12:13:03 GMT;
+        Path=/
+    body:
+      encoding: UTF-8
+      string: '{"vin":"WMWXM5C52ET935269","status":true,"year":2014,"make":"MINI","model":"Cooper
+        Hardtop","manufacturer_id":15,"recalls_available":true,"number_of_recalls":3,"refresh_date":"Sep
+        18, 2015","recalls":[{"nhtsa_recall_number":"14V-619","mfr_recall_number":"NA","recall_date":"OCT
+        02, 2014","recall_title":"SPARE WHEEL CARRIER ","recall_description":"On certain
+        Model Year 2014 MINI Cooper Hardtop vehicles, a nut without a self-locking
+        feature was used to attach the space-saver spare wheel carrier underneath
+        the vehicle''s trunk.  Due to vibration during driving, the nut could start
+        to loosen. Over time, the nut could back off and cause the wheel carrier and
+        the space-saver spare wheel to separate from the vehicle''s underbody.","safety_risk_description":"If
+        the space-saver spare wheel separates from the vehicle''s underbody, the carrier
+        and/or wheel could become a hazard to road users.","remedy_description":"Your  MINI
+        dealer will replace the space-saver spare wheel carrier nut with the appropriate
+        self-locking nut.","mfr_recall_status":11,"mfr_notes":"For additional information
+        or assistance, please contact Customer Relations and Services at 1-866-825-1525
+        or email at MINI.Assistance@askminiusa.com.","refresh_date":"SEP 18, 2015","owner_notification_letter_available":true},{"nhtsa_recall_number":"15V-034","mfr_recall_number":"NA","recall_date":"JAN
+        22, 2015","recall_title":"TIRE LABEL","recall_description":"Affected vehicles
+        do not conform to FMVSS 110 Section 4.3(a).","safety_risk_description":"On
+        the tire information label, the vehicle''s stated maximum capacity weight
+        is incorrect.","remedy_description":"Your MINI dealer will install an updated
+        FMVSS 110 Tire Information Placard containing your MINI''s correct maximum
+        capacity weight as well as an updated Part 567 Certification Label containing
+        your MINI''s correct Gross Vehicle Weight Rating (GVWR).","mfr_recall_status":11,"mfr_notes":"For
+        additional information or assistance, please contact Customer Relations and
+        Services at 1-866-825-1525 or email at MINI.Assistance@askminiusa.com.","refresh_date":"SEP
+        18, 2015","owner_notification_letter_available":true},{"nhtsa_recall_number":"15V-450","mfr_recall_number":"NA","recall_date":"JUL
+        14, 2015","recall_title":"SIDE IMPACT PROTECTION","recall_description":"Certain
+        Model Year 2014-2015 MINI Hardtop 2 Door vehicles  may not conform to Federal
+        Motor Vehicle Safety Standard No. 214 (Side Impact Protection).  Your vehicle
+        may marginally exceed a NHTSA test requirement.","safety_risk_description":"Rear
+        seat passengers could be at a slightly higher risk of injury in a severe side
+        impact.","remedy_description":"Your MINI dealer will modify the left and right
+        rear seat interior side panels to increase their energy absorbing performance.  The
+        resulting modification will  not be visible either inside or outside of the
+        vehicle.","mfr_recall_status":11,"mfr_notes":"For additional information or
+        assistance, please contact Customer Relations at 1-866-825-1525 or via Email
+        at MINI.Assistance@askminiusa.com.","refresh_date":"SEP 18, 2015","owner_notification_letter_available":true}]}'
+    http_version: 
+  recorded_at: Fri, 18 Sep 2015 12:13:13 GMT
+- request:
+    method: get
+    uri: http://www.miniusa.com/api/safetyRecall.action?vin=WMWZB3C54EWR39373
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Content-Disposition:
+      - inline
+      Content-Type:
+      - application/json
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Fri, 18 Sep 2015 12:13:04 GMT
+      Content-Length:
+      - '207'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=05f45c1975e15f3eba52e91bfc5c.1; Path=/api; HttpOnly
+      - circle_framework_visitor_id=203305450; Expires=Sat, 17-Sep-2016 12:13:04 GMT;
+        Path=/
+    body:
+      encoding: UTF-8
+      string: '{"vin":"WMWZB3C54EWR39373","status":true,"year":2014,"make":"MINI","model":"COOPER
+        US A","manufacturer_id":15,"recalls_available":false,"number_of_recalls":0,"refresh_date":"September
+        18, 2015","recalls":[]}'
+    http_version: 
+  recorded_at: Fri, 18 Sep 2015 12:13:14 GMT
+- request:
+    method: get
+    uri: http://www.miniusa.com/api/safetyRecall.action?vin=WMWZB3C54EWR30000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Content-Disposition:
+      - inline
+      Content-Type:
+      - application/json
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Fri, 18 Sep 2015 12:13:05 GMT
+      Content-Length:
+      - '58'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=05f4846a9f8f44a879f23640dd39.1; Path=/api; HttpOnly
+      - circle_framework_visitor_id=203305451; Expires=Sat, 17-Sep-2016 12:13:04 GMT;
+        Path=/
+    body:
+      encoding: UTF-8
+      string: '{"vin":"WMWZB3C54EWR30000","status":false,"error_code":91}'
+    http_version: 
+  recorded_at: Fri, 18 Sep 2015 12:13:14 GMT
+recorded_with: VCR 2.9.3
