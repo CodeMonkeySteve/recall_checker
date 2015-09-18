@@ -22,11 +22,11 @@ module RecallChecker
       end
 
       def vin_invalid?
-        parsed_response['ViewModel']['Error'] > 0
+        @response.parsed_response['ViewModel']['Error'] > 0
       end
 
       def recalls_raw
-        vin_invalid? ? [] : parsed_response['ViewModel']['RecallCampaigns']
+        parsed_response['ViewModel']['RecallCampaigns']
       end
 
       def convert_status status

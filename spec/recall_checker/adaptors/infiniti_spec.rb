@@ -31,7 +31,7 @@ describe RecallChecker::Adaptors::Infiniti do
     it "vin_invalid? for fake VIN JN1CV6AP9FM500000" do
       VCR.use_cassette('infiniti', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Infiniti.new("JN1CV6AP9FM500000")
-        expect(@checker.vin_invalid?).to eq true
+        expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end
 

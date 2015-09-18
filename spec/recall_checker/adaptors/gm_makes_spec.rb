@@ -32,7 +32,7 @@ describe RecallChecker::Adaptors::GMMakes do
     it "vin_invalid? for fake VIN 2G1FT3DW8E9240000" do
       VCR.use_cassette('chevrolet', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Chevrolet.new("2G1FT3DW8E9240000")
-        expect(@checker.vin_invalid?).to eq true
+        expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end
 

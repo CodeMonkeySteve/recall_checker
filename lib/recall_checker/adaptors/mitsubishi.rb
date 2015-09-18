@@ -18,11 +18,11 @@ module RecallChecker
       }
 
       def vin_invalid?
-        !parsed_response['success']
+        !@response.parsed_response['success']
       end
 
       def recalls_raw
-        vin_invalid? ? [] : parsed_response['nhtsaOpenRecalls'].select { |i| i['recallType'] == "SAFETY RECALL" }
+        response.parsed_response['nhtsaOpenRecalls'].select { |i| i['recallType'] == "SAFETY RECALL" }
       end
 
       def convert_nhtsa_id id

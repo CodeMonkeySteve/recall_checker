@@ -21,11 +21,11 @@ module RecallChecker
       end
 
       def vin_invalid?
-        parsed_response['data'].nil?
+        @response.parsed_response['data'].nil?
       end
 
       def recalls_raw
-        vin_invalid? ? [] : parsed_response['data']['recalls']
+        parsed_response['data']['recalls']
       end
 
       def convert_updated_at time

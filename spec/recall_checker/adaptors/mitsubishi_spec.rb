@@ -31,7 +31,7 @@ describe RecallChecker::Adaptors::Mitsubishi do
     it "vin_invalid? for fake VIN JA4AZ3A32GZ000000" do
       VCR.use_cassette('mitsubishi', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Mitsubishi.new("JA4AZ3A32GZ000000")
-        expect(@checker.vin_invalid?).to eq true
+        expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end
 

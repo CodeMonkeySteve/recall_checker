@@ -50,8 +50,8 @@ module RecallChecker
 
       def response
         @response ||= request
-        # raise VinError if vin_invalid?  # triggers infinite loop vin_invalid? -> parsed_response -> response
-        # return @response
+        raise VinError if vin_invalid?
+        @response
       end
 
       def parsed_response

@@ -18,7 +18,7 @@ module RecallChecker
       }
 
       def vin_invalid?
-        parsed_response['make'].empty?
+        @response.parsed_response['make'].empty?
       end
 
       def convert_created_at time

@@ -22,7 +22,7 @@ module RecallChecker
       end
 
       def vin_invalid?
-        parsed_response['return_status']['code'].to_i > 0
+        @response.parsed_response['return_status']['code'].to_i > 0
       end
 
       def recalls_raw

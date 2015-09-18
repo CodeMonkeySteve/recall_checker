@@ -18,7 +18,7 @@ module RecallChecker
       }
 
       def vin_invalid?
-        !parsed_response['status']
+        !@response.parsed_response['status']
       end
 
       def convert_status status

@@ -20,7 +20,7 @@ module RecallChecker
       end
 
       def vin_invalid?
-        parsed_response.fetch('error',0) == 400
+        @response.parsed_response.fetch('error',0) == 400
       end
 
       def recalls_raw

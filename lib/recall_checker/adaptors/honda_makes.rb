@@ -20,11 +20,11 @@ module RecallChecker
       end
 
       def vin_invalid?
-        parsed_response['Warning']
+        @response.parsed_response['Warning']
       end
 
       def recalls_raw
-        vin_invalid? ? [] : parsed_response['CampaignTypes'].first['Campaigns'] or []
+        parsed_response['CampaignTypes'].first['Campaigns'] or []
       end
 
       def convert_notes str
