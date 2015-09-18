@@ -1,0 +1,306 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.mitsubishicars.com/rs/warranty?vin=JA3215H17CU014800
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 18 Sep 2015 14:45:31 GMT
+      X-Powered-By:
+      - Servlet/3.0
+      Content-Length:
+      - '9938'
+      Accept-Charset:
+      - big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, hp-roman8,
+        ibm-thai, ibm00858, ibm00924, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144,
+        ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047,
+        ibm1047_lf, ibm1141_lf, ibm1153, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285,
+        ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855,
+        ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869,
+        ibm870, ibm871, ibm918, ibm924_lf, iso-2022-cn, iso-2022-jp, iso-2022-jp-2,
+        iso-2022-kr, iso-8859-1, iso-8859-10, iso-8859-13, iso-8859-14, iso-8859-15,
+        iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7,
+        iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, ptcp154,
+        rk1048, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32,
+        utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253,
+        windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j,
+        windows-936, x-big5-hkscs-2001, x-big5-solaris, x-compound-text, x-euc_cn,
+        x-euc_jp_linux, x-euc_tw, x-eucjp-open, x-ibm-udcjp, x-ibm1006, x-ibm1025,
+        x-ibm1027, x-ibm1041, x-ibm1043, x-ibm1046, x-ibm1046s, x-ibm1088, x-ibm1097,
+        x-ibm1098, x-ibm1112, x-ibm1114, x-ibm1115, x-ibm1122, x-ibm1123, x-ibm1124,
+        x-ibm1165, x-ibm1166, x-ibm1351, x-ibm1362, x-ibm1363, x-ibm1363c, x-ibm1364,
+        x-ibm1370, x-ibm1371, x-ibm1377, x-ibm1380, x-ibm1381, x-ibm1382, x-ibm1383,
+        x-ibm1385, x-ibm1388, x-ibm1390, x-ibm1390a, x-ibm1399, x-ibm1399a, x-ibm16684,
+        x-ibm16684a, x-ibm29626, x-ibm29626c, x-ibm300, x-ibm300a, x-ibm301, x-ibm33722,
+        x-ibm33722a, x-ibm33722c, x-ibm420s, x-ibm4933, x-ibm720, x-ibm737, x-ibm808,
+        x-ibm833, x-ibm834, x-ibm835, x-ibm836, x-ibm837, x-ibm856, x-ibm859, x-ibm864s,
+        x-ibm867, x-ibm874, x-ibm875, x-ibm897, x-ibm921, x-ibm922, x-ibm927, x-ibm930,
+        x-ibm930a, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm939a, x-ibm942, x-ibm942c,
+        x-ibm943, x-ibm943c, x-ibm947, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm951,
+        x-ibm954, x-ibm954c, x-ibm964, x-ibm970, x-ibm971, x-iscii91, x-iso-2022-cn-cns,
+        x-iso-2022-cn-gb, x-iso-8859-11, x-iso-8859-6s, x-jis0208, x-jisautodetect,
+        x-johab, x-koi8_ru, x-ksc5601, x-macarabic, x-maccentraleurope, x-maccroatian,
+        x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman,
+        x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213,
+        x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936a, x-pck, x-sjis_0213, x-unicodelittle,
+        x-utf-32be-bom, x-utf-32le-bom, x-utf_8j, x-windows-1256s, x-windows-50220,
+        x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"vehicleInfo":{"vin":"JA3215H17CU014800","model":"i-MiEV - ELECTRIC","country":"US","priceline":"ES","modelYear":2012,"exteriorColor":"COOL
+        SILVER METALLIC","interiorColor":"BLACK","transmissionCode":"1AT","inServiceDate":"02/27/2013","bodyModel":"EV44"},"ownerWarrantyDetails":[{"warrantyDescription":"MAIN-DRIVE
+        LITHIUM BATTERY - IMIEV EV ONLY","mileageCovered":100000,"monthsCovered":96,"mileageRemaining":100000,"timeRemaining":"02/27/2021"},{"warrantyDescription":"NEW
+        VEHICLE LIMITED WARRANTY (BASIC) COVERAGE","mileageCovered":36000,"monthsCovered":36,"mileageRemaining":36000,"timeRemaining":"02/27/2016"},{"warrantyDescription":"POWERTRAIN
+        LIMITED WARRANTY COVERAGE","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"02/27/2018"},{"warrantyDescription":"RESTRAINT
+        SYSTEM COVERAGE (AIR BAGS, SEAT BELTS)","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"02/27/2018"},{"warrantyDescription":"ANTI-CORROSION/PERFORATION
+        LTD WARRANTY COVERAGE","mileageCovered":100000,"monthsCovered":84,"mileageRemaining":100000,"timeRemaining":"02/27/2020"},{"warrantyDescription":"STARTER
+        BATTERY (PRO-RATE 50% AFTER 24 MONTHS)","mileageCovered":999999,"monthsCovered":36,"mileageRemaining":999999,"timeRemaining":"02/27/2016"},{"warrantyDescription":"AUDIO,
+        NAVIGATION UNITS & ENTERTAINMENT SYSTEMS","mileageCovered":36000,"monthsCovered":36,"mileageRemaining":36000,"timeRemaining":"02/27/2016"},{"warrantyDescription":"ADJUSTMENT
+        WARRANTY","mileageCovered":12000,"monthsCovered":12,"mileageRemaining":0,"timeRemaining":"Expired"},{"warrantyDescription":"A/C
+        REFRIGERANT CHARGE","mileageCovered":12000,"monthsCovered":12,"mileageRemaining":0,"timeRemaining":"Expired"},{"warrantyDescription":"ROADSIDE
+        ASSISTANCE","mileageCovered":36000,"monthsCovered":36,"mileageRemaining":36000,"timeRemaining":"02/27/2016"},{"warrantyDescription":"WARRANTABLE
+        TOW ONLY","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"02/27/2018"}],"subsequentOwnerWarrantyDetails":[{"warrantyDescription":"MAIN-DRIVE
+        LITHIUM BATTERY - IMIEV EV ONLY","mileageCovered":100000,"monthsCovered":96,"mileageRemaining":100000,"timeRemaining":"02/27/2021"},{"warrantyDescription":"NEW
+        VEHICLE LIMITED WARRANTY (BASIC) COVERAGE","mileageCovered":36000,"monthsCovered":36,"mileageRemaining":36000,"timeRemaining":"02/27/2016"},{"warrantyDescription":"POWERTRAIN
+        LIMITED WARRANTY COVERAGE","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"02/27/2018"},{"warrantyDescription":"RESTRAINT
+        SYSTEM COVERAGE (AIR BAGS, SEAT BELTS)","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"02/27/2018"},{"warrantyDescription":"ANTI-CORROSION/PERFORATION
+        LTD WARRANTY COVERAGE","mileageCovered":100000,"monthsCovered":84,"mileageRemaining":100000,"timeRemaining":"02/27/2020"},{"warrantyDescription":"STARTER
+        BATTERY (PRO-RATE 50% AFTER 24 MONTHS)","mileageCovered":999999,"monthsCovered":36,"mileageRemaining":999999,"timeRemaining":"02/27/2016"},{"warrantyDescription":"AUDIO,
+        NAVIGATION UNITS & ENTERTAINMENT SYSTEMS","mileageCovered":36000,"monthsCovered":36,"mileageRemaining":36000,"timeRemaining":"02/27/2016"},{"warrantyDescription":"ADJUSTMENT
+        WARRANTY","mileageCovered":12000,"monthsCovered":12,"mileageRemaining":0,"timeRemaining":"02/27/2014"},{"warrantyDescription":"A/C
+        REFRIGERANT CHARGE","mileageCovered":12000,"monthsCovered":12,"mileageRemaining":0,"timeRemaining":"02/27/2014"},{"warrantyDescription":"ROADSIDE
+        ASSISTANCE","mileageCovered":36000,"monthsCovered":36,"mileageRemaining":36000,"timeRemaining":"02/27/2016"},{"warrantyDescription":"WARRANTABLE
+        TOW ONLY","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"02/27/2018"}],"openedRecalls":[{"recallNumber":"C1411E","recallDescription":"IMIEV
+        UNDERCARRIAGE RUST                                                                                                                                                                                                                                  ","recallStatus":"Recall
+        Open"},{"recallNumber":"C1412E","recallDescription":"IMIEV BRAKE VACUUM PUMP
+        - REFLASH EV-ECU ONLY                                                                                                                                                                                                             ","recallStatus":"Recall
+        Open"}],"completedRecalls":[{"repairDt":"02/22/2013","mileage":1436,"recallNumber":"C1301E","recallDescription":"IMIEV
+        EV-ECU UPDATE FOR CLIPPER CREEK CHARGER COMPATIBILITY                                                                                                                                                                                               ","recallStatus":"Recall
+        Completed"},{"repairDt":"02/22/2013","mileage":1436,"recallNumber":"C1302E","recallDescription":"IMIEV
+        BRAKE VACUUM PUMP REPLACEMENT                                                                                                                                                                                                                       ","recallStatus":"Recall
+        Completed"},{"repairDt":"09/13/2012","mileage":796,"recallNumber":"C1204E","recallDescription":"IMIEV
+        - REPROGRAM THE CMU (CELL MONITORING UNIT)                                                                                                                                                                                                          ","recallStatus":"Recall
+        Completed"},{"repairDt":"08/17/2012","mileage":736,"recallNumber":"C1203E","recallDescription":"IMIEV
+        REPLACE AIRBAG SENSORS                                                                                                                                                                                                                              ","recallStatus":"Recall
+        Completed"}],"promoMessageDetails":[],"serviceMessageDetails":[],"warExtMessageDetails":[{"dealerMessage":"                              ","vehicleMessage":"12-13MY
+        IMIEV MAIN BATT WARRANTY EXTEND: 8/100 TO 10/100 (160K CAN) WB2016-004  ","promoNo":"","promoType":"W"}],"customer":{"city":"MIDDLETOWN          ","emailAddress":"BBERNSTEIN@HEALEYBROTHERS.COM                     ","emailBypassed":false,"residencePhone":"8453417407","stateProvince":"NY","streetAddress":"225
+        GREENVILLE TPKE           ","streetAddress2":"                              ","zipPostalCode":"10940     ","displayEmailAddress":"BBERNSTEIN@HEALEYBROTHERS.COM                     ","formatResidencePhone":"(845)341-7407","custFirstName":"BRYAN          ","custLastName":"BERNSTEIN                "},"claimDetails":[{"dealerCode":"35132","dealerName":"HEALEY
+        MITSUBISHI             ","claimTypeDesc":"Campaign Claim","mileage":1436,"laborOpDesc":"BRAKE
+        VACUUM PUMP REPLACEMENT AT SAME TIME AS C1301E REFLASH","repairDate":"02/22/2013"},{"dealerCode":"35132","dealerName":"HEALEY
+        MITSUBISHI             ","claimTypeDesc":"Campaign Claim","mileage":1436,"laborOpDesc":"IMIEV
+        EV-ECU UPDATE FOR  CLIPPER CREEK CHARGER COMPATIBILITY","repairDate":"02/22/2013"},{"dealerCode":"35132","dealerName":"HEALEY
+        MITSUBISHI             ","claimTypeDesc":"Campaign Claim","mileage":796,"laborOpDesc":"REPROGRAM
+        THE CMU","repairDate":"09/13/2012"},{"dealerCode":"35132 ","dealerName":"HEALEY
+        MITSUBISHI             ","claimTypeDesc":"Customer Pay Claim","mileage":736,"laborOpDesc":"MISC.
+        SHOP CHARGES                      ","repairDate":"09/13/2012"},{"dealerCode":"35132","dealerName":"HEALEY
+        MITSUBISHI             ","claimTypeDesc":"Campaign Claim","mileage":736,"laborOpDesc":"REPLACE
+        AIR BAG SENSORS","repairDate":"08/17/2012"}],"nhtsaVehicle":{"recallsAvailable":true,"numberOfRecalls":2,"recallRefreshDate":"Sep
+        18, 2015"},"nhtsaOpenRecalls":[{"nhtsaRecallNumber":"14V522    ","mfrRecallNumber":"SR-14-007      ","recallDescription":"DUE
+        TO EITHER OF THE FOLLOWING REASONS, THE BRAKE VACUUM PUMP MAY BECOME INOPERABLE:1)IMPROPER
+        PROGRAMMING OF THE EV-ECU, WHICH CONTROLS THE BRAKE VACUUM PUMP, MAY CAUSE
+        THE ECU TO FALSELY JUDGE THAT THE RELAY CONTACT POINT IS STUCK.2)DUE TO THE
+        LOCATION OF THE BRAKE VACUUM PUMP EXHAUST HOLE, MUD CONTAINING ROAD SALT COULD
+        ENTER AND ADHERE TO IT, CAUSING THE EXHAUST HOLE TO BECOME BLOCKED DUE TO
+        CORROSION.","mfrRecallStatus":"INCOMPLETE BUT REPAIR AVAILABLE","recallDate":"Aug
+        29, 2014","recallType":"SAFETY RECALL","safetyRiskDescription":"BRAKE VACUUM
+        PUMP INOPERABILITY MAY RESULT IN INCREASED STOPPING DISTANCES, WHICH CAN INCREASE
+        THE RISK OF A CRASH.  THE BRAKE WARNING LIGHT WILL ILLUMINATE AND AN AUDIBLE
+        WARNING WILL ALERT THE VEHICLE OPERATOR IN THE EVENT OF BRAKE VACUUM PUMP
+        INOPERABILITY.","remedyDescription":"THE DEALERSHIP WILL REPROGRAM THE EV-ECU
+        TO THE LATEST SOFTWARE AND, IF NECESSARY, REPLACE THE BRAKE VACUUM PUMP, FREE
+        OF CHARGE."},{"nhtsaRecallNumber":"          ","mfrRecallNumber":"SC-14-003      ","recallDescription":"THE
+        UNDERCARRIAGE ON CERTAIN 2012 I-MIEV VEHICLES, ALONG WITH THE BOLTS SECURING
+        THE MAIN DRIVE LITHIUM-ION BATTERY UNDER COVERS AND NON-ESSENTIAL GROUND CONNECTIONS,
+        MAY BE SUSCEPTIBLE TO RUST.","mfrRecallStatus":"INCOMPLETE BUT REPAIR AVAILABLE","recallDate":"Oct
+        23, 2014","recallType":"SERVICE CAMPAIGN","safetyRiskDescription":"","remedyDescription":"THE
+        DEALERSHIP WILL INSPECT THE NON-ESSENTIAL GROUND CONNECTION BOLTS AND UNDER
+        COVERS.  IF THE BOLTS ARE NOT RUSTED OR DAMAGED, THE DEALER WILL REMOVE ANY
+        UNDERCARRIAGE RUST, APPLY ANTI-CORROSION WAX TO THE FRAME, REINSTALL THE UNDER
+        COVERS, AND REPLACE THE BOLTS.  IF THE BOLTS ARE RUSTED OR DAMAGED, THE DEALER
+        WILL REMOVE ANY UNDERCARRIAGE RUST, APPLY ANTI-CORROSION WAX TO THE FRAME,
+        AND REPLACE THE UNDER COVERS WITH NEW COVERS THAT USE GROUND BUS BARS.  THESE
+        SERVICES WILL BE PERFORMED FREE OF CHARGE."}],"success":true,"statusCode":"200","statusMessage":null}'
+    http_version: 
+  recorded_at: Fri, 18 Sep 2015 14:45:42 GMT
+- request:
+    method: get
+    uri: http://www.mitsubishicars.com/rs/warranty?vin=JA4AZ3A32GZ004183
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 18 Sep 2015 14:45:42 GMT
+      X-Powered-By:
+      - Servlet/3.0
+      Content-Length:
+      - '4879'
+      Accept-Charset:
+      - big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, hp-roman8,
+        ibm-thai, ibm00858, ibm00924, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144,
+        ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047,
+        ibm1047_lf, ibm1141_lf, ibm1153, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285,
+        ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855,
+        ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869,
+        ibm870, ibm871, ibm918, ibm924_lf, iso-2022-cn, iso-2022-jp, iso-2022-jp-2,
+        iso-2022-kr, iso-8859-1, iso-8859-10, iso-8859-13, iso-8859-14, iso-8859-15,
+        iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7,
+        iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, ptcp154,
+        rk1048, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32,
+        utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253,
+        windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j,
+        windows-936, x-big5-hkscs-2001, x-big5-solaris, x-compound-text, x-euc_cn,
+        x-euc_jp_linux, x-euc_tw, x-eucjp-open, x-ibm-udcjp, x-ibm1006, x-ibm1025,
+        x-ibm1027, x-ibm1041, x-ibm1043, x-ibm1046, x-ibm1046s, x-ibm1088, x-ibm1097,
+        x-ibm1098, x-ibm1112, x-ibm1114, x-ibm1115, x-ibm1122, x-ibm1123, x-ibm1124,
+        x-ibm1165, x-ibm1166, x-ibm1351, x-ibm1362, x-ibm1363, x-ibm1363c, x-ibm1364,
+        x-ibm1370, x-ibm1371, x-ibm1377, x-ibm1380, x-ibm1381, x-ibm1382, x-ibm1383,
+        x-ibm1385, x-ibm1388, x-ibm1390, x-ibm1390a, x-ibm1399, x-ibm1399a, x-ibm16684,
+        x-ibm16684a, x-ibm29626, x-ibm29626c, x-ibm300, x-ibm300a, x-ibm301, x-ibm33722,
+        x-ibm33722a, x-ibm33722c, x-ibm420s, x-ibm4933, x-ibm720, x-ibm737, x-ibm808,
+        x-ibm833, x-ibm834, x-ibm835, x-ibm836, x-ibm837, x-ibm856, x-ibm859, x-ibm864s,
+        x-ibm867, x-ibm874, x-ibm875, x-ibm897, x-ibm921, x-ibm922, x-ibm927, x-ibm930,
+        x-ibm930a, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm939a, x-ibm942, x-ibm942c,
+        x-ibm943, x-ibm943c, x-ibm947, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm951,
+        x-ibm954, x-ibm954c, x-ibm964, x-ibm970, x-ibm971, x-iscii91, x-iso-2022-cn-cns,
+        x-iso-2022-cn-gb, x-iso-8859-11, x-iso-8859-6s, x-jis0208, x-jisautodetect,
+        x-johab, x-koi8_ru, x-ksc5601, x-macarabic, x-maccentraleurope, x-maccroatian,
+        x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman,
+        x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213,
+        x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936a, x-pck, x-sjis_0213, x-unicodelittle,
+        x-utf-32be-bom, x-utf-32le-bom, x-utf_8j, x-windows-1256s, x-windows-50220,
+        x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"vehicleInfo":{"vin":"JA4AZ3A32GZ004183","model":"OUTLANDER AWD","country":"US","priceline":"2.4
+        SE S-AWC","modelYear":2016,"exteriorColor":"COOL SILVER METALLIC","interiorColor":"BLACK","transmissionCode":"CVT","inServiceDate":"01/01/0001","bodyModel":"OT45"},"ownerWarrantyDetails":[{"warrantyDescription":"NEW
+        VEHICLE LIMITED WARRANTY (BASIC) COVERAGE","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"Pending"},{"warrantyDescription":"POWERTRAIN
+        LIMITED WARRANTY COVERAGE","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"Pending"},{"warrantyDescription":"RESTRAINT
+        SYSTEM COVERAGE (AIR BAGS, SEAT BELTS)","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"Pending"},{"warrantyDescription":"ANTI-CORROSION/PERFORATION
+        LTD WARRANTY COVERAGE","mileageCovered":100000,"monthsCovered":84,"mileageRemaining":100000,"timeRemaining":"Pending"},{"warrantyDescription":"STARTER
+        BATTERY (PRO-RATE 50% AFTER 24 MONTHS)","mileageCovered":999999,"monthsCovered":36,"mileageRemaining":999999,"timeRemaining":"Pending"},{"warrantyDescription":"AUDIO,
+        NAVIGATION UNITS & ENTERTAINMENT SYSTEMS","mileageCovered":36000,"monthsCovered":36,"mileageRemaining":36000,"timeRemaining":"Pending"},{"warrantyDescription":"ADJUSTMENT
+        WARRANTY","mileageCovered":12000,"monthsCovered":12,"mileageRemaining":12000,"timeRemaining":"Pending"},{"warrantyDescription":"A/C
+        REFRIGERANT CHARGE","mileageCovered":12000,"monthsCovered":12,"mileageRemaining":12000,"timeRemaining":"Pending"},{"warrantyDescription":"FEDERAL
+        EMISSION DEFECT WARRANTY","mileageCovered":36000,"monthsCovered":36,"mileageRemaining":36000,"timeRemaining":"Pending"},{"warrantyDescription":"FED
+        EMISS. WARR ECU,PCM,CAT CONVERTER","mileageCovered":80000,"monthsCovered":96,"mileageRemaining":80000,"timeRemaining":"Pending"},{"warrantyDescription":"ROADSIDE
+        ASSISTANCE","mileageCovered":999999,"monthsCovered":60,"mileageRemaining":999999,"timeRemaining":"Pending"},{"warrantyDescription":"WARRANTABLE
+        TOW ONLY","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"Pending"}],"subsequentOwnerWarrantyDetails":[{"warrantyDescription":"NEW
+        VEHICLE LIMITED WARRANTY (BASIC) COVERAGE","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"09/18/2020"},{"warrantyDescription":"POWERTRAIN
+        LIMITED WARRANTY COVERAGE","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"09/18/2020"},{"warrantyDescription":"RESTRAINT
+        SYSTEM COVERAGE (AIR BAGS, SEAT BELTS)","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"09/18/2020"},{"warrantyDescription":"ANTI-CORROSION/PERFORATION
+        LTD WARRANTY COVERAGE","mileageCovered":100000,"monthsCovered":84,"mileageRemaining":100000,"timeRemaining":"09/18/2022"},{"warrantyDescription":"STARTER
+        BATTERY (PRO-RATE 50% AFTER 24 MONTHS)","mileageCovered":999999,"monthsCovered":36,"mileageRemaining":999999,"timeRemaining":"09/18/2018"},{"warrantyDescription":"AUDIO,
+        NAVIGATION UNITS & ENTERTAINMENT SYSTEMS","mileageCovered":36000,"monthsCovered":36,"mileageRemaining":36000,"timeRemaining":"09/18/2018"},{"warrantyDescription":"ADJUSTMENT
+        WARRANTY","mileageCovered":12000,"monthsCovered":12,"mileageRemaining":12000,"timeRemaining":"09/18/2016"},{"warrantyDescription":"A/C
+        REFRIGERANT CHARGE","mileageCovered":12000,"monthsCovered":12,"mileageRemaining":12000,"timeRemaining":"09/18/2016"},{"warrantyDescription":"FEDERAL
+        EMISSION DEFECT WARRANTY","mileageCovered":36000,"monthsCovered":36,"mileageRemaining":36000,"timeRemaining":"09/18/2018"},{"warrantyDescription":"FED
+        EMISS. WARR ECU,PCM,CAT CONVERTER","mileageCovered":80000,"monthsCovered":96,"mileageRemaining":80000,"timeRemaining":"09/18/2023"},{"warrantyDescription":"ROADSIDE
+        ASSISTANCE","mileageCovered":999999,"monthsCovered":60,"mileageRemaining":999999,"timeRemaining":"09/18/2020"},{"warrantyDescription":"WARRANTABLE
+        TOW ONLY","mileageCovered":60000,"monthsCovered":60,"mileageRemaining":60000,"timeRemaining":"09/18/2020"}],"openedRecalls":[],"completedRecalls":[],"promoMessageDetails":[],"serviceMessageDetails":[],"warExtMessageDetails":[],"customer":{"city":"                    ","emailAddress":"                                                  ","emailBypassed":false,"residencePhone":"","stateProvince":"  ","streetAddress":"                              ","streetAddress2":"                              ","zipPostalCode":"          ","displayEmailAddress":"                                                  ","formatResidencePhone":"","custFirstName":"               ","custLastName":"                         "},"claimDetails":[],"nhtsaVehicle":{"recallsAvailable":false,"numberOfRecalls":0,"recallRefreshDate":"Sep
+        18, 2015"},"nhtsaOpenRecalls":[],"success":true,"statusCode":"200","statusMessage":null}'
+    http_version: 
+  recorded_at: Fri, 18 Sep 2015 14:45:52 GMT
+- request:
+    method: get
+    uri: http://www.mitsubishicars.com/rs/warranty?vin=JA4AZ3A32GZ000000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 18 Sep 2015 14:45:48 GMT
+      X-Powered-By:
+      - Servlet/3.0
+      Content-Length:
+      - '426'
+      Accept-Charset:
+      - big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, hp-roman8,
+        ibm-thai, ibm00858, ibm00924, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144,
+        ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047,
+        ibm1047_lf, ibm1141_lf, ibm1153, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285,
+        ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855,
+        ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869,
+        ibm870, ibm871, ibm918, ibm924_lf, iso-2022-cn, iso-2022-jp, iso-2022-jp-2,
+        iso-2022-kr, iso-8859-1, iso-8859-10, iso-8859-13, iso-8859-14, iso-8859-15,
+        iso-8859-16, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7,
+        iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, ptcp154,
+        rk1048, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32,
+        utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253,
+        windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j,
+        windows-936, x-big5-hkscs-2001, x-big5-solaris, x-compound-text, x-euc_cn,
+        x-euc_jp_linux, x-euc_tw, x-eucjp-open, x-ibm-udcjp, x-ibm1006, x-ibm1025,
+        x-ibm1027, x-ibm1041, x-ibm1043, x-ibm1046, x-ibm1046s, x-ibm1088, x-ibm1097,
+        x-ibm1098, x-ibm1112, x-ibm1114, x-ibm1115, x-ibm1122, x-ibm1123, x-ibm1124,
+        x-ibm1165, x-ibm1166, x-ibm1351, x-ibm1362, x-ibm1363, x-ibm1363c, x-ibm1364,
+        x-ibm1370, x-ibm1371, x-ibm1377, x-ibm1380, x-ibm1381, x-ibm1382, x-ibm1383,
+        x-ibm1385, x-ibm1388, x-ibm1390, x-ibm1390a, x-ibm1399, x-ibm1399a, x-ibm16684,
+        x-ibm16684a, x-ibm29626, x-ibm29626c, x-ibm300, x-ibm300a, x-ibm301, x-ibm33722,
+        x-ibm33722a, x-ibm33722c, x-ibm420s, x-ibm4933, x-ibm720, x-ibm737, x-ibm808,
+        x-ibm833, x-ibm834, x-ibm835, x-ibm836, x-ibm837, x-ibm856, x-ibm859, x-ibm864s,
+        x-ibm867, x-ibm874, x-ibm875, x-ibm897, x-ibm921, x-ibm922, x-ibm927, x-ibm930,
+        x-ibm930a, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm939a, x-ibm942, x-ibm942c,
+        x-ibm943, x-ibm943c, x-ibm947, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm951,
+        x-ibm954, x-ibm954c, x-ibm964, x-ibm970, x-ibm971, x-iscii91, x-iso-2022-cn-cns,
+        x-iso-2022-cn-gb, x-iso-8859-11, x-iso-8859-6s, x-jis0208, x-jisautodetect,
+        x-johab, x-koi8_ru, x-ksc5601, x-macarabic, x-maccentraleurope, x-maccroatian,
+        x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman,
+        x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213,
+        x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936a, x-pck, x-sjis_0213, x-unicodelittle,
+        x-utf-32be-bom, x-utf-32le-bom, x-utf_8j, x-windows-1256s, x-windows-50220,
+        x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Language:
+      - en-US
+    body:
+      encoding: UTF-8
+      string: '{"vehicleInfo":null,"ownerWarrantyDetails":null,"subsequentOwnerWarrantyDetails":null,"openedRecalls":null,"completedRecalls":null,"promoMessageDetails":null,"serviceMessageDetails":null,"warExtMessageDetails":null,"customer":null,"claimDetails":null,"nhtsaVehicle":null,"nhtsaOpenRecalls":null,"success":false,"statusCode":"500","statusMessage":"VIN
+        DOES NOT EXIST                                                           "}'
+    http_version: 
+  recorded_at: Fri, 18 Sep 2015 14:45:58 GMT
+recorded_with: VCR 2.9.3
