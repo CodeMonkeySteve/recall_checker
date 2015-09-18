@@ -21,6 +21,10 @@ module RecallChecker
         {query: {country: 'USA', language: 'EN', vin: @vin}}
       end
 
+      def vin_invalid?
+        parsed_response['return_status']['code'].to_i > 0
+      end
+
       def recalls_raw
         parsed_response.has_key?('recalls') ? parsed_response['recalls'].values : []
       end

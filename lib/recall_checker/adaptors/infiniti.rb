@@ -17,6 +17,10 @@ module RecallChecker
         "notes" => "typeCode" # notes not available in JSON
       }
 
+      def vin_invalid?
+        parsed_response['make'].empty?
+      end
+
       def convert_created_at time
         Time.parse(time[0..9] + " " + time[11..18])
       end

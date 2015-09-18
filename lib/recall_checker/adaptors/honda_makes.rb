@@ -19,12 +19,12 @@ module RecallChecker
         "/#{@vin}/true" 
       end
 
-      def invalid_vin?
+      def vin_invalid?
         parsed_response['Warning']
       end
 
       def recalls_raw
-        invalid_vin? ? [] : parsed_response['CampaignTypes'].first['Campaigns'] or []
+        vin_invalid? ? [] : parsed_response['CampaignTypes'].first['Campaigns'] or []
       end
 
       def convert_notes str

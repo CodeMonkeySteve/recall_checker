@@ -19,11 +19,12 @@ module RecallChecker
         {query: {view: "vinRecallQuery", vin: @vin}}
       end
 
-      def invalid_vin?
-        parsed_response['error'] == 400
+      def vin_invalid?
+        parsed_response.fetch('error',0) == 400
       end
 
       def recalls_raw
+        # Site returns error = 204 if there are no recalls; no error field if recalls exist
         parsed_response.has_key?('error') ? [] : parsed_response['results']
       end
 
@@ -42,8 +43,8 @@ module RecallChecker
     end
 
     class Jaguar < JaguarLandRover
-        make 'jaguar'
-        base_uri 'http://www.jaguarusa.com/owners/vin-recall.html'
+      make 'jaguar'
+      base_uri 'http://www.jaguarusa.com/owners/vin-recall.html'
     end
 
     class LandRover < JaguarLandRover

@@ -21,12 +21,12 @@ module RecallChecker
         '/' + @vin
       end
 
-      def invalid_vin?
+      def vin_invalid?
         parsed_response['ViewModel']['Error'] > 0
       end
 
       def recalls_raw
-        invalid_vin? ? [] : parsed_response['ViewModel']['RecallCampaigns']
+        vin_invalid? ? [] : parsed_response['ViewModel']['RecallCampaigns']
       end
 
       def convert_status status

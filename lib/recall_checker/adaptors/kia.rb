@@ -21,6 +21,10 @@ module RecallChecker
         '/' + @vin
       end
 
+      def vin_invalid?
+        parsed_response['statusDesc'] == "INVALID_VIN"
+      end
+
       def recalls_raw
         parsed_response.fetch('result', {}).fetch('recallsResult', {}).fetch('recalls', [])
       end

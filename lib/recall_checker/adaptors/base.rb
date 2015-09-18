@@ -44,12 +44,18 @@ module RecallChecker
         recalls_raw.any?
       end
 
+      def request
+        self.class.get(url, options)
+      end
+
       def response
-        @response ||= self.class.get(url, options)
+        @response ||= request
+        # raise VinError if vin_invalid?  # triggers infinite loop vin_invalid? -> parsed_response -> response
+        # return @response
       end
 
       def parsed_response
-        @parsed_response ||= response.parsed_response
+        response.parsed_response
       end
 
       def recalls_raw
