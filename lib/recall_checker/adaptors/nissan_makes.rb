@@ -1,8 +1,6 @@
 module RecallChecker
   module Adaptors
-    class Infiniti < Base
-      make 'infiniti'
-      base_uri 'http://www.infinitiusa.com/dealercenter/api/recalls'
+    class NissanMakes < Base
 
       FIELDS = {
         "title" => "secondaryDescription",
@@ -37,6 +35,16 @@ module RecallChecker
         "Type code: #{str}" 
       end
 
+    end
+
+    class Infiniti < NissanMakes
+      make 'infiniti'
+      base_uri 'http://www.infinitiusa.com/dealercenter/api/recalls'
+    end
+
+    class Nissan < NissanMakes
+      make 'nissan'
+      base_uri 'http://www.nissanusa.com/dealercenter/api/recalls'
     end
   end
 end

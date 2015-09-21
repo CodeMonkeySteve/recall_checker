@@ -1,0 +1,136 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.nissanusa.com/dealercenter/api/recalls?vin=1N4AZ0CP6EC332264
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 21 Sep 2015 08:39:34 GMT
+      Content-Length:
+      - '855'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Mon, 21 Sep 2015 08:29:18 GMT
+    body:
+      encoding: UTF-8
+      string: '{"make":"NISSAN","modelYear":2014,"recalls":[{"effectiveDate":"2014-04-10T05:00:00Z","make":"NISSAN","modelCode":"LEAF
+        SL","modelYear":2014,"nhtsaId":"14V-138","nnaId":"R1405","primaryDescription":"In
+        the affected vehicles, the occupant classification system (OCS) software may
+        incorrectly classify the passenger seat as empty, when it is occupied by an
+        adult.","remedyDescription":"Dealers will update the OCS software.","riskIfNotRepaired":"If
+        the OCS does not detect an adult occupant in the passenger seat, the passenger
+        airbag would be deactivated.  Failure of the passenger airbag to deploy during
+        a crash (where deployment is warranted) could increase the risk of injury
+        to the passenger.","secondaryDescription":"OCCUPANT CLASS SYSTEM OCS","typeCode":"Recall
+        Campaign","vin":"1N4AZ0CP6EC332264"}],"vehicleName":"LEAF SL","vin":"1N4AZ0CP6EC332264"}'
+    http_version: 
+  recorded_at: Mon, 21 Sep 2015 08:39:33 GMT
+- request:
+    method: get
+    uri: http://www.nissanusa.com/dealercenter/api/recalls?vin=1N4AL3APXFC424372
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 21 Sep 2015 08:39:34 GMT
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Mon, 21 Sep 2015 08:19:23 GMT
+    body:
+      encoding: UTF-8
+      string: '{"make":"NISSAN","modelYear":2015,"recalls":[],"vehicleName":"ALTIMA
+        2.5S","vin":"1N4AL3APXFC424372"}'
+    http_version: 
+  recorded_at: Mon, 21 Sep 2015 08:39:33 GMT
+- request:
+    method: get
+    uri: http://www.nissanusa.com/dealercenter/api/recalls?vin=1N4AL3APXFC420000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 21 Sep 2015 08:39:34 GMT
+      Content-Length:
+      - '81'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Mon, 21 Sep 2015 08:31:38 GMT
+    body:
+      encoding: UTF-8
+      string: '{"make":"","modelYear":0,"recalls":[],"vehicleName":"","vin":"1N4AL3APXFC420000"}'
+    http_version: 
+  recorded_at: Mon, 21 Sep 2015 08:39:33 GMT
+recorded_with: VCR 2.9.3
