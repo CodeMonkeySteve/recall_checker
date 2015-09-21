@@ -66,7 +66,7 @@ module RecallChecker
         recalls_raw.map do |recall|
           Hash[fields.map do |field|
             converter = "convert_#{field}"
-            value = recall.fetch(lookup_field(field))
+            value = respond_to?('htmlpage') ? recall : recall.fetch(lookup_field(field))
             [field, respond_to?(converter) ? send(converter, value) : value ]
           end]
         end

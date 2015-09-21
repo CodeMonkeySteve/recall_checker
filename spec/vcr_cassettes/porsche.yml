@@ -1,0 +1,254 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?fin=WP0CA2A87ES122036&language=us&openagent=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '0'
+      Location:
+      - https://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?openagent=&fin=WP0CA2A87ES122036&language=us
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 21 Sep 2015 18:09:48 GMT
+- request:
+    method: get
+    uri: https://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?fin=WP0CA2A87ES122036&language=us&openagent=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Lotus-Domino
+      Date:
+      - Mon, 21 Sep 2015 18:09:53 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '1070'
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - SERVERID=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+    body:
+      encoding: ASCII-8BIT
+      string: "\n\t<div><span class=\"subTitle\">Boxster&nbsp;(VIN:&nbsp;WP0CA2A87ES122036)</span></div>\n\t<div><span
+        style=\"padding-left:4px;\">Last updated&nbsp;Sep 21,2015</span></div>\n\n\t<div
+        class=\"row\">\n\t\t<h2 class=\"content-header\">\n\t\t\t<span>Recalls<span
+        class=\"fa fa-exclamation-triangle\"></span></span>\n\t\t</h2>\n\t</div>\n\t<div
+        class=\"row\">\n\t\t<div class=\"ps-ui-accordion-recalls\">\n\n\t\t\t\t<h3
+        style=\"padding-right:32px;\">Replace upper part of lid lock\n\t\t\t\t\t<span
+        style=\"font-family:Arial;font-size:14px;font-weight:normal;\">&nbsp;|&nbsp;AE04&nbsp;|&nbsp;Nov
+        11,2014&nbsp;|&nbsp;NHTSA Recall ID:&nbsp;14V698</span>\n\t\t\t\t</h3>\n\t\t\t\t\n\t\t\t\t<div>\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<h4>Description</h4>\n\t\t\t\t\t\t<div>Due
+        to a temporary manufacturing error, there is a possibility that the front
+        hood lock upper components, on which the catch bar was riveted to the mounting
+        plate, were not produced according to specifications, and installed on the
+        affected vehicles.</div>\n\t\t\t\t\t\t<hr/>\n\n\t\t\t\t\t\t<h4>Safety Risk</h4>\n\t\t\t\t\t\t<div>The
+        durability of the upper part of the lock cannot be guaranteed over the service
+        life of the affected vehicles and the risk of the lid opening unintentionally
+        during vehicle operation cannot be ruled out.</div>\n\t\t\t\t\t\t<hr/>\n\n\t\t\t\t\t\t<h4>Remedy</h4>\n\t\t\t\t\t\t<div>The
+        upper part of the lock on the front hood of the affected vehicles will be
+        replaced.</div>\n\t\t\t\t\t</p>\n\t\t\t\t\t<div class=\"row text-right show-grid-top\">last
+        updated Nov 13,2014</div>\n\t\t\t\t</div>\n\n\t\t</div>\n\t</div>\n\t<hr/>\n\t<div
+        class=\"row\">\n\t\t<p>In case of questions or wishes, please contact your
+        authorized Porsche dealer for assistance.</p>\n\t</div>\n\t<div class=\"row
+        show-grid-top\">\n\t\t<button onclick=\"openNewWindow('http://www.porschedealer.com/dealer/usLocator/')\"
+        style=\"width:150px;\" class=\"btn btn-default\">\n\t\t\t<table class=\"table
+        table-no-border table-condensed small\" style=\"margin-bottom: 0px;\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td
+        class=\"text-left\">Find a dealer</td>\n\t\t\t\t\t\t<td class=\"text-right\"><span
+        class=\"psicon psicon-chevron-right\"></span></td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</button>\n\t</div>\n\t<div
+        class=\"row show-grid-top\">\n\t\t<button onclick=\"printSite()\" style=\"width:150px;\"
+        class=\"btn btn-default\">\n\t\t\t<table class=\"table table-no-border table-condensed
+        small\" style=\"margin-bottom: 0px;\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td
+        class=\"text-left\">Print</td>\n\t\t\t\t\t\t<td class=\"text-right\"><span
+        class=\"psicon psicon-chevron-right\"></span></td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</button>\n\t</div>\n\t<script>initAccordions();</script>\n\n\t\t\t\t<div
+        class=\"row show-grid-top\">\n\t\t\t\t\t<button onclick=\"newSearch()\" style=\"width:150px;\"
+        class=\"btn btn-default\">\n\t\t\t\t\t\t<table class=\"table table-no-border
+        table-condensed small\" style=\"margin-bottom: 0px;\">\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td
+        class=\"text-left\">Back</td>\n\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span
+        class=\"psicon psicon-chevron-right\"></span></td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</button>\n\t\t\t\t</div>\n\n"
+    http_version: 
+  recorded_at: Mon, 21 Sep 2015 18:09:50 GMT
+- request:
+    method: get
+    uri: http://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?fin=WP0AA2A80EK170887&language=us&openagent=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '0'
+      Location:
+      - https://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?openagent=&fin=WP0AA2A80EK170887&language=us
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 21 Sep 2015 18:47:45 GMT
+- request:
+    method: get
+    uri: https://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?fin=WP0AA2A80EK170887&language=us&openagent=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Lotus-Domino
+      Date:
+      - Mon, 21 Sep 2015 18:47:51 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '450'
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - SERVERID=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+    body:
+      encoding: ASCII-8BIT
+      string: "\n\t<div><span class=\"subTitle\">Cayman&nbsp;(VIN:&nbsp;WP0AA2A80EK170887)</span></div>\n\t<div><span
+        style=\"padding-left:4px;\">Last updated&nbsp;Sep 21,2015</span></div>\n\n\t<div
+        class=\"row\">\n\t\t<h2 class=\"content-header\">\n\t\t\t<span>Recalls<span
+        class=\"fa fa-exclamation-triangle\"></span></span>\n\t\t</h2>\n\t</div>\n\t<div
+        class=\"row\">\n\t\t<p>There are currently no open recalls for this vehicle.</p>\n\t</div>\n\t<hr/>\n\n\t\t\t\t<div
+        class=\"row show-grid-top\">\n\t\t\t\t\t<button onclick=\"newSearch()\" style=\"width:150px;\"
+        class=\"btn btn-default\">\n\t\t\t\t\t\t<table class=\"table table-no-border
+        table-condensed small\" style=\"margin-bottom: 0px;\">\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td
+        class=\"text-left\">Back</td>\n\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span
+        class=\"psicon psicon-chevron-right\"></span></td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</button>\n\t\t\t\t</div>\n\n"
+    http_version: 
+  recorded_at: Mon, 21 Sep 2015 18:47:48 GMT
+- request:
+    method: get
+    uri: http://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?fin=WP0CA2A87ES120000&language=us&openagent=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '0'
+      Location:
+      - https://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?openagent=&fin=WP0CA2A87ES120000&language=us
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 21 Sep 2015 18:47:48 GMT
+- request:
+    method: get
+    uri: https://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?fin=WP0CA2A87ES120000&language=us&openagent=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Lotus-Domino
+      Date:
+      - Mon, 21 Sep 2015 18:47:57 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '523'
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - SERVERID=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+    body:
+      encoding: ASCII-8BIT
+      string: "\n\t\t\t\t<div class=\"alert alert-warning\">\n\t\t\t\t\t<p>The vehicle
+        identification number you entered is WP0CA2A87ES120000. We could not find
+        campaign information about this vehicle because the number you entered contains
+        an error or is not in our system.</p>\r\n<div class=\"show-grid-top\">\r\n<p>Please
+        verify that the number you entered is correct, or <a href=\"javascript:openNewWindow('http://www.porschedealer.com/dealer/usLocator/')\">contact
+        your authorized Porsche dealer for assistance.</a></p>\r\n</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div
+        class=\"row show-grid-top\">\n\t\t\t\t\t<button onclick=\"newSearch()\" style=\"width:150px;\"
+        class=\"btn btn-default\">\n\t\t\t\t\t\t<table class=\"table table-no-border
+        table-condensed small\" style=\"margin-bottom: 0px;\">\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td
+        class=\"text-left\">Back</td>\n\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span
+        class=\"psicon psicon-chevron-right\"></span></td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</button>\n\t\t\t\t</div>\n\n"
+    http_version: 
+  recorded_at: Mon, 21 Sep 2015 18:47:55 GMT
+recorded_with: VCR 2.9.3

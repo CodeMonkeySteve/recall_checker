@@ -3,6 +3,7 @@ Bundler.setup
 
 require 'webmock/rspec'
 require 'vcr'
+require 'nokogiri'
 require 'recall_checker'
 
 RSpec.configure do |config|

@@ -1,4 +1,5 @@
 require "httparty"
+require "nokogiri"
 require "recall_checker/version"
 require "recall_checker/exceptions"
 require "recall_checker/adaptors/base.rb"
