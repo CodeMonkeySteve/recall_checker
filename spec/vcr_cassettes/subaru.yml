@@ -1,0 +1,656 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.subaru.com/services/vehicles/recalls?vin=4S3BNBN64F3047980
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Day-Servlet-Engine/4.1.42
+      Content-Type:
+      - application/json;charset=utf-8
+      Cache-Control:
+      - max-age=3599
+      Date:
+      - Tue, 22 Sep 2015 15:29:03 GMT
+      Content-Length:
+      - '13903'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJsYXN0TW9kaWZpZWQiOnsicmF3RGF0ZSI6MTQ0MjYyMTgwNTAwMCwiZnVs
+        bERhdGUiOiIyMDE1LTA5LTE4VDIwOjE2OjQ1LTA0OjAwIiwieWVhciI6MjAx
+        NSwibW9udGgiOiJTZXB0ZW1iZXIiLCJkYXkiOjE4LCJkYXlPZldlZWsiOiJG
+        cmlkYXkifSwibW9kZWxZZWFyIjoyMDE1LCJtb2RlbE5hbWUiOiJMZWdhY3ki
+        LCJ0cmltTmFtZSI6IjIuNWkgTGltaXRlZCIsInZpbiI6IjRTM0JOQk42NEYz
+        MDQ3OTgwIiwicmVjYWxscyI6W3sibGFzdE1vZGlmaWVkIjp7InJhd0RhdGUi
+        OjE0MzU2MzY4MDAwMDAsImZ1bGxEYXRlIjoiMjAxNS0wNi0zMFQwMDowMDow
+        MC0wNDowMCIsInllYXIiOjIwMTUsIm1vbnRoIjoiSnVuZSIsImRheSI6MzAs
+        ImRheU9mV2VlayI6IlR1ZXNkYXkifSwiZGF0ZSI6eyJyYXdEYXRlIjoxNDMz
+        MzkwNDAwMDAwLCJmdWxsRGF0ZSI6IjIwMTUtMDYtMDRUMDA6MDA6MDAtMDQ6
+        MDAiLCJ5ZWFyIjoyMDE1LCJtb250aCI6Ikp1bmUiLCJkYXkiOjQsImRheU9m
+        V2VlayI6IlRodXJzZGF5In0sImNvZGUiOiJXUVM1NCIsIm5odHNhUmVjYWxs
+        TnVtYmVyIjoiMTVWMzY2MDAwIiwicHJvY2VkdXJlQ29kZSI6MSwibmh0c2FW
+        ZWhpY2xlSWQiOiI0czNibmJuNjRmMzA0Nzk4MHdxczU0MSIsInR5cGUiOiJT
+        YWZldHkiLCJzdGF0dXMiOiJPcGVuIiwiZGVzY3JpcHRpb24iOiJTdWJhcnUg
+        b2YgQW1lcmljYSwgSW5jLiAoU3ViYXJ1KSBpcyByZWNhbGxpbmcgY2VydGFp
+        biBtb2RlbCB5ZWFyIDIwMTUgTGVnYWN5IHZlaGljbGVzIG1hbnVmYWN0dXJl
+        ZCBNYXJjaCAxMCwgMjAxNCwgdG8gQXByaWwgMTYsIDIwMTUsIE91dGJhY2sg
+        dmVoaWNsZXMgbWFudWZhY3R1cmVkIEZlYnJ1YXJ5IDI0LCAyMDE0LCB0byBB
+        cHJpbCAxNiwgMjAxNSwgSW1wcmV6YSB2ZWhpY2xlcyBtYW51ZmFjdHVyZWQg
+        U2VwdGVtYmVyIDksIDIwMTQsIHRvIEFwcmlsIDE0LCAyMDE1LCBYViBDcm9z
+        c3RyZWsgdmVoaWNsZXMgbWFudWZhY3R1cmVkIE9jdG9iZXIgMTYsIDIwMTQs
+        IHRvIEFwcmlsIDE1LCAyMDE1LCBhbmQgMjAxNiBXUlggdmVoaWNsZXMgbWFu
+        dWZhY3R1cmVkIE1hcmNoIDIzLCAyMDE1LCBhbmQgZXF1aXBwZWQgd2l0aCB0
+        aGUgRXllc2lnaHQgRHJpdmVyIEFzc2lzdCBTeXN0ZW0uIElmIHRoZSBzd2l0
+        Y2ggdGhhdCBhY3RpdmF0ZXMgdGhlIGJyYWtlIGxpZ2h0cyBmYWlscywgdGhl
+        IGF1dG9tYXRpYyBwcmUtY29sbGlzaW9uIGJyYWtpbmcgY29tcG9uZW50IG9m
+        IHRoZSBkcml2ZXIgYXNzaXN0IHN5c3RlbSB3aWxsIG5vdCBmdW5jdGlvbi4i
+        LCJzaG9ydERlc2NyaXB0aW9uIjoiRHJpdmVyIEFzc2lzdCBTeXN0ZW0gRGVs
+        YXkgaW4gV2FybmluZyBJbmRpY2F0b3IiLCJzYWZldHlSaXNrRGVzY3JpcHRp
+        b24iOiJJZiB0aGUgYXV0b21hdGljIHByZS1jb2xsaXNpb24gYnJha2luZyBz
+        eXN0ZW0gZG9lcyBub3QgZnVuY3Rpb24gYXMgaW50ZW5kZWQsIHRoZSB2ZWhp
+        Y2xlIHdpbGwgbm90IHJlYWN0IHRvIGFuIG9ic3RhY2xlIGluIGl0cyBwYXRo
+        LCBpbmNyZWFzaW5nIHRoZSByaXNrIG9mIGEgY3Jhc2guIiwicmVtZWR5RGVz
+        Y3JpcHRpb24iOiJTdWJhcnUgd2lsbCBub3RpZnkgb3duZXJzLCBhbmQgZGVh
+        bGVycyB3aWxsIHJlcHJvZ3JhbSB0aGUgZHJpdmVyIGFzc2lzdCBzeXN0ZW0s
+        IGZyZWUgb2YgY2hhcmdlLiBUaGUgbWFudWZhY3R1cmVyIGhhcyBub3QgeWV0
+        IHByb3ZpZGVkIGEgbm90aWZpY2F0aW9uIHNjaGVkdWxlLiBPd25lcnMgbWF5
+        IGNvbnRhY3QgU3ViYXJ1IGN1c3RvbWVyIHNlcnZpY2UgYXQgMS04MDAtNzgy
+        LTI3ODMuIFN1YmFydSdzIG51bWJlciBmb3IgdGhpcyByZWNhbGwgaXMgV1FT
+        LTU0LiAgT3duZXJzIG1heSBhbHNvIGNvbnRhY3QgdGhlIE5hdGlvbmFsIEhp
+        Z2h3YXkgVHJhZmZpYyBTYWZldHkgQWRtaW5pc3RyYXRpb24gVmVoaWNsZSBT
+        YWZldHkgSG90bGluZSBhdCAxLTg4OC0zMjctNDIzNiAoVFRZIDEtODAwLTQy
+        NC05MTUzKSwgb3IgZ28gdG8gd3d3LnNhZmVyY2FyLmdvdi4iLCJyZWNhbGxM
+        ZXR0ZXIiOiI8aHRtbD48Ym9keT48UCBzdHlsZT1cIk1BUkdJTjogMGluIDBp
+        biAwcHRcIiBjbGFzcz1Nc29Cb2R5VGV4dD48QiBzdHlsZT1cIm1zby1iaWRp
+        LWZvbnQtd2VpZ2h0OiBub3JtYWxcIj48U1BBTiBzdHlsZT1cIkZPTlQtRkFN
+        SUxZOiAnQ2FsaWJyaScsJ3NhbnMtc2VyaWYnOyBGT05ULVNJWkU6IDEwcHQ7
+        IG1zby1hc2NpaS10aGVtZS1mb250OiBtaW5vci1sYXRpbjsgbXNvLWhhbnNp
+        LXRoZW1lLWZvbnQ6IG1pbm9yLWxhdGluOyBtc28tYmlkaS10aGVtZS1mb250
+        OiBtaW5vci1sYXRpblwiPkRlYXIgU3ViYXJ1IE93bmVyOjw/eG1sOm5hbWVz
+        cGFjZSBwcmVmaXggPSBvIG5zID0gXCJ1cm46c2NoZW1hcy1taWNyb3NvZnQt
+        Y29tOm9mZmljZTpvZmZpY2VcIiAvPjxvOnA+PC9vOnA+PC9TUEFOPjwvQj48
+        L1A+XHJcbjxQIHN0eWxlPVwiTUFSR0lOOiAwaW4gMGluIDBwdFwiIGNsYXNz
+        PU1zb0JvZHlUZXh0PjxTUEFOIHN0eWxlPVwiRk9OVC1GQU1JTFk6ICdDYWxp
+        YnJpJywnc2Fucy1zZXJpZic7IEZPTlQtU0laRTogMTBwdDsgbXNvLWFzY2lp
+        LXRoZW1lLWZvbnQ6IG1pbm9yLWxhdGluOyBtc28taGFuc2ktdGhlbWUtZm9u
+        dDogbWlub3ItbGF0aW47IG1zby1iaWRpLXRoZW1lLWZvbnQ6IG1pbm9yLWxh
+        dGluXCI+PG86cD4mbmJzcDs8L286cD48L1NQQU4+PC9QPlxyXG48UCBjbGFz
+        cz1Nc29Cb2R5VGV4dEN4U3BNaWRkbGU+PFNQQU4gc3R5bGU9XCJGT05ULUZB
+        TUlMWTogJ0NhbGlicmknLCdzYW5zLXNlcmlmJzsgRk9OVC1TSVpFOiAxMHB0
+        OyBtc28tYXNjaWktdGhlbWUtZm9udDogbWlub3ItbGF0aW47IG1zby1oYW5z
+        aS10aGVtZS1mb250OiBtaW5vci1sYXRpbjsgbXNvLWJpZGktdGhlbWUtZm9u
+        dDogbWlub3ItbGF0aW5cIj5UaGlzIG5vdGljZSBpcyBzZW50IHRvIHlvdSBp
+        biBhY2NvcmRhbmNlIHdpdGggdGhlIE5hdGlvbmFsIFRyYWZmaWMgYW5kIE1v
+        dG9yIFZlaGljbGUgU2FmZXR5IEFjdC48bzpwPjwvbzpwPjwvU1BBTj48L1A+
+        XHJcbjxQIGNsYXNzPU1zb0JvZHlUZXh0Q3hTcExhc3Q+PFNQQU4gc3R5bGU9
+        XCJGT05ULUZBTUlMWTogJ0NhbGlicmknLCdzYW5zLXNlcmlmJzsgRk9OVC1T
+        SVpFOiAxMHB0OyBtc28tYXNjaWktdGhlbWUtZm9udDogbWlub3ItbGF0aW47
+        IG1zby1oYW5zaS10aGVtZS1mb250OiBtaW5vci1sYXRpbjsgbXNvLWJpZGkt
+        dGhlbWUtZm9udDogbWlub3ItbGF0aW5cIj48U1BBTiBzdHlsZT1cIm1zby10
+        YWItY291bnQ6IDFcIj4mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsm
+        bmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJz
+        cDsmbmJzcDsmbmJzcDsgPC9TUEFOPjxvOnA+PC9vOnA+PC9TUEFOPjwvUD5c
+        clxuPFAgc3R5bGU9XCJNQVJHSU46IDBpbiAwaW4gMHB0XCIgY2xhc3M9TXNv
+        Tm9ybWFsPjxGT05UIHNpemU9Mj48U1BBTiBzdHlsZT1cIkZPTlQtRkFNSUxZ
+        OiAnQ2FsaWJyaScsJ3NhbnMtc2VyaWYnOyBtc28tYXNjaWktdGhlbWUtZm9u
+        dDogbWlub3ItbGF0aW47IG1zby1oYW5zaS10aGVtZS1mb250OiBtaW5vci1s
+        YXRpbjsgbXNvLWJpZGktdGhlbWUtZm9udDogbWlub3ItbGF0aW5cIj5TVUJB
+        UlUgT0YgQU1FUklDQSwgSU5DLiBoYXMgZGVjaWRlZCB0aGF0IGEgZGVmZWN0
+        LCB3aGljaCByZWxhdGVzIHRvIG1vdG9yIHZlaGljbGUgc2FmZXR5LCBleGlz
+        dHMgaW4gY2VydGFpbiA8L1NQQU4+PFNQQU4gc3R5bGU9XCJGT05ULUZBTUlM
+        WTogJ0NhbGlicmknLCdzYW5zLXNlcmlmJzsgQ09MT1I6IGJsYWNrOyBtc28t
+        YmlkaS1mb250LXdlaWdodDogYm9sZDsgbXNvLWJpZGktZm9udC1mYW1pbHk6
+        ICdUaW1lcyBOZXcgUm9tYW4nXCI+MjAxNSBtb2RlbCB5ZWFyIExlZ2FjeSB2
+        ZWhpY2xlcywgMjAxNSBtb2RlbCB5ZWFyIE91dGJhY2sgdmVoaWNsZXMsIDIw
+        MTUgbW9kZWwgeWVhciBJbXByZXphIHZlaGljbGVzLCAyMDE1IG1vZGVsIHll
+        YXIgWFYgQ3Jvc3N0cmVrIHZlaGljbGVzIGFuZCAyMDE2IG1vZGVsIHllYXIg
+        V1JYIHZlaGljbGVzIGVxdWlwcGVkIHdpdGggdGhlIEV5ZVNpZ2h0IERyaXZl
+        ciBBc3Npc3QgU3lzdGVtLjxvOnA+PC9vOnA+PC9TUEFOPjwvRk9OVD48L1A+
+        XHJcbjxQIHN0eWxlPVwiTUFSR0lOOiAwaW4gMGluIDBwdFwiIGNsYXNzPU1z
+        b1BsYWluVGV4dD48U1BBTiBzdHlsZT1cIkZPTlQtRkFNSUxZOiAnQ2FsaWJy
+        aScsJ3NhbnMtc2VyaWYnOyBtc28tYXNjaWktdGhlbWUtZm9udDogbWlub3It
+        bGF0aW47IG1zby1oYW5zaS10aGVtZS1mb250OiBtaW5vci1sYXRpbjsgbXNv
+        LWJpZGktdGhlbWUtZm9udDogbWlub3ItbGF0aW5cIj48bzpwPjxGT05UIHNp
+        emU9Mj4mbmJzcDs8L0ZPTlQ+PC9vOnA+PC9TUEFOPjwvUD5cclxuPFAgc3R5
+        bGU9XCJNQVJHSU46IDBpbiAwaW4gMHB0XCIgY2xhc3M9TXNvUGxhaW5UZXh0
+        PjxTUEFOIHN0eWxlPVwiRk9OVC1GQU1JTFk6ICdDYWxpYnJpJywnc2Fucy1z
+        ZXJpZic7IG1zby1hc2NpaS10aGVtZS1mb250OiBtaW5vci1sYXRpbjsgbXNv
+        LWhhbnNpLXRoZW1lLWZvbnQ6IG1pbm9yLWxhdGluOyBtc28tYmlkaS10aGVt
+        ZS1mb250OiBtaW5vci1sYXRpblwiPjxGT05UIHNpemU9Mj5Zb3UgcmVjZWl2
+        ZWQgdGhpcyBub3RpY2UgYmVjYXVzZSBvdXIgcmVjb3JkcyBpbmRpY2F0ZSB0
+        aGF0IHlvdSBjdXJyZW50bHkgb3duIG9uZSBvZiB0aGVzZSB2ZWhpY2xlcy48
+        bzpwPjwvbzpwPjwvRk9OVD48L1NQQU4+PC9QPlxyXG48UCBjbGFzcz1Nc29C
+        b2R5VGV4dEN4U3BGaXJzdD48U1BBTiBzdHlsZT1cIkZPTlQtRkFNSUxZOiAn
+        Q2FsaWJyaScsJ3NhbnMtc2VyaWYnOyBGT05ULVNJWkU6IDEwcHQ7IG1zby1h
+        c2NpaS10aGVtZS1mb250OiBtaW5vci1sYXRpbjsgbXNvLWhhbnNpLXRoZW1l
+        LWZvbnQ6IG1pbm9yLWxhdGluOyBtc28tYmlkaS10aGVtZS1mb250OiBtaW5v
+        ci1sYXRpblwiPjxTUEFOIHN0eWxlPVwibXNvLXNwYWNlcnVuOiB5ZXNcIj4m
+        bmJzcDs8L1NQQU4+PFNQQU4gc3R5bGU9XCJtc28tdGFiLWNvdW50OiA1XCI+
+        Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+        c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+        Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+        c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+        Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+        c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+        Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+        c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+        Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+        c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+        Jm5ic3A7Jm5ic3A7Jm5ic3A7IDwvU1BBTj48bzpwPjwvbzpwPjwvU1BBTj48
+        L1A+XHJcbjxESVYgc3R5bGU9XCJCT1JERVItQk9UVE9NOiB3aW5kb3d0ZXh0
+        IDFwdCBzb2xpZDsgQk9SREVSLUxFRlQ6IHdpbmRvd3RleHQgMXB0IHNvbGlk
+        OyBQQURESU5HLUJPVFRPTTogMXB0OyBQQURESU5HLUxFRlQ6IDRwdDsgUEFE
+        RElORy1SSUdIVDogNHB0OyBCT1JERVItVE9QOiB3aW5kb3d0ZXh0IDFwdCBz
+        b2xpZDsgQk9SREVSLVJJR0hUOiB3aW5kb3d0ZXh0IDFwdCBzb2xpZDsgUEFE
+        RElORy1UT1A6IDFwdDsgbXNvLWVsZW1lbnQ6IHBhcmEtYm9yZGVyLWRpdjsg
+        bXNvLWJvcmRlci1hbHQ6IHNvbGlkIHdpbmRvd3RleHQgLjVwdFwiPlxyXG48
+        UCBzdHlsZT1cIkJPUkRFUi1CT1RUT006IG1lZGl1bSBub25lOyBCT1JERVIt
+        TEVGVDogbWVkaXVtIG5vbmU7IFBBRERJTkctQk9UVE9NOiAwaW47IE1BUkdJ
+        TjogMGluIDBpbiAwcHQ7IFBBRERJTkctTEVGVDogMGluOyBQQURESU5HLVJJ
+        R0hUOiAwaW47IEJPUkRFUi1UT1A6IG1lZGl1bSBub25lOyBCT1JERVItUklH
+        SFQ6IG1lZGl1bSBub25lOyBQQURESU5HLVRPUDogMGluOyBtc28tYm9yZGVy
+        LWFsdDogc29saWQgd2luZG93dGV4dCAuNXB0OyBtc28tcGFkZGluZy1hbHQ6
+        IDEuMHB0IDQuMHB0IDEuMHB0IDQuMHB0XCIgY2xhc3M9TXNvQm9keVRleHQ+
+        PEIgc3R5bGU9XCJtc28tYmlkaS1mb250LXdlaWdodDogbm9ybWFsXCI+PFNQ
+        QU4gc3R5bGU9XCJGT05ULUZBTUlMWTogJ0NhbGlicmknLCdzYW5zLXNlcmlm
+        JzsgRk9OVC1TSVpFOiAxMHB0OyBtc28tYXNjaWktdGhlbWUtZm9udDogbWlu
+        b3ItbGF0aW47IG1zby1oYW5zaS10aGVtZS1mb250OiBtaW5vci1sYXRpbjsg
+        bXNvLWJpZGktdGhlbWUtZm9udDogbWlub3ItbGF0aW5cIj5ERVNDUklQVElP
+        TiBPRiBUSEUgU0FGRVRZIERFRkVDVCBBTkQgU0FGRVRZIEhBWkFSRDxvOnA+
+        PC9vOnA+PC9TUEFOPjwvQj48L1A+XHJcbjxQIHN0eWxlPVwiQk9SREVSLUJP
+        VFRPTTogbWVkaXVtIG5vbmU7IEJPUkRFUi1MRUZUOiBtZWRpdW0gbm9uZTsg
+        UEFERElORy1CT1RUT006IDBpbjsgTUFSR0lOOiAwaW4gMGluIDBwdDsgUEFE
+        RElORy1MRUZUOiAwaW47IFBBRERJTkctUklHSFQ6IDBpbjsgQk9SREVSLVRP
+        UDogbWVkaXVtIG5vbmU7IEJPUkRFUi1SSUdIVDogbWVkaXVtIG5vbmU7IFBB
+        RERJTkctVE9QOiAwaW47IG1zby1ib3JkZXItYWx0OiBzb2xpZCB3aW5kb3d0
+        ZXh0IC41cHQ7IG1zby1wYWRkaW5nLWFsdDogMS4wcHQgNC4wcHQgMS4wcHQg
+        NC4wcHRcIiBjbGFzcz1Nc29Ob3JtYWw+PFNQQU4gc3R5bGU9XCJGT05ULUZB
+        TUlMWTogJ0NhbGlicmknLCdzYW5zLXNlcmlmJ1wiPjxGT05UIHNpemU9Mj5J
+        biB0aGUgZXZlbnQgb2YgYSBicmFrZSBsYW1wIHN3aXRjaCBmYWlsdXJlLCB0
+        aGUgYXV0b21hdGljIHByZS1jb2xsaXNpb24gYnJha2luZyBmZWF0dXJlIG9m
+        IHlvdXIgdmVoaWNsZcKScyBFeWVTaWdodCBEcml2ZXIgQXNzaXN0IFN5c3Rl
+        bSB3aWxsIG5vdCBvcGVyYXRlIGV2ZW4gdGhvdWdoIHRoZSBcIk9ic3RhY2xl
+        IERldGVjdGVkXCIgd2FybmluZyB3aWxsIGJlIGRpc3BsYXllZCB0byBhbGVy
+        dCB0aGUgZHJpdmVyIHRoYXQgYSBmcm9udGFsIGNvbGxpc2lvbiBtYXkgYmUg
+        aW1taW5lbnQuPFNQQU4gc3R5bGU9XCJtc28tc3BhY2VydW46IHllc1wiPiZu
+        YnNwOyA8L1NQQU4+SWYgdGhlIGRyaXZlciBkb2VzIG5vdCBtYW51YWxseSBh
+        cHBseSB0aGUgYnJha2UgcGVkYWwsIHdoZW4gYXBwcm9wcmlhdGUsIGluIHJl
+        c3BvbnNlIHRvIHRoZSB3YXJuaW5nLCB0aGVyZSBtYXkgYmUgYW4gaW5jcmVh
+        c2VkIHJpc2sgb2YgYSBjcmFzaCwgcG9zc2libHkgcmVzdWx0aW5nIGluIHBl
+        cnNvbmFsIGluanVyeSBvciBkZWF0aC48U1BBTiBzdHlsZT1cIm1zby1zcGFj
+        ZXJ1bjogeWVzXCI+Jm5ic3A7IDwvU1BBTj48bzpwPjwvbzpwPjwvRk9OVD48
+        L1NQQU4+PC9QPjwvRElWPlxyXG48UCBzdHlsZT1cIk1BUkdJTjogMGluIDBp
+        biAwcHRcIiBjbGFzcz1Nc29Ob3JtYWw+PFNQQU4gc3R5bGU9XCJGT05ULUZB
+        TUlMWTogJ0NhbGlicmknLCdzYW5zLXNlcmlmJ1wiPjxvOnA+PEZPTlQgc2l6
+        ZT0yPiZuYnNwOzwvRk9OVD48L286cD48L1NQQU4+PC9QPlxyXG48UCBzdHls
+        ZT1cIk1BUkdJTjogMGluIDBpbiAwcHRcIiBjbGFzcz1Nc29Ob3JtYWw+PFNQ
+        QU4gc3R5bGU9XCJGT05ULUZBTUlMWTogJ0NhbGlicmknLCdzYW5zLXNlcmlm
+        J1wiPjxGT05UIHNpemU9Mj5VcG9uIG5vdGljaW5nIHRoZSDCk09ic3RhY2xl
+        IERldGVjdGVkwpQgd2FybmluZywgdGhlIGRyaXZlciBzaG91bGQgbWFudWFs
+        bHkgYXBwbHkgdGhlIGJyYWtlIHBlZGFsLCB3aGVuIGFwcHJvcHJpYXRlLCB0
+        byBzYWZlbHkgc3RvcCB0aGUgdmVoaWNsZS4gPFNQQU4gc3R5bGU9XCJtc28t
+        c3BhY2VydW46IHllc1wiPiZuYnNwOzwvU1BBTj48QiBzdHlsZT1cIm1zby1i
+        aWRpLWZvbnQtd2VpZ2h0OiBub3JtYWxcIj5USEUgQlJBS0VTIElOIFlPVVIg
+        VkVISUNMRSBXSUxMIENPTlRJTlVFIFRPIE9QRVJBVEUgTk9STUFMTFkgREVT
+        UElURSBUSEUgVU5BVkFJTEFCSUxJVFkgT0YgQVVUT01BVElDIFBSRS1DT0xM
+        SVNJT04gQlJBS0lORy48L0I+PG86cD48L286cD48L0ZPTlQ+PC9TUEFOPjwv
+        UD5cclxuPFAgc3R5bGU9XCJNQVJHSU46IDBpbiAwaW4gMHB0XCIgY2xhc3M9
+        TXNvTm9ybWFsPjxGT05UIHNpemU9Mj48QiBzdHlsZT1cIm1zby1iaWRpLWZv
+        bnQtd2VpZ2h0OiBub3JtYWxcIj48SSBzdHlsZT1cIm1zby1iaWRpLWZvbnQt
+        c3R5bGU6IG5vcm1hbFwiPjxTUEFOIHN0eWxlPVwiRk9OVC1GQU1JTFk6ICdD
+        YWxpYnJpJywnc2Fucy1zZXJpZidcIj48U1BBTiBzdHlsZT1cIm1zby1zcGFj
+        ZXJ1bjogeWVzXCI+Jm5ic3A7PC9TUEFOPjwvU1BBTj48L0k+PC9CPjxTUEFO
+        IHN0eWxlPVwiRk9OVC1GQU1JTFk6ICdDYWxpYnJpJywnc2Fucy1zZXJpZidc
+        Ij48bzpwPjwvbzpwPjwvU1BBTj48L0ZPTlQ+PC9QPlxyXG48UCBzdHlsZT1c
+        Ik1BUkdJTjogMGluIDBpbiAwcHRcIiBjbGFzcz1Nc29Cb2R5VGV4dD48QiBz
+        dHlsZT1cIm1zby1iaWRpLWZvbnQtd2VpZ2h0OiBub3JtYWxcIj48U1BBTiBz
+        dHlsZT1cIkZPTlQtRkFNSUxZOiAnQ2FsaWJyaScsJ3NhbnMtc2VyaWYnOyBG
+        T05ULVNJWkU6IDEwcHQ7IG1zby1hc2NpaS10aGVtZS1mb250OiBtaW5vci1s
+        YXRpbjsgbXNvLWhhbnNpLXRoZW1lLWZvbnQ6IG1pbm9yLWxhdGluOyBtc28t
+        YmlkaS10aGVtZS1mb250OiBtaW5vci1sYXRpblwiPlJFUEFJUjxvOnA+PC9v
+        OnA+PC9TUEFOPjwvQj48L1A+XHJcbjxQIHN0eWxlPVwiTUFSR0lOOiAwaW4g
+        MGluIDBwdFwiIGNsYXNzPU1zb1BsYWluVGV4dD48U1BBTiBzdHlsZT1cIkZP
+        TlQtRkFNSUxZOiAnQ2FsaWJyaScsJ3NhbnMtc2VyaWYnOyBtc28tYXNjaWkt
+        dGhlbWUtZm9udDogbWlub3ItbGF0aW47IG1zby1oYW5zaS10aGVtZS1mb250
+        OiBtaW5vci1sYXRpbjsgbXNvLWJpZGktdGhlbWUtZm9udDogbWlub3ItbGF0
+        aW5cIj48Rk9OVCBzaXplPTI+U3ViYXJ1IHdpbGwgcmVwcm9ncmFtIHRoZSBF
+        eWVTaWdodCBEcml2ZXIgQXNzaXN0IFN5c3RlbSBpbiB5b3VyIHZlaGljbGUg
+        PFNQQU4gc3R5bGU9XCJtc28tYmlkaS1mb250LXdlaWdodDogYm9sZFwiPmF0
+        IG5vIGNvc3QgdG8geW91LiA8bzpwPjwvbzpwPjwvU1BBTj48L0ZPTlQ+PC9T
+        UEFOPjwvUD5cclxuPFAgc3R5bGU9XCJNQVJHSU46IDBpbiAwaW4gMHB0XCIg
+        Y2xhc3M9TXNvQm9keVRleHQ+PEIgc3R5bGU9XCJtc28tYmlkaS1mb250LXdl
+        aWdodDogbm9ybWFsXCI+PFNQQU4gc3R5bGU9XCJGT05ULUZBTUlMWTogJ0Nh
+        bGlicmknLCdzYW5zLXNlcmlmJzsgRk9OVC1TSVpFOiAxMHB0OyBtc28tYXNj
+        aWktdGhlbWUtZm9udDogbWlub3ItbGF0aW47IG1zby1oYW5zaS10aGVtZS1m
+        b250OiBtaW5vci1sYXRpbjsgbXNvLWJpZGktdGhlbWUtZm9udDogbWlub3It
+        bGF0aW5cIj48bzpwPiZuYnNwOzwvbzpwPjwvU1BBTj48L0I+PC9QPlxyXG48
+        RElWIHN0eWxlPVwiQk9SREVSLUJPVFRPTTogd2luZG93dGV4dCAxcHQgc29s
+        aWQ7IEJPUkRFUi1MRUZUOiB3aW5kb3d0ZXh0IDFwdCBzb2xpZDsgUEFERElO
+        Ry1CT1RUT006IDFwdDsgUEFERElORy1MRUZUOiA0cHQ7IFBBRERJTkctUklH
+        SFQ6IDRwdDsgQk9SREVSLVRPUDogd2luZG93dGV4dCAxcHQgc29saWQ7IEJP
+        UkRFUi1SSUdIVDogd2luZG93dGV4dCAxcHQgc29saWQ7IFBBRERJTkctVE9Q
+        OiAxcHQ7IG1zby1lbGVtZW50OiBwYXJhLWJvcmRlci1kaXY7IG1zby1ib3Jk
+        ZXItYWx0OiBzb2xpZCB3aW5kb3d0ZXh0IC41cHRcIj5cclxuPFAgc3R5bGU9
+        XCJCT1JERVItQk9UVE9NOiBtZWRpdW0gbm9uZTsgQk9SREVSLUxFRlQ6IG1l
+        ZGl1bSBub25lOyBQQURESU5HLUJPVFRPTTogMGluOyBNQVJHSU46IDBpbiAw
+        aW4gMHB0OyBQQURESU5HLUxFRlQ6IDBpbjsgUEFERElORy1SSUdIVDogMGlu
+        OyBCT1JERVItVE9QOiBtZWRpdW0gbm9uZTsgQk9SREVSLVJJR0hUOiBtZWRp
+        dW0gbm9uZTsgUEFERElORy1UT1A6IDBpbjsgbXNvLWJvcmRlci1hbHQ6IHNv
+        bGlkIHdpbmRvd3RleHQgLjVwdDsgbXNvLXBhZGRpbmctYWx0OiAxLjBwdCA0
+        LjBwdCAxLjBwdCA0LjBwdFwiIGNsYXNzPU1zb0JvZHlUZXh0PjxCIHN0eWxl
+        PVwibXNvLWJpZGktZm9udC13ZWlnaHQ6IG5vcm1hbFwiPjxTUEFOIHN0eWxl
+        PVwiRk9OVC1GQU1JTFk6ICdDYWxpYnJpJywnc2Fucy1zZXJpZic7IEZPTlQt
+        U0laRTogMTBwdFwiPldIQVQgWU9VIFNIT1VMRCBETzxvOnA+PC9vOnA+PC9T
+        UEFOPjwvQj48L1A+XHJcbjxQIHN0eWxlPVwiQk9SREVSLUJPVFRPTTogbWVk
+        aXVtIG5vbmU7IEJPUkRFUi1MRUZUOiBtZWRpdW0gbm9uZTsgUEFERElORy1C
+        T1RUT006IDBpbjsgTUFSR0lOOiAwaW4gMGluIDBwdDsgUEFERElORy1MRUZU
+        OiAwaW47IFBBRERJTkctUklHSFQ6IDBpbjsgQk9SREVSLVRPUDogbWVkaXVt
+        IG5vbmU7IEJPUkRFUi1SSUdIVDogbWVkaXVtIG5vbmU7IFBBRERJTkctVE9Q
+        OiAwaW47IG1zby1ib3JkZXItYWx0OiBzb2xpZCB3aW5kb3d0ZXh0IC41cHQ7
+        IG1zby1wYWRkaW5nLWFsdDogMS4wcHQgNC4wcHQgMS4wcHQgNC4wcHRcIiBj
+        bGFzcz1Nc29Cb2R5VGV4dD48U1BBTiBzdHlsZT1cIkZPTlQtRkFNSUxZOiAn
+        Q2FsaWJyaScsJ3NhbnMtc2VyaWYnOyBGT05ULVNJWkU6IDEwcHRcIj5Zb3Ug
+        c2hvdWxkIGltbWVkaWF0ZWx5IGNvbnRhY3QgeW91ciBTdWJhcnUgcmV0YWls
+        ZXIgKGRlYWxlcikgZm9yIGFuIGFwcG9pbnRtZW50IHRvIGhhdmUgdGhlIEV5
+        ZVNpZ2h0IERyaXZlciBBc3Npc3QgU3lzdGVtIGluIHlvdXIgdmVoaWNsZSBy
+        ZXByb2dyYW1tZWQuPG86cD48L286cD48L1NQQU4+PC9QPlxyXG48UCBzdHls
+        ZT1cIkJPUkRFUi1CT1RUT006IG1lZGl1bSBub25lOyBCT1JERVItTEVGVDog
+        bWVkaXVtIG5vbmU7IFBBRERJTkctQk9UVE9NOiAwaW47IE1BUkdJTjogMGlu
+        IDBpbiAwcHQ7IFBBRERJTkctTEVGVDogMGluOyBQQURESU5HLVJJR0hUOiAw
+        aW47IEJPUkRFUi1UT1A6IG1lZGl1bSBub25lOyBCT1JERVItUklHSFQ6IG1l
+        ZGl1bSBub25lOyBQQURESU5HLVRPUDogMGluOyBtc28tYm9yZGVyLWFsdDog
+        c29saWQgd2luZG93dGV4dCAuNXB0OyBtc28tcGFkZGluZy1hbHQ6IDEuMHB0
+        IDQuMHB0IDEuMHB0IDQuMHB0XCIgY2xhc3M9TXNvQm9keVRleHQ+PFNQQU4g
+        c3R5bGU9XCJGT05ULUZBTUlMWTogJ0NhbGlicmknLCdzYW5zLXNlcmlmJzsg
+        Rk9OVC1TSVpFOiAxMHB0XCI+PG86cD4mbmJzcDs8L286cD48L1NQQU4+PC9Q
+        PlxyXG48UCBzdHlsZT1cIkJPUkRFUi1CT1RUT006IG1lZGl1bSBub25lOyBC
+        T1JERVItTEVGVDogbWVkaXVtIG5vbmU7IFBBRERJTkctQk9UVE9NOiAwaW47
+        IE1BUkdJTjogMGluIDBpbiAwcHQ7IFBBRERJTkctTEVGVDogMGluOyBQQURE
+        SU5HLVJJR0hUOiAwaW47IEJPUkRFUi1UT1A6IG1lZGl1bSBub25lOyBCT1JE
+        RVItUklHSFQ6IG1lZGl1bSBub25lOyBQQURESU5HLVRPUDogMGluOyBtc28t
+        Ym9yZGVyLWFsdDogc29saWQgd2luZG93dGV4dCAuNXB0OyBtc28tcGFkZGlu
+        Zy1hbHQ6IDEuMHB0IDQuMHB0IDEuMHB0IDQuMHB0XCIgY2xhc3M9TXNvQm9k
+        eVRleHQ+PEIgc3R5bGU9XCJtc28tYmlkaS1mb250LXdlaWdodDogbm9ybWFs
+        XCI+PEkgc3R5bGU9XCJtc28tYmlkaS1mb250LXN0eWxlOiBub3JtYWxcIj48
+        U1BBTiBzdHlsZT1cIkZPTlQtRkFNSUxZOiAnQ2FsaWJyaScsJ3NhbnMtc2Vy
+        aWYnOyBtc28tYmlkaS1mb250LXNpemU6IDExLjBwdFwiPkFzIGEgcHJlY2F1
+        dGlvbiwgdW50aWwgdGhpcyByZXBhaXIgaXMgcGVyZm9ybWVkLCB1cG9uIG5v
+        dGljaW5nIHRoZSDCk09ic3RhY2xlIERldGVjdGVkwpQgd2FybmluZywgeW91
+        IHNob3VsZCBtYW51YWxseSBhcHBseSB0aGUgYnJha2UgcGVkYWwgdG8gc2Fm
+        ZWx5IHN0b3AgdGhlIHZlaGljbGUuPFNQQU4gc3R5bGU9XCJtc28tc3BhY2Vy
+        dW46IHllc1wiPiZuYnNwOyA8L1NQQU4+SWYgeW91IGRvIG5vdCwgdGhlIEV5
+        ZVNpZ2h0IERyaXZlciBBc3Npc3QgU3lzdGVtIHdpbGwgbm90IGF1dG9tYXRp
+        Y2FsbHkgYXBwbHkgdGhlIGJyYWtlcyBmb3IgeW91LiA8bzpwPjwvbzpwPjwv
+        U1BBTj48L0k+PC9CPjwvUD5cclxuPFAgc3R5bGU9XCJCT1JERVItQk9UVE9N
+        OiBtZWRpdW0gbm9uZTsgQk9SREVSLUxFRlQ6IG1lZGl1bSBub25lOyBQQURE
+        SU5HLUJPVFRPTTogMGluOyBNQVJHSU46IDBpbiAwaW4gMHB0OyBQQURESU5H
+        LUxFRlQ6IDBpbjsgUEFERElORy1SSUdIVDogMGluOyBCT1JERVItVE9QOiBt
+        ZWRpdW0gbm9uZTsgQk9SREVSLVJJR0hUOiBtZWRpdW0gbm9uZTsgUEFERElO
+        Ry1UT1A6IDBpbjsgbXNvLWJvcmRlci1hbHQ6IHNvbGlkIHdpbmRvd3RleHQg
+        LjVwdDsgbXNvLXBhZGRpbmctYWx0OiAxLjBwdCA0LjBwdCAxLjBwdCA0LjBw
+        dFwiIGNsYXNzPU1zb0JvZHlUZXh0PjxCIHN0eWxlPVwibXNvLWJpZGktZm9u
+        dC13ZWlnaHQ6IG5vcm1hbFwiPjxJIHN0eWxlPVwibXNvLWJpZGktZm9udC1z
+        dHlsZTogbm9ybWFsXCI+PFNQQU4gc3R5bGU9XCJGT05ULUZBTUlMWTogJ0Nh
+        bGlicmknLCdzYW5zLXNlcmlmJzsgbXNvLWJpZGktZm9udC1zaXplOiAxMS4w
+        cHRcIj48bzpwPiZuYnNwOzwvbzpwPjwvU1BBTj48L0k+PC9CPjwvUD5cclxu
+        PFAgc3R5bGU9XCJCT1JERVItQk9UVE9NOiBtZWRpdW0gbm9uZTsgQk9SREVS
+        LUxFRlQ6IG1lZGl1bSBub25lOyBQQURESU5HLUJPVFRPTTogMGluOyBNQVJH
+        SU46IDBpbiAwaW4gMHB0OyBQQURESU5HLUxFRlQ6IDBpbjsgUEFERElORy1S
+        SUdIVDogMGluOyBCT1JERVItVE9QOiBtZWRpdW0gbm9uZTsgQk9SREVSLVJJ
+        R0hUOiBtZWRpdW0gbm9uZTsgUEFERElORy1UT1A6IDBpbjsgbXNvLWJvcmRl
+        ci1hbHQ6IHNvbGlkIHdpbmRvd3RleHQgLjVwdDsgbXNvLXBhZGRpbmctYWx0
+        OiAxLjBwdCA0LjBwdCAxLjBwdCA0LjBwdFwiIGNsYXNzPU1zb0JvZHlUZXh0
+        PjxCIHN0eWxlPVwibXNvLWJpZGktZm9udC13ZWlnaHQ6IG5vcm1hbFwiPjxJ
+        IHN0eWxlPVwibXNvLWJpZGktZm9udC1zdHlsZTogbm9ybWFsXCI+PFNQQU4g
+        c3R5bGU9XCJGT05ULUZBTUlMWTogJ0NhbGlicmknLCdzYW5zLXNlcmlmJzsg
+        bXNvLWJpZGktZm9udC1zaXplOiAxMS4wcHRcIj5Zb3Ugc2hvdWxkIGFsc28g
+        YXZvaWQgdXNpbmcgdGhlIEV5ZVNpZ2h0IERyaXZlciBBc3Npc3QgU3lzdGVt
+        wpJzIGFkYXB0aXZlIGNydWlzZSBjb250cm9sIGZlYXR1cmUgdW50aWwgdGhp
+        cyByZXBhaXIgaXMgcGVyZm9ybWVkLjxTUEFOIHN0eWxlPVwibXNvLXNwYWNl
+        cnVuOiB5ZXNcIj4mbmJzcDsgPC9TUEFOPkFkYXB0aXZlIGNydWlzZSBjb250
+        cm9sIHdpbGwgbm90IGF1dG9tYXRpY2FsbHkgYXBwbHkgYnJha2luZyB3aGVu
+        IHRoZSB2ZWhpY2xlIHlvdSBhcmUgZm9sbG93aW5nIHJlZHVjZXMgaXRzIHNw
+        ZWVkLiA8U1BBTiBzdHlsZT1cIm1zby1zcGFjZXJ1bjogeWVzXCI+Jm5ic3A7
+        PC9TUEFOPkluc3RlYWQgaXQgd2lsbCBvcGVyYXRlIGluIGEgbWFubmVyIHNp
+        bWlsYXIgdG8gb3JkaW5hcnkgY3J1aXNlIGNvbnRyb2wsIHJlcXVpcmluZyB5
+        b3UgdG8gbWFudWFsbHkgYXBwbHkgdGhlIGJyYWtlIHBlZGFsIHRvIGVuc3Vy
+        ZSB0aGF0IHRoZXJlIGlzIHN1ZmZpY2llbnQgZm9sbG93aW5nIGRpc3RhbmNl
+        LjxvOnA+PC9vOnA+PC9TUEFOPjwvST48L0I+PC9QPjwvRElWPlxyXG48UCBz
+        dHlsZT1cIk1BUkdJTjogMGluIDBpbiAwcHQgMC41aW5cIiBjbGFzcz1Nc29C
+        b2R5VGV4dD48QiBzdHlsZT1cIm1zby1iaWRpLWZvbnQtd2VpZ2h0OiBub3Jt
+        YWxcIj48U1BBTiBzdHlsZT1cIkZPTlQtRkFNSUxZOiAnQ2FsaWJyaScsJ3Nh
+        bnMtc2VyaWYnOyBtc28tYXNjaWktdGhlbWUtZm9udDogbWlub3ItbGF0aW47
+        IG1zby1oYW5zaS10aGVtZS1mb250OiBtaW5vci1sYXRpbjsgbXNvLWJpZGkt
+        dGhlbWUtZm9udDogbWlub3ItbGF0aW5cIj48bzpwPiZuYnNwOzwvbzpwPjwv
+        U1BBTj48L0I+PC9QPlxyXG48UCBzdHlsZT1cIk1BUkdJTjogMGluIDBpbiAw
+        cHRcIiBjbGFzcz1Nc29Cb2R5VGV4dD48QiBzdHlsZT1cIm1zby1iaWRpLWZv
+        bnQtd2VpZ2h0OiBub3JtYWxcIj48U1BBTiBzdHlsZT1cIkZPTlQtIn1dfQ==
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 15:29:04 GMT
+- request:
+    method: get
+    uri: http://www.subaru.com/services/vehicles/recalls?vin=JF1GV7E63EG012430
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Day-Servlet-Engine/4.1.42
+      Content-Type:
+      - application/json;charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      Date:
+      - Tue, 22 Sep 2015 15:29:03 GMT
+      Content-Length:
+      - '14211'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"lastModified":{"rawDate":1442621805000,"fullDate":"2015-09-18T20:16:45-04:00","year":2015,"month":"September","day":18,"dayOfWeek":"Friday"},"modelYear":2014,"modelName":"Impreza
+        WRX","trimName":"Impreza WRX","vin":"JF1GV7E63EG012430","recalls":[{"lastModified":{"rawDate":1425689791000,"fullDate":"2015-03-06T19:56:31-05:00","year":2015,"month":"March","day":6,"dayOfWeek":"Friday"},"date":{"rawDate":1402372800000,"fullDate":"2014-06-10T00:00:00-04:00","year":2014,"month":"June","day":10,"dayOfWeek":"Tuesday"},"code":"WQK47","nhtsaRecallNumber":"14V311000","procedureCode":1,"nhtsaVehicleId":"jf1gv7e63eg012430wqk471","type":"Safety","status":"Completed","description":"WQK47:  Subaru
+        of America, Inc. (Subaru) is recalling certain model year 2005-2009 Outback
+        and Legacy, 2008-2011 Impreza and 2008-2014 Impreza WRX/STI, and 2009-2013
+        Forester vehicles, currently, or formerly, registered in Connecticut, Delaware,
+        Illinois, Indiana, Iowa, Maine, Maryland, Massachusetts, Michigan, Minnesota,
+        Missouri, New Hampshire, New Jersey, New York, Ohio, Pennsylvania, Rhode Island,
+        Vermont, West Virginia, Wisconsin and the District of Columbia. Salt water
+        could splash on the brake lines through a gap in the fuel tank protector,
+        resulting in excessive corrosion of the brake lines.","shortDescription":"08-14
+        Impreza & Forester Brake Pipe Corrosion","safetyRiskDescription":"Brake line
+        corrosion may result in brake fluid leakage. Fluid leakage may result in longer
+        distances being required to slow or stop the vehicle, increasing the risk
+        of a crash.","remedyDescription":"Subaru will notify owners, and dealers will
+        test the brake system by depressing the brake pedal and inspecting for brake
+        fluid leaks. If no brake fluid seepage is observed, the affected areas will
+        be rustproofed with anti-corrosion wax. If brake fluid seepage is observed,
+        the brake lines will be replaced followed by rustproofing with anti-corrosion
+        wax. These services will be performed free of charge. Owners may contact Subaru
+        at 1-800-782-2783. Subaru''s recall campaign number is WQK-47. Note: This
+        recall supersedes recall 13V-110 which applied to certain 2005-2009 Legacy/Outback
+        vehicles. Vehicles that were remedied under the previous campaign still need
+        additional areas rust-proofed.","recallLetter":"<html><body><SPAN style=\"FONT-FAMILY:
+        ''Calibri'',''sans-serif''; FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin;
+        mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin\"><?xml:namespace
+        prefix = o ns = \"urn:schemas-microsoft-com:office:office\" /><o:p>\r\n<P
+        style=\"MARGIN: 0in 0in 0pt\" class=MsoBodyText><?xml:namespace prefix = v
+        ns = \"urn:schemas-microsoft-com:vml\" /><v:shapetype id=_x0000_t202 coordsize=\"21600,21600\"
+        o:spt=\"202\" path=\"m,l,21600r21600,l21600,xe\"><v:stroke joinstyle=\"miter\"></v:stroke><v:path
+        gradientshapeok=\"t\" o:connecttype=\"rect\"></v:path></v:shapetype><v:shape
+        style=\"Z-INDEX: 251658240; POSITION: absolute; MARGIN-TOP: -23.75pt; WIDTH:
+        171.75pt; HEIGHT: 41.7pt; MARGIN-LEFT: -2.3pt; mso-position-horizontal-relative:
+        text; mso-position-vertical-relative: text; mso-height-percent: 200; mso-width-relative:
+        margin; mso-height-relative: margin\" id=_x0000_s1026 type=\"#_x0000_t202\"><v:textbox
+        style=\"mso-next-textbox: #_x0000_s1026; mso-fit-shape-to-text: t\"></v:textbox></v:shape><SPAN
+        style=\"Z-INDEX: 251658240; POSITION: absolute; mso-ignore: vglayout\">\r\n<TABLE
+        cellSpacing=0 cellPadding=0 width=\"100%\">\r\n<TBODY>\r\n<TR>\r\n<TD style=\"BORDER-BOTTOM:
+        #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP:
+        #f0f0f0; BORDER-RIGHT: #f0f0f0\">\r\n<DIV style=\"PADDING-BOTTOM: 4.35pt;
+        PADDING-LEFT: 7.95pt; PADDING-RIGHT: 7.95pt; PADDING-TOP: 4.35pt\" class=shape
+        v:shape=\"_x0000_s1026\">\r\n<P style=\"MARGIN: 0in 0in 0pt\" class=MsoBodyText><B
+        style=\"mso-bidi-font-weight: normal\"><SPAN style=\"FONT-FAMILY: ''Calibri'',''sans-serif'';
+        FONT-SIZE: 10pt; mso-bidi-font-family: ''Times New Roman''\">Subaru Recall
+        Campaign WQK-47<o:p></o:p></SPAN></B></P>\r\n<P style=\"MARGIN: 0in 0in 0pt\"
+        class=MsoBodyText><B style=\"mso-bidi-font-weight: normal\"><SPAN style=\"FONT-FAMILY:
+        ''Calibri'',''sans-serif''; FONT-SIZE: 10pt; mso-bidi-font-family: ''Times
+        New Roman''\">NHTSA Recall No. 14V-311<o:p></o:p></SPAN></B></P>\r\n<P style=\"MARGIN:
+        0in 0in 0pt\" class=MsoNormal><B style=\"mso-bidi-font-weight: normal\"><SPAN
+        style=\"FONT-FAMILY: ''Calibri'',''sans-serif''; mso-bidi-font-family: ''Times
+        New Roman''\"><FONT size=2>July 2014<o:p></o:p></FONT></SPAN></B></P></DIV></TD></TR></TBODY></TABLE></SPAN><SPAN
+        style=\"FONT-FAMILY: ''Calibri'',''sans-serif''; FONT-SIZE: 10pt; mso-ascii-theme-font:
+        minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin\"><o:p>&nbsp;</o:p></SPAN></P>\r\n<P
+        style=\"MARGIN: 0in 0in 0pt\" class=MsoBodyText><SPAN style=\"FONT-SIZE: 10pt\"><o:p><FONT
+        face=\"Times New Roman\">&nbsp;</FONT></o:p></SPAN></P>\r\n<P style=\"MARGIN:
+        0in 0in 0pt\" class=MsoBodyText><SPAN style=\"FONT-SIZE: 10pt\"><o:p><FONT
+        face=\"Times New Roman\">&nbsp;</FONT></o:p></SPAN></P>\r\n<P style=\"TEXT-ALIGN:
+        center; MARGIN: 0in 0in 0pt\" class=MsoBodyText align=center><SPAN style=\"FONT-FAMILY:
+        ''Calibri'',''sans-serif''; FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin;
+        mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin\"><o:p>&nbsp;</o:p></SPAN></P>\r\n<P
+        style=\"MARGIN: 0in 0in 0pt 315pt\" class=MsoBodyText><BR style=\"mso-ignore:
+        vglayout\" clear=all>&nbsp;</P>\r\n<P style=\"MARGIN: 0in 0in 0pt\" class=MsoBodyText><B
+        style=\"mso-bidi-font-weight: normal\"><SPAN style=\"FONT-FAMILY: ''Calibri'',''sans-serif'';
+        FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font:
+        minor-latin; mso-bidi-theme-font: minor-latin\">Dear Subaru Owner:<o:p></o:p></SPAN></B></P>\r\n<P
+        style=\"MARGIN: 0in 0in 0pt\" class=MsoBodyText><SPAN style=\"FONT-FAMILY:
+        ''Calibri'',''sans-serif''; FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin;
+        mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin\"><o:p>&nbsp;</o:p></SPAN></P>\r\n<P
+        class=MsoBodyTextCxSpMiddle><SPAN style=\"FONT-FAMILY: ''Calibri'',''sans-serif'';
+        FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font:
+        minor-latin; mso-bidi-theme-font: minor-latin\">This notice is sent to you
+        in accordance with the National Traffic and Motor Vehicle Safety Act.<o:p></o:p></SPAN></P>\r\n<P
+        class=MsoBodyTextCxSpMiddle><SPAN style=\"FONT-FAMILY: ''Calibri'',''sans-serif'';
+        FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font:
+        minor-latin; mso-bidi-theme-font: minor-latin\"><SPAN style=\"mso-tab-count:
+        1\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN><o:p></o:p></SPAN></P>\r\n<P class=MsoBodyTextCxSpMiddle><SPAN style=\"FONT-FAMILY:
+        ''Calibri'',''sans-serif''; FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin;
+        mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin\">SUBARU
+        OF AMERICA, INC. has decided that a defect, which relates to motor vehicle
+        safety, exists in some 2009-2013 Subaru Forester models, some 2008-2011 model
+        year Subaru Impreza, WRX, and STI vehicles, and in some 2012-2014 model year
+        Subaru Impreza WRX and STI vehicles currently or formerly registered in at
+        least one of the following states and the District of Columbia:<o:p></o:p></SPAN></P>\r\n<P
+        style=\"MARGIN: 0in 0in 0pt\" class=MsoBodyText><SPAN style=\"FONT-FAMILY:
+        ''Calibri'',''sans-serif''; FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin;
+        mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin\"><o:p>&nbsp;</o:p></SPAN></P>\r\n<P
+        style=\"TEXT-INDENT: 0.5in; MARGIN: 0in 0in 0pt\" class=MsoBodyText><SPAN
+        style=\"FONT-FAMILY: ''Calibri'',''sans-serif''; FONT-SIZE: 10pt; mso-ascii-theme-font:
+        minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin\">Connecticut<SPAN
+        style=\"mso-tab-count: 2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Maine<SPAN style=\"mso-tab-count: 3\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>New Hampshire<SPAN style=\"mso-tab-count: 2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Vermont<SPAN style=\"mso-tab-count: 2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Delaware<SPAN style=\"mso-tab-count: 1\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN><SPAN style=\"mso-tab-count: 1\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Maryland<SPAN style=\"mso-tab-count: 2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>New Jersey<SPAN style=\"mso-tab-count: 2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>West Virginia<SPAN style=\"mso-tab-count: 1\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN><o:p></o:p></SPAN></P>\r\n<P style=\"TEXT-INDENT: 0.5in; MARGIN: 0in
+        0in 0pt\" class=MsoBodyText><SPAN style=\"FONT-FAMILY: ''Calibri'',''sans-serif'';
+        FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font:
+        minor-latin; mso-bidi-theme-font: minor-latin\">District of Columbia<SPAN
+        style=\"mso-tab-count: 1\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Massachusetts<SPAN style=\"mso-tab-count: 2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>New York<SPAN style=\"mso-tab-count: 2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Wisconsin<o:p></o:p></SPAN></P>\r\n<P style=\"TEXT-INDENT: 0.5in; MARGIN:
+        0in 0in 0pt\" class=MsoBodyText><SPAN style=\"FONT-FAMILY: ''Calibri'',''sans-serif'';
+        FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font:
+        minor-latin; mso-bidi-theme-font: minor-latin\">Illinois <SPAN style=\"mso-tab-count:
+        3\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Michigan<SPAN style=\"mso-tab-count: 2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Ohio<SPAN style=\"mso-tab-count: 4\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN><o:p></o:p></SPAN></P>\r\n<P style=\"TEXT-INDENT: 0.5in; MARGIN: 0in
+        0in 0pt\" class=MsoBodyText><SPAN style=\"FONT-FAMILY: ''Calibri'',''sans-serif'';
+        FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font:
+        minor-latin; mso-bidi-theme-font: minor-latin\">Indiana<SPAN style=\"mso-tab-count:
+        3\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Minnesota<SPAN style=\"mso-tab-count: 2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Pennsylvania<SPAN style=\"mso-tab-count: 3\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN><o:p></o:p></SPAN></P>\r\n<P style=\"TEXT-INDENT: 0.5in; MARGIN: 0in
+        0in 0pt\" class=MsoBodyText><SPAN style=\"FONT-FAMILY: ''Calibri'',''sans-serif'';
+        FONT-SIZE: 10pt; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font:
+        minor-latin; mso-bidi-theme-font: minor-latin\">Iowa<SPAN style=\"mso-tab-count:
+        3\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Missouri<SPAN style=\"mso-tab-count: 2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN><SPAN style=\"mso-tab-count: 1\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN>Rhode Island<SPAN style=\"mso-tab-count: 3\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </SPAN><o:p></o:p></SPAN></P>\r\n<P style=\"MARGIN: 0in 0in 0pt\" class=MsoBodyText><SPAN
+        style=\"FONT-FAMILY: ''Calibri'',''sans-serif''; FONT-SIZE: 10pt; mso-ascii-theme-font:
+        minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin\"><SPAN
+        style=\"mso-spacerun: yes\">&nbsp;</SPAN><SPAN style=\"mso-tab-count: 5\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n"}]}'
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 15:29:05 GMT
+- request:
+    method: get
+    uri: http://www.subaru.com/services/vehicles/recalls?vin=4S4WX82C764404261
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Day-Servlet-Engine/4.1.42
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '3457'
+      Cache-Control:
+      - max-age=3600
+      Date:
+      - Tue, 22 Sep 2015 15:29:04 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"lastModified":{"rawDate":1442621805000,"fullDate":"2015-09-18T20:16:45-04:00","year":2015,"month":"September","day":18,"dayOfWeek":"Friday"},"modelYear":2006,"modelName":"Tribeca","trimName":"3.0R
+        Limited 5AT","vin":"4S4WX82C764404261","recalls":[{"lastModified":{"rawDate":1275537600000,"fullDate":"2010-06-03T00:00:00-04:00","year":2010,"month":"June","day":3,"dayOfWeek":"Thursday"},"date":{"rawDate":1154404800000,"fullDate":"2006-08-01T00:00:00-04:00","year":2006,"month":"August","day":1,"dayOfWeek":"Tuesday"},"code":"WWZ10","nhtsaRecallNumber":null,"procedureCode":1,"nhtsaVehicleId":"4s4wx82c764404261wwz101","type":"Other","status":"Open","description":"WWZ10:
+        Rear Gate Stays.  During a quality review, Subaru discovered that the tailgate
+        support stays, also known as tailgate struts, installed in your vehicle may
+        not provide the total amount of support we had intended. Over time, the amount
+        of support the tailgate stays provide may diminish, resulting in more effort
+        needed to open and close the tailgate. It is also possible that the tailgate
+        may unexpectedly begin to move downward after being placed in an upright position.
+        ","shortDescription":"R Gate Stays - Replace","safetyRiskDescription":"This
+        is not a safety-related recall.","remedyDescription":"In the interest of your
+        satisfaction, we would like to install new tailgate stays that are designed
+        to provide improved performance. The new tailgate stays will be installed
+        at no cost to you.","recallLetter":"<html><body> During a quality review,
+        Subaru of America, Inc has discovered a possibility that your vehicles tailgate
+        support stays, also known as tailgate struts, may not provide the total support
+        as intended.  If your B9 Tribeca is equipped with these stays, the amount
+        of support may diminish over time resulting in more effort needed to open
+        and close the tailgate.  It is also possible that the tailgate may unexpectedly
+        begin to move downward after being placed in an upright position.\n\nIn the
+        interest of customer satisfaction, we would like to inspect the lot number
+        on the tailgate stays currently installed on your vehicle to determine if
+        they are among the stays included in this service program.  If the lot number
+        falls within a certain range, the stays will be replaced with new ones to
+        provide improved performance.  If the lot number is outside the specified
+        range, the stays on your vehicle will perform as intended and replacement
+        is not necessary.  Your Subaru dealer will perform this inspection and possible
+        replacement at no cost to you.  \n\nWe recommend that you schedule an appointment
+        with your Subaru dealer as soon as possible to have the tailgate stays inspected
+        and, if necessary, replaced.  The approximate time to complete the inspection
+        is five minutes.  If replacement is required, the total repair time will be
+        about 15 minutes.  However, it may be necessary to leave your car for a longer
+        period on the day of your scheduled appointment to allow your dealer flexibility
+        in scheduling other appointments.\n\nIn the meantime, until the tailgate stays
+        have been inspected and if necessary, replaced, we recommend that you remain
+        alert for the conditions described in this letter.\n\nYour continued satisfaction
+        with your B9 Tribeca is important to us.  This update is intended to ensure
+        your vehicles optimal performance for many years to come.  We sincerely apologize
+        for any inconvenience this situation may cause you.</body></html>"}]}'
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 15:29:05 GMT
+- request:
+    method: get
+    uri: http://www.subaru.com/services/vehicles/recalls?vin=JF1GV8J66DL008289
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Day-Servlet-Engine/4.1.42
+      Content-Type:
+      - application/json;charset=utf-8
+      Content-Length:
+      - '242'
+      Cache-Control:
+      - max-age=3600
+      Date:
+      - Tue, 22 Sep 2015 15:29:05 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"lastModified":{"rawDate":1442621805000,"fullDate":"2015-09-18T20:16:45-04:00","year":2015,"month":"September","day":18,"dayOfWeek":"Friday"},"modelYear":2013,"modelName":"Impreza
+        WRX","trimName":"STI","vin":"JF1GV8J66DL008289","recalls":[]}'
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 15:29:06 GMT
+- request:
+    method: get
+    uri: http://www.subaru.com/services/vehicles/recalls?vin=4S3BNBN64F3040000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - Day-Servlet-Engine/4.1.42
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '93'
+      Cache-Control:
+      - max-age=3585
+      Date:
+      - Tue, 22 Sep 2015 15:29:06 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<html><head><title>\n404\n \nNot Found\n</title></head><body><h1>\nNot
+        Found\n</h1>\n</body></html>\n"
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 15:29:07 GMT
+recorded_with: VCR 2.9.3
