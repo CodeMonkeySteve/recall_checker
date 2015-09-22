@@ -1,0 +1,1903 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG1ER211106
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Connection:
+      - close
+      Location:
+      - https://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG1ER211106
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 12:17:34 GMT
+- request:
+    method: get
+    uri: https://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG1ER211106
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/html; charset=utf-8
+      Expires:
+      - Mon, 07 Sep 2015 12:17:34 GMT
+      Last-Modified:
+      - Tue, 22 Sep 2015 12:17:34 GMT
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/7.5
+      Sprequestguid:
+      - e5ef140c-45f3-489b-adbd-0f40265e7f8f
+      X-Sharepointhealthscore:
+      - '0'
+      X-Aspnet-Version:
+      - 2.0.50727
+      Set-Cookie:
+      - OwnerSitesiteVariation=en-us; expires=Tue, 22-Sep-2015 12:47:34 GMT; path=/
+      X-Powered-By:
+      - ASP.NET
+      Microsoftsharepointteamservices:
+      - 14.0.0.7125
+      X-Ms-Invokeapp:
+      - 1; RequireReadOnly
+      Date:
+      - Tue, 22 Sep 2015 12:17:34 GMT
+      Content-Length:
+      - '12434'
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\r\n\r\n<html xmlns:mso=\"urn:schemas-microsoft-com:office:office\"
+        xmlns:msdt=\"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882\">\r\n<head><meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=edge,chrome=1\" /><meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=utf-8\" /><meta name=\"keywords\" content=\"Jeep accessories, chrysler
+        parts, dodge accessories, dodge recall, dodge recalls, jeep recall, ram accessories,
+        jeep owners, dodge owners, dodge owners manual, dodge ram accessories, jeep
+        owners manual, jeep recalls, chrysler recall, ram recall, mopar accessories,
+        chrysler recalls, chrysler owner, chrysler owners, chrysler owners manual,
+        ram owners, ram owners manual, dodge ram owners, mopar jeep accessories, chrysler
+        payment, ram payment, jeep accessories catalog, mopar owners, dodge owners
+        manuals, dodge payment, jeep owners manuals, jeep payment, chrysler owners
+        manuals, jeep owners manual online, dodge owners site\" /><meta name=\"description\"
+        content=\"The official Chrysler, Dodge, Jeep and Ram owners site provides
+        information on owners manual, accesories catalog, parts, recalls, payment
+        and dealers location for maintenance, service and repair of the chrysler group
+        vehicles\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0,
+        maximum-scale=1.0, user-scalable=no\" />\r\n<!--Adobe scripts 08/24/2015 -->\r\n<script
+        src=\"https://assets.adobedtm.com/e2b27ccc0e522eb7c0afb12eb12ee852c39ccceb/satelliteLib-cfc0830f9110c775f069ad2d0b746ad10b616aff.js\"></script>\r\n<!--
+        <script src=\"//assets.adobedtm.com/e2b27ccc0e522eb7c0afb12eb12ee852c39ccceb/satelliteLib-cfc0830f9110c775f069ad2d0b746ad10b616aff.js\"></script>
+        -->\r\n\r\n<!--[if lt IE 9]>\r\n<script src=\"/_layouts/os/landingpage/js/html5.js\"></script>\r\n<![endif]-->\r\n\r\n<script
+        src=\"/_layouts/os/oc/us/jeep/scripts/jquery.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/OC/US/en-US/sub/Style Library/OwnersSite/RecallAnalytics.js\"
+        ></script> \r\n\r\n\r\n<script type=\"text/javascript\">\r\n    function getParameterByName(name)
+        {\r\n        name = name.replace(/[\\[]/, \"\\\\[\").replace(/[\\]]/, \"\\\\]\");\r\n
+        \       var regex = new RegExp(\"[\\\\?&]\" + name + \"=([^&#]*)\", \"i\"),\r\n
+        \           results = regex.exec(location.search);\r\n        return results
+        == null ? \"\" : decodeURIComponent(results[1].replace(/\\+/g, \" \"));\r\n
+        \   }\r\n\tvar urlParams;\r\n(window.onpopstate = function () {\r\n    var
+        match,\r\n        pl     = /\\+/g,  // Regex for replacing addition symbol
+        with a space\r\n        search = /([^&=]+)=?([^&]*)/g,\r\n        decode =
+        function (s) { return decodeURIComponent(s.replace(pl, \" \")); },\r\n        query
+        \ = window.location.search.substring(1);\r\n\r\n    urlParams = {};\r\n    while
+        (match = search.exec(query))\r\n       urlParams[decode(match[1])] = decode(match[2]);\r\n})();\r\n\r\n\r\n$(
+        document ).ready(function() {\r\n  $('input[id$=btnBack]').hide();\r\n});\r\n\r\n\r\n\t$(document).ready(function(){\r\n\t\t\t$(\".recall-menu-toggle\").click(function(){\r\n\t\t\t\t$(\".toggle-recall-menu\").toggle(1000);\r\n\t\t\t});\r\n\t});\r\n\r\n
+        \   /* Recall change to update the url string to HTML -- 8/31/2015*/\r\n\r\n\r\n\t$(document).ready(function
+        () {\r\n\t    \r\n\r\n\t    $(\"#divSafetyRecallsTable td:nth-child(7),#divCampaignTable
+        td:nth-child(5)\").each(function () {\r\n\t        //  alert($(this).text());\r\n\t
+        \       //  alert(Checkurl($(this).text()));\r\n\t        try {\r\n\t            $(this).html(Checkurl($(this).text()));\r\n\r\n\t
+        \           //var thref = $('a.recurl').attr('href');\r\n\t            //thref
+        = thref.toLowerCase();\r\n\t            //$('a.recurl').attr('href', thref);\r\n\r\n\t
+        \           $('a.recurl').each(function () {\r\n\t                var thref
+        = $(this).attr('href').replace(/\\.\\?/, '?');\r\n\t                thref
+        = thref.toLowerCase();\r\n\t                $(this).attr('href', thref);\r\n\t
+        \           });\r\n\t        }\r\n\t        catch (e) { }\r\n\r\n\t    });\r\n\t});\r\n\r\n\r\n\r\n\tfunction
+        Checkurl(text) {\r\n\t    var url1 = /(^|&lt;|\\s)(www\\..+?\\..+?)(\\s|&gt;|$)/g,\r\n
+        \       url2 = /(^|&lt;|\\s)(((https?|ftp|http|HTTP):\\/\\/|mailto:).+?)(\\s|&gt;|$)/g;\r\n\t
+        \   var vinnum = urlParams[\"Vin\"];\r\n\r\n\t    var html = $.trim(text);\r\n\t
+        \   if (html) {\r\n\t        html = html\r\n                .replace(url1,
+        '$1<a style=\"color:blue; text-decoration:underline;\" class=\"recurl\" target=\"_blank\"
+        \ href=\"http://$2\">$2</a>$3')\r\n                .replace(url2, '$1<a style=\"color:blue;
+        text-decoration:underline;\" class=\"recurl\" target=\"_blank\"  href=\"$2?Vin=blankvin\">$2</a>$5');\r\n\t
+        \       if (typeof (vinnum) != \"undefined\") {\r\n\t            html = html.replace('blankvin',
+        vinnum);\r\n\t        }\r\n\t    }\r\n\t    return html;\r\n\t}\r\n\r\n\r\n\r\n
+        \   /**/\r\n\tfunction RecallErrorMsg()\r\n\t{\r\n\ttry\r\n\t\t{\r\n\t\tvar
+        msg;\r\n\t\tvar msgtxt;\r\n\t\tvar vinnum = urlParams[\"Vin\"];\r\n\t\tif(typeof(vinnum)
+        != \"undefined\")\r\n\t\t{\r\n\t\t\tif($('div[id*=divMain]').length==0)\r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\"is
+        not a valid VIN.  Please check the information entered and try again\";\t\r\n\t\t\t\t//Commented
+        after server side code change done\t\t\t\t\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum+\" \"+msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\telse
+        if($('div[id*=divMain]').length>0)\r\n\t\t\t{\r\n\t\t\t\tif($('div[id*=divError]').length>0)\r\n\t\t\t\t{\r\n\t\t\t\t\t$('div[id*=divMain]').hide();\r\n\t\t\t\t}\r\n\t\t\t\tmsgtxt=\"No
+        outstanding Recalls or Customer Satisfaction Notifications Exist\";\t\t\r\n\t\t\t\t//Commented
+        after server side code change done\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum+\"</p><p>\"+msgtxt+\"</p></div>\"; \r\n\t\t\t}\r\n\t\t}\r\n\t\telse\r\n\t\t{\r\n\t\t//msgtxt
+        = \"Vin number not available\";\r\n\t\t//msg=\"<div class='recallerror' id='recallmsg'><p>\"+msgtxt+\"</p></div>\";\r\n\t\t\tif(typeof(vinnum)
+        != \"undefined\")\r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\"is not a valid VIN.  Please
+        check the information entered and try again\";\t\r\n\t\t\t\t//Commented after
+        server side code change done\t\t\t\t\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum +\" \"+ msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\telse
+        \r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\" Please check the information entered and
+        try again\";\t\t\r\n\t\t\t\tmsg=\"<div class='recallerror' id='recallmsg'><p>\"+msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\t\r\n\t\t}\r\n\t\t//$('div[id*=divError]').attr('class','recallerror');\r\n\t\t//append(
+        \"<p>Test</p>\" )\r\n\t\t//$('div[id*=divError]').append( \"<span class='recallerror'>\"+msg+\"</span>\"
+        );\r\n\t\t$('div[id*=divError]').append(msg);\r\n\t\t}\r\n\t\tcatch(e){}\r\n\t}\r\n\t\t//
+        Function to handle when no safety recalls and no campaigns.\r\n\t\t// Date
+        : 4th Aug 2014\r\n\t\tfunction ManageSafetyCampaignRecalls()\r\n\t\t{\r\n\t\t\ttry\r\n\t\t\t{\r\n\t\t\t\tvar
+        msgstxt;\r\n\t\t\t\tvar msgs;\r\n\t\t\t\tif($('table[id*=gvCampaign]').length=='0')\r\n\t\t\t\t{\r\n\t\t\t\t\t$('span[id*=lblNoCampaigns]').hide();\r\n\t\t\t\t\tmsgstxt=\"There
+        are no outstanding campaigns for the above listed VIN\";\t\r\n\t\t\t\t\tmsgs=\"<div
+        class='recallerror' id='recallmsg'><p>\"+msgstxt+\"</p></div>\";\r\n\t\t\t\t\t$('div[id*=divCampaignTable]').append(msgs);\r\n\t\t\t\t}\r\n\t\t\t\tif($('table[id*=gvSafetyRecalls]').length=='0')\r\n\t\t\t\t{\r\n\t\t\t\t\t$('span[id*=lblNoRecalls]').hide();\r\n\t\t\t\t\tmsgstxt=\"There
+        are no outstanding recalls for the above listed VIN\";\t\r\n\t\t\t\t\tmsgs=\"<div
+        class='recallerror' id='recallmsg'><p>\"+msgstxt+\"</p></div>\";\r\n\t\t\t\t\t$('div[id*=divSafetyRecallsTable]').append(msgs);\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tcatch(e){}\r\n\t\t}\r\n\r\n\t\r\n\tfunction
+        ManageSafetyCampaignText()\r\n\t{\r\n\t\ttry\r\n\t\t{\r\n\t\t\t$('#divSafetyRecallsText').text(\"\");\r\n
+        \           var sUrl = \"https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D\";\r\n
+        \           $('#divSafetyRecallsText').wrapInner(\"<div class='newrecall'>Safety
+        Recalls (What is a Safety Recall?   <a target='_blank' href=\" + sUrl + \">Learn
+        more)</a></div>\");\r\n \r\n\t\t\t$('#divCampaignText').text(\"\");\r\n            var
+        cUrl = \"https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D\";\r\n
+        \           $('#divCampaignText').wrapInner(\"<div class='newCamp'>Campaigns
+        (What is a Campaign?   <a target='_blank' href=\" + cUrl + \">Learn more)</a></div>\");\r\n\t\t}\r\n\t\tcatch(e){}\r\n\r\n\t}\r\n\t\r\n
+        \   var urlToReplace = 'http://www.chrysler.com/universal';\r\n    $(document).ready(function
+        () {\r\n        $.ajax({\r\n            type: \"GET\",\r\n            crossDomain:
+        true,\r\n            contentType: \"application/json; charset=utf-8\",\r\n
+        \           url: \"https://test.chrysler.com/vinrecall/VINRecallServlet?vin=\"
+        + getParameterByName('Vin') + \"&service=json&language=en_us\",\r\n            dataType:
+        \"jsonp\",\r\n            success: function (data) {\r\n                //
+        \ alert(\"asd\");\r\n                // console.log(data);\r\n            },\r\n
+        \           failure: function (x) {\r\n                alert(x);\r\n            }\r\n\r\n
+        \       });\r\n\t\tRemoveCharfromString();\r\n\t\t//RecallErrorMsg();\r\n\t\t//ManageSafetyCampaignRecalls();\r\n\t\t//ManageSafetyCampaignText();\r\n\t\t\r\n
+        \   });\r\n\t   $(document).ready(function () {\r\n\t   //alert('recallpage');\r\n\t\t\t//processTrackRecall();\r\n\t\r\n\t});\r\n\t//Hardcoded
+        for tempfix for RecallResults page for now\r\n\tfunction RemoveCharfromString()\r\n\t{\r\n\t\tvar
+        text = $(\".paddingTB30:contains(':')\").html()\r\n\t\ttext = text.replace(\":\",\"\");\r\n\t\t$(\".paddingTB30\").html(text);\r\n\t}\r\n
+        \   function showVinInfo(x) {\r\n        var trHtml = \"<tr>\";\r\n        $.each(x,
+        function (name, value) {\r\n            if (name == 'RecallDetails') {\r\n
+        \               $.each(value, function (n, v) {\r\n                    if
+        (v.NHTSA_recall_number != \"\") {\r\n                        var x = v.Chrysler_recall_number;\r\n
+        \                       $('#divSafetyRecallsTable > div > table > tbody >
+        tr > td > a:contains(\"' + x + '\")').parent().next().text(v.NHTSA_recall_number);\r\n
+        \                       var anchrText = $('#divSafetyRecallsTable > div >
+        table > tbody > tr > td').html();\r\n                        $('#divSafetyRecallsTable
+        > div > table > tbody > tr > td > a:contains(\"' + x + '\")').hide();\r\n
+        \                       $('#divSafetyRecallsTable > div > table > tbody >
+        tr > td > a:contains(\"' + x + '\")').parent().html(\"<a href='#'>\" + x +
+        \"</a>\");\r\n                        $('#divSafetyRecallsTable > div > table
+        > tbody > tr > td > a:contains(\"' + x + '\")').click(function () {\r\n                            window.open('https://www.chrysler.com/universal'
+        + v.vin_recall_url);\r\n                            return false;\r\n                        });\r\n
+        \                   }\r\n                    else {\r\n                        var
+        y = v.recall_desc;\r\n                        $('#divCampaignTable > div >
+        table > tbody > tr > td > a:contains(\"' + y + '\")').parent().html(\"<a href='#'>\"
+        + y + \"</a>\");\r\n                        $('#divCampaignTable > div > table
+        > tbody > tr > td > a:contains(\"' + y + '\")').click(function () {\r\n                            window.open('https://www.chrysler.com/universal'
+        + v.vin_recall_url);\r\n                            return false;\r\n                        });\r\n
+        \                   }\r\n                });\r\n            }\r\n        });\r\n
+        \       //$('#divSafetyRecallsTable').css('visibility', 'visible');\r\n    }\r\n\t\r\n
+        \   </script>\r\n\t\r\n\r\n<script type=\"text/javascript\">\r\n    /*RightNow.Client.Controller.addComponent(\r\n
+        \       {\r\n            chat_login_page: \"/app/commercial/chat_launch\",\r\n
+        \                       chat_login_page_width: 600,\r\n            container_element_id:
+        \"myChatLinkContainer\",\r\n            info_element_id: \"myChatLinkInfo\",\r\n
+        \           link_element_id: \"myChatLink\",\r\n            instance_id: \"sccl_0\",\r\n
+        \           module: \"ConditionalChatLink\",\r\n            type: 7\r\n        },\r\n
+        \       \"https://commercial-vehicles.widget.custhelp.com/ci/ws/get\"\r\n
+        \   );*/\r\n\t\r\n\t\r\n\t    \r\n\r\nwindow.setInterval(function(){ loopsiloop();
+        },2);\r\n            function loopsiloop(){\r\n                  try{\r\n
+        \               var tmp =document.getElementById('myChatLinkInfo').querySelectorAll('span');\r\n
+        \               if(tmp != undefined){\r\n                    if(tmp[0].textContent=='Unavailable'){\r\n
+        \                   document.getElementById(\"chatImage\").src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/unavailable.PNG\";\r\n
+        \                    document.getElementById(\"myChatLinkInfo\").style.color=\"#b3b3b3\";\r\n
+        \               }\r\n                }\r\n              }catch(err){\r\n              }\r\n
+        \           }\r\n</script>\r\n<script type=\"text/javascript\">\r\n\t$( document
+        ).ready(function() {\r\n\t\r\n\tRightNow.Client.Controller.addComponent(\r\n
+        \       {\r\n            chat_login_page: \"/app/mopar/chat_launch_moparrecall_page3\",\r\n
+        \           chat_login_page_height: \"1000\",\r\n            chat_login_page_width:
+        \"600\",\r\n\t\t\twait_threshold:120,\r\n            container_element_id:
+        \"myChatLinkContainer\",\r\n            info_element_id: \"myChatLinkInfo\",\r\n
+        \           link_element_id: \"myChatLink\",\r\n            enable_availability_check:
+        true,\r\n            ignore_preroute: true,\r\n            instance_id: \"sccl_0\",\r\n
+        \           module: \"ConditionalChatLink\",\r\n            type:7,\r\n            label_available_immediately_template:\"Available\",\r\n
+        \           label_unavailable_busy_template:\"Unavailable\",\r\n            label_available_with_wait_template:\"Available\",\r\n
+        \           label_default:\"Available\"\r\n        },\r\n        \"https://mopar.widget.custhelp.com/ci/ws/get\"\r\n
+        \   );\r\n\t\r\n    RightNow.Client.Controller.init();\r\n});\r\n    \r\n</script>\r\n
+        <style type=\"text/css\">\r\n\t.Error\r\n\t{\r\n\t padding-top:49px;\r\n\t}\r\n
+        \   .recallerror\r\n    {\r\n\tcolor:red;\r\n\tfloat:left;\r\n\twidth:100%;\r\n
+        \      \r\n    }\r\n\t.chat-btn \r\n\t{\r\n\tposition : absolute;\r\n\tright:5%;\r\n\tmargin-right:0px;\r\n\t\r\n\t}\r\n
+        \   </style>\r\n\r\n<!--[if lt IE 9]>\r\n<script type=\"text/javascript\"
+        src=\"/_layouts/os/landingpage/js/ie-7-8.js\" ></script> \r\n<![endif]-->\r\n<!--scripts
+        libs -->\r\n\r\n\r\n<link href=\"/_layouts/os/landingpage/css/landing_css_plugin.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><link rel=\"stylesheet\" type=\"text/css\"
+        href=\"/_layouts/os/landingpage/css/global.css\" /><link id=\"mediaLandingPage\"
+        rel=\"stylesheet\" type=\"text/css\" href=\"/_layouts/os/landingpage/css/media-query.css\"
+        /><link id=\"recalls\" rel=\"stylesheet\" type=\"text/css\" href=\"/oc/us/en-US/sub/Style
+        Library/OwnersSite/recall/css/recalls.css\" /><link href=\"/oc/us/en-US/sub/Style
+        Library/OwnersSite/recall/css/RecallStyle.css\" rel=\"stylesheet\" type=\"text/css\"
+        /><link href=\"/oc/us/en-US/sub/Style Library/OwnersSite/recall/css/style.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n<script type=\"text/javascript\"
+        src=\"/OC/US/en-us/sub/Style Library/OwnersSite/recall/js/recallPrint.js\"></script>\r\n<!--[if
+        lte IE 7]>\r\n<link href=\"/_layouts/os/landingpage/css/ie-7.css\" rel=\"stylesheet\"
+        type=\"text/css\" />\r\n<![endif]-->\r\n<!--[if lte IE 8]>\r\n<link href=\"/_layouts/os/landingpage/css/ie-8.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n<![endif]-->\r\n\r\n<title>\r\n\tChrysler,
+        Jeep, Dodge, Ram, owners manual, accesories catalog, recall|Owners Center,
+        Chrysler Group LLC\r\n</title>\r\n\r\n\r\n<!--[if gte mso 9]><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<style
+        type=\"text/css\">\r\n.blue-gradient-btn{background:url(\"/_layouts/os/oc/us/Mopar/images/btn-active-bg.jpg\")
+        repeat scroll 0 0 rgba(0, 0, 0, 0);border-radius: 20px 20px 20px 20px; -moz-border-radius:
+        20px; -webkit-border-radius: 20px; color: #fff;cursor: pointer;font-weight:
+        bold; height: 44px; line-height:35px; behavior:url(\"/_layouts/moparownerconnect/pie.htc\");
+        padding:0 16px;margin-bottom:10px;font-size:14px; overflow:visible}\r\nheader
+        > div nav ul li a:link {\r\n    color: #484848;\r\n} \r\n\r\ndiv.chat-btn
+        a {\r\n\tdisplay: block;\r\n    font-family: \"HelveticaNeueW02-55Roma\",Arial,sans-serif;\r\n
+        \   font-size: 0.75rem;\r\n    font-weight: normal;\r\n    text-decoration:
+        none;   \r\n\t}\r\n\t\r\n\t#myChatLinkInfo span {\r\n    font-family: sans-serif;\r\n
+        \   text-decoration: none;\r\n\t}\r\n</style>\r\n\r\n<!--[if gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n</head>\r\n\r\n<body
+        class=\"welcomeBodyBg mopar\">\r\n\r\n<form name=\"form1\" method=\"post\"
+        action=\"RecallsResults.aspx?vin=2C4RC1BG1ER211106\" id=\"form1\">\r\n<input
+        type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"/wEPDwUBMA9kFgICBA9kFgICAw9kFgJmD2QWBAIPD2QWBgIBDzwrAA0BAA8WBB4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAIBZBYCZg9kFgQCAQ9kFhBmD2QWBGYPDxYEHghJbWFnZVVybAVFL09DL1VTL2VuLVVTL3N1Yi9TdHlsZSUyMExpYnJhcnkvT3duZXJzU2l0ZS9yZWNhbGwvaW1nL2luY29tcGxldGUucG5nHg1BbHRlcm5hdGVUZXh0BQtzdGF0dXNJbWFnZWRkAgEPDxYCHgdWaXNpYmxlaGRkAgIPZBYCAgEPDxYEHgRUZXh0BQNQMjUeDU9uQ2xpZW50Q2xpY2sFW3dpbmRvdy5vcGVuKCdodHRwczovL3d3dy5jaHJ5c2xlci5jb20vdW5pdmVyc2FsL3dlYnNlbGZzZXJ2aWNlL3BkZi9QMjUucGRmJyk7IHJldHVybiBmYWxzZTtkZAIDDw8WAh8FBQcxNFYtMjM0ZGQCBA8PFgIfBQUMTWF5IDA2LCAyMDE0ZGQCBQ8PFgIfBQXWAVRIRSBSRUFSIFFVQVJURVIgVkVOVCBXSU5ET1cgU1dJVENIIE9OIFlPVVIgVkVISUNMRSBNQVkgT1ZFUkhFQVQgSUYgRVhQT1NFRCBUTyBMSVFVSUQgTU9JU1RVUkUuIEFOIE9WRVJIRUFURUQgUkVBUiBRVUFSVEVSIFZFTlQgV0lORE9XIFNXSVRDSCBNQVkgQ0FVU0UgQSBCVVJOSU5HIE9ET1IsIFNNT0tFLCBPUiBBIERSSVZFUlMgRE9PUiBGSVJFIFdJVEhPVVQgV0FSTklORy5kZAIGDw8WAh8FBU5USEUgUkVBUiBRVUFSVEVSIFZFTlQgV0lORE9XIFNXSVRDSCBNVVNUIEJFIFJFUExBQ0VEIE9OIEFMTCBJTlZPTFZFRCBWRUhJQ0xFUy5kZAIHDw8WAh8FBSlJTkNPTVBMRVRFIEJVVCBSRVBBSVIgUEFSVFMgQVJFIEFWQUlMQUJMRWRkAggPZBYCAgEPDxYCHwUFGy93ZWJzZWxmc2VydmljZS9wZGYvUDI1LnBkZmRkAgIPDxYCHwRoZGQCAg8PFgQfBQVbPHNwYW4gc3R5bGU9J2NvbG9yOiByZWQnPlRoZXJlIGFyZSBubyBvdXRzdGFuZGluZyBjYW1wYWlnbnMgZm9yIHRoZSBhYm92ZSBsaXN0ZWQgVklOPC9zcGFuPh8EZ2RkAgMPPCsADQBkAhAPFgIfBGhkGAIFRGdfODhlM2NmZTRfNGIxNl80ZjY4X2EyZTZfYmE4MGY4ZTAyMGJjX1JlY2FsbHNRdWVyeSRjdGwwMCRndkNhbXBhaWduD2dkBUlnXzg4ZTNjZmU0XzRiMTZfNGY2OF9hMmU2X2JhODBmOGUwMjBiY19SZWNhbGxzUXVlcnkkY3RsMDAkZ3ZTYWZldHlSZWNhbGxzDzwrAAoBCAIBZEfdx3noDeP/9PUI+R79HIbn24Y3\"
+        />\r\n\r\n\r\n<script src=\"/ScriptResource.axd?d=-Y3fAzhuqLENNZicZi9JJzG9w08IrIOwr4pa_IdLcpzWdGrNRccTFa83JhNd3z5lAXX4oLoMfUn-uZKvKiZnN0lFBmIqrWE-sw6pE6t1UlOQkkFdJLomdfAzmD8ZA-3i9TsgpwXUCfEzaA4AfE2IcXUXW2M1&amp;t=2e2045e2\"
+        type=\"text/javascript\"></script>\r\n<input type=\"hidden\" name=\"__EVENTVALIDATION\"
+        id=\"__EVENTVALIDATION\" value=\"/wEWEgLjsejgBgLbke3wCgL+3vXyBQKk46ymBQL3wOW2BQLuwcrECAK3jMzDDgLmn7PTAwLlvsBXAs6L/+4BAreXjcIMAoT86cADAq705aQOAumnt+AGAsmH7NMEAv2dkJsNArn41p0GAqWdmKEO5I7nEquwLxtt31xyG5uEHDh3MQI=\"
+        />\r\n\r\n<!--bodyWrapper Start-->\r\n<div id=\"bodyWrapper\"> \r\n    <header>\r\n
+        \   <!--<section class=\"main-content\">\r\n      \r\n\t  <div class=\"utilityNav
+        clearfix\">\r\n\t         \r\n        <div id=\"logo\" class=\"no-mop-bg\"><a
+        href=\"http://www.mopar.com/\" target='_blank' title=\"Mopar\"><img src=\"/_layouts/os/landingpage/images/mopar_header.png\"
+        alt=\"\" /></a></div>\r\n\t<ul class=\"brand-logo hide-on-mobile\">   \r\n
+        \         <li><a href=\"http://www.ramtrucks.com/\" title=\"Ram Trucks\" target=\"_blank\"
+        class=\"ram-logo\"></a></li>\r\n          <li><a href=\"http://www.dodge.com/\"
+        title=\"Dodge\" target=\"_blank\" class=\"dodge-logo\"></a></li>\r\n          <li><a
+        href=\"http://www.chrysler.com/\" title=\"Chrysler\" target=\"_blank\" class=\"chrysler-logo\"></a></li>\r\n
+        \         <li><a href=\"http://www.jeep.com/\" title=\"Jeep\" target=\"_blank\"
+        class=\"jeep-logo\"></a></li>\r\n\t  <li><a href=\"http://www.drivesrt.com/\"
+        title=\"SRT\" target=\"_blank\" class=\"SRT-logo-top\"></a></li>\r\n          <li><a
+        href=\"http://www.fiatusa.com/\" title=\"FIAT\" target=\"_blank\" class=\"fiat-logo\"></a></li>\r\n
+        \         <li><a href=\"http://www.mopar.com/\" title=\"Mopar\" target=\"_blank\"
+        class=\"mopar-logo-top\"></a></li>\t  \r\n      </ul>\r\n      </div>\t\t
+        \ \r\n    </section>-->\r\n\t<div>\r\n\t\t\t\t<a class=\"logo\"  href=\"http://www.fcanorthamerica.com/Pages/Home.aspx\"></a>\r\n\t\t\t\t<div
+        class=\"right_nav\">\r\n\t\t\t\t\t<div class=\"top_right_nav\">\r\n\t\t\t\t\t\t\t<div
+        class=\"ExternalClassF30F3EAF10A243FA91302323CEAAB3F3\">\r\n\t\t\t\t\t\t\t\t<div
+        class=\"hide-on-mobile moxcy-chat chat-btn\">\r\n\t\t\t\t\t\t\t\t\t<div id=\"myChatLinkContainer\">\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"myChatLink\">\r\n\t\t\t\t\t\t\t\t\t\t<img width=\"50\" height=\"50\"
+        id=\"chatImage\" src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/available.PNG\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"\"
+        />&#160;\r\n\t\t\t\t\t\t\t\t\t\t\t<div id=\"myChatLinkInfo\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t&#160;\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"locate_dealer\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"http://www.mopar.com/find-a-dealer/\"
+        name=\"&amp;lid=locate_a_dealer&amp;lpos=global_header\"><img src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/locate_a_dealer.png\"></a>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<nav
+        class=\"display320-no\">\r\n\t\t\t\t\t<ul class=\"menu\">\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.fcanorthamerica.com/News/Pages/News.aspx\">News</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/recalls.html\">FAQ</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/index.html\">Contact Us</a></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</nav>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"display320-yes recall-menu-toggle\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><img
+        src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/menu-arrow.png\"></a>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t\r\n
+        \ </header>\r\n  <!--header End-->\r\n  <nav class=\"display320-yes toggle-recall-menu\">\r\n\t\t\t\t\t<ul
+        class=\"menu\">\r\n\t\t\t\t\t\t<li><a href=\"http://www.fcanorthamerica.com/News/Pages/News.aspx\">News</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/recalls.html\">FAQ</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/index.html\">Contact Us</a></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</nav>\r\n
+        \ <section class=\"content-row\">\r\n          <div class=\"img-div-recalls\"><img
+        src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/recall_hero.jpg\"
+        id=\"hero_img\"></div>\r\n    </section>\r\n <section class=\"print-btn\">\r\n\t\t<div
+        id=\"divPrintLnk\" class=\"hide-on-mobile mopar-print-enabled\"><a href=\"#\"
+        id=\"aPrintLnk\" onclick=\"printDivRecall('centerbodyContentWrp');\" data-lid=\"Print_this_page\"
+        data-lpos=\"Dashboard_Jeep\" title=\"Print this page\">Print this page</a></div>\r\n\t</section>
+        \r\n  <!--centerbodyContentWrp section start-->\r\n  <section id=\"centerbodyContentWrp\">
+        \   \r\n    <section class=\"main-content\">\r\n      \r\n\t<div id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery\"
+        __MarkupType=\"vsattributemarkup\" __WebPartId=\"{88E3CFE4-4B16-4F68-A2E6-BA80F8E020BC}\"
+        WebPart=\"true\" partorder=\"2\">\r\n\t\r\n<div id=\"divBack\" class=\"back\">\r\n
+        \   \r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_VinNo_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_VinNo_hidden\"
+        value=\"2C4RC1BG1ER211106\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_Year_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_Year_hidden\"
+        value=\"2014\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_Vehicle_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_Vehicle_hidden\"
+        value=\"CHRYSLER TOWN &amp; COUNTRY TOURING WAGON\" />\r\n    <input type=\"hidden\"
+        name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$ConfigValDesk\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_ConfigValDesk\"
+        value=\"3\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$ConfigValMobile\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_ConfigValMobile\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$No_Campaign\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_No_Campaign\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$No_Safety\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_No_Safety\"
+        value=\"1\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$total_Recalls\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_total_Recalls\"
+        value=\"1\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Safety_Complete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Safety_Complete\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Safety_Incomplete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Safety_Incomplete\"
+        value=\"1\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Campaign_Complete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Campaign_Complete\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Campaign_Incomplete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Campaign_Incomplete\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Text_ViewMoreDeskTop\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Text_ViewMoreDeskTop\"
+        value=\"View More Recalls\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Text_ViewCompleteMobile\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Text_ViewCompleteMobile\"
+        value=\"Show All Completed\" />\r\n    \r\n    \r\n    <input onclick=\"__doPostBack('g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$btnBack','')\"
+        name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$btnBack\"
+        type=\"button\" id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_btnBack\"
+        class=\"blue-gradient-btn\" alt=\"Back\" value=\"Back\" title=\"Back\" style=\"Display:none\"
+        />\r\n         \r\n    <strong>\r\n        SEARCH RESULTS</strong>\r\n</div>\r\n<div
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_divMain\" class=\"main\">\r\n
+        \   <div id=\"divLeftTop\" class=\"LeftTop\">\r\n        <p>\r\n            VIN:\r\n
+        \           2C4RC1BG1ER211106\r\n        </p>\r\n        <p>\r\n            Year:\r\n
+        \           2014\r\n        </p>\r\n        <p>\r\n            Vehicle:\r\n
+        \           CHRYSLER TOWN & COUNTRY TOURING WAGON\r\n        </p>\r\n    </div>\r\n
+        \   <div id=\"divRightTop\" class=\"RightTop\">\r\n        <p class=\"QuestionText\">\r\n
+        \           Questions\r\n        </p>\r\n        <p>\r\n            Please
+        contact the Chrysler Group Recall\r\n<br\\>\r\nAssistance Center at 1-800-853-1403\r\n
+        \       </p>\r\n    </div>\r\n    \r\n    <div style=\"clear: both;\">\r\n
+        \       <div class=\"LastResults\" id=\"divLastResults\">\r\n            Results
+        Last Updated:\r\n            September 22, 2015\r\n        </div>\r\n        <div
+        style=\"\" class=\"RightTop paddingTB30\">\r\n            <b>Do you Qualify
+        for Recall Reimbursement?</b></br>\r\nIf you've had a recall on your vehicle
+        and have incurred recall-related costs you'll need to start the reimbursement
+        request process (all on a case-by-case basis).</br>\r\n<input type=\"button\"
+        onclick=\"window.open('RecallsReimbursement.aspx');return false;\" title=\"Submit
+        Reimbursement\" value=\"Submit Reimbursement\" alt=\"Submit Reimbursement\"
+        class=\"blue-gradient-btn reg-but\" id=\"btnSubReimbursement\"> :\r\n        </div>\r\n
+        \   </div>\r\n    <div id=\"divSafetyRecallsText\" class=\"SafetyRecallsText\">\r\n
+        \       Safety Recalls (What is a Safety Recall?<a href='https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D'
+        target='_blank'> Learn More</a>)\r\n    </div>\r\n    <div>\r\n        \r\n
+        \   </div>\r\n    <div id=\"divSafetyRecallsTable\" class=\"SafetyRecallsTable\">\r\n
+        \       <div>\r\n\t\t<table cellspacing=\"0\" cellpadding=\"4\" rules=\"all\"
+        border=\"1\" id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_gvSafetyRecalls\"
+        width=\"100%\">\r\n\t\t\t<tr>\r\n\t\t\t\t<th scope=\"col\">Status</th><th
+        scope=\"col\">&nbsp;</th><th scope=\"col\">Chrysler Recall #</th><th scope=\"col\">NHTSA
+        Recall #</th><th scope=\"col\">Recall Date</th><th scope=\"col\">Safety Defect/Non
+        Compliance Description and Safety Risk</th><th scope=\"col\">Repair Description</th><th
+        scope=\"col\">Recall Status</th>\r\n\t\t\t</tr><tr>\r\n\t\t\t\t<td><img src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/incomplete.png\"
+        alt=\"statusImage\" border=\"0\" /></td><td>\r\n                        <input
+        type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$gvSafetyRecalls$ctl02$statusCheck\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_gvSafetyRecalls_ctl02_statusCheck\"
+        value=\"incomplete\" />\r\n                    </td><td width=\"12%\">\r\n
+        \                       <a onclick=\"window.open('https://www.chrysler.com/universal/webselfservice/pdf/P25.pdf');
+        return false;\" id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_gvSafetyRecalls_ctl02_ChryslerNo\"
+        href=\"javascript:__doPostBack('g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$gvSafetyRecalls$ctl02$ChryslerNo','')\">P25</a>\r\n
+        \                   </td><td width=\"8%\">14V-234</td><td width=\"10%\">May
+        06, 2014</td><td width=\"30%\">THE REAR QUARTER VENT WINDOW SWITCH ON YOUR
+        VEHICLE MAY OVERHEAT IF EXPOSED TO LIQUID MOISTURE. AN OVERHEATED REAR QUARTER
+        VENT WINDOW SWITCH MAY CAUSE A BURNING ODOR, SMOKE, OR A DRIVERS DOOR FIRE
+        WITHOUT WARNING.</td><td width=\"20%\">THE REAR QUARTER VENT WINDOW SWITCH
+        MUST BE REPLACED ON ALL INVOLVED VEHICLES.</td><td width=\"20%\">INCOMPLETE
+        BUT REPAIR PARTS ARE AVAILABLE</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t</div>\r\n
+        \   </div>\r\n    <div id=\"pagingSafety\" class=\"page_safety\"></div>\r\n
+        \   <div id=\"divCampaignText\" class=\"CampaignText\">\r\n        Campaigns
+        (What is a Campaign?<a href='https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D'
+        target='_blank'> Learn More</a>)\r\n    </div>\r\n    <div>\r\n        <span
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_lblNoCampaigns\"><span
+        style='color: red'>There are no outstanding campaigns for the above listed
+        VIN</span></span>\r\n    </div>\r\n    <div id=\"divCampaignTable\" class=\"CampaignTable\">\r\n
+        \       <div>\r\n\r\n\t</div>\r\n    </div>\r\n    <div id=\"Div1\" class=\"page_safety\"></div>\r\n
+        \   <div id=\"divDisclaimerText\" class=\"DisclamerText\">\r\n        Disclamer\r\n
+        \   </div>\r\n    <div id=\"divDisclaimer\" class=\"Disclaimer\">\r\n        Notification
+        letters issued prior to 1999 are not available online. Please contact us by
+        email to request a copy.\r\n    </div>\r\n    <div id=\"divNoteText\" class=\"NoteText\">\r\n
+        \       Note\r\n    </div>\r\n    <div id=\"divNote\" class=\"Note\">\r\n
+        \       <p>\r\n            Acrobat Reader 5.0 or later is required to view
+        documents.</p>\r\n        <p>\r\n            <a href='http://www.adobe.com/products/acrobat/readstep2.html'>\r\n
+        \               Click here for a free download</a></p>\r\n    </div>\r\n</div>\r\n\r\n\r\n</div>\r\n
+        \   </section>\r\n  </section>\r\n  <!--centerbodyContentWrp section End-->
+        \r\n  \r\n    <!--Footer Part -->\r\n\t\t<footer>\r\n\t\t\t<div>\r\n\t\t\t<div
+        class=\"logos\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li class=\"alfa_romeo\"><a
+        href=\"#.\">Alfa Romeo</a></li>\r\n\t\t\t\t    <li class=\"chrysler\"><a href=\"#.\">Chrysler</a></li>\r\n\t\t\t\t
+        \   <li class=\"dodge\"><a href=\"#.\">Dodge</a></li>\r\n\t\t\t\t    <li class=\"fiat\"><a
+        href=\"#.\">Fiat</a></li>\r\n\t\t\t\t    <li class=\"jeep\"><a href=\"#.\">Jeep</a></li>\r\n\t\t\t\t
+        \   <li class=\"ram_trucks\"><a href=\"#.\">Ram Trucks</a></li>\r\n\t\t\t\t
+        \   <li class=\"mopar\"><a href=\"#.\">Mopar</a></li>\r\n\t\t\t\t    <li class=\"srt\"><a
+        href=\"#.\">SRT</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t<div
+        class=\"sitemap\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li><a  href=\"#.\">Home</a>
+        | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Fiat Chrysler Automobiles (FCA)</a>
+        | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Contact Us</a> | </li>\r\n\t\t\t\t
+        \   <li><a  href=\"#.\">ChryslerGroup360</a> | </li>\r\n\t\t\t\t    <li><a
+        \ href=\"#.\">Site Map</a> | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Privacy
+        Policy</a> | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Copyright</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t<div
+        class=\"disc\">\r\n\t\t\t\t<p>&copy;2015 FCA US LLC. All Rights Reserved.</p>\r\n\t\t\t\t<p>Chrysler,
+        Dodge, Jeep, Ram, Mopar and SRT are registered trademarks of FCA US LLC.</p>\r\n\t\t\t\t<p>ALFA
+        ROMEO and FIAT are registered trademarks of Fiat Group Marketing &amp; Corporate
+        Communication S.p.A., used under license by FCA US LLC.</p>\r\n\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</footer>\t\r\n\t\t<!--End
+        Footer Part -->\r\n  \r\n</div>\r\n<div class=\"mophar-popup\"></div>\r\n<!--bodyWrapper
+        End-->\r\n<div id=\"mask\">&nbsp; </div>\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nSys.Application.initialize();\r\n//]]>\r\n</script>\r\n</form>\r\n<script
+        type=\"text/javascript\">\r\nvar CountryCookieValue= \"US\";\r\nvar LanguageCookieValue=
+        \"en-us\";\r\nvar curr_url= window.location.href;\r\nvar new_url= curr_url.substring(0,curr_url.toLowerCase().indexOf(\"pages\"));\r\nvar
+        TermsUrl=\"\";\r\n//TermsUrl = new_url + \"oc/\" + CountryCookieValue + \"/\"
+        + LanguageCookieValue + \"/sub/Documents/Terms.OwnerConnect.pdf\";\r\ntry{\r\nTermsUrl
+        = new_url + \"/Documents/Terms.OwnerConnect.pdf\";\r\ndocument.getElementById('TermsId').setAttribute(\"href\",
+        TermsUrl);\r\ndocument.getElementById('TermsIdMobile').setAttribute(\"href\",
+        TermsUrl);\r\n}\r\ncatch(e){\r\n}\r\n</script>\r\n<script type=\"text/javascript\"
+        src=\"https://mopar.widget.custhelp.com/euf/rightnow/RightNow.Client.js\"></script>\r\n<!--Adobe
+        scripts 08/24/2015 -->\r\n<script type=\"text/javascript\">_satellite.pageBottom();</script>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 12:17:35 GMT
+- request:
+    method: get
+    uri: http://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG8ER138686
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Connection:
+      - close
+      Location:
+      - https://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG8ER138686
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 12:17:36 GMT
+- request:
+    method: get
+    uri: https://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG8ER138686
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/html; charset=utf-8
+      Expires:
+      - Mon, 07 Sep 2015 12:17:36 GMT
+      Last-Modified:
+      - Tue, 22 Sep 2015 12:17:36 GMT
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/7.5
+      Sprequestguid:
+      - 4408f472-d0b8-4585-be98-a22cb0b15408
+      X-Sharepointhealthscore:
+      - '0'
+      X-Aspnet-Version:
+      - 2.0.50727
+      Set-Cookie:
+      - OwnerSitesiteVariation=en-us; expires=Tue, 22-Sep-2015 12:47:36 GMT; path=/
+      X-Powered-By:
+      - ASP.NET
+      Microsoftsharepointteamservices:
+      - 14.0.0.7125
+      X-Ms-Invokeapp:
+      - 1; RequireReadOnly
+      Date:
+      - Tue, 22 Sep 2015 12:17:35 GMT
+      Content-Length:
+      - '12338'
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\r\n\r\n<html xmlns:mso=\"urn:schemas-microsoft-com:office:office\"
+        xmlns:msdt=\"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882\">\r\n<head><meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=edge,chrome=1\" /><meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=utf-8\" /><meta name=\"keywords\" content=\"Jeep accessories, chrysler
+        parts, dodge accessories, dodge recall, dodge recalls, jeep recall, ram accessories,
+        jeep owners, dodge owners, dodge owners manual, dodge ram accessories, jeep
+        owners manual, jeep recalls, chrysler recall, ram recall, mopar accessories,
+        chrysler recalls, chrysler owner, chrysler owners, chrysler owners manual,
+        ram owners, ram owners manual, dodge ram owners, mopar jeep accessories, chrysler
+        payment, ram payment, jeep accessories catalog, mopar owners, dodge owners
+        manuals, dodge payment, jeep owners manuals, jeep payment, chrysler owners
+        manuals, jeep owners manual online, dodge owners site\" /><meta name=\"description\"
+        content=\"The official Chrysler, Dodge, Jeep and Ram owners site provides
+        information on owners manual, accesories catalog, parts, recalls, payment
+        and dealers location for maintenance, service and repair of the chrysler group
+        vehicles\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0,
+        maximum-scale=1.0, user-scalable=no\" />\r\n<!--Adobe scripts 08/24/2015 -->\r\n<script
+        src=\"https://assets.adobedtm.com/e2b27ccc0e522eb7c0afb12eb12ee852c39ccceb/satelliteLib-cfc0830f9110c775f069ad2d0b746ad10b616aff.js\"></script>\r\n<!--
+        <script src=\"//assets.adobedtm.com/e2b27ccc0e522eb7c0afb12eb12ee852c39ccceb/satelliteLib-cfc0830f9110c775f069ad2d0b746ad10b616aff.js\"></script>
+        -->\r\n\r\n<!--[if lt IE 9]>\r\n<script src=\"/_layouts/os/landingpage/js/html5.js\"></script>\r\n<![endif]-->\r\n\r\n<script
+        src=\"/_layouts/os/oc/us/jeep/scripts/jquery.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/OC/US/en-US/sub/Style Library/OwnersSite/RecallAnalytics.js\"
+        ></script> \r\n\r\n\r\n<script type=\"text/javascript\">\r\n    function getParameterByName(name)
+        {\r\n        name = name.replace(/[\\[]/, \"\\\\[\").replace(/[\\]]/, \"\\\\]\");\r\n
+        \       var regex = new RegExp(\"[\\\\?&]\" + name + \"=([^&#]*)\", \"i\"),\r\n
+        \           results = regex.exec(location.search);\r\n        return results
+        == null ? \"\" : decodeURIComponent(results[1].replace(/\\+/g, \" \"));\r\n
+        \   }\r\n\tvar urlParams;\r\n(window.onpopstate = function () {\r\n    var
+        match,\r\n        pl     = /\\+/g,  // Regex for replacing addition symbol
+        with a space\r\n        search = /([^&=]+)=?([^&]*)/g,\r\n        decode =
+        function (s) { return decodeURIComponent(s.replace(pl, \" \")); },\r\n        query
+        \ = window.location.search.substring(1);\r\n\r\n    urlParams = {};\r\n    while
+        (match = search.exec(query))\r\n       urlParams[decode(match[1])] = decode(match[2]);\r\n})();\r\n\r\n\r\n$(
+        document ).ready(function() {\r\n  $('input[id$=btnBack]').hide();\r\n});\r\n\r\n\r\n\t$(document).ready(function(){\r\n\t\t\t$(\".recall-menu-toggle\").click(function(){\r\n\t\t\t\t$(\".toggle-recall-menu\").toggle(1000);\r\n\t\t\t});\r\n\t});\r\n\r\n
+        \   /* Recall change to update the url string to HTML -- 8/31/2015*/\r\n\r\n\r\n\t$(document).ready(function
+        () {\r\n\t    \r\n\r\n\t    $(\"#divSafetyRecallsTable td:nth-child(7),#divCampaignTable
+        td:nth-child(5)\").each(function () {\r\n\t        //  alert($(this).text());\r\n\t
+        \       //  alert(Checkurl($(this).text()));\r\n\t        try {\r\n\t            $(this).html(Checkurl($(this).text()));\r\n\r\n\t
+        \           //var thref = $('a.recurl').attr('href');\r\n\t            //thref
+        = thref.toLowerCase();\r\n\t            //$('a.recurl').attr('href', thref);\r\n\r\n\t
+        \           $('a.recurl').each(function () {\r\n\t                var thref
+        = $(this).attr('href').replace(/\\.\\?/, '?');\r\n\t                thref
+        = thref.toLowerCase();\r\n\t                $(this).attr('href', thref);\r\n\t
+        \           });\r\n\t        }\r\n\t        catch (e) { }\r\n\r\n\t    });\r\n\t});\r\n\r\n\r\n\r\n\tfunction
+        Checkurl(text) {\r\n\t    var url1 = /(^|&lt;|\\s)(www\\..+?\\..+?)(\\s|&gt;|$)/g,\r\n
+        \       url2 = /(^|&lt;|\\s)(((https?|ftp|http|HTTP):\\/\\/|mailto:).+?)(\\s|&gt;|$)/g;\r\n\t
+        \   var vinnum = urlParams[\"Vin\"];\r\n\r\n\t    var html = $.trim(text);\r\n\t
+        \   if (html) {\r\n\t        html = html\r\n                .replace(url1,
+        '$1<a style=\"color:blue; text-decoration:underline;\" class=\"recurl\" target=\"_blank\"
+        \ href=\"http://$2\">$2</a>$3')\r\n                .replace(url2, '$1<a style=\"color:blue;
+        text-decoration:underline;\" class=\"recurl\" target=\"_blank\"  href=\"$2?Vin=blankvin\">$2</a>$5');\r\n\t
+        \       if (typeof (vinnum) != \"undefined\") {\r\n\t            html = html.replace('blankvin',
+        vinnum);\r\n\t        }\r\n\t    }\r\n\t    return html;\r\n\t}\r\n\r\n\r\n\r\n
+        \   /**/\r\n\tfunction RecallErrorMsg()\r\n\t{\r\n\ttry\r\n\t\t{\r\n\t\tvar
+        msg;\r\n\t\tvar msgtxt;\r\n\t\tvar vinnum = urlParams[\"Vin\"];\r\n\t\tif(typeof(vinnum)
+        != \"undefined\")\r\n\t\t{\r\n\t\t\tif($('div[id*=divMain]').length==0)\r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\"is
+        not a valid VIN.  Please check the information entered and try again\";\t\r\n\t\t\t\t//Commented
+        after server side code change done\t\t\t\t\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum+\" \"+msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\telse
+        if($('div[id*=divMain]').length>0)\r\n\t\t\t{\r\n\t\t\t\tif($('div[id*=divError]').length>0)\r\n\t\t\t\t{\r\n\t\t\t\t\t$('div[id*=divMain]').hide();\r\n\t\t\t\t}\r\n\t\t\t\tmsgtxt=\"No
+        outstanding Recalls or Customer Satisfaction Notifications Exist\";\t\t\r\n\t\t\t\t//Commented
+        after server side code change done\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum+\"</p><p>\"+msgtxt+\"</p></div>\"; \r\n\t\t\t}\r\n\t\t}\r\n\t\telse\r\n\t\t{\r\n\t\t//msgtxt
+        = \"Vin number not available\";\r\n\t\t//msg=\"<div class='recallerror' id='recallmsg'><p>\"+msgtxt+\"</p></div>\";\r\n\t\t\tif(typeof(vinnum)
+        != \"undefined\")\r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\"is not a valid VIN.  Please
+        check the information entered and try again\";\t\r\n\t\t\t\t//Commented after
+        server side code change done\t\t\t\t\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum +\" \"+ msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\telse
+        \r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\" Please check the information entered and
+        try again\";\t\t\r\n\t\t\t\tmsg=\"<div class='recallerror' id='recallmsg'><p>\"+msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\t\r\n\t\t}\r\n\t\t//$('div[id*=divError]').attr('class','recallerror');\r\n\t\t//append(
+        \"<p>Test</p>\" )\r\n\t\t//$('div[id*=divError]').append( \"<span class='recallerror'>\"+msg+\"</span>\"
+        );\r\n\t\t$('div[id*=divError]').append(msg);\r\n\t\t}\r\n\t\tcatch(e){}\r\n\t}\r\n\t\t//
+        Function to handle when no safety recalls and no campaigns.\r\n\t\t// Date
+        : 4th Aug 2014\r\n\t\tfunction ManageSafetyCampaignRecalls()\r\n\t\t{\r\n\t\t\ttry\r\n\t\t\t{\r\n\t\t\t\tvar
+        msgstxt;\r\n\t\t\t\tvar msgs;\r\n\t\t\t\tif($('table[id*=gvCampaign]').length=='0')\r\n\t\t\t\t{\r\n\t\t\t\t\t$('span[id*=lblNoCampaigns]').hide();\r\n\t\t\t\t\tmsgstxt=\"There
+        are no outstanding campaigns for the above listed VIN\";\t\r\n\t\t\t\t\tmsgs=\"<div
+        class='recallerror' id='recallmsg'><p>\"+msgstxt+\"</p></div>\";\r\n\t\t\t\t\t$('div[id*=divCampaignTable]').append(msgs);\r\n\t\t\t\t}\r\n\t\t\t\tif($('table[id*=gvSafetyRecalls]').length=='0')\r\n\t\t\t\t{\r\n\t\t\t\t\t$('span[id*=lblNoRecalls]').hide();\r\n\t\t\t\t\tmsgstxt=\"There
+        are no outstanding recalls for the above listed VIN\";\t\r\n\t\t\t\t\tmsgs=\"<div
+        class='recallerror' id='recallmsg'><p>\"+msgstxt+\"</p></div>\";\r\n\t\t\t\t\t$('div[id*=divSafetyRecallsTable]').append(msgs);\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tcatch(e){}\r\n\t\t}\r\n\r\n\t\r\n\tfunction
+        ManageSafetyCampaignText()\r\n\t{\r\n\t\ttry\r\n\t\t{\r\n\t\t\t$('#divSafetyRecallsText').text(\"\");\r\n
+        \           var sUrl = \"https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D\";\r\n
+        \           $('#divSafetyRecallsText').wrapInner(\"<div class='newrecall'>Safety
+        Recalls (What is a Safety Recall?   <a target='_blank' href=\" + sUrl + \">Learn
+        more)</a></div>\");\r\n \r\n\t\t\t$('#divCampaignText').text(\"\");\r\n            var
+        cUrl = \"https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D\";\r\n
+        \           $('#divCampaignText').wrapInner(\"<div class='newCamp'>Campaigns
+        (What is a Campaign?   <a target='_blank' href=\" + cUrl + \">Learn more)</a></div>\");\r\n\t\t}\r\n\t\tcatch(e){}\r\n\r\n\t}\r\n\t\r\n
+        \   var urlToReplace = 'http://www.chrysler.com/universal';\r\n    $(document).ready(function
+        () {\r\n        $.ajax({\r\n            type: \"GET\",\r\n            crossDomain:
+        true,\r\n            contentType: \"application/json; charset=utf-8\",\r\n
+        \           url: \"https://test.chrysler.com/vinrecall/VINRecallServlet?vin=\"
+        + getParameterByName('Vin') + \"&service=json&language=en_us\",\r\n            dataType:
+        \"jsonp\",\r\n            success: function (data) {\r\n                //
+        \ alert(\"asd\");\r\n                // console.log(data);\r\n            },\r\n
+        \           failure: function (x) {\r\n                alert(x);\r\n            }\r\n\r\n
+        \       });\r\n\t\tRemoveCharfromString();\r\n\t\t//RecallErrorMsg();\r\n\t\t//ManageSafetyCampaignRecalls();\r\n\t\t//ManageSafetyCampaignText();\r\n\t\t\r\n
+        \   });\r\n\t   $(document).ready(function () {\r\n\t   //alert('recallpage');\r\n\t\t\t//processTrackRecall();\r\n\t\r\n\t});\r\n\t//Hardcoded
+        for tempfix for RecallResults page for now\r\n\tfunction RemoveCharfromString()\r\n\t{\r\n\t\tvar
+        text = $(\".paddingTB30:contains(':')\").html()\r\n\t\ttext = text.replace(\":\",\"\");\r\n\t\t$(\".paddingTB30\").html(text);\r\n\t}\r\n
+        \   function showVinInfo(x) {\r\n        var trHtml = \"<tr>\";\r\n        $.each(x,
+        function (name, value) {\r\n            if (name == 'RecallDetails') {\r\n
+        \               $.each(value, function (n, v) {\r\n                    if
+        (v.NHTSA_recall_number != \"\") {\r\n                        var x = v.Chrysler_recall_number;\r\n
+        \                       $('#divSafetyRecallsTable > div > table > tbody >
+        tr > td > a:contains(\"' + x + '\")').parent().next().text(v.NHTSA_recall_number);\r\n
+        \                       var anchrText = $('#divSafetyRecallsTable > div >
+        table > tbody > tr > td').html();\r\n                        $('#divSafetyRecallsTable
+        > div > table > tbody > tr > td > a:contains(\"' + x + '\")').hide();\r\n
+        \                       $('#divSafetyRecallsTable > div > table > tbody >
+        tr > td > a:contains(\"' + x + '\")').parent().html(\"<a href='#'>\" + x +
+        \"</a>\");\r\n                        $('#divSafetyRecallsTable > div > table
+        > tbody > tr > td > a:contains(\"' + x + '\")').click(function () {\r\n                            window.open('https://www.chrysler.com/universal'
+        + v.vin_recall_url);\r\n                            return false;\r\n                        });\r\n
+        \                   }\r\n                    else {\r\n                        var
+        y = v.recall_desc;\r\n                        $('#divCampaignTable > div >
+        table > tbody > tr > td > a:contains(\"' + y + '\")').parent().html(\"<a href='#'>\"
+        + y + \"</a>\");\r\n                        $('#divCampaignTable > div > table
+        > tbody > tr > td > a:contains(\"' + y + '\")').click(function () {\r\n                            window.open('https://www.chrysler.com/universal'
+        + v.vin_recall_url);\r\n                            return false;\r\n                        });\r\n
+        \                   }\r\n                });\r\n            }\r\n        });\r\n
+        \       //$('#divSafetyRecallsTable').css('visibility', 'visible');\r\n    }\r\n\t\r\n
+        \   </script>\r\n\t\r\n\r\n<script type=\"text/javascript\">\r\n    /*RightNow.Client.Controller.addComponent(\r\n
+        \       {\r\n            chat_login_page: \"/app/commercial/chat_launch\",\r\n
+        \                       chat_login_page_width: 600,\r\n            container_element_id:
+        \"myChatLinkContainer\",\r\n            info_element_id: \"myChatLinkInfo\",\r\n
+        \           link_element_id: \"myChatLink\",\r\n            instance_id: \"sccl_0\",\r\n
+        \           module: \"ConditionalChatLink\",\r\n            type: 7\r\n        },\r\n
+        \       \"https://commercial-vehicles.widget.custhelp.com/ci/ws/get\"\r\n
+        \   );*/\r\n\t\r\n\t\r\n\t    \r\n\r\nwindow.setInterval(function(){ loopsiloop();
+        },2);\r\n            function loopsiloop(){\r\n                  try{\r\n
+        \               var tmp =document.getElementById('myChatLinkInfo').querySelectorAll('span');\r\n
+        \               if(tmp != undefined){\r\n                    if(tmp[0].textContent=='Unavailable'){\r\n
+        \                   document.getElementById(\"chatImage\").src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/unavailable.PNG\";\r\n
+        \                    document.getElementById(\"myChatLinkInfo\").style.color=\"#b3b3b3\";\r\n
+        \               }\r\n                }\r\n              }catch(err){\r\n              }\r\n
+        \           }\r\n</script>\r\n<script type=\"text/javascript\">\r\n\t$( document
+        ).ready(function() {\r\n\t\r\n\tRightNow.Client.Controller.addComponent(\r\n
+        \       {\r\n            chat_login_page: \"/app/mopar/chat_launch_moparrecall_page3\",\r\n
+        \           chat_login_page_height: \"1000\",\r\n            chat_login_page_width:
+        \"600\",\r\n\t\t\twait_threshold:120,\r\n            container_element_id:
+        \"myChatLinkContainer\",\r\n            info_element_id: \"myChatLinkInfo\",\r\n
+        \           link_element_id: \"myChatLink\",\r\n            enable_availability_check:
+        true,\r\n            ignore_preroute: true,\r\n            instance_id: \"sccl_0\",\r\n
+        \           module: \"ConditionalChatLink\",\r\n            type:7,\r\n            label_available_immediately_template:\"Available\",\r\n
+        \           label_unavailable_busy_template:\"Unavailable\",\r\n            label_available_with_wait_template:\"Available\",\r\n
+        \           label_default:\"Available\"\r\n        },\r\n        \"https://mopar.widget.custhelp.com/ci/ws/get\"\r\n
+        \   );\r\n\t\r\n    RightNow.Client.Controller.init();\r\n});\r\n    \r\n</script>\r\n
+        <style type=\"text/css\">\r\n\t.Error\r\n\t{\r\n\t padding-top:49px;\r\n\t}\r\n
+        \   .recallerror\r\n    {\r\n\tcolor:red;\r\n\tfloat:left;\r\n\twidth:100%;\r\n
+        \      \r\n    }\r\n\t.chat-btn \r\n\t{\r\n\tposition : absolute;\r\n\tright:5%;\r\n\tmargin-right:0px;\r\n\t\r\n\t}\r\n
+        \   </style>\r\n\r\n<!--[if lt IE 9]>\r\n<script type=\"text/javascript\"
+        src=\"/_layouts/os/landingpage/js/ie-7-8.js\" ></script> \r\n<![endif]-->\r\n<!--scripts
+        libs -->\r\n\r\n\r\n<link href=\"/_layouts/os/landingpage/css/landing_css_plugin.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><link rel=\"stylesheet\" type=\"text/css\"
+        href=\"/_layouts/os/landingpage/css/global.css\" /><link id=\"mediaLandingPage\"
+        rel=\"stylesheet\" type=\"text/css\" href=\"/_layouts/os/landingpage/css/media-query.css\"
+        /><link id=\"recalls\" rel=\"stylesheet\" type=\"text/css\" href=\"/oc/us/en-US/sub/Style
+        Library/OwnersSite/recall/css/recalls.css\" /><link href=\"/oc/us/en-US/sub/Style
+        Library/OwnersSite/recall/css/RecallStyle.css\" rel=\"stylesheet\" type=\"text/css\"
+        /><link href=\"/oc/us/en-US/sub/Style Library/OwnersSite/recall/css/style.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n<script type=\"text/javascript\"
+        src=\"/OC/US/en-us/sub/Style Library/OwnersSite/recall/js/recallPrint.js\"></script>\r\n<!--[if
+        lte IE 7]>\r\n<link href=\"/_layouts/os/landingpage/css/ie-7.css\" rel=\"stylesheet\"
+        type=\"text/css\" />\r\n<![endif]-->\r\n<!--[if lte IE 8]>\r\n<link href=\"/_layouts/os/landingpage/css/ie-8.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n<![endif]-->\r\n\r\n<title>\r\n\tChrysler,
+        Jeep, Dodge, Ram, owners manual, accesories catalog, recall|Owners Center,
+        Chrysler Group LLC\r\n</title>\r\n\r\n\r\n<!--[if gte mso 9]><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<style
+        type=\"text/css\">\r\n.blue-gradient-btn{background:url(\"/_layouts/os/oc/us/Mopar/images/btn-active-bg.jpg\")
+        repeat scroll 0 0 rgba(0, 0, 0, 0);border-radius: 20px 20px 20px 20px; -moz-border-radius:
+        20px; -webkit-border-radius: 20px; color: #fff;cursor: pointer;font-weight:
+        bold; height: 44px; line-height:35px; behavior:url(\"/_layouts/moparownerconnect/pie.htc\");
+        padding:0 16px;margin-bottom:10px;font-size:14px; overflow:visible}\r\nheader
+        > div nav ul li a:link {\r\n    color: #484848;\r\n} \r\n\r\ndiv.chat-btn
+        a {\r\n\tdisplay: block;\r\n    font-family: \"HelveticaNeueW02-55Roma\",Arial,sans-serif;\r\n
+        \   font-size: 0.75rem;\r\n    font-weight: normal;\r\n    text-decoration:
+        none;   \r\n\t}\r\n\t\r\n\t#myChatLinkInfo span {\r\n    font-family: sans-serif;\r\n
+        \   text-decoration: none;\r\n\t}\r\n</style>\r\n\r\n<!--[if gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n</head>\r\n\r\n<body
+        class=\"welcomeBodyBg mopar\">\r\n\r\n<form name=\"form1\" method=\"post\"
+        action=\"RecallsResults.aspx?vin=2C4RC1BG8ER138686\" id=\"form1\">\r\n<input
+        type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"/wEPDwUBMA9kFgICBA9kFgICAw9kFgJmD2QWBAIPD2QWBgIBDzwrAA0BAA8WBB4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAIBZBYCZg9kFgQCAQ9kFhBmD2QWBGYPDxYEHghJbWFnZVVybAVDL09DL1VTL2VuLVVTL3N1Yi9TdHlsZSUyMExpYnJhcnkvT3duZXJzU2l0ZS9yZWNhbGwvaW1nL2NvbXBsZXRlLnBuZx4NQWx0ZXJuYXRlVGV4dAULc3RhdHVzSW1hZ2VkZAIBDw8WAh4HVmlzaWJsZWhkZAICD2QWAgIBDw8WBB4EVGV4dAUDUDI1Hg1PbkNsaWVudENsaWNrBVt3aW5kb3cub3BlbignaHR0cHM6Ly93d3cuY2hyeXNsZXIuY29tL3VuaXZlcnNhbC93ZWJzZWxmc2VydmljZS9wZGYvUDI1LnBkZicpOyByZXR1cm4gZmFsc2U7ZGQCAw8PFgIfBQUHMTRWLTIzNGRkAgQPDxYCHwUFDE1heSAwNiwgMjAxNGRkAgUPDxYCHwUF1gFUSEUgUkVBUiBRVUFSVEVSIFZFTlQgV0lORE9XIFNXSVRDSCBPTiBZT1VSIFZFSElDTEUgTUFZIE9WRVJIRUFUIElGIEVYUE9TRUQgVE8gTElRVUlEIE1PSVNUVVJFLiBBTiBPVkVSSEVBVEVEIFJFQVIgUVVBUlRFUiBWRU5UIFdJTkRPVyBTV0lUQ0ggTUFZIENBVVNFIEEgQlVSTklORyBPRE9SLCBTTU9LRSwgT1IgQSBEUklWRVJTIERPT1IgRklSRSBXSVRIT1VUIFdBUk5JTkcuZGQCBg8PFgIfBQVOVEhFIFJFQVIgUVVBUlRFUiBWRU5UIFdJTkRPVyBTV0lUQ0ggTVVTVCBCRSBSRVBMQUNFRCBPTiBBTEwgSU5WT0xWRUQgVkVISUNMRVMuZGQCBw8PFgIfBQUIUkVQQUlSRURkZAIID2QWAgIBDw8WAh8FBRsvd2Vic2VsZnNlcnZpY2UvcGRmL1AyNS5wZGZkZAICDw8WAh8EaGRkAgIPDxYEHwUFWzxzcGFuIHN0eWxlPSdjb2xvcjogcmVkJz5UaGVyZSBhcmUgbm8gb3V0c3RhbmRpbmcgY2FtcGFpZ25zIGZvciB0aGUgYWJvdmUgbGlzdGVkIFZJTjwvc3Bhbj4fBGdkZAIDDzwrAA0AZAIQDxYCHwRoZBgCBURnXzg4ZTNjZmU0XzRiMTZfNGY2OF9hMmU2X2JhODBmOGUwMjBiY19SZWNhbGxzUXVlcnkkY3RsMDAkZ3ZDYW1wYWlnbg9nZAVJZ184OGUzY2ZlNF80YjE2XzRmNjhfYTJlNl9iYTgwZjhlMDIwYmNfUmVjYWxsc1F1ZXJ5JGN0bDAwJGd2U2FmZXR5UmVjYWxscw88KwAKAQgCAWRSX86RyPkbixD158ppndgHsIi13A==\"
+        />\r\n\r\n\r\n<script src=\"/ScriptResource.axd?d=-Y3fAzhuqLENNZicZi9JJzG9w08IrIOwr4pa_IdLcpzWdGrNRccTFa83JhNd3z5lAXX4oLoMfUn-uZKvKiZnN0lFBmIqrWE-sw6pE6t1UlOQkkFdJLomdfAzmD8ZA-3i9TsgpwXUCfEzaA4AfE2IcXUXW2M1&amp;t=2e2045e2\"
+        type=\"text/javascript\"></script>\r\n<input type=\"hidden\" name=\"__EVENTVALIDATION\"
+        id=\"__EVENTVALIDATION\" value=\"/wEWEgL5sJjJBQLbke3wCgL+3vXyBQKk46ymBQL3wOW2BQLuwcrECAK3jMzDDgLmn7PTAwLlvsBXAs6L/+4BAreXjcIMAoT86cADAq705aQOAumnt+AGAsmH7NMEAv2dkJsNArn41p0GAqWdmKEOW3GNFXYnoFBA/d/vjpOG43S2p48=\"
+        />\r\n\r\n<!--bodyWrapper Start-->\r\n<div id=\"bodyWrapper\"> \r\n    <header>\r\n
+        \   <!--<section class=\"main-content\">\r\n      \r\n\t  <div class=\"utilityNav
+        clearfix\">\r\n\t         \r\n        <div id=\"logo\" class=\"no-mop-bg\"><a
+        href=\"http://www.mopar.com/\" target='_blank' title=\"Mopar\"><img src=\"/_layouts/os/landingpage/images/mopar_header.png\"
+        alt=\"\" /></a></div>\r\n\t<ul class=\"brand-logo hide-on-mobile\">   \r\n
+        \         <li><a href=\"http://www.ramtrucks.com/\" title=\"Ram Trucks\" target=\"_blank\"
+        class=\"ram-logo\"></a></li>\r\n          <li><a href=\"http://www.dodge.com/\"
+        title=\"Dodge\" target=\"_blank\" class=\"dodge-logo\"></a></li>\r\n          <li><a
+        href=\"http://www.chrysler.com/\" title=\"Chrysler\" target=\"_blank\" class=\"chrysler-logo\"></a></li>\r\n
+        \         <li><a href=\"http://www.jeep.com/\" title=\"Jeep\" target=\"_blank\"
+        class=\"jeep-logo\"></a></li>\r\n\t  <li><a href=\"http://www.drivesrt.com/\"
+        title=\"SRT\" target=\"_blank\" class=\"SRT-logo-top\"></a></li>\r\n          <li><a
+        href=\"http://www.fiatusa.com/\" title=\"FIAT\" target=\"_blank\" class=\"fiat-logo\"></a></li>\r\n
+        \         <li><a href=\"http://www.mopar.com/\" title=\"Mopar\" target=\"_blank\"
+        class=\"mopar-logo-top\"></a></li>\t  \r\n      </ul>\r\n      </div>\t\t
+        \ \r\n    </section>-->\r\n\t<div>\r\n\t\t\t\t<a class=\"logo\"  href=\"http://www.fcanorthamerica.com/Pages/Home.aspx\"></a>\r\n\t\t\t\t<div
+        class=\"right_nav\">\r\n\t\t\t\t\t<div class=\"top_right_nav\">\r\n\t\t\t\t\t\t\t<div
+        class=\"ExternalClassF30F3EAF10A243FA91302323CEAAB3F3\">\r\n\t\t\t\t\t\t\t\t<div
+        class=\"hide-on-mobile moxcy-chat chat-btn\">\r\n\t\t\t\t\t\t\t\t\t<div id=\"myChatLinkContainer\">\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"myChatLink\">\r\n\t\t\t\t\t\t\t\t\t\t<img width=\"50\" height=\"50\"
+        id=\"chatImage\" src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/available.PNG\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"\"
+        />&#160;\r\n\t\t\t\t\t\t\t\t\t\t\t<div id=\"myChatLinkInfo\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t&#160;\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"locate_dealer\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"http://www.mopar.com/find-a-dealer/\"
+        name=\"&amp;lid=locate_a_dealer&amp;lpos=global_header\"><img src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/locate_a_dealer.png\"></a>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<nav
+        class=\"display320-no\">\r\n\t\t\t\t\t<ul class=\"menu\">\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.fcanorthamerica.com/News/Pages/News.aspx\">News</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/recalls.html\">FAQ</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/index.html\">Contact Us</a></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</nav>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"display320-yes recall-menu-toggle\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><img
+        src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/menu-arrow.png\"></a>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t\r\n
+        \ </header>\r\n  <!--header End-->\r\n  <nav class=\"display320-yes toggle-recall-menu\">\r\n\t\t\t\t\t<ul
+        class=\"menu\">\r\n\t\t\t\t\t\t<li><a href=\"http://www.fcanorthamerica.com/News/Pages/News.aspx\">News</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/recalls.html\">FAQ</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/index.html\">Contact Us</a></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</nav>\r\n
+        \ <section class=\"content-row\">\r\n          <div class=\"img-div-recalls\"><img
+        src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/recall_hero.jpg\"
+        id=\"hero_img\"></div>\r\n    </section>\r\n <section class=\"print-btn\">\r\n\t\t<div
+        id=\"divPrintLnk\" class=\"hide-on-mobile mopar-print-enabled\"><a href=\"#\"
+        id=\"aPrintLnk\" onclick=\"printDivRecall('centerbodyContentWrp');\" data-lid=\"Print_this_page\"
+        data-lpos=\"Dashboard_Jeep\" title=\"Print this page\">Print this page</a></div>\r\n\t</section>
+        \r\n  <!--centerbodyContentWrp section start-->\r\n  <section id=\"centerbodyContentWrp\">
+        \   \r\n    <section class=\"main-content\">\r\n      \r\n\t<div id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery\"
+        __MarkupType=\"vsattributemarkup\" __WebPartId=\"{88E3CFE4-4B16-4F68-A2E6-BA80F8E020BC}\"
+        WebPart=\"true\" partorder=\"2\">\r\n\t\r\n<div id=\"divBack\" class=\"back\">\r\n
+        \   \r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_VinNo_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_VinNo_hidden\"
+        value=\"2C4RC1BG8ER138686\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_Year_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_Year_hidden\"
+        value=\"2014\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_Vehicle_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_Vehicle_hidden\"
+        value=\"CHRYSLER TOWN &amp; COUNTRY TOURING WAGON\" />\r\n    <input type=\"hidden\"
+        name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$ConfigValDesk\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_ConfigValDesk\"
+        value=\"3\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$ConfigValMobile\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_ConfigValMobile\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$No_Campaign\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_No_Campaign\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$No_Safety\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_No_Safety\"
+        value=\"1\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$total_Recalls\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_total_Recalls\"
+        value=\"1\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Safety_Complete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Safety_Complete\"
+        value=\"1\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Safety_Incomplete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Safety_Incomplete\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Campaign_Complete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Campaign_Complete\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Campaign_Incomplete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Campaign_Incomplete\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Text_ViewMoreDeskTop\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Text_ViewMoreDeskTop\"
+        value=\"View More Recalls\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Text_ViewCompleteMobile\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Text_ViewCompleteMobile\"
+        value=\"Show All Completed\" />\r\n    \r\n    \r\n    <input onclick=\"__doPostBack('g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$btnBack','')\"
+        name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$btnBack\"
+        type=\"button\" id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_btnBack\"
+        class=\"blue-gradient-btn\" alt=\"Back\" value=\"Back\" title=\"Back\" style=\"Display:none\"
+        />\r\n         \r\n    <strong>\r\n        SEARCH RESULTS</strong>\r\n</div>\r\n<div
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_divMain\" class=\"main\">\r\n
+        \   <div id=\"divLeftTop\" class=\"LeftTop\">\r\n        <p>\r\n            VIN:\r\n
+        \           2C4RC1BG8ER138686\r\n        </p>\r\n        <p>\r\n            Year:\r\n
+        \           2014\r\n        </p>\r\n        <p>\r\n            Vehicle:\r\n
+        \           CHRYSLER TOWN & COUNTRY TOURING WAGON\r\n        </p>\r\n    </div>\r\n
+        \   <div id=\"divRightTop\" class=\"RightTop\">\r\n        <p class=\"QuestionText\">\r\n
+        \           Questions\r\n        </p>\r\n        <p>\r\n            Please
+        contact the Chrysler Group Recall\r\n<br\\>\r\nAssistance Center at 1-800-853-1403\r\n
+        \       </p>\r\n    </div>\r\n    \r\n    <div style=\"clear: both;\">\r\n
+        \       <div class=\"LastResults\" id=\"divLastResults\">\r\n            Results
+        Last Updated:\r\n            September 22, 2015\r\n        </div>\r\n        <div
+        style=\"\" class=\"RightTop paddingTB30\">\r\n            <b>Do you Qualify
+        for Recall Reimbursement?</b></br>\r\nIf you've had a recall on your vehicle
+        and have incurred recall-related costs you'll need to start the reimbursement
+        request process (all on a case-by-case basis).</br>\r\n<input type=\"button\"
+        onclick=\"window.open('RecallsReimbursement.aspx');return false;\" title=\"Submit
+        Reimbursement\" value=\"Submit Reimbursement\" alt=\"Submit Reimbursement\"
+        class=\"blue-gradient-btn reg-but\" id=\"btnSubReimbursement\"> :\r\n        </div>\r\n
+        \   </div>\r\n    <div id=\"divSafetyRecallsText\" class=\"SafetyRecallsText\">\r\n
+        \       Safety Recalls (What is a Safety Recall?<a href='https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D'
+        target='_blank'> Learn More</a>)\r\n    </div>\r\n    <div>\r\n        \r\n
+        \   </div>\r\n    <div id=\"divSafetyRecallsTable\" class=\"SafetyRecallsTable\">\r\n
+        \       <div>\r\n\t\t<table cellspacing=\"0\" cellpadding=\"4\" rules=\"all\"
+        border=\"1\" id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_gvSafetyRecalls\"
+        width=\"100%\">\r\n\t\t\t<tr>\r\n\t\t\t\t<th scope=\"col\">Status</th><th
+        scope=\"col\">&nbsp;</th><th scope=\"col\">Chrysler Recall #</th><th scope=\"col\">NHTSA
+        Recall #</th><th scope=\"col\">Recall Date</th><th scope=\"col\">Safety Defect/Non
+        Compliance Description and Safety Risk</th><th scope=\"col\">Repair Description</th><th
+        scope=\"col\">Recall Status</th>\r\n\t\t\t</tr><tr>\r\n\t\t\t\t<td><img src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/complete.png\"
+        alt=\"statusImage\" border=\"0\" /></td><td>\r\n                        <input
+        type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$gvSafetyRecalls$ctl02$statusCheck\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_gvSafetyRecalls_ctl02_statusCheck\"
+        value=\"complete\" />\r\n                    </td><td width=\"12%\">\r\n                        <a
+        onclick=\"window.open('https://www.chrysler.com/universal/webselfservice/pdf/P25.pdf');
+        return false;\" id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_gvSafetyRecalls_ctl02_ChryslerNo\"
+        href=\"javascript:__doPostBack('g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$gvSafetyRecalls$ctl02$ChryslerNo','')\">P25</a>\r\n
+        \                   </td><td width=\"8%\">14V-234</td><td width=\"10%\">May
+        06, 2014</td><td width=\"30%\">THE REAR QUARTER VENT WINDOW SWITCH ON YOUR
+        VEHICLE MAY OVERHEAT IF EXPOSED TO LIQUID MOISTURE. AN OVERHEATED REAR QUARTER
+        VENT WINDOW SWITCH MAY CAUSE A BURNING ODOR, SMOKE, OR A DRIVERS DOOR FIRE
+        WITHOUT WARNING.</td><td width=\"20%\">THE REAR QUARTER VENT WINDOW SWITCH
+        MUST BE REPLACED ON ALL INVOLVED VEHICLES.</td><td width=\"20%\">REPAIRED</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t</div>\r\n
+        \   </div>\r\n    <div id=\"pagingSafety\" class=\"page_safety\"></div>\r\n
+        \   <div id=\"divCampaignText\" class=\"CampaignText\">\r\n        Campaigns
+        (What is a Campaign?<a href='https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D'
+        target='_blank'> Learn More</a>)\r\n    </div>\r\n    <div>\r\n        <span
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_lblNoCampaigns\"><span
+        style='color: red'>There are no outstanding campaigns for the above listed
+        VIN</span></span>\r\n    </div>\r\n    <div id=\"divCampaignTable\" class=\"CampaignTable\">\r\n
+        \       <div>\r\n\r\n\t</div>\r\n    </div>\r\n    <div id=\"Div1\" class=\"page_safety\"></div>\r\n
+        \   <div id=\"divDisclaimerText\" class=\"DisclamerText\">\r\n        Disclamer\r\n
+        \   </div>\r\n    <div id=\"divDisclaimer\" class=\"Disclaimer\">\r\n        Notification
+        letters issued prior to 1999 are not available online. Please contact us by
+        email to request a copy.\r\n    </div>\r\n    <div id=\"divNoteText\" class=\"NoteText\">\r\n
+        \       Note\r\n    </div>\r\n    <div id=\"divNote\" class=\"Note\">\r\n
+        \       <p>\r\n            Acrobat Reader 5.0 or later is required to view
+        documents.</p>\r\n        <p>\r\n            <a href='http://www.adobe.com/products/acrobat/readstep2.html'>\r\n
+        \               Click here for a free download</a></p>\r\n    </div>\r\n</div>\r\n\r\n\r\n</div>\r\n
+        \   </section>\r\n  </section>\r\n  <!--centerbodyContentWrp section End-->
+        \r\n  \r\n    <!--Footer Part -->\r\n\t\t<footer>\r\n\t\t\t<div>\r\n\t\t\t<div
+        class=\"logos\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li class=\"alfa_romeo\"><a
+        href=\"#.\">Alfa Romeo</a></li>\r\n\t\t\t\t    <li class=\"chrysler\"><a href=\"#.\">Chrysler</a></li>\r\n\t\t\t\t
+        \   <li class=\"dodge\"><a href=\"#.\">Dodge</a></li>\r\n\t\t\t\t    <li class=\"fiat\"><a
+        href=\"#.\">Fiat</a></li>\r\n\t\t\t\t    <li class=\"jeep\"><a href=\"#.\">Jeep</a></li>\r\n\t\t\t\t
+        \   <li class=\"ram_trucks\"><a href=\"#.\">Ram Trucks</a></li>\r\n\t\t\t\t
+        \   <li class=\"mopar\"><a href=\"#.\">Mopar</a></li>\r\n\t\t\t\t    <li class=\"srt\"><a
+        href=\"#.\">SRT</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t<div
+        class=\"sitemap\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li><a  href=\"#.\">Home</a>
+        | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Fiat Chrysler Automobiles (FCA)</a>
+        | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Contact Us</a> | </li>\r\n\t\t\t\t
+        \   <li><a  href=\"#.\">ChryslerGroup360</a> | </li>\r\n\t\t\t\t    <li><a
+        \ href=\"#.\">Site Map</a> | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Privacy
+        Policy</a> | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Copyright</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t<div
+        class=\"disc\">\r\n\t\t\t\t<p>&copy;2015 FCA US LLC. All Rights Reserved.</p>\r\n\t\t\t\t<p>Chrysler,
+        Dodge, Jeep, Ram, Mopar and SRT are registered trademarks of FCA US LLC.</p>\r\n\t\t\t\t<p>ALFA
+        ROMEO and FIAT are registered trademarks of Fiat Group Marketing &amp; Corporate
+        Communication S.p.A., used under license by FCA US LLC.</p>\r\n\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</footer>\t\r\n\t\t<!--End
+        Footer Part -->\r\n  \r\n</div>\r\n<div class=\"mophar-popup\"></div>\r\n<!--bodyWrapper
+        End-->\r\n<div id=\"mask\">&nbsp; </div>\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nSys.Application.initialize();\r\n//]]>\r\n</script>\r\n</form>\r\n<script
+        type=\"text/javascript\">\r\nvar CountryCookieValue= \"US\";\r\nvar LanguageCookieValue=
+        \"en-us\";\r\nvar curr_url= window.location.href;\r\nvar new_url= curr_url.substring(0,curr_url.toLowerCase().indexOf(\"pages\"));\r\nvar
+        TermsUrl=\"\";\r\n//TermsUrl = new_url + \"oc/\" + CountryCookieValue + \"/\"
+        + LanguageCookieValue + \"/sub/Documents/Terms.OwnerConnect.pdf\";\r\ntry{\r\nTermsUrl
+        = new_url + \"/Documents/Terms.OwnerConnect.pdf\";\r\ndocument.getElementById('TermsId').setAttribute(\"href\",
+        TermsUrl);\r\ndocument.getElementById('TermsIdMobile').setAttribute(\"href\",
+        TermsUrl);\r\n}\r\ncatch(e){\r\n}\r\n</script>\r\n<script type=\"text/javascript\"
+        src=\"https://mopar.widget.custhelp.com/euf/rightnow/RightNow.Client.js\"></script>\r\n<!--Adobe
+        scripts 08/24/2015 -->\r\n<script type=\"text/javascript\">_satellite.pageBottom();</script>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 12:17:37 GMT
+- request:
+    method: get
+    uri: http://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG5ER268831
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Connection:
+      - close
+      Location:
+      - https://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG5ER268831
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 12:17:37 GMT
+- request:
+    method: get
+    uri: https://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG5ER268831
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/html; charset=utf-8
+      Expires:
+      - Mon, 07 Sep 2015 12:17:37 GMT
+      Last-Modified:
+      - Tue, 22 Sep 2015 12:17:37 GMT
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/7.5
+      Sprequestguid:
+      - 0bf431d4-1b20-44d2-9191-3249d34f5743
+      X-Sharepointhealthscore:
+      - '0'
+      X-Aspnet-Version:
+      - 2.0.50727
+      Set-Cookie:
+      - OwnerSitesiteVariation=en-us; expires=Tue, 22-Sep-2015 12:47:37 GMT; path=/
+      X-Powered-By:
+      - ASP.NET
+      Microsoftsharepointteamservices:
+      - 14.0.0.7125
+      X-Ms-Invokeapp:
+      - 1; RequireReadOnly
+      Date:
+      - Tue, 22 Sep 2015 12:17:37 GMT
+      Content-Length:
+      - '9893'
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\r\n\r\n<html xmlns:mso=\"urn:schemas-microsoft-com:office:office\"
+        xmlns:msdt=\"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882\">\r\n<head><meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=edge,chrome=1\" /><meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=utf-8\" /><meta name=\"keywords\" content=\"Jeep accessories, chrysler
+        parts, dodge accessories, dodge recall, dodge recalls, jeep recall, ram accessories,
+        jeep owners, dodge owners, dodge owners manual, dodge ram accessories, jeep
+        owners manual, jeep recalls, chrysler recall, ram recall, mopar accessories,
+        chrysler recalls, chrysler owner, chrysler owners, chrysler owners manual,
+        ram owners, ram owners manual, dodge ram owners, mopar jeep accessories, chrysler
+        payment, ram payment, jeep accessories catalog, mopar owners, dodge owners
+        manuals, dodge payment, jeep owners manuals, jeep payment, chrysler owners
+        manuals, jeep owners manual online, dodge owners site\" /><meta name=\"description\"
+        content=\"The official Chrysler, Dodge, Jeep and Ram owners site provides
+        information on owners manual, accesories catalog, parts, recalls, payment
+        and dealers location for maintenance, service and repair of the chrysler group
+        vehicles\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0,
+        maximum-scale=1.0, user-scalable=no\" />\r\n<!--Adobe scripts 08/24/2015 -->\r\n<script
+        src=\"https://assets.adobedtm.com/e2b27ccc0e522eb7c0afb12eb12ee852c39ccceb/satelliteLib-cfc0830f9110c775f069ad2d0b746ad10b616aff.js\"></script>\r\n<!--
+        <script src=\"//assets.adobedtm.com/e2b27ccc0e522eb7c0afb12eb12ee852c39ccceb/satelliteLib-cfc0830f9110c775f069ad2d0b746ad10b616aff.js\"></script>
+        -->\r\n\r\n<!--[if lt IE 9]>\r\n<script src=\"/_layouts/os/landingpage/js/html5.js\"></script>\r\n<![endif]-->\r\n\r\n<script
+        src=\"/_layouts/os/oc/us/jeep/scripts/jquery.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/OC/US/en-US/sub/Style Library/OwnersSite/RecallAnalytics.js\"
+        ></script> \r\n\r\n\r\n<script type=\"text/javascript\">\r\n    function getParameterByName(name)
+        {\r\n        name = name.replace(/[\\[]/, \"\\\\[\").replace(/[\\]]/, \"\\\\]\");\r\n
+        \       var regex = new RegExp(\"[\\\\?&]\" + name + \"=([^&#]*)\", \"i\"),\r\n
+        \           results = regex.exec(location.search);\r\n        return results
+        == null ? \"\" : decodeURIComponent(results[1].replace(/\\+/g, \" \"));\r\n
+        \   }\r\n\tvar urlParams;\r\n(window.onpopstate = function () {\r\n    var
+        match,\r\n        pl     = /\\+/g,  // Regex for replacing addition symbol
+        with a space\r\n        search = /([^&=]+)=?([^&]*)/g,\r\n        decode =
+        function (s) { return decodeURIComponent(s.replace(pl, \" \")); },\r\n        query
+        \ = window.location.search.substring(1);\r\n\r\n    urlParams = {};\r\n    while
+        (match = search.exec(query))\r\n       urlParams[decode(match[1])] = decode(match[2]);\r\n})();\r\n\r\n\r\n$(
+        document ).ready(function() {\r\n  $('input[id$=btnBack]').hide();\r\n});\r\n\r\n\r\n\t$(document).ready(function(){\r\n\t\t\t$(\".recall-menu-toggle\").click(function(){\r\n\t\t\t\t$(\".toggle-recall-menu\").toggle(1000);\r\n\t\t\t});\r\n\t});\r\n\r\n
+        \   /* Recall change to update the url string to HTML -- 8/31/2015*/\r\n\r\n\r\n\t$(document).ready(function
+        () {\r\n\t    \r\n\r\n\t    $(\"#divSafetyRecallsTable td:nth-child(7),#divCampaignTable
+        td:nth-child(5)\").each(function () {\r\n\t        //  alert($(this).text());\r\n\t
+        \       //  alert(Checkurl($(this).text()));\r\n\t        try {\r\n\t            $(this).html(Checkurl($(this).text()));\r\n\r\n\t
+        \           //var thref = $('a.recurl').attr('href');\r\n\t            //thref
+        = thref.toLowerCase();\r\n\t            //$('a.recurl').attr('href', thref);\r\n\r\n\t
+        \           $('a.recurl').each(function () {\r\n\t                var thref
+        = $(this).attr('href').replace(/\\.\\?/, '?');\r\n\t                thref
+        = thref.toLowerCase();\r\n\t                $(this).attr('href', thref);\r\n\t
+        \           });\r\n\t        }\r\n\t        catch (e) { }\r\n\r\n\t    });\r\n\t});\r\n\r\n\r\n\r\n\tfunction
+        Checkurl(text) {\r\n\t    var url1 = /(^|&lt;|\\s)(www\\..+?\\..+?)(\\s|&gt;|$)/g,\r\n
+        \       url2 = /(^|&lt;|\\s)(((https?|ftp|http|HTTP):\\/\\/|mailto:).+?)(\\s|&gt;|$)/g;\r\n\t
+        \   var vinnum = urlParams[\"Vin\"];\r\n\r\n\t    var html = $.trim(text);\r\n\t
+        \   if (html) {\r\n\t        html = html\r\n                .replace(url1,
+        '$1<a style=\"color:blue; text-decoration:underline;\" class=\"recurl\" target=\"_blank\"
+        \ href=\"http://$2\">$2</a>$3')\r\n                .replace(url2, '$1<a style=\"color:blue;
+        text-decoration:underline;\" class=\"recurl\" target=\"_blank\"  href=\"$2?Vin=blankvin\">$2</a>$5');\r\n\t
+        \       if (typeof (vinnum) != \"undefined\") {\r\n\t            html = html.replace('blankvin',
+        vinnum);\r\n\t        }\r\n\t    }\r\n\t    return html;\r\n\t}\r\n\r\n\r\n\r\n
+        \   /**/\r\n\tfunction RecallErrorMsg()\r\n\t{\r\n\ttry\r\n\t\t{\r\n\t\tvar
+        msg;\r\n\t\tvar msgtxt;\r\n\t\tvar vinnum = urlParams[\"Vin\"];\r\n\t\tif(typeof(vinnum)
+        != \"undefined\")\r\n\t\t{\r\n\t\t\tif($('div[id*=divMain]').length==0)\r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\"is
+        not a valid VIN.  Please check the information entered and try again\";\t\r\n\t\t\t\t//Commented
+        after server side code change done\t\t\t\t\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum+\" \"+msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\telse
+        if($('div[id*=divMain]').length>0)\r\n\t\t\t{\r\n\t\t\t\tif($('div[id*=divError]').length>0)\r\n\t\t\t\t{\r\n\t\t\t\t\t$('div[id*=divMain]').hide();\r\n\t\t\t\t}\r\n\t\t\t\tmsgtxt=\"No
+        outstanding Recalls or Customer Satisfaction Notifications Exist\";\t\t\r\n\t\t\t\t//Commented
+        after server side code change done\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum+\"</p><p>\"+msgtxt+\"</p></div>\"; \r\n\t\t\t}\r\n\t\t}\r\n\t\telse\r\n\t\t{\r\n\t\t//msgtxt
+        = \"Vin number not available\";\r\n\t\t//msg=\"<div class='recallerror' id='recallmsg'><p>\"+msgtxt+\"</p></div>\";\r\n\t\t\tif(typeof(vinnum)
+        != \"undefined\")\r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\"is not a valid VIN.  Please
+        check the information entered and try again\";\t\r\n\t\t\t\t//Commented after
+        server side code change done\t\t\t\t\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum +\" \"+ msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\telse
+        \r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\" Please check the information entered and
+        try again\";\t\t\r\n\t\t\t\tmsg=\"<div class='recallerror' id='recallmsg'><p>\"+msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\t\r\n\t\t}\r\n\t\t//$('div[id*=divError]').attr('class','recallerror');\r\n\t\t//append(
+        \"<p>Test</p>\" )\r\n\t\t//$('div[id*=divError]').append( \"<span class='recallerror'>\"+msg+\"</span>\"
+        );\r\n\t\t$('div[id*=divError]').append(msg);\r\n\t\t}\r\n\t\tcatch(e){}\r\n\t}\r\n\t\t//
+        Function to handle when no safety recalls and no campaigns.\r\n\t\t// Date
+        : 4th Aug 2014\r\n\t\tfunction ManageSafetyCampaignRecalls()\r\n\t\t{\r\n\t\t\ttry\r\n\t\t\t{\r\n\t\t\t\tvar
+        msgstxt;\r\n\t\t\t\tvar msgs;\r\n\t\t\t\tif($('table[id*=gvCampaign]').length=='0')\r\n\t\t\t\t{\r\n\t\t\t\t\t$('span[id*=lblNoCampaigns]').hide();\r\n\t\t\t\t\tmsgstxt=\"There
+        are no outstanding campaigns for the above listed VIN\";\t\r\n\t\t\t\t\tmsgs=\"<div
+        class='recallerror' id='recallmsg'><p>\"+msgstxt+\"</p></div>\";\r\n\t\t\t\t\t$('div[id*=divCampaignTable]').append(msgs);\r\n\t\t\t\t}\r\n\t\t\t\tif($('table[id*=gvSafetyRecalls]').length=='0')\r\n\t\t\t\t{\r\n\t\t\t\t\t$('span[id*=lblNoRecalls]').hide();\r\n\t\t\t\t\tmsgstxt=\"There
+        are no outstanding recalls for the above listed VIN\";\t\r\n\t\t\t\t\tmsgs=\"<div
+        class='recallerror' id='recallmsg'><p>\"+msgstxt+\"</p></div>\";\r\n\t\t\t\t\t$('div[id*=divSafetyRecallsTable]').append(msgs);\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tcatch(e){}\r\n\t\t}\r\n\r\n\t\r\n\tfunction
+        ManageSafetyCampaignText()\r\n\t{\r\n\t\ttry\r\n\t\t{\r\n\t\t\t$('#divSafetyRecallsText').text(\"\");\r\n
+        \           var sUrl = \"https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D\";\r\n
+        \           $('#divSafetyRecallsText').wrapInner(\"<div class='newrecall'>Safety
+        Recalls (What is a Safety Recall?   <a target='_blank' href=\" + sUrl + \">Learn
+        more)</a></div>\");\r\n \r\n\t\t\t$('#divCampaignText').text(\"\");\r\n            var
+        cUrl = \"https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D\";\r\n
+        \           $('#divCampaignText').wrapInner(\"<div class='newCamp'>Campaigns
+        (What is a Campaign?   <a target='_blank' href=\" + cUrl + \">Learn more)</a></div>\");\r\n\t\t}\r\n\t\tcatch(e){}\r\n\r\n\t}\r\n\t\r\n
+        \   var urlToReplace = 'http://www.chrysler.com/universal';\r\n    $(document).ready(function
+        () {\r\n        $.ajax({\r\n            type: \"GET\",\r\n            crossDomain:
+        true,\r\n            contentType: \"application/json; charset=utf-8\",\r\n
+        \           url: \"https://test.chrysler.com/vinrecall/VINRecallServlet?vin=\"
+        + getParameterByName('Vin') + \"&service=json&language=en_us\",\r\n            dataType:
+        \"jsonp\",\r\n            success: function (data) {\r\n                //
+        \ alert(\"asd\");\r\n                // console.log(data);\r\n            },\r\n
+        \           failure: function (x) {\r\n                alert(x);\r\n            }\r\n\r\n
+        \       });\r\n\t\tRemoveCharfromString();\r\n\t\t//RecallErrorMsg();\r\n\t\t//ManageSafetyCampaignRecalls();\r\n\t\t//ManageSafetyCampaignText();\r\n\t\t\r\n
+        \   });\r\n\t   $(document).ready(function () {\r\n\t   //alert('recallpage');\r\n\t\t\t//processTrackRecall();\r\n\t\r\n\t});\r\n\t//Hardcoded
+        for tempfix for RecallResults page for now\r\n\tfunction RemoveCharfromString()\r\n\t{\r\n\t\tvar
+        text = $(\".paddingTB30:contains(':')\").html()\r\n\t\ttext = text.replace(\":\",\"\");\r\n\t\t$(\".paddingTB30\").html(text);\r\n\t}\r\n
+        \   function showVinInfo(x) {\r\n        var trHtml = \"<tr>\";\r\n        $.each(x,
+        function (name, value) {\r\n            if (name == 'RecallDetails') {\r\n
+        \               $.each(value, function (n, v) {\r\n                    if
+        (v.NHTSA_recall_number != \"\") {\r\n                        var x = v.Chrysler_recall_number;\r\n
+        \                       $('#divSafetyRecallsTable > div > table > tbody >
+        tr > td > a:contains(\"' + x + '\")').parent().next().text(v.NHTSA_recall_number);\r\n
+        \                       var anchrText = $('#divSafetyRecallsTable > div >
+        table > tbody > tr > td').html();\r\n                        $('#divSafetyRecallsTable
+        > div > table > tbody > tr > td > a:contains(\"' + x + '\")').hide();\r\n
+        \                       $('#divSafetyRecallsTable > div > table > tbody >
+        tr > td > a:contains(\"' + x + '\")').parent().html(\"<a href='#'>\" + x +
+        \"</a>\");\r\n                        $('#divSafetyRecallsTable > div > table
+        > tbody > tr > td > a:contains(\"' + x + '\")').click(function () {\r\n                            window.open('https://www.chrysler.com/universal'
+        + v.vin_recall_url);\r\n                            return false;\r\n                        });\r\n
+        \                   }\r\n                    else {\r\n                        var
+        y = v.recall_desc;\r\n                        $('#divCampaignTable > div >
+        table > tbody > tr > td > a:contains(\"' + y + '\")').parent().html(\"<a href='#'>\"
+        + y + \"</a>\");\r\n                        $('#divCampaignTable > div > table
+        > tbody > tr > td > a:contains(\"' + y + '\")').click(function () {\r\n                            window.open('https://www.chrysler.com/universal'
+        + v.vin_recall_url);\r\n                            return false;\r\n                        });\r\n
+        \                   }\r\n                });\r\n            }\r\n        });\r\n
+        \       //$('#divSafetyRecallsTable').css('visibility', 'visible');\r\n    }\r\n\t\r\n
+        \   </script>\r\n\t\r\n\r\n<script type=\"text/javascript\">\r\n    /*RightNow.Client.Controller.addComponent(\r\n
+        \       {\r\n            chat_login_page: \"/app/commercial/chat_launch\",\r\n
+        \                       chat_login_page_width: 600,\r\n            container_element_id:
+        \"myChatLinkContainer\",\r\n            info_element_id: \"myChatLinkInfo\",\r\n
+        \           link_element_id: \"myChatLink\",\r\n            instance_id: \"sccl_0\",\r\n
+        \           module: \"ConditionalChatLink\",\r\n            type: 7\r\n        },\r\n
+        \       \"https://commercial-vehicles.widget.custhelp.com/ci/ws/get\"\r\n
+        \   );*/\r\n\t\r\n\t\r\n\t    \r\n\r\nwindow.setInterval(function(){ loopsiloop();
+        },2);\r\n            function loopsiloop(){\r\n                  try{\r\n
+        \               var tmp =document.getElementById('myChatLinkInfo').querySelectorAll('span');\r\n
+        \               if(tmp != undefined){\r\n                    if(tmp[0].textContent=='Unavailable'){\r\n
+        \                   document.getElementById(\"chatImage\").src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/unavailable.PNG\";\r\n
+        \                    document.getElementById(\"myChatLinkInfo\").style.color=\"#b3b3b3\";\r\n
+        \               }\r\n                }\r\n              }catch(err){\r\n              }\r\n
+        \           }\r\n</script>\r\n<script type=\"text/javascript\">\r\n\t$( document
+        ).ready(function() {\r\n\t\r\n\tRightNow.Client.Controller.addComponent(\r\n
+        \       {\r\n            chat_login_page: \"/app/mopar/chat_launch_moparrecall_page3\",\r\n
+        \           chat_login_page_height: \"1000\",\r\n            chat_login_page_width:
+        \"600\",\r\n\t\t\twait_threshold:120,\r\n            container_element_id:
+        \"myChatLinkContainer\",\r\n            info_element_id: \"myChatLinkInfo\",\r\n
+        \           link_element_id: \"myChatLink\",\r\n            enable_availability_check:
+        true,\r\n            ignore_preroute: true,\r\n            instance_id: \"sccl_0\",\r\n
+        \           module: \"ConditionalChatLink\",\r\n            type:7,\r\n            label_available_immediately_template:\"Available\",\r\n
+        \           label_unavailable_busy_template:\"Unavailable\",\r\n            label_available_with_wait_template:\"Available\",\r\n
+        \           label_default:\"Available\"\r\n        },\r\n        \"https://mopar.widget.custhelp.com/ci/ws/get\"\r\n
+        \   );\r\n\t\r\n    RightNow.Client.Controller.init();\r\n});\r\n    \r\n</script>\r\n
+        <style type=\"text/css\">\r\n\t.Error\r\n\t{\r\n\t padding-top:49px;\r\n\t}\r\n
+        \   .recallerror\r\n    {\r\n\tcolor:red;\r\n\tfloat:left;\r\n\twidth:100%;\r\n
+        \      \r\n    }\r\n\t.chat-btn \r\n\t{\r\n\tposition : absolute;\r\n\tright:5%;\r\n\tmargin-right:0px;\r\n\t\r\n\t}\r\n
+        \   </style>\r\n\r\n<!--[if lt IE 9]>\r\n<script type=\"text/javascript\"
+        src=\"/_layouts/os/landingpage/js/ie-7-8.js\" ></script> \r\n<![endif]-->\r\n<!--scripts
+        libs -->\r\n\r\n\r\n<link href=\"/_layouts/os/landingpage/css/landing_css_plugin.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><link rel=\"stylesheet\" type=\"text/css\"
+        href=\"/_layouts/os/landingpage/css/global.css\" /><link id=\"mediaLandingPage\"
+        rel=\"stylesheet\" type=\"text/css\" href=\"/_layouts/os/landingpage/css/media-query.css\"
+        /><link id=\"recalls\" rel=\"stylesheet\" type=\"text/css\" href=\"/oc/us/en-US/sub/Style
+        Library/OwnersSite/recall/css/recalls.css\" /><link href=\"/oc/us/en-US/sub/Style
+        Library/OwnersSite/recall/css/RecallStyle.css\" rel=\"stylesheet\" type=\"text/css\"
+        /><link href=\"/oc/us/en-US/sub/Style Library/OwnersSite/recall/css/style.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n<script type=\"text/javascript\"
+        src=\"/OC/US/en-us/sub/Style Library/OwnersSite/recall/js/recallPrint.js\"></script>\r\n<!--[if
+        lte IE 7]>\r\n<link href=\"/_layouts/os/landingpage/css/ie-7.css\" rel=\"stylesheet\"
+        type=\"text/css\" />\r\n<![endif]-->\r\n<!--[if lte IE 8]>\r\n<link href=\"/_layouts/os/landingpage/css/ie-8.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n<![endif]-->\r\n\r\n<title>\r\n\tChrysler,
+        Jeep, Dodge, Ram, owners manual, accesories catalog, recall|Owners Center,
+        Chrysler Group LLC\r\n</title>\r\n\r\n\r\n<!--[if gte mso 9]><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<style
+        type=\"text/css\">\r\n.blue-gradient-btn{background:url(\"/_layouts/os/oc/us/Mopar/images/btn-active-bg.jpg\")
+        repeat scroll 0 0 rgba(0, 0, 0, 0);border-radius: 20px 20px 20px 20px; -moz-border-radius:
+        20px; -webkit-border-radius: 20px; color: #fff;cursor: pointer;font-weight:
+        bold; height: 44px; line-height:35px; behavior:url(\"/_layouts/moparownerconnect/pie.htc\");
+        padding:0 16px;margin-bottom:10px;font-size:14px; overflow:visible}\r\nheader
+        > div nav ul li a:link {\r\n    color: #484848;\r\n} \r\n\r\ndiv.chat-btn
+        a {\r\n\tdisplay: block;\r\n    font-family: \"HelveticaNeueW02-55Roma\",Arial,sans-serif;\r\n
+        \   font-size: 0.75rem;\r\n    font-weight: normal;\r\n    text-decoration:
+        none;   \r\n\t}\r\n\t\r\n\t#myChatLinkInfo span {\r\n    font-family: sans-serif;\r\n
+        \   text-decoration: none;\r\n\t}\r\n</style>\r\n\r\n<!--[if gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n</head>\r\n\r\n<body
+        class=\"welcomeBodyBg mopar\">\r\n\r\n<form name=\"form1\" method=\"post\"
+        action=\"RecallsResults.aspx?vin=2C4RC1BG5ER268831\" id=\"form1\">\r\n<input
+        type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"/wEPDwUBMA9kFgICBA9kFgICAw9kFgJmD2QWBAIPDxYCHgdWaXNpYmxlaBYEAgEPPCsADQBkAgMPPCsADQBkAhAPZBYCAgEPDxYCHgRUZXh0BYABPHNwYW4gc3R5bGU9ImNvbG9yOlJlZCIgPlZJTjoyQzRSQzFCRzVFUjI2ODgzMSA8YnIvPk5vIE91dHN0YW5kaW5nIFJlY2FsbHMgb3IgQ3VzdG9tZXIgU2F0aXNmYWN0aW9uIE5vdGlmaWNhdGlvbnMgRXhpc3QuIDwvc3Bhbj5kZBgCBURnXzg4ZTNjZmU0XzRiMTZfNGY2OF9hMmU2X2JhODBmOGUwMjBiY19SZWNhbGxzUXVlcnkkY3RsMDAkZ3ZDYW1wYWlnbg9nZAVJZ184OGUzY2ZlNF80YjE2XzRmNjhfYTJlNl9iYTgwZjhlMDIwYmNfUmVjYWxsc1F1ZXJ5JGN0bDAwJGd2U2FmZXR5UmVjYWxscw9nZLzUOGluFnB3T4UbbUJBnRtaVUgQ\"
+        />\r\n\r\n\r\n<script src=\"/ScriptResource.axd?d=-Y3fAzhuqLENNZicZi9JJzG9w08IrIOwr4pa_IdLcpzWdGrNRccTFa83JhNd3z5lAXX4oLoMfUn-uZKvKiZnN0lFBmIqrWE-sw6pE6t1UlOQkkFdJLomdfAzmD8ZA-3i9TsgpwXUCfEzaA4AfE2IcXUXW2M1&amp;t=2e2045e2\"
+        type=\"text/javascript\"></script>\r\n<input type=\"hidden\" name=\"__EVENTVALIDATION\"
+        id=\"__EVENTVALIDATION\" value=\"/wEWEAKS2fyeDgLbke3wCgL+3vXyBQKk46ymBQL3wOW2BQLuwcrECAK3jMzDDgLmn7PTAwLlvsBXAs6L/+4BAreXjcIMAoT86cADAq705aQOAumnt+AGAsmH7NMEAv2dkJsNN23P5t16r0x/iRkHma52AVxZ4+Y=\"
+        />\r\n\r\n<!--bodyWrapper Start-->\r\n<div id=\"bodyWrapper\"> \r\n    <header>\r\n
+        \   <!--<section class=\"main-content\">\r\n      \r\n\t  <div class=\"utilityNav
+        clearfix\">\r\n\t         \r\n        <div id=\"logo\" class=\"no-mop-bg\"><a
+        href=\"http://www.mopar.com/\" target='_blank' title=\"Mopar\"><img src=\"/_layouts/os/landingpage/images/mopar_header.png\"
+        alt=\"\" /></a></div>\r\n\t<ul class=\"brand-logo hide-on-mobile\">   \r\n
+        \         <li><a href=\"http://www.ramtrucks.com/\" title=\"Ram Trucks\" target=\"_blank\"
+        class=\"ram-logo\"></a></li>\r\n          <li><a href=\"http://www.dodge.com/\"
+        title=\"Dodge\" target=\"_blank\" class=\"dodge-logo\"></a></li>\r\n          <li><a
+        href=\"http://www.chrysler.com/\" title=\"Chrysler\" target=\"_blank\" class=\"chrysler-logo\"></a></li>\r\n
+        \         <li><a href=\"http://www.jeep.com/\" title=\"Jeep\" target=\"_blank\"
+        class=\"jeep-logo\"></a></li>\r\n\t  <li><a href=\"http://www.drivesrt.com/\"
+        title=\"SRT\" target=\"_blank\" class=\"SRT-logo-top\"></a></li>\r\n          <li><a
+        href=\"http://www.fiatusa.com/\" title=\"FIAT\" target=\"_blank\" class=\"fiat-logo\"></a></li>\r\n
+        \         <li><a href=\"http://www.mopar.com/\" title=\"Mopar\" target=\"_blank\"
+        class=\"mopar-logo-top\"></a></li>\t  \r\n      </ul>\r\n      </div>\t\t
+        \ \r\n    </section>-->\r\n\t<div>\r\n\t\t\t\t<a class=\"logo\"  href=\"http://www.fcanorthamerica.com/Pages/Home.aspx\"></a>\r\n\t\t\t\t<div
+        class=\"right_nav\">\r\n\t\t\t\t\t<div class=\"top_right_nav\">\r\n\t\t\t\t\t\t\t<div
+        class=\"ExternalClassF30F3EAF10A243FA91302323CEAAB3F3\">\r\n\t\t\t\t\t\t\t\t<div
+        class=\"hide-on-mobile moxcy-chat chat-btn\">\r\n\t\t\t\t\t\t\t\t\t<div id=\"myChatLinkContainer\">\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"myChatLink\">\r\n\t\t\t\t\t\t\t\t\t\t<img width=\"50\" height=\"50\"
+        id=\"chatImage\" src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/available.PNG\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"\"
+        />&#160;\r\n\t\t\t\t\t\t\t\t\t\t\t<div id=\"myChatLinkInfo\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t&#160;\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"locate_dealer\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"http://www.mopar.com/find-a-dealer/\"
+        name=\"&amp;lid=locate_a_dealer&amp;lpos=global_header\"><img src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/locate_a_dealer.png\"></a>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<nav
+        class=\"display320-no\">\r\n\t\t\t\t\t<ul class=\"menu\">\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.fcanorthamerica.com/News/Pages/News.aspx\">News</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/recalls.html\">FAQ</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/index.html\">Contact Us</a></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</nav>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"display320-yes recall-menu-toggle\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><img
+        src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/menu-arrow.png\"></a>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t\r\n
+        \ </header>\r\n  <!--header End-->\r\n  <nav class=\"display320-yes toggle-recall-menu\">\r\n\t\t\t\t\t<ul
+        class=\"menu\">\r\n\t\t\t\t\t\t<li><a href=\"http://www.fcanorthamerica.com/News/Pages/News.aspx\">News</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/recalls.html\">FAQ</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/index.html\">Contact Us</a></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</nav>\r\n
+        \ <section class=\"content-row\">\r\n          <div class=\"img-div-recalls\"><img
+        src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/recall_hero.jpg\"
+        id=\"hero_img\"></div>\r\n    </section>\r\n <section class=\"print-btn\">\r\n\t\t<div
+        id=\"divPrintLnk\" class=\"hide-on-mobile mopar-print-enabled\"><a href=\"#\"
+        id=\"aPrintLnk\" onclick=\"printDivRecall('centerbodyContentWrp');\" data-lid=\"Print_this_page\"
+        data-lpos=\"Dashboard_Jeep\" title=\"Print this page\">Print this page</a></div>\r\n\t</section>
+        \r\n  <!--centerbodyContentWrp section start-->\r\n  <section id=\"centerbodyContentWrp\">
+        \   \r\n    <section class=\"main-content\">\r\n      \r\n\t<div id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery\"
+        __MarkupType=\"vsattributemarkup\" __WebPartId=\"{88E3CFE4-4B16-4F68-A2E6-BA80F8E020BC}\"
+        WebPart=\"true\" partorder=\"2\">\r\n\t\r\n<div id=\"divBack\" class=\"back\">\r\n
+        \   \r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_VinNo_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_VinNo_hidden\"
+        value=\"2C4RC1BG5ER268831\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_Year_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_Year_hidden\"
+        value=\"2014\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_Vehicle_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_Vehicle_hidden\"
+        value=\"CHRYSLER TOWN &amp; COUNTRY TOURING WAGON\" />\r\n    <input type=\"hidden\"
+        name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$ConfigValDesk\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_ConfigValDesk\"
+        value=\"3\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$ConfigValMobile\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_ConfigValMobile\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$No_Campaign\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_No_Campaign\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$No_Safety\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_No_Safety\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$total_Recalls\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_total_Recalls\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Safety_Complete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Safety_Complete\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Safety_Incomplete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Safety_Incomplete\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Campaign_Complete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Campaign_Complete\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Campaign_Incomplete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Campaign_Incomplete\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Text_ViewMoreDeskTop\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Text_ViewMoreDeskTop\"
+        value=\"View More Recalls\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Text_ViewCompleteMobile\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Text_ViewCompleteMobile\"
+        value=\"Show All Completed\" />\r\n    \r\n    \r\n    <input onclick=\"__doPostBack('g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$btnBack','')\"
+        name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$btnBack\"
+        type=\"button\" id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_btnBack\"
+        class=\"blue-gradient-btn\" alt=\"Back\" value=\"Back\" title=\"Back\" style=\"Display:none\"
+        />\r\n         \r\n    <strong>\r\n        SEARCH RESULTS</strong>\r\n</div>\r\n\r\n<div
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_divError\"
+        class=\"Error\">\r\n    <span id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_lblError\"><span
+        style=\"color:Red\" >VIN:2C4RC1BG5ER268831 <br/>No Outstanding Recalls or
+        Customer Satisfaction Notifications Exist. </span></span>\r\n</div>\r\n\r\n</div>\r\n
+        \   </section>\r\n  </section>\r\n  <!--centerbodyContentWrp section End-->
+        \r\n  \r\n    <!--Footer Part -->\r\n\t\t<footer>\r\n\t\t\t<div>\r\n\t\t\t<div
+        class=\"logos\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li class=\"alfa_romeo\"><a
+        href=\"#.\">Alfa Romeo</a></li>\r\n\t\t\t\t    <li class=\"chrysler\"><a href=\"#.\">Chrysler</a></li>\r\n\t\t\t\t
+        \   <li class=\"dodge\"><a href=\"#.\">Dodge</a></li>\r\n\t\t\t\t    <li class=\"fiat\"><a
+        href=\"#.\">Fiat</a></li>\r\n\t\t\t\t    <li class=\"jeep\"><a href=\"#.\">Jeep</a></li>\r\n\t\t\t\t
+        \   <li class=\"ram_trucks\"><a href=\"#.\">Ram Trucks</a></li>\r\n\t\t\t\t
+        \   <li class=\"mopar\"><a href=\"#.\">Mopar</a></li>\r\n\t\t\t\t    <li class=\"srt\"><a
+        href=\"#.\">SRT</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t<div
+        class=\"sitemap\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li><a  href=\"#.\">Home</a>
+        | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Fiat Chrysler Automobiles (FCA)</a>
+        | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Contact Us</a> | </li>\r\n\t\t\t\t
+        \   <li><a  href=\"#.\">ChryslerGroup360</a> | </li>\r\n\t\t\t\t    <li><a
+        \ href=\"#.\">Site Map</a> | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Privacy
+        Policy</a> | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Copyright</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t<div
+        class=\"disc\">\r\n\t\t\t\t<p>&copy;2015 FCA US LLC. All Rights Reserved.</p>\r\n\t\t\t\t<p>Chrysler,
+        Dodge, Jeep, Ram, Mopar and SRT are registered trademarks of FCA US LLC.</p>\r\n\t\t\t\t<p>ALFA
+        ROMEO and FIAT are registered trademarks of Fiat Group Marketing &amp; Corporate
+        Communication S.p.A., used under license by FCA US LLC.</p>\r\n\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</footer>\t\r\n\t\t<!--End
+        Footer Part -->\r\n  \r\n</div>\r\n<div class=\"mophar-popup\"></div>\r\n<!--bodyWrapper
+        End-->\r\n<div id=\"mask\">&nbsp; </div>\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nSys.Application.initialize();\r\n//]]>\r\n</script>\r\n</form>\r\n<script
+        type=\"text/javascript\">\r\nvar CountryCookieValue= \"US\";\r\nvar LanguageCookieValue=
+        \"en-us\";\r\nvar curr_url= window.location.href;\r\nvar new_url= curr_url.substring(0,curr_url.toLowerCase().indexOf(\"pages\"));\r\nvar
+        TermsUrl=\"\";\r\n//TermsUrl = new_url + \"oc/\" + CountryCookieValue + \"/\"
+        + LanguageCookieValue + \"/sub/Documents/Terms.OwnerConnect.pdf\";\r\ntry{\r\nTermsUrl
+        = new_url + \"/Documents/Terms.OwnerConnect.pdf\";\r\ndocument.getElementById('TermsId').setAttribute(\"href\",
+        TermsUrl);\r\ndocument.getElementById('TermsIdMobile').setAttribute(\"href\",
+        TermsUrl);\r\n}\r\ncatch(e){\r\n}\r\n</script>\r\n<script type=\"text/javascript\"
+        src=\"https://mopar.widget.custhelp.com/euf/rightnow/RightNow.Client.js\"></script>\r\n<!--Adobe
+        scripts 08/24/2015 -->\r\n<script type=\"text/javascript\">_satellite.pageBottom();</script>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 12:17:38 GMT
+- request:
+    method: get
+    uri: http://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG1ER210000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Connection:
+      - close
+      Location:
+      - https://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG1ER210000
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 12:17:39 GMT
+- request:
+    method: get
+    uri: https://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx?vin=2C4RC1BG1ER210000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/html; charset=utf-8
+      Expires:
+      - Mon, 07 Sep 2015 12:17:39 GMT
+      Last-Modified:
+      - Tue, 22 Sep 2015 12:17:39 GMT
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/7.5
+      Sprequestguid:
+      - 476d7d41-cee6-4d9d-8165-08bbc5b020bd
+      X-Sharepointhealthscore:
+      - '0'
+      X-Aspnet-Version:
+      - 2.0.50727
+      Set-Cookie:
+      - OwnerSitesiteVariation=en-us; expires=Tue, 22-Sep-2015 12:47:39 GMT; path=/
+      X-Powered-By:
+      - ASP.NET
+      Microsoftsharepointteamservices:
+      - 14.0.0.7125
+      X-Ms-Invokeapp:
+      - 1; RequireReadOnly
+      Date:
+      - Tue, 22 Sep 2015 12:17:38 GMT
+      Content-Length:
+      - '9846'
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\r\n\r\n<html xmlns:mso=\"urn:schemas-microsoft-com:office:office\"
+        xmlns:msdt=\"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882\">\r\n<head><meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=edge,chrome=1\" /><meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=utf-8\" /><meta name=\"keywords\" content=\"Jeep accessories, chrysler
+        parts, dodge accessories, dodge recall, dodge recalls, jeep recall, ram accessories,
+        jeep owners, dodge owners, dodge owners manual, dodge ram accessories, jeep
+        owners manual, jeep recalls, chrysler recall, ram recall, mopar accessories,
+        chrysler recalls, chrysler owner, chrysler owners, chrysler owners manual,
+        ram owners, ram owners manual, dodge ram owners, mopar jeep accessories, chrysler
+        payment, ram payment, jeep accessories catalog, mopar owners, dodge owners
+        manuals, dodge payment, jeep owners manuals, jeep payment, chrysler owners
+        manuals, jeep owners manual online, dodge owners site\" /><meta name=\"description\"
+        content=\"The official Chrysler, Dodge, Jeep and Ram owners site provides
+        information on owners manual, accesories catalog, parts, recalls, payment
+        and dealers location for maintenance, service and repair of the chrysler group
+        vehicles\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0,
+        maximum-scale=1.0, user-scalable=no\" />\r\n<!--Adobe scripts 08/24/2015 -->\r\n<script
+        src=\"https://assets.adobedtm.com/e2b27ccc0e522eb7c0afb12eb12ee852c39ccceb/satelliteLib-cfc0830f9110c775f069ad2d0b746ad10b616aff.js\"></script>\r\n<!--
+        <script src=\"//assets.adobedtm.com/e2b27ccc0e522eb7c0afb12eb12ee852c39ccceb/satelliteLib-cfc0830f9110c775f069ad2d0b746ad10b616aff.js\"></script>
+        -->\r\n\r\n<!--[if lt IE 9]>\r\n<script src=\"/_layouts/os/landingpage/js/html5.js\"></script>\r\n<![endif]-->\r\n\r\n<script
+        src=\"/_layouts/os/oc/us/jeep/scripts/jquery.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/OC/US/en-US/sub/Style Library/OwnersSite/RecallAnalytics.js\"
+        ></script> \r\n\r\n\r\n<script type=\"text/javascript\">\r\n    function getParameterByName(name)
+        {\r\n        name = name.replace(/[\\[]/, \"\\\\[\").replace(/[\\]]/, \"\\\\]\");\r\n
+        \       var regex = new RegExp(\"[\\\\?&]\" + name + \"=([^&#]*)\", \"i\"),\r\n
+        \           results = regex.exec(location.search);\r\n        return results
+        == null ? \"\" : decodeURIComponent(results[1].replace(/\\+/g, \" \"));\r\n
+        \   }\r\n\tvar urlParams;\r\n(window.onpopstate = function () {\r\n    var
+        match,\r\n        pl     = /\\+/g,  // Regex for replacing addition symbol
+        with a space\r\n        search = /([^&=]+)=?([^&]*)/g,\r\n        decode =
+        function (s) { return decodeURIComponent(s.replace(pl, \" \")); },\r\n        query
+        \ = window.location.search.substring(1);\r\n\r\n    urlParams = {};\r\n    while
+        (match = search.exec(query))\r\n       urlParams[decode(match[1])] = decode(match[2]);\r\n})();\r\n\r\n\r\n$(
+        document ).ready(function() {\r\n  $('input[id$=btnBack]').hide();\r\n});\r\n\r\n\r\n\t$(document).ready(function(){\r\n\t\t\t$(\".recall-menu-toggle\").click(function(){\r\n\t\t\t\t$(\".toggle-recall-menu\").toggle(1000);\r\n\t\t\t});\r\n\t});\r\n\r\n
+        \   /* Recall change to update the url string to HTML -- 8/31/2015*/\r\n\r\n\r\n\t$(document).ready(function
+        () {\r\n\t    \r\n\r\n\t    $(\"#divSafetyRecallsTable td:nth-child(7),#divCampaignTable
+        td:nth-child(5)\").each(function () {\r\n\t        //  alert($(this).text());\r\n\t
+        \       //  alert(Checkurl($(this).text()));\r\n\t        try {\r\n\t            $(this).html(Checkurl($(this).text()));\r\n\r\n\t
+        \           //var thref = $('a.recurl').attr('href');\r\n\t            //thref
+        = thref.toLowerCase();\r\n\t            //$('a.recurl').attr('href', thref);\r\n\r\n\t
+        \           $('a.recurl').each(function () {\r\n\t                var thref
+        = $(this).attr('href').replace(/\\.\\?/, '?');\r\n\t                thref
+        = thref.toLowerCase();\r\n\t                $(this).attr('href', thref);\r\n\t
+        \           });\r\n\t        }\r\n\t        catch (e) { }\r\n\r\n\t    });\r\n\t});\r\n\r\n\r\n\r\n\tfunction
+        Checkurl(text) {\r\n\t    var url1 = /(^|&lt;|\\s)(www\\..+?\\..+?)(\\s|&gt;|$)/g,\r\n
+        \       url2 = /(^|&lt;|\\s)(((https?|ftp|http|HTTP):\\/\\/|mailto:).+?)(\\s|&gt;|$)/g;\r\n\t
+        \   var vinnum = urlParams[\"Vin\"];\r\n\r\n\t    var html = $.trim(text);\r\n\t
+        \   if (html) {\r\n\t        html = html\r\n                .replace(url1,
+        '$1<a style=\"color:blue; text-decoration:underline;\" class=\"recurl\" target=\"_blank\"
+        \ href=\"http://$2\">$2</a>$3')\r\n                .replace(url2, '$1<a style=\"color:blue;
+        text-decoration:underline;\" class=\"recurl\" target=\"_blank\"  href=\"$2?Vin=blankvin\">$2</a>$5');\r\n\t
+        \       if (typeof (vinnum) != \"undefined\") {\r\n\t            html = html.replace('blankvin',
+        vinnum);\r\n\t        }\r\n\t    }\r\n\t    return html;\r\n\t}\r\n\r\n\r\n\r\n
+        \   /**/\r\n\tfunction RecallErrorMsg()\r\n\t{\r\n\ttry\r\n\t\t{\r\n\t\tvar
+        msg;\r\n\t\tvar msgtxt;\r\n\t\tvar vinnum = urlParams[\"Vin\"];\r\n\t\tif(typeof(vinnum)
+        != \"undefined\")\r\n\t\t{\r\n\t\t\tif($('div[id*=divMain]').length==0)\r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\"is
+        not a valid VIN.  Please check the information entered and try again\";\t\r\n\t\t\t\t//Commented
+        after server side code change done\t\t\t\t\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum+\" \"+msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\telse
+        if($('div[id*=divMain]').length>0)\r\n\t\t\t{\r\n\t\t\t\tif($('div[id*=divError]').length>0)\r\n\t\t\t\t{\r\n\t\t\t\t\t$('div[id*=divMain]').hide();\r\n\t\t\t\t}\r\n\t\t\t\tmsgtxt=\"No
+        outstanding Recalls or Customer Satisfaction Notifications Exist\";\t\t\r\n\t\t\t\t//Commented
+        after server side code change done\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum+\"</p><p>\"+msgtxt+\"</p></div>\"; \r\n\t\t\t}\r\n\t\t}\r\n\t\telse\r\n\t\t{\r\n\t\t//msgtxt
+        = \"Vin number not available\";\r\n\t\t//msg=\"<div class='recallerror' id='recallmsg'><p>\"+msgtxt+\"</p></div>\";\r\n\t\t\tif(typeof(vinnum)
+        != \"undefined\")\r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\"is not a valid VIN.  Please
+        check the information entered and try again\";\t\r\n\t\t\t\t//Commented after
+        server side code change done\t\t\t\t\r\n\t\t\t\t//msg=\"<div class='recallerror'
+        id='recallmsg'><p>VIN:\"+vinnum +\" \"+ msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\telse
+        \r\n\t\t\t{\r\n\t\t\t\tmsgtxt=\" Please check the information entered and
+        try again\";\t\t\r\n\t\t\t\tmsg=\"<div class='recallerror' id='recallmsg'><p>\"+msgtxt+\"</p></div>\";\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\t\r\n\t\t}\r\n\t\t//$('div[id*=divError]').attr('class','recallerror');\r\n\t\t//append(
+        \"<p>Test</p>\" )\r\n\t\t//$('div[id*=divError]').append( \"<span class='recallerror'>\"+msg+\"</span>\"
+        );\r\n\t\t$('div[id*=divError]').append(msg);\r\n\t\t}\r\n\t\tcatch(e){}\r\n\t}\r\n\t\t//
+        Function to handle when no safety recalls and no campaigns.\r\n\t\t// Date
+        : 4th Aug 2014\r\n\t\tfunction ManageSafetyCampaignRecalls()\r\n\t\t{\r\n\t\t\ttry\r\n\t\t\t{\r\n\t\t\t\tvar
+        msgstxt;\r\n\t\t\t\tvar msgs;\r\n\t\t\t\tif($('table[id*=gvCampaign]').length=='0')\r\n\t\t\t\t{\r\n\t\t\t\t\t$('span[id*=lblNoCampaigns]').hide();\r\n\t\t\t\t\tmsgstxt=\"There
+        are no outstanding campaigns for the above listed VIN\";\t\r\n\t\t\t\t\tmsgs=\"<div
+        class='recallerror' id='recallmsg'><p>\"+msgstxt+\"</p></div>\";\r\n\t\t\t\t\t$('div[id*=divCampaignTable]').append(msgs);\r\n\t\t\t\t}\r\n\t\t\t\tif($('table[id*=gvSafetyRecalls]').length=='0')\r\n\t\t\t\t{\r\n\t\t\t\t\t$('span[id*=lblNoRecalls]').hide();\r\n\t\t\t\t\tmsgstxt=\"There
+        are no outstanding recalls for the above listed VIN\";\t\r\n\t\t\t\t\tmsgs=\"<div
+        class='recallerror' id='recallmsg'><p>\"+msgstxt+\"</p></div>\";\r\n\t\t\t\t\t$('div[id*=divSafetyRecallsTable]').append(msgs);\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tcatch(e){}\r\n\t\t}\r\n\r\n\t\r\n\tfunction
+        ManageSafetyCampaignText()\r\n\t{\r\n\t\ttry\r\n\t\t{\r\n\t\t\t$('#divSafetyRecallsText').text(\"\");\r\n
+        \           var sUrl = \"https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D\";\r\n
+        \           $('#divSafetyRecallsText').wrapInner(\"<div class='newrecall'>Safety
+        Recalls (What is a Safety Recall?   <a target='_blank' href=\" + sUrl + \">Learn
+        more)</a></div>\");\r\n \r\n\t\t\t$('#divCampaignText').text(\"\");\r\n            var
+        cUrl = \"https://chrysler.custhelp.com/app/chrysler/b2c_detail/a_id/18737/session/L2F2LzEvdGltZS8xNDA5NzY4OTY2L3NpZC9CMm4xdnUxbQ%3D%3D\";\r\n
+        \           $('#divCampaignText').wrapInner(\"<div class='newCamp'>Campaigns
+        (What is a Campaign?   <a target='_blank' href=\" + cUrl + \">Learn more)</a></div>\");\r\n\t\t}\r\n\t\tcatch(e){}\r\n\r\n\t}\r\n\t\r\n
+        \   var urlToReplace = 'http://www.chrysler.com/universal';\r\n    $(document).ready(function
+        () {\r\n        $.ajax({\r\n            type: \"GET\",\r\n            crossDomain:
+        true,\r\n            contentType: \"application/json; charset=utf-8\",\r\n
+        \           url: \"https://test.chrysler.com/vinrecall/VINRecallServlet?vin=\"
+        + getParameterByName('Vin') + \"&service=json&language=en_us\",\r\n            dataType:
+        \"jsonp\",\r\n            success: function (data) {\r\n                //
+        \ alert(\"asd\");\r\n                // console.log(data);\r\n            },\r\n
+        \           failure: function (x) {\r\n                alert(x);\r\n            }\r\n\r\n
+        \       });\r\n\t\tRemoveCharfromString();\r\n\t\t//RecallErrorMsg();\r\n\t\t//ManageSafetyCampaignRecalls();\r\n\t\t//ManageSafetyCampaignText();\r\n\t\t\r\n
+        \   });\r\n\t   $(document).ready(function () {\r\n\t   //alert('recallpage');\r\n\t\t\t//processTrackRecall();\r\n\t\r\n\t});\r\n\t//Hardcoded
+        for tempfix for RecallResults page for now\r\n\tfunction RemoveCharfromString()\r\n\t{\r\n\t\tvar
+        text = $(\".paddingTB30:contains(':')\").html()\r\n\t\ttext = text.replace(\":\",\"\");\r\n\t\t$(\".paddingTB30\").html(text);\r\n\t}\r\n
+        \   function showVinInfo(x) {\r\n        var trHtml = \"<tr>\";\r\n        $.each(x,
+        function (name, value) {\r\n            if (name == 'RecallDetails') {\r\n
+        \               $.each(value, function (n, v) {\r\n                    if
+        (v.NHTSA_recall_number != \"\") {\r\n                        var x = v.Chrysler_recall_number;\r\n
+        \                       $('#divSafetyRecallsTable > div > table > tbody >
+        tr > td > a:contains(\"' + x + '\")').parent().next().text(v.NHTSA_recall_number);\r\n
+        \                       var anchrText = $('#divSafetyRecallsTable > div >
+        table > tbody > tr > td').html();\r\n                        $('#divSafetyRecallsTable
+        > div > table > tbody > tr > td > a:contains(\"' + x + '\")').hide();\r\n
+        \                       $('#divSafetyRecallsTable > div > table > tbody >
+        tr > td > a:contains(\"' + x + '\")').parent().html(\"<a href='#'>\" + x +
+        \"</a>\");\r\n                        $('#divSafetyRecallsTable > div > table
+        > tbody > tr > td > a:contains(\"' + x + '\")').click(function () {\r\n                            window.open('https://www.chrysler.com/universal'
+        + v.vin_recall_url);\r\n                            return false;\r\n                        });\r\n
+        \                   }\r\n                    else {\r\n                        var
+        y = v.recall_desc;\r\n                        $('#divCampaignTable > div >
+        table > tbody > tr > td > a:contains(\"' + y + '\")').parent().html(\"<a href='#'>\"
+        + y + \"</a>\");\r\n                        $('#divCampaignTable > div > table
+        > tbody > tr > td > a:contains(\"' + y + '\")').click(function () {\r\n                            window.open('https://www.chrysler.com/universal'
+        + v.vin_recall_url);\r\n                            return false;\r\n                        });\r\n
+        \                   }\r\n                });\r\n            }\r\n        });\r\n
+        \       //$('#divSafetyRecallsTable').css('visibility', 'visible');\r\n    }\r\n\t\r\n
+        \   </script>\r\n\t\r\n\r\n<script type=\"text/javascript\">\r\n    /*RightNow.Client.Controller.addComponent(\r\n
+        \       {\r\n            chat_login_page: \"/app/commercial/chat_launch\",\r\n
+        \                       chat_login_page_width: 600,\r\n            container_element_id:
+        \"myChatLinkContainer\",\r\n            info_element_id: \"myChatLinkInfo\",\r\n
+        \           link_element_id: \"myChatLink\",\r\n            instance_id: \"sccl_0\",\r\n
+        \           module: \"ConditionalChatLink\",\r\n            type: 7\r\n        },\r\n
+        \       \"https://commercial-vehicles.widget.custhelp.com/ci/ws/get\"\r\n
+        \   );*/\r\n\t\r\n\t\r\n\t    \r\n\r\nwindow.setInterval(function(){ loopsiloop();
+        },2);\r\n            function loopsiloop(){\r\n                  try{\r\n
+        \               var tmp =document.getElementById('myChatLinkInfo').querySelectorAll('span');\r\n
+        \               if(tmp != undefined){\r\n                    if(tmp[0].textContent=='Unavailable'){\r\n
+        \                   document.getElementById(\"chatImage\").src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/unavailable.PNG\";\r\n
+        \                    document.getElementById(\"myChatLinkInfo\").style.color=\"#b3b3b3\";\r\n
+        \               }\r\n                }\r\n              }catch(err){\r\n              }\r\n
+        \           }\r\n</script>\r\n<script type=\"text/javascript\">\r\n\t$( document
+        ).ready(function() {\r\n\t\r\n\tRightNow.Client.Controller.addComponent(\r\n
+        \       {\r\n            chat_login_page: \"/app/mopar/chat_launch_moparrecall_page3\",\r\n
+        \           chat_login_page_height: \"1000\",\r\n            chat_login_page_width:
+        \"600\",\r\n\t\t\twait_threshold:120,\r\n            container_element_id:
+        \"myChatLinkContainer\",\r\n            info_element_id: \"myChatLinkInfo\",\r\n
+        \           link_element_id: \"myChatLink\",\r\n            enable_availability_check:
+        true,\r\n            ignore_preroute: true,\r\n            instance_id: \"sccl_0\",\r\n
+        \           module: \"ConditionalChatLink\",\r\n            type:7,\r\n            label_available_immediately_template:\"Available\",\r\n
+        \           label_unavailable_busy_template:\"Unavailable\",\r\n            label_available_with_wait_template:\"Available\",\r\n
+        \           label_default:\"Available\"\r\n        },\r\n        \"https://mopar.widget.custhelp.com/ci/ws/get\"\r\n
+        \   );\r\n\t\r\n    RightNow.Client.Controller.init();\r\n});\r\n    \r\n</script>\r\n
+        <style type=\"text/css\">\r\n\t.Error\r\n\t{\r\n\t padding-top:49px;\r\n\t}\r\n
+        \   .recallerror\r\n    {\r\n\tcolor:red;\r\n\tfloat:left;\r\n\twidth:100%;\r\n
+        \      \r\n    }\r\n\t.chat-btn \r\n\t{\r\n\tposition : absolute;\r\n\tright:5%;\r\n\tmargin-right:0px;\r\n\t\r\n\t}\r\n
+        \   </style>\r\n\r\n<!--[if lt IE 9]>\r\n<script type=\"text/javascript\"
+        src=\"/_layouts/os/landingpage/js/ie-7-8.js\" ></script> \r\n<![endif]-->\r\n<!--scripts
+        libs -->\r\n\r\n\r\n<link href=\"/_layouts/os/landingpage/css/landing_css_plugin.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><link rel=\"stylesheet\" type=\"text/css\"
+        href=\"/_layouts/os/landingpage/css/global.css\" /><link id=\"mediaLandingPage\"
+        rel=\"stylesheet\" type=\"text/css\" href=\"/_layouts/os/landingpage/css/media-query.css\"
+        /><link id=\"recalls\" rel=\"stylesheet\" type=\"text/css\" href=\"/oc/us/en-US/sub/Style
+        Library/OwnersSite/recall/css/recalls.css\" /><link href=\"/oc/us/en-US/sub/Style
+        Library/OwnersSite/recall/css/RecallStyle.css\" rel=\"stylesheet\" type=\"text/css\"
+        /><link href=\"/oc/us/en-US/sub/Style Library/OwnersSite/recall/css/style.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n<script type=\"text/javascript\"
+        src=\"/OC/US/en-us/sub/Style Library/OwnersSite/recall/js/recallPrint.js\"></script>\r\n<!--[if
+        lte IE 7]>\r\n<link href=\"/_layouts/os/landingpage/css/ie-7.css\" rel=\"stylesheet\"
+        type=\"text/css\" />\r\n<![endif]-->\r\n<!--[if lte IE 8]>\r\n<link href=\"/_layouts/os/landingpage/css/ie-8.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n<![endif]-->\r\n\r\n<title>\r\n\tChrysler,
+        Jeep, Dodge, Ram, owners manual, accesories catalog, recall|Owners Center,
+        Chrysler Group LLC\r\n</title>\r\n\r\n\r\n<!--[if gte mso 9]><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<style
+        type=\"text/css\">\r\n.blue-gradient-btn{background:url(\"/_layouts/os/oc/us/Mopar/images/btn-active-bg.jpg\")
+        repeat scroll 0 0 rgba(0, 0, 0, 0);border-radius: 20px 20px 20px 20px; -moz-border-radius:
+        20px; -webkit-border-radius: 20px; color: #fff;cursor: pointer;font-weight:
+        bold; height: 44px; line-height:35px; behavior:url(\"/_layouts/moparownerconnect/pie.htc\");
+        padding:0 16px;margin-bottom:10px;font-size:14px; overflow:visible}\r\nheader
+        > div nav ul li a:link {\r\n    color: #484848;\r\n} \r\n\r\ndiv.chat-btn
+        a {\r\n\tdisplay: block;\r\n    font-family: \"HelveticaNeueW02-55Roma\",Arial,sans-serif;\r\n
+        \   font-size: 0.75rem;\r\n    font-weight: normal;\r\n    text-decoration:
+        none;   \r\n\t}\r\n\t\r\n\t#myChatLinkInfo span {\r\n    font-family: sans-serif;\r\n
+        \   text-decoration: none;\r\n\t}\r\n</style>\r\n\r\n<!--[if gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n\r\n<!--[if
+        gte mso 9]><xml>\n<mso:CustomDocumentProperties>\r\n</mso:CustomDocumentProperties>\n</xml><![endif]-->\r\n</head>\r\n\r\n<body
+        class=\"welcomeBodyBg mopar\">\r\n\r\n<form name=\"form1\" method=\"post\"
+        action=\"RecallsResults.aspx?vin=2C4RC1BG1ER210000\" id=\"form1\">\r\n<input
+        type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"/wEPDwUBMA9kFgICBA9kFgICAw9kFgJmD2QWBAIPDxYCHgdWaXNpYmxlaBYEAgEPPCsADQBkAgMPPCsADQBkAhAPZBYCAgEPDxYCHgRUZXh0BX88c3BhbiBzdHlsZT0iY29sb3I6cmVkIj4yQzRSQzFCRzFFUjIxMDAwMCBpcyBub3QgYSB2YWxpZCBWSU4uPGJyIC8+ICBQbGVhc2UgY2hlY2sgdGhlIGluZm9ybWF0aW9uIGVudGVyZWQgYW5kIHRyeSBhZ2Fpbi48L3NwYW4+ZGQYAgVEZ184OGUzY2ZlNF80YjE2XzRmNjhfYTJlNl9iYTgwZjhlMDIwYmNfUmVjYWxsc1F1ZXJ5JGN0bDAwJGd2Q2FtcGFpZ24PZ2QFSWdfODhlM2NmZTRfNGIxNl80ZjY4X2EyZTZfYmE4MGY4ZTAyMGJjX1JlY2FsbHNRdWVyeSRjdGwwMCRndlNhZmV0eVJlY2FsbHMPZ2SZpUMBZzGJLiD/cSsZbQHuzX+rng==\"
+        />\r\n\r\n\r\n<script src=\"/ScriptResource.axd?d=-Y3fAzhuqLENNZicZi9JJzG9w08IrIOwr4pa_IdLcpzWdGrNRccTFa83JhNd3z5lAXX4oLoMfUn-uZKvKiZnN0lFBmIqrWE-sw6pE6t1UlOQkkFdJLomdfAzmD8ZA-3i9TsgpwXUCfEzaA4AfE2IcXUXW2M1&amp;t=2e2045e2\"
+        type=\"text/javascript\"></script>\r\n<input type=\"hidden\" name=\"__EVENTVALIDATION\"
+        id=\"__EVENTVALIDATION\" value=\"/wEWEAK0wupdAtuR7fAKAv7e9fIFAqTjrKYFAvfA5bYFAu7BysQIAreMzMMOAuafs9MDAuW+wFcCzov/7gECt5eNwgwChPzpwAMCrvTlpA4C6ae34AYCyYfs0wQC/Z2Qmw201SfKhV3RkKVQfhH67ZfXxAii4A==\"
+        />\r\n\r\n<!--bodyWrapper Start-->\r\n<div id=\"bodyWrapper\"> \r\n    <header>\r\n
+        \   <!--<section class=\"main-content\">\r\n      \r\n\t  <div class=\"utilityNav
+        clearfix\">\r\n\t         \r\n        <div id=\"logo\" class=\"no-mop-bg\"><a
+        href=\"http://www.mopar.com/\" target='_blank' title=\"Mopar\"><img src=\"/_layouts/os/landingpage/images/mopar_header.png\"
+        alt=\"\" /></a></div>\r\n\t<ul class=\"brand-logo hide-on-mobile\">   \r\n
+        \         <li><a href=\"http://www.ramtrucks.com/\" title=\"Ram Trucks\" target=\"_blank\"
+        class=\"ram-logo\"></a></li>\r\n          <li><a href=\"http://www.dodge.com/\"
+        title=\"Dodge\" target=\"_blank\" class=\"dodge-logo\"></a></li>\r\n          <li><a
+        href=\"http://www.chrysler.com/\" title=\"Chrysler\" target=\"_blank\" class=\"chrysler-logo\"></a></li>\r\n
+        \         <li><a href=\"http://www.jeep.com/\" title=\"Jeep\" target=\"_blank\"
+        class=\"jeep-logo\"></a></li>\r\n\t  <li><a href=\"http://www.drivesrt.com/\"
+        title=\"SRT\" target=\"_blank\" class=\"SRT-logo-top\"></a></li>\r\n          <li><a
+        href=\"http://www.fiatusa.com/\" title=\"FIAT\" target=\"_blank\" class=\"fiat-logo\"></a></li>\r\n
+        \         <li><a href=\"http://www.mopar.com/\" title=\"Mopar\" target=\"_blank\"
+        class=\"mopar-logo-top\"></a></li>\t  \r\n      </ul>\r\n      </div>\t\t
+        \ \r\n    </section>-->\r\n\t<div>\r\n\t\t\t\t<a class=\"logo\"  href=\"http://www.fcanorthamerica.com/Pages/Home.aspx\"></a>\r\n\t\t\t\t<div
+        class=\"right_nav\">\r\n\t\t\t\t\t<div class=\"top_right_nav\">\r\n\t\t\t\t\t\t\t<div
+        class=\"ExternalClassF30F3EAF10A243FA91302323CEAAB3F3\">\r\n\t\t\t\t\t\t\t\t<div
+        class=\"hide-on-mobile moxcy-chat chat-btn\">\r\n\t\t\t\t\t\t\t\t\t<div id=\"myChatLinkContainer\">\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"myChatLink\">\r\n\t\t\t\t\t\t\t\t\t\t<img width=\"50\" height=\"50\"
+        id=\"chatImage\" src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/available.PNG\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"\"
+        />&#160;\r\n\t\t\t\t\t\t\t\t\t\t\t<div id=\"myChatLinkInfo\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t&#160;\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"locate_dealer\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"http://www.mopar.com/find-a-dealer/\"
+        name=\"&amp;lid=locate_a_dealer&amp;lpos=global_header\"><img src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/locate_a_dealer.png\"></a>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<nav
+        class=\"display320-no\">\r\n\t\t\t\t\t<ul class=\"menu\">\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.fcanorthamerica.com/News/Pages/News.aspx\">News</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/recalls.html\">FAQ</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/index.html\">Contact Us</a></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</nav>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"display320-yes recall-menu-toggle\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"#\"><img
+        src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/menu-arrow.png\"></a>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t\r\n
+        \ </header>\r\n  <!--header End-->\r\n  <nav class=\"display320-yes toggle-recall-menu\">\r\n\t\t\t\t\t<ul
+        class=\"menu\">\r\n\t\t\t\t\t\t<li><a href=\"http://www.fcanorthamerica.com/News/Pages/News.aspx\">News</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/recalls.html\">FAQ</a></li>\r\n\t\t\t\t\t\t<li><a
+        href=\"http://www.mopar.com/webselfservice/mopar/index.html\">Contact Us</a></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</nav>\r\n
+        \ <section class=\"content-row\">\r\n          <div class=\"img-div-recalls\"><img
+        src=\"/OC/US/en-US/sub/Style%20Library/OwnersSite/recall/img/recall_hero.jpg\"
+        id=\"hero_img\"></div>\r\n    </section>\r\n <section class=\"print-btn\">\r\n\t\t<div
+        id=\"divPrintLnk\" class=\"hide-on-mobile mopar-print-enabled\"><a href=\"#\"
+        id=\"aPrintLnk\" onclick=\"printDivRecall('centerbodyContentWrp');\" data-lid=\"Print_this_page\"
+        data-lpos=\"Dashboard_Jeep\" title=\"Print this page\">Print this page</a></div>\r\n\t</section>
+        \r\n  <!--centerbodyContentWrp section start-->\r\n  <section id=\"centerbodyContentWrp\">
+        \   \r\n    <section class=\"main-content\">\r\n      \r\n\t<div id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery\"
+        __MarkupType=\"vsattributemarkup\" __WebPartId=\"{88E3CFE4-4B16-4F68-A2E6-BA80F8E020BC}\"
+        WebPart=\"true\" partorder=\"2\">\r\n\t\r\n<div id=\"divBack\" class=\"back\">\r\n
+        \   \r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_VinNo_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_VinNo_hidden\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_Year_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_Year_hidden\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$RR_Vehicle_hidden\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_RR_Vehicle_hidden\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$ConfigValDesk\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_ConfigValDesk\"
+        value=\"3\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$ConfigValMobile\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_ConfigValMobile\"
+        value=\"0\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$No_Campaign\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_No_Campaign\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$No_Safety\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_No_Safety\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$total_Recalls\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_total_Recalls\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Safety_Complete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Safety_Complete\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Safety_Incomplete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Safety_Incomplete\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Campaign_Complete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Campaign_Complete\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Campaign_Incomplete\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Campaign_Incomplete\"
+        />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Text_ViewMoreDeskTop\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Text_ViewMoreDeskTop\"
+        value=\"View More Recalls\" />\r\n    <input type=\"hidden\" name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$Text_ViewCompleteMobile\"
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_Text_ViewCompleteMobile\"
+        value=\"Show All Completed\" />\r\n    \r\n    \r\n    <input onclick=\"__doPostBack('g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$btnBack','')\"
+        name=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery$ctl00$btnBack\"
+        type=\"button\" id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_btnBack\"
+        class=\"blue-gradient-btn\" alt=\"Back\" value=\"Back\" title=\"Back\" style=\"Display:none\"
+        />\r\n         \r\n    <strong>\r\n        SEARCH RESULTS</strong>\r\n</div>\r\n\r\n<div
+        id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_divError\"
+        class=\"Error\">\r\n    <span id=\"g_88e3cfe4_4b16_4f68_a2e6_ba80f8e020bc_RecallsQuery_ctl00_lblError\"><span
+        style=\"color:red\">2C4RC1BG1ER210000 is not a valid VIN.<br />  Please check
+        the information entered and try again.</span></span>\r\n</div>\r\n\r\n</div>\r\n
+        \   </section>\r\n  </section>\r\n  <!--centerbodyContentWrp section End-->
+        \r\n  \r\n    <!--Footer Part -->\r\n\t\t<footer>\r\n\t\t\t<div>\r\n\t\t\t<div
+        class=\"logos\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li class=\"alfa_romeo\"><a
+        href=\"#.\">Alfa Romeo</a></li>\r\n\t\t\t\t    <li class=\"chrysler\"><a href=\"#.\">Chrysler</a></li>\r\n\t\t\t\t
+        \   <li class=\"dodge\"><a href=\"#.\">Dodge</a></li>\r\n\t\t\t\t    <li class=\"fiat\"><a
+        href=\"#.\">Fiat</a></li>\r\n\t\t\t\t    <li class=\"jeep\"><a href=\"#.\">Jeep</a></li>\r\n\t\t\t\t
+        \   <li class=\"ram_trucks\"><a href=\"#.\">Ram Trucks</a></li>\r\n\t\t\t\t
+        \   <li class=\"mopar\"><a href=\"#.\">Mopar</a></li>\r\n\t\t\t\t    <li class=\"srt\"><a
+        href=\"#.\">SRT</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t<div
+        class=\"sitemap\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li><a  href=\"#.\">Home</a>
+        | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Fiat Chrysler Automobiles (FCA)</a>
+        | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Contact Us</a> | </li>\r\n\t\t\t\t
+        \   <li><a  href=\"#.\">ChryslerGroup360</a> | </li>\r\n\t\t\t\t    <li><a
+        \ href=\"#.\">Site Map</a> | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Privacy
+        Policy</a> | </li>\r\n\t\t\t\t    <li><a  href=\"#.\">Copyright</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t<div
+        class=\"disc\">\r\n\t\t\t\t<p>&copy;2015 FCA US LLC. All Rights Reserved.</p>\r\n\t\t\t\t<p>Chrysler,
+        Dodge, Jeep, Ram, Mopar and SRT are registered trademarks of FCA US LLC.</p>\r\n\t\t\t\t<p>ALFA
+        ROMEO and FIAT are registered trademarks of Fiat Group Marketing &amp; Corporate
+        Communication S.p.A., used under license by FCA US LLC.</p>\r\n\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</footer>\t\r\n\t\t<!--End
+        Footer Part -->\r\n  \r\n</div>\r\n<div class=\"mophar-popup\"></div>\r\n<!--bodyWrapper
+        End-->\r\n<div id=\"mask\">&nbsp; </div>\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nSys.Application.initialize();\r\n//]]>\r\n</script>\r\n</form>\r\n<script
+        type=\"text/javascript\">\r\nvar CountryCookieValue= \"US\";\r\nvar LanguageCookieValue=
+        \"en-us\";\r\nvar curr_url= window.location.href;\r\nvar new_url= curr_url.substring(0,curr_url.toLowerCase().indexOf(\"pages\"));\r\nvar
+        TermsUrl=\"\";\r\n//TermsUrl = new_url + \"oc/\" + CountryCookieValue + \"/\"
+        + LanguageCookieValue + \"/sub/Documents/Terms.OwnerConnect.pdf\";\r\ntry{\r\nTermsUrl
+        = new_url + \"/Documents/Terms.OwnerConnect.pdf\";\r\ndocument.getElementById('TermsId').setAttribute(\"href\",
+        TermsUrl);\r\ndocument.getElementById('TermsIdMobile').setAttribute(\"href\",
+        TermsUrl);\r\n}\r\ncatch(e){\r\n}\r\n</script>\r\n<script type=\"text/javascript\"
+        src=\"https://mopar.widget.custhelp.com/euf/rightnow/RightNow.Client.js\"></script>\r\n<!--Adobe
+        scripts 08/24/2015 -->\r\n<script type=\"text/javascript\">_satellite.pageBottom();</script>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Tue, 22 Sep 2015 12:17:40 GMT
+recorded_with: VCR 2.9.3
