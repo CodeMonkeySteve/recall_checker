@@ -17,7 +17,7 @@ describe RecallChecker::Adaptors::Acura do
         expect(r['risks']).to start_with "EITHER OF THESE CONDITIONS"
         expect(r['remedy']).to start_with "HONDA WILL NOTIFY OWNERS"
         expect(r['status']).to eq "Recall INCOMPLETE"
-        expect(r['notes']).to eq ""
+        expect(r['notes']).to eq nil
       end
     end
 

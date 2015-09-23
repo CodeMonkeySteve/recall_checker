@@ -46,14 +46,6 @@ module RecallChecker
         item.css('div div')[2].text
       end
 
-      def retrieve_status item
-        "Recall status information is not available"
-      end
-
-      def retrieve_notes item
-        ""
-      end
-
       def retrieve_created_at item
         item.css('h3 span').text.split(NBSP + '|' + NBSP)[2]
       end

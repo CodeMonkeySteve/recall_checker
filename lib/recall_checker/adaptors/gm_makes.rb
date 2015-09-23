@@ -12,8 +12,7 @@ module RecallChecker
         "description" => "recall_description",
         "risks" => "safety_risk_description",
         "remedy" => "remedy_description",
-        "status" => "mfr_recall_status",
-        "notes" => "recall_title"
+        "status" => "mfr_recall_status"
       }
 
       def url
@@ -30,10 +29,6 @@ module RecallChecker
 
       def convert_updated_at time
         Time.parse(parsed_response['data']['refresh_date'])
-      end
-
-      def convert_notes notes
-        "" # The site doesn't return notes
       end
 
     end

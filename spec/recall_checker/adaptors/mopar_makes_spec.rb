@@ -18,7 +18,7 @@ describe RecallChecker::Adaptors::MoparMakes do
         expect(r['risks']).to start_with "THE REAR QUARTER VENT WINDOW SWITCH ON YOUR VEHICLE MAY OVERHEAT"
         expect(r['remedy']).to start_with "THE REAR QUARTER VENT WINDOW SWITCH MUST BE REPLACED"
         expect(r['status']).to start_with "INCOMPLETE BUT REPAIR PARTS ARE AVAILABLE"
-        expect(r['notes']).to eq ""
+        expect(r['notes']).to eq nil
       end
     end
 

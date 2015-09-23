@@ -11,8 +11,7 @@ module RecallChecker
         "description" => "recallDesc",
         "risks" => "safetyDescription",
         "remedy" => "repairDesc",
-        "status" => "status",
-        "notes" => "status"
+        "status" => "status"
       }
 
       def options
@@ -34,10 +33,6 @@ module RecallChecker
 
       def convert_updated_at time
         convert_created_at time
-      end
-
-      def convert_notes notes
-        ""
       end
 
     end

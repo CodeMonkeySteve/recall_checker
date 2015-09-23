@@ -16,8 +16,8 @@ describe RecallChecker::Adaptors::Infiniti do
         expect(r['description']).to start_with "Infiniti was notified by its supplier"
         expect(r['risks']).to start_with "If a vehicle with an affected air bag"
         expect(r['remedy']).to start_with "Your dealer will replace"
-        expect(r['status']).to eq "Recall status information is not available"
-        expect(r['notes']).to include "Recall Campaign"
+        expect(r['status']).to eq nil
+        expect(r['notes']).to eq nil
       end
     end
 

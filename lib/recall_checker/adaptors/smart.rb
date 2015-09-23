@@ -13,8 +13,7 @@ module RecallChecker
         "description" => "recallDescription",
         "risks" => "safetyRiskDescription",
         "remedy" => "remedyDescription",
-        "status" => "mfrRecallStatusDesc",
-        "notes" => "status"
+        "status" => "mfrRecallStatusDesc"
       }
 
       def url
@@ -27,10 +26,6 @@ module RecallChecker
 
       def recalls_raw
         JSON.parse(parsed_response)['page']['recallCampaign']['recalls']
-      end
-
-      def convert_notes notes
-        ""
       end
 
     end

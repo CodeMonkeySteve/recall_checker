@@ -17,7 +17,7 @@ describe RecallChecker::Adaptors::JaguarLandRover do
         expect(r['risks']).to start_with "A non-compliance concern has been identified"
         expect(r['remedy']).to start_with "Owners will be notified and instructed"
         expect(r['status']).to eq "Incomplete But Repair Available"
-        expect(r['notes']).to eq ""
+        expect(r['notes']).to eq nil
 
       end
     end

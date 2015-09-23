@@ -162,4 +162,169 @@ http_interactions:
       string: '{"Status":0,"StatusData":{"ContractValidationResults":[],"ExceptionDetail":null},"ViewModel":{"Error":2,"Make":null,"Model":null,"RecallCampaigns":[],"RefreshDate":null,"Vin":null,"Year":null}}'
     http_version: 
   recorded_at: Thu, 17 Sep 2015 13:09:07 GMT
+- request:
+    method: get
+    uri: http://www.bmwusa.com/Services/VinRecallService.svc/GetRecallCampaignsForVinWBA3C3C51EF986010
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '1158'
+      Content-Type:
+      - text/html
+      Server:
+      - Microsoft-IIS/7.5
+      - WWW700
+      X-Aspnet-Version:
+      - 4.0.30319
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Wed, 23 Sep 2015 08:19:51 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ASP.NET_SessionId=b1qytokyrr3rh4rcl5sn0hyl; path=/; HttpOnly
+      - LK9H33C=msogTm5sYapqCVJfp7eSxZ+JgGoA0dGVCkNDB0Kvobhx548wGwd7TNlaB2Sk0UWa;
+        expires=Mon, 23-Sep-2019 08:19:18 GMT; path=/
+      - VisitorID=60b26515-df30-4ec0-88b8-7ceabb609978; expires=Sat, 23-Sep-3015 08:19:18
+        GMT; path=/
+      - WK9733P=iUoZn5JigteSQMkGv3DZoE+/ezjddWQnGu4cAgATpoDbGPtOSjlttfGIyZxNYYIb;
+        path=/
+    body:
+      encoding: UTF-8
+      string: <html version="-//W3C//DTD XHTML 2.0//EN" xml:lang="en" xsi:schemaLocation="http://www.w3.org/1999/xhtml
+        http://www.w3.org/MarkUp/SCHEMA/xhtml2.xsd" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><HEAD><TITLE>Request
+        Error</TITLE></HEAD><BODY><DIV id="content"><P class="heading1"><B>Error Description:</B>
+        'Resource does not exist'</P><P><B>This may be because an invalid URI or HTTP
+        method was specified. Please see the <A HREF="http://www.bmwusa.com/services/VinRecallService.svc/help">service
+        help page</A> for constructing valid requests to the service.</B></P><!--
+        Padding xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--></DIV></BODY></html>
+    http_version: 
+  recorded_at: Wed, 23 Sep 2015 08:19:51 GMT
+- request:
+    method: get
+    uri: http://www.bmwusa.com/Services/VinRecallService.svc/GetRecallCampaignsForVinWBA3N9C55FK248054
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '1158'
+      Content-Type:
+      - text/html
+      Server:
+      - Microsoft-IIS/7.5
+      - WWW704
+      X-Aspnet-Version:
+      - 4.0.30319
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Wed, 23 Sep 2015 08:19:51 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ASP.NET_SessionId=no1phfyye0kq4qtzmwgozlyd; path=/; HttpOnly
+      - LK9H33C=xIzpzKw3afMJeaU6CGKHoek+nbaTWcvcxD+9eOM23yFv2DIiilBfBGpX6Ac4N+7+;
+        expires=Mon, 23-Sep-2019 08:19:19 GMT; path=/
+      - VisitorID=76bace09-b9ee-44fa-8c9d-88abad87f49f; expires=Sat, 23-Sep-3015 08:19:19
+        GMT; path=/
+      - WK9733P=tboJRxtqEv2T1lHxstiXFxkNw4n5n4KYBLGtA9kseS/UUo7nPnWdxp+zRQHpc6su;
+        path=/
+    body:
+      encoding: UTF-8
+      string: <html version="-//W3C//DTD XHTML 2.0//EN" xml:lang="en" xsi:schemaLocation="http://www.w3.org/1999/xhtml
+        http://www.w3.org/MarkUp/SCHEMA/xhtml2.xsd" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><HEAD><TITLE>Request
+        Error</TITLE></HEAD><BODY><DIV id="content"><P class="heading1"><B>Error Description:</B>
+        'Resource does not exist'</P><P><B>This may be because an invalid URI or HTTP
+        method was specified. Please see the <A HREF="http://www.bmwusa.com/services/VinRecallService.svc/help">service
+        help page</A> for constructing valid requests to the service.</B></P><!--
+        Padding xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--></DIV></BODY></html>
+    http_version: 
+  recorded_at: Wed, 23 Sep 2015 08:19:51 GMT
+- request:
+    method: get
+    uri: http://www.bmwusa.com/Services/VinRecallService.svc/GetRecallCampaignsForVinWBA3N9C55FK240000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '1158'
+      Content-Type:
+      - text/html
+      Server:
+      - Microsoft-IIS/7.5
+      - WWW704
+      X-Aspnet-Version:
+      - 4.0.30319
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Wed, 23 Sep 2015 08:19:51 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ASP.NET_SessionId=0b1xd4n1y1gnbq5ugibd2xsa; path=/; HttpOnly
+      - LK9H33C=G4IksbTJR2t2fyWl0WdF1jC7+oCBM7sNUoB5pFkQyDKT2twcRvoYVnrPDfhjCaME;
+        expires=Mon, 23-Sep-2019 08:19:19 GMT; path=/
+      - VisitorID=efbf32c3-239f-415c-820e-fca46d6df153; expires=Sat, 23-Sep-3015 08:19:19
+        GMT; path=/
+      - WK9733P=1Av9uIR2mFqSsqxbMH/0LoGfUW8VLDcUVVDrY12Sr5mIX3fgWaQatgz6jkRTCq/9;
+        path=/
+    body:
+      encoding: UTF-8
+      string: <html version="-//W3C//DTD XHTML 2.0//EN" xml:lang="en" xsi:schemaLocation="http://www.w3.org/1999/xhtml
+        http://www.w3.org/MarkUp/SCHEMA/xhtml2.xsd" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><HEAD><TITLE>Request
+        Error</TITLE></HEAD><BODY><DIV id="content"><P class="heading1"><B>Error Description:</B>
+        'Resource does not exist'</P><P><B>This may be because an invalid URI or HTTP
+        method was specified. Please see the <A HREF="http://www.bmwusa.com/services/VinRecallService.svc/help">service
+        help page</A> for constructing valid requests to the service.</B></P><!--
+        Padding xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--></DIV></BODY></html>
+    http_version: 
+  recorded_at: Wed, 23 Sep 2015 08:19:52 GMT
 recorded_with: VCR 2.9.3

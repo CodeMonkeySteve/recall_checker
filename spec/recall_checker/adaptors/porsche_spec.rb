@@ -16,8 +16,8 @@ describe RecallChecker::Adaptors::Porsche do
         expect(r['description']).to start_with "Due to a temporary manufacturing error"
         expect(r['risks']).to start_with "The durability of the upper part of the lock"
         expect(r['remedy']).to start_with "The upper part of the lock"
-        expect(r['status']).to eq "Recall status information is not available"
-        expect(r['notes']).to eq ""
+        expect(r['status']).to eq nil
+        expect(r['notes']).to eq nil
       end
     end
 

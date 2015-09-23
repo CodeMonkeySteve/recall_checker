@@ -13,8 +13,7 @@ module RecallChecker
         "description" => "recallDescription",
         "risks" => "safetyRiskDescription",
         "remedy" => "remedyDescription",
-        "status" => "mfrRecallStatus",
-        "notes" => "mfrRecallStatus"
+        "status" => "mfrRecallStatus"
       }
 
       def vin_invalid?
@@ -39,10 +38,6 @@ module RecallChecker
 
       def convert_updated_at time
         Time.parse(parsed_response['nhtsaVehicle']['recallRefreshDate'])
-      end
-
-      def convert_notes notes
-        ""
       end
 
     end

@@ -61,7 +61,10 @@ module RecallChecker
       def recalls_raw
         if respond_to?('recalls_html')
           recalls_html.map do |recall|
-            Hash[fields.map { |field| [field, send("retrieve_#{field}", recall)] }]
+            Hash[fields.map do |field| 
+              retriever = "retrieve_#{field}"
+              [field, respond_to?(retriever) ? send(retriever, recall) : nil]
+            end]
           end
         else
           parsed_response.fetch('recalls', [])
@@ -72,7 +75,7 @@ module RecallChecker
         recalls_raw.map do |recall|
           Hash[fields.map do |field|
             converter = "convert_#{field}"
-            value = recall.fetch(lookup_field(field))
+            value = recall[lookup_field(field)]
             [field, respond_to?(converter) ? send(converter, value) : value ]
           end]
         end

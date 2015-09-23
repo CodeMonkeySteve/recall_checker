@@ -18,7 +18,7 @@ describe RecallChecker::Adaptors::GMMakes do
         expect(r['risks']).to start_with "The timing of the key movement"
         expect(r['remedy']).to start_with "Dealers are to provide"
         expect(r['status']).to eq "11"
-        expect(r['notes']).to eq ""
+        expect(r['notes']).to eq nil
       end
     end
 

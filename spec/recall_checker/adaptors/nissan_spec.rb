@@ -16,8 +16,8 @@ describe RecallChecker::Adaptors::Nissan do
         expect(r['description']).to start_with "In the affected vehicles"
         expect(r['risks']).to start_with "If the OCS does not detect an adult occupant"
         expect(r['remedy']).to start_with "Dealers will update the OCS software"
-        expect(r['status']).to eq "Recall status information is not available"
-        expect(r['notes']).to include "Recall Campaign"
+        expect(r['status']).to eq nil
+        expect(r['notes']).to eq nil
       end
     end
 

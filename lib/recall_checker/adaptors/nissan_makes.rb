@@ -10,9 +10,7 @@ module RecallChecker
         "manufacturer_id" => "nnaId",
         "description" => "primaryDescription",
         "risks" => "riskIfNotRepaired",
-        "remedy" => "remedyDescription",
-        "status" => "typeCode", # status not available in JSON
-        "notes" => "typeCode" # notes not available in JSON
+        "remedy" => "remedyDescription"
       }
 
       def vin_invalid?
@@ -25,14 +23,6 @@ module RecallChecker
 
       def convert_updated_at time
         Time.parse(time[0..9] + " " + time[11..18])
-      end
-
-      def convert_status str
-        "Recall status information is not available"
-      end
-
-      def convert_notes str
-        "Type code: #{str}" 
       end
 
     end

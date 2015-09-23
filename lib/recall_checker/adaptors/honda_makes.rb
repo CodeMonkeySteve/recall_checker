@@ -11,8 +11,7 @@ module RecallChecker
         "description" => "RecallDescription",
         "risks" => "SafetyRiskDescription",
         "remedy" => "RemedyDescription",
-        "status" => "RecallStatus",
-        "notes" => "RecallStatus"
+        "status" => "RecallStatus"
       }
 
       def url
@@ -25,10 +24,6 @@ module RecallChecker
 
       def recalls_raw
         parsed_response['CampaignTypes'].first['Campaigns'] or []
-      end
-
-      def convert_notes str
-        "" 
       end
 
       def convert_created_at time

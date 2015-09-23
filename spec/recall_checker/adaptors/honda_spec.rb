@@ -17,7 +17,7 @@ describe RecallChecker::Adaptors::Honda do
         expect(r['risks']).to eq ""
         expect(r['remedy']).to eq ""
         expect(r['status']).to eq "Recall INCOMPLETE"
-        expect(r['notes']).to eq ""
+        expect(r['notes']).to eq nil
 
       end
     end

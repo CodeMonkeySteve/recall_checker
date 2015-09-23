@@ -48,10 +48,6 @@ module RecallChecker
         item.css('td')[7].text
       end
 
-      def retrieve_notes item
-        ""
-      end
-
       def retrieve_created_at item
         item.css('td')[4].text
       end

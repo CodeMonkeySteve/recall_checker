@@ -17,7 +17,7 @@ describe RecallChecker::Adaptors::Mitsubishi do
         expect(r['risks']).to start_with "BRAKE VACUUM PUMP INOPERABILITY"
         expect(r['remedy']).to start_with "THE DEALERSHIP WILL REPROGRAM"
         expect(r['status']).to eq "Recall status information is not available"
-        expect(r['notes']).to eq ""
+        expect(r['notes']).to eq nil
       end
     end
 

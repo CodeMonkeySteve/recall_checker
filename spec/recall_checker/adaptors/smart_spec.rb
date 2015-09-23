@@ -17,7 +17,7 @@ describe RecallChecker::Adaptors::Smart do
         expect(r['risks']).to start_with "These bolts might break during the lifetime"
         expect(r['remedy']).to start_with "An authorized smart dealer will replace"
         expect(r['status']).to eq "Recall INCOMPLETE"
-        expect(r['notes']).to eq ""
+        expect(r['notes']).to eq nil
 
       end
     end
