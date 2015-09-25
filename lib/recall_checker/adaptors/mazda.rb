@@ -27,7 +27,8 @@ module RecallChecker
         rec_ids = htmlpage.css('#recallResult div.recall_row.recall_info').to_a
         rec_desc = htmlpage.css('#recallResult div.recall_row.table_container').to_a
         raise MalformedDataError if rec_ids.count != rec_desc.count 
-        rec_ids.map.with_index { |r,i| Nokogiri::HTML(r.to_html + rec_desc[i].to_html) }
+        rec = rec_ids.map.with_index { |r,i| Nokogiri::HTML(r.to_html + rec_desc[i].to_html) }
+        rec.select { |r| r.css('.table_container .tableElement')[3].text.strip != "Repair Completed" }
       end
 
       def retrieve_title item
