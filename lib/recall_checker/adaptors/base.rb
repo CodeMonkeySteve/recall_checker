@@ -82,11 +82,11 @@ module RecallChecker
       end
       
       def convert_created_at time
-        Time.parse(time)
+        Time.parse(time) if time
       end
 
       def convert_updated_at time
-        Time.parse(time)
+        Time.parse(time) if time
       end
     end
   end

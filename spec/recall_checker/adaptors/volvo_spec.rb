@@ -2,7 +2,27 @@ require 'spec_helper'
 
 describe RecallChecker::Adaptors::Volvo do
 
-    it "loads recall data for VIN YV126MFK0G2397287 with recalls" do
+    it "loads recall data for VIN YV1622FSXC2140424 with open recalls" do
+      VCR.use_cassette('volvo', :record => :new_episodes) do
+        @checker = RecallChecker::Adaptors::Volvo.new("YV1622FSXC2140424")
+        expect(@checker.response).not_to be_empty
+        expect(@checker.recalls.count).to eq 1
+
+        r = @checker.recalls.first
+        expect(r['title']).to start_with "Recall R29436: Oil Pressure Sensor"
+        expect(r['created_at']).to eq Time.parse("3 Dec 2013")
+        expect(r['nhtsa_id']).to eq "13V592"
+        expect(r['manufacturer_id']).to eq "R29436"
+        expect(r['description']).to start_with "Recall R29436: Oil Pressure Sensor"
+        expect(r['risks']).to start_with "Volvo Cars of North America, LLC"
+        expect(r['remedy']).to start_with "The corrective action"
+        expect(r['status']).to start_with "Recall INCOMPLETE"
+        expect(r['notes']).to start_with "For Recalls prior to August 1999"
+      end
+    end
+
+
+    it "loads recall data for VIN YV126MFK0G2397287 with open recalls but no info" do
       VCR.use_cassette('volvo', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Volvo.new("YV126MFK0G2397287")
         expect(@checker.response).not_to be_empty
