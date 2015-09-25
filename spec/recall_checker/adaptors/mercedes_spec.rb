@@ -10,6 +10,7 @@ describe RecallChecker::Adaptors::MercedesBenz do
     end
 
 =begin
+
     it "loads recall data for VIN WDDLJ7DB3EA107226 with open recalls" do
       # VCR.use_cassette('mercedes_benz', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::MercedesBenz.new("WDDLJ7DB3EA107226")
@@ -49,6 +50,7 @@ describe RecallChecker::Adaptors::MercedesBenz do
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       # end
     end
+
 =end
 
 

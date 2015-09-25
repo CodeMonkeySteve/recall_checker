@@ -16,16 +16,10 @@ module RecallChecker
         "status" => "mfrRecallStatusDesc"
       }
 
-      def pre_request
-        page = self.class.get("/recall")
-        @cookie = page.headers['Set-Cookie']
-        @csrf_token = Nokogiri::HTML(page).css('#CSRF_TOKEN').attr('value').text
-      end
-
       def request
-        pre_request
-        headers = { 'Cookie' => @cookie }
-        body = { 'CSRF_TOKEN' => @csrf_token, 'vin' => @vin }
+        page = self.class.get("/recall")
+        headers = { 'Cookie' => page.headers['Set-Cookie'] }
+        body = { 'CSRF_TOKEN' => Nokogiri::HTML(page).css('#CSRF_TOKEN').attr('value').text, 'vin' => @vin }
         self.class.post("/json/recall/campaigns", headers: headers, body: body)
       end
 
