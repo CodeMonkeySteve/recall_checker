@@ -10,4 +10,10 @@ module RecallChecker
 
   # Raised if the data returned from the server cannot be parsed properly
   class MalformedDataError < Error; end  
+
+  # Captcha request was not sent before executing the main request
+  class CaptchaNotRequestedError < Error; end
+
+  # No captcha answer supplied to the class that requires it
+  class CaptchaNotSolvedError < Error; end
 end

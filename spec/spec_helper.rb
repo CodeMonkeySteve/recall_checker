@@ -5,6 +5,7 @@ require 'webmock/rspec'
 require 'vcr'
 require 'nokogiri'
 require 'recall_checker'
+require 'launchy'
 
 RSpec.configure do |config|
   # some (optional) config here

@@ -1,7 +1,7 @@
 module RecallChecker
   module Adaptors
     class Volvo < Base
-    	make 'Volvo'
+      make 'Volvo'
       base_uri 'http://www.volvocars.com/us/own/owner-info/recall-information'
 
       FIELDS = {
@@ -17,7 +17,7 @@ module RecallChecker
       }
 
       def vin_invalid?
-      	@response.parsed_response.include? "VIN is not valid"
+        @response.parsed_response.include? "VIN is not valid"
       end
 
       def htmlpage
@@ -25,10 +25,10 @@ module RecallChecker
       end
 
       def recalls_raw
-      	no_of_recalls = htmlpage.css("div.recall-list-wrapper div.sub-header").text.split(":")[1].to_i
+        no_of_recalls = htmlpage.css("div.recall-list-wrapper div.sub-header").text.split(":")[1].to_i
         html_recalls = htmlpage.css('ul.recall-list li.recall-item ul.recall-item-info').to_a
         if html_recalls.empty?
-      	 Array.new(no_of_recalls, {})
+          Array.new(no_of_recalls, {})
         else
           html_recalls.map do |recall|
             names = recall.css('div.left').to_a.map { |x| x.text }
