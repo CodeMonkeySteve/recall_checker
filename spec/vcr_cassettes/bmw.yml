@@ -327,4 +327,80 @@ http_interactions:
         Padding xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--></DIV></BODY></html>
     http_version: 
   recorded_at: Wed, 23 Sep 2015 08:19:52 GMT
+- request:
+    method: get
+    uri: http://www.bmwusa.com/Services/VinRecallService.svc/GetRecallCampaignsForVin/WBANU53538CT12139
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '2751'
+      Content-Type:
+      - application/json
+      Server:
+      - Microsoft-IIS/7.5
+      - WWW701
+      X-Aspnet-Version:
+      - 4.0.30319
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Tue, 29 Sep 2015 18:45:10 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ASP.NET_SessionId=mwctq42qzie5r1em0bq3e1eu; path=/; HttpOnly
+      - LK9H33C=wtSuwqYF0Jxr4/6orKbqGy3KWJNnQlbyoxM1Du34xRwzNhY86H95kfgiNQIZM3x1;
+        expires=Sun, 29-Sep-2019 18:44:35 GMT; path=/
+      - VisitorID=539bc5c6-9823-4cb7-9836-1142b74df3a6; expires=Fri, 29-Sep-3015 18:44:35
+        GMT; path=/
+      - WK9733P=pCm7hv35i7ftkc2VSuMrMVG9uCqglyMEq6T0H1U+ktTZ85aiOJ3kT3Vu8soEJlE1;
+        path=/
+    body:
+      encoding: UTF-8
+      string: '{"Status":0,"StatusData":{"ContractValidationResults":[],"ExceptionDetail":null},"ViewModel":{"Error":0,"Make":"BMW","Model":"528i
+        Sedan","RecallCampaigns":[{"ValidationRules":"{\"rules\":{},\"messages\":{}}","ViewModelValidation":{"IsValid":false,"PropertyValidations":[]},"Description":"On
+        certain model year 2004 through 2010 5 Series, model year 2004 through 2010
+        6 Series, model year 2006 through 2010 M5, and model year 2007 through 2010
+        M6 models, the insulated bulkhead connector for the positive battery cable
+        may have been incorrectly attached to the trunk floor panel, which can lead
+        to a loosening of the bolt connection.  As it loosens, an increase in electrical
+        resistance at this cable connection is possible and could cause the cable
+        connection to overheat.","HasRecallLetter":true,"ManufacturerNotes":"For additional
+        information or assistance, please contact Customer Relations and Services
+        at 1-800-525-7417 or email at CustomerRelations@bmwusa.com.","ManufacturerRecallNumber":"NA","ManufacturerRecallStatus":11,"RecallDate":"March
+        23, 2012","RecallNumber":"12V-126","RefreshDate":"September 29, 2015","RemedyDescription":"Your
+        BMW center will inspect and secure the battery bolt cable connection as necessary.  ","SafetyRiskDescription":"Overheating
+        could lead to a fire, even when the vehicle is not in use.  As a precaution,
+        you are advised to park outside until the remedy has been made.","SortOrder":0,"Title":"BATTERY
+        CABLE  - INSULATED BULKHEAD CONNECTOR"},{"ValidationRules":"{\"rules\":{},\"messages\":{}}","ViewModelValidation":{"IsValid":false,"PropertyValidations":[]},"Description":"On
+        certain model year 2008 through 2010 528i, 535i, 550i, and M5 models manufactured
+        from March 1, 2007 through December 31, 2009, increased resistance at the
+        taillight electrical contacts over time may cause damage to the ground terminal
+        and housing of the connector, resulting in an intermittent or permanent loss
+        of functionality of one or more rear lamp functions (tail, brake, turn-signal,
+        reverse).","HasRecallLetter":true,"ManufacturerNotes":"For additional information
+        or assistance, please contact Customer Relations and Services at 1-800-525-7417
+        or email at CustomerRelations@bmwusa.com.","ManufacturerRecallNumber":"NA","ManufacturerRecallStatus":11,"RecallDate":"September
+        10, 2013","RecallNumber":"13V-407","RefreshDate":"September 29, 2015","RemedyDescription":"Your
+        BMW center will replace the rear lamp bulb carriers.  ","SafetyRiskDescription":"Intermittent
+        rear lamp operation reduces your ability to warn other motorists of your intentions.  This
+        could cause a vehicle crash without warning.","SortOrder":0,"Title":"REAR
+        LAMP BULB CARRIER"}],"RefreshDate":"September 29, 2015","Vin":"WBANU53538CT12139","Year":2008}}'
+    http_version: 
+  recorded_at: Tue, 29 Sep 2015 18:45:16 GMT
 recorded_with: VCR 2.9.3

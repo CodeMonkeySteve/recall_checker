@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe RecallChecker::Adaptors::BMW do
 
-    it "loads recall data for VIN WBA3C3C51EF986010 with recalls" do
+    it "loads recall data for VIN WBA3C3C51EF986010 with a recall" do
       VCR.use_cassette('bmw', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::BMW.new("WBA3C3C51EF986010")
         expect(@checker.response).not_to be_empty
@@ -20,6 +20,15 @@ describe RecallChecker::Adaptors::BMW do
         expect(r['notes']).to start_with "For additional information or assistance"
       end
     end
+
+    it "loads recall data for VIN WBANU53538CT12139 with 2 recalls" do
+      VCR.use_cassette('bmw', :record => :new_episodes) do
+        @checker = RecallChecker::Adaptors::BMW.new("WBANU53538CT12139")
+        expect(@checker.response).not_to be_empty
+        expect(@checker.recalls.count).to eq 2
+      end
+    end
+
 
     it "returns [] for real VIN WBA3N9C55FK248054 with no recalls" do
       VCR.use_cassette('bmw', :record => :new_episodes) do

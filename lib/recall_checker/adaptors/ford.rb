@@ -26,7 +26,8 @@ module RecallChecker
       end
 
       def recalls_raw
-        parsed_response.has_key?('recalls') ? parsed_response['recalls'].values : []
+        r = parsed_response.has_key?('recalls') ? parsed_response['recalls']['nhtsa_recall_item'] : []
+        r.is_a?(Array) ? r : [r]
       end
 
     end

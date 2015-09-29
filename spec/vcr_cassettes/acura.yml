@@ -159,4 +159,78 @@ http_interactions:
         VIN","DivisionMismatch":false,"VIN":"5FRYD4H25FB000000","Make":null,"ModelYear":null,"DivisionCd":null,"ModelGroupId":null,"ModelGroupName":null,"RecallsUrl":null,"SaveVinUrl":null,"IsLoggedIn":false,"CampaignTypes":null}'
     http_version: 
   recorded_at: Wed, 16 Sep 2015 17:20:23 GMT
+- request:
+    method: get
+    uri: http://owners.acura.com/Recalls/GetRecallsByVin/JH4CL96847C009863/true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Sep 2015 17:03:41 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      P3p:
+      - policyref="http://owners.honda.com/w3c/P3P.xml", CP="IDC DSP COR ADMi DEVi
+        TAIa PS
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Aspnetmvc-Version:
+      - '3.0'
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Set-Cookie:
+      - ASP.NET_SessionId=qr0o5hl5zgxflw03hzu3wlzo; path=/; HttpOnly
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2776'
+    body:
+      encoding: UTF-8
+      string: '{"LastUpdated":"Sep 28, 2015","Warning":false,"WarningCode":null,"WarningText":null,"DivisionMismatch":false,"VIN":"JH4CL96847C009863","Make":"Acura","ModelYear":"2007","DivisionCd":"B","ModelGroupId":null,"ModelGroupName":"TSX","RecallsUrl":"//owners.acura.com/recalls/JH4CL96847C009863","SaveVinUrl":"/account/add-vehicle/JH4CL96847C009863","IsLoggedIn":false,"CampaignTypes":[{"SortOrder":1,"Campaigns":[{"AgencyTypeCd":"N","AgencyType":"National
+        Highway Transportation Safety Administration (NHTSA)","AgencyName":"NHTSA","RecallNumber":"13V-093","Description":"ECM/PCM
+        CORROSION","Id":"S86","RecallDate":"03/14/2013","RecallStatus":"Recall INCOMPLETE","RecallDescription":"HONDA
+        IS RECALLING CERTAIN MODEL YEAR 2004-2008 ACURA TSX VEHICLES ORIGINALLY SOLD
+        IN, OR CURRENTLY REGISTERED IN, CONNECTICUT, DELAWARE, ILLINOIS, INDIANA,
+        IOWA, KENTUCKY, MAINE, MARYLAND, MASSACHUSETTS, MICHIGAN, MINNESOTA, MISSOURI,
+        NEW HAMPSHIRE, NEW JERSEY, NEW YORK, OHIO, PENNSYLVANIA, RHODE ISLAND, VERMONT,
+        VIRGINIA, WEST VIRGINIA, WISCONSIN AND THE DISTRICT OF COLUMBIA. IN STATES
+        THAT USE CORROSIVE MATERIALS FOR DEICING, DRIVER''S FOOTWEAR MAY BRING IN
+        MATERIALS THAT SATURATE THE VEHICLE''S CARPETING, WHICH IS IN CONTACT WITH
+        THE VEHICLE''S ENGINE ELECTRONIC CONTROL UNIT (ECU). AS A RESULT, THE ECU
+        CASE MAY EXPERIENCE RUST OR CORROSION. THIS DAMAGE MAY POTENTIALLY CAUSE THE
+        ENGINE TO STALL.","SafetyRiskDescription":"A VEHICLE STALL INCREASES THE RISK
+        OF A CRASH.","RemedyDescription":"HONDA WILL NOTIFY OWNERS AND ACURA DEALERS
+        WILL INSPECT THE VEHICLE   AND REPLACE ANY DAMAGED ECU, FREE OF CHARGE. ALL
+        VEHICLES WILL HAVE A WATERPROOF COVER INSTALLED ONTO THE ECU, FREE OF CHARGE.
+        THE RECALL   BEGAN DURING APRIL 2013. OWNERS MAY CONTACT ACURA CLIENT RELATIONS
+        AT 1-800-382-2238 AND SELECT OPTION 4 OR GO TO WWW.RECALLS.ACURA.COM."},{"AgencyTypeCd":"N","AgencyType":"National
+        Highway Transportation Safety Administration (NHTSA)","AgencyName":"NHTSA","RecallNumber":"10V-174","Description":"04-08
+        TSX POWER STEERING HOSE","Id":"R35","RecallDate":"04/27/2010","RecallStatus":"Recall
+        INCOMPLETE","RecallDescription":"HONDA IS RECALLING CERTAIN MODEL YEAR 2004
+        THROUGH 2008 ACURA TSX PASSENGER VEHICLES MANUFACTURED BETWEEN SEPTEMBER 25,
+        2002 AND FEBRUARY 13, 2008. PROLONGED HIGH UNDER HOOD TEMPERATURES MAY CAUSE
+        THE POWER STEERING HOSE TO DETERIORATE PREMATURELY AND MAY CAUSE THE HOSE
+        TO CRACK  AND LEAK POWER STEERING OIL.","SafetyRiskDescription":"OIL LEAKING
+        ONTO A HOT EXHAUST PIPE WILL GENERATE SMOKE AND A BURNING SMELL, AND COULD
+        POTENTIALLY RESULT IN AN UNDER HOOD FIRE.","RemedyDescription":"HONDA WILL
+        NOTIFY OWNERS AND DEALERS WILL REPAIR THE VEHICLES FREE OF CHARGE. THE SAFETY
+        RECALL BEGAN MAY 28, 2010. OWNERS MAY CONTACT ACURA CLIENT SERVICES AT 1-800-382-2238."}]}]}'
+    http_version: 
+  recorded_at: Tue, 29 Sep 2015 17:03:46 GMT
 recorded_with: VCR 2.9.3

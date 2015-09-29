@@ -27,7 +27,7 @@ module RecallChecker
         @headers = { 'Cookie' => page.headers['Set-Cookie'] }
         @captcha_image_src = 'data:image/png;base64, ' + page.parsed_response['captcha']['captcha']
         @captcha_key = page.parsed_response['captcha']['key']
-        @captcha_image
+        @captcha_image_src
       end
 
       def url

@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe RecallChecker::Adaptors::Ford do
 
-    it "loads recall data for VIN 1ZVBP8AMXD5277023 with recalls" do
+    it "loads recall data for VIN 1ZVBP8AMXD5277023 with a recall" do
       VCR.use_cassette('ford', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Ford.new("1ZVBP8AMXD5277023")
         expect(@checker.response).not_to be_empty
@@ -18,6 +18,14 @@ describe RecallChecker::Adaptors::Ford do
         expect(r['remedy']).to start_with "DEALERS WILL REPLACE"
         expect(r['status']).to start_with "12 - RECALL INCOMPLETE"
         expect(r['notes']).to start_with "TO CHECK FOR NON-SAFETY-RELATED PROGRAMS"
+      end
+    end
+
+    it "loads recall data for VIN 3FA6P0H79DR185703 with two recalls" do
+      VCR.use_cassette('ford', :record => :new_episodes) do
+        @checker = RecallChecker::Adaptors::Ford.new("3FA6P0H79DR185703")
+        expect(@checker.response).not_to be_empty
+        expect(@checker.recalls.count).to eq 2
       end
     end
 

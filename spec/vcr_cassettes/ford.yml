@@ -140,4 +140,106 @@ http_interactions:
         INTERFACE MODULE (APIM)"},"count":1},"lang_iso_c":"EN","lang_region_c":"","stpr_state_c":"  ","country_iso3_c":"USA","vin":"1FADP5AU9DL504830"}'
     http_version: 
   recorded_at: Tue, 15 Sep 2015 19:37:29 GMT
+- request:
+    method: get
+    uri: http://owner.ford.com/sharedServices/recalls/query.do?country=USA&language=EN&vin=3FA6P0H79DR185703
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Powered-By:
+      - Servlet/3.0
+      Content-Length:
+      - '8133'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Access-Control-Allow-Origin:
+      - origin.owner.ford.com
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Tue, 29 Sep 2015 17:03:42 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"lang_script_c":"","return_status":{"description":"Required data found","code":"00"},"recalls":{"nhtsa_recall_item":[{"nhtsa_recall_number":"15V246","description_lang":"DOOR
+        LATCH REPLACEMENT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ","mfr_recall_number":"15S16","refresh_date":"SEP
+        29, 2015","safety_risk_description":"A DOOR LATCH WITH A BROKEN PAWL SPRING
+        TAB TYPICALLY RESULTS IN A &quot;DOOR WILL NOT CLOSE&quot; CONDITION.  SHOULD
+        THE CUSTOMER BE ABLE TO LATCH THE DOOR, THERE IS A POTENTIAL THE DOOR MAY
+        UNLATCH WHILE DRIVING, INCREASING THE RISK OF INJURY.","mfr_recall_status":"11
+        - RECALL INCOMPLETE","description_eng":"DOOR LATCH REPLACEMENT","mfr_notes":"TO
+        CHECK FOR NON-SAFETY-RELATED PROGRAMS APPLICABLE TO YOUR VEHICLE, SEE HTTP://WWW.FORD.COM/
+        OR CALL YOUR FORD DEALER.","recall_date":"APR 23, 2015","remedy_description":"OWNERS
+        WILL BE NOTIFIED BY MAIL AND INSTRUCTED TO TAKE THEIR VEHICLE TO A FORD OR
+        LINCOLN DEALER TO HAVE ALL FOUR DOOR LATCHES REPLACED WITH A MORE ROBUST SERVICE
+        PART. THERE WILL BE NO CHARGE FOR THIS SERVICE. FORD PROVIDED THE GENERAL
+        REIMBURSEMENT PLAN FOR THE COST OF REMEDIES PAID FOR BY VEHICLE OWNERS PRIOR
+        TO NOTIFICATION OF A SAFETY RECALL IN FEBRUARY 2015. THE ENDING DATE FOR REIMBURSEMENT
+        ELIGIBILITY IS DECEMBER 1, 2015. FORD WILL FORWARD A COPY OF THE NOTIFICATION
+        LETTERS TO DEALERS TO THE AGENCY WHEN AVAILABLE.","recall_description":"A
+        DOOR LATCH WITH A BROKEN PAWL SPRING TAB TYPICALLY RESULTS IN A &quot;DOOR
+        WILL NOT CLOSE&quot; CONDITION.  SHOULD THE CUSTOMER BE ABLE TO LATCH THE
+        DOOR, THERE IS A POTENTIAL THAT THE DOOR MAY UNLATCH WHILE DRIVING. FORD IS
+        AWARE OF TWO ALLEGATIONS OF INJURY (SORENESS) RESULTING FROM AN UNLATCHED
+        DOOR BOUNCING BACK WHEN THE CUSTOMER ATTEMPTED TO CLOSE IT, AND ONE ACCIDENT
+        ALLEGATION WHEN AN UNLATCHED DOOR SWUNG OPEN AND STRUCK THE ADJACENT VEHICLE
+        WHILE THE DRIVER WAS PULLING INTO A PARKING SPACE."},{"nhtsa_recall_number":"14V597","description_lang":"RESTRAINTS
+        CONTROL MODULE REPLACEMENT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ","mfr_recall_number":"14S21","refresh_date":"SEP
+        29, 2015","safety_risk_description":"DEPENDING ON THE LOCATION OF THE SHORT
+        CIRCUIT, THE DEPLOYABLE RESTRAINT SYSTEMS AND OTHER SYSTEMS THAT USE INERTIAL
+        DATA FROM THE RCM MAY NOT FUNCTION AS INTENDED, INCREASING THE RISK OF INJURY.
+        FORD IS NOT AWARE OF ANY ACCIDENT OR INJURY RELATED TO THIS CONDITION.","mfr_recall_status":"12
+        - RECALL INCOMPLETE. REMEDY NOT YET AVAILABLE.","description_eng":"RESTRAINTS
+        CONTROL MODULE REPLACEMENT","mfr_notes":"TO CHECK FOR NON-SAFETY-RELATED PROGRAMS
+        APPLICABLE TO YOUR VEHICLE, SEE HTTP://WWW.FORD.COM/ OR CALL YOUR FORD DEALER.","recall_date":"SEP
+        25, 2014","remedy_description":"DEALERS WILL BE INSTRUCTED TO REPLACE THE
+        RCM. THERE WILL BE NO CHARGE TO OWNERS FOR THIS SERVICE. AN INITIAL NOTIFICATION
+        LETTER WILL BE MAILED TO ALL OWNERS THE WEEK OF NOVEMBER 10, 2014. DUE TO
+        LIMITED PARTS AVAILABILITY, WE WILL INSTRUCT OWNERS TO CONTACT THEIR DEALER
+        FOR SERVICE IF THEY HAVE AN ILLUMINATED AIRBAG WARNING INDICATOR. OWNERS WHO
+        HAVE NOT ALREADY HAD THIS SERVICE PERFORMED WILL BE MAILED A FOLLOW-UP LETTER
+        WHEN PARTS ARE AVAILABLE, ADVISING THEM TO SCHEDULE A SERVICE APPOINTMENT.
+        IN ACCORDANCE WITH PART 573.13(D)(1), FORDS GENERAL REIMBURSEMENT PLAN FOR
+        THE COST OF REMEDIES PAID FOR BY VEHICLE OWNERS PRIOR TO NOTIFICATION OF A
+        SAFETY RECALL WAS PROVIDED TO THE AGENCY ON FEBRUARY 20, 2013. THE ENDING
+        DATE FOR REIMBURSEMENT ELIGIBILITY FOR THE COST OF REMEDIES PAID FOR BY VEHICLE
+        OWNERS PER FORD&apos;S GENERAL REIMBURSEMENT PLAN IS NOVEMBER 30, 2014. FORD
+        WILL UPLOAD A COPY OF THE NOTIFICATION LETTERS TO DEALERS ON NHTSA&apos;S
+        SAFERCAR.GOV WEBSITE WHEN AVAILABLE.","recall_description":"AFFECTED VEHICLES
+        ARE EQUIPPED WITH RESTRAINT CONTROL MODULES RCMS THAT MAY EXPERIENCE AN INTERNAL
+        ELECTRICAL SHORT CIRCUIT.  IF A SHORT CIRCUIT OCCURS, THE AIRBAG WARNING LAMP
+        WOULD ILLUMINATE.  DEPENDING ON THE LOCATION OF THE SHORT CIRCUIT THE DEPLOYABLE
+        RESTRAINT SYSTEMS E.G. AIR BAGS. PRETENSIONERS SIDE CURTAINS MAY NOT FUNCTION
+        AS INTENDED IN THE EVENT OF A CRASH INCREASING THE RISK OF INJURY.  THE SHORT
+        MAY ALSO AFFECT THE FUNCTION OF OTHER SYSTEMS THAT USE INTERNAL DATA FROM
+        THE RCM E.G. STABILITY CONTROL.  IN THESE CASES THE CORRESPONDING MALFUNCTION
+        INDICATOR LAMPS WOULD ALSO BE ILLUMINATED. THESE VEHICLES ARE NOT PRODUCED
+        IN VIN ORDER.  INFORMATION AS TO THE APPLICABILITY OF THIS ACTION TO SPECIFIC
+        VEHICLES CAN BEST BE OBTAINED BY EITHER CALLING FORDS TOLL FREE LINE 1 866
+        436 7332 OR BY CONTACTING A LOCAL FORD OR LINCOLN DEALER WHO CAN OBTAIN SPECIFIC
+        INFORMATION REGARDING THE VEHICLES FROM THE FORD ON LINE AUTOMOTIVE SERVICE
+        INFORMATION SYSTEM OASIS DATABASE."}],"fsa_item":[{"description_lang":"ELECTRONIC
+        THROTTLE BODY EXTENDED COVERAGE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ","local_fsa_r":"13N03","description_eng":"ELECTRONIC
+        THROTTLE BODY EXTENDED COVERAGE"},{"description_lang":"EPS MOTOR BOLTS - REGIONAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ","local_fsa_r":"15R01","description_eng":"EPS
+        MOTOR BOLTS - REGIONAL"}]},"nhtsa_header_details":{"number_of_recalls":"04","refresh_date":"SEP
+        29, 2015","status":true,"manufacturer_id":"0002","model":"Fusion","recalls_available":true,"year":2013,"make":"FORD"},"lang_iso_c":"EN","lang_region_c":"","stpr_state_c":"  ","country_iso3_c":"USA","vin":"3FA6P0H79DR185703"}'
+    http_version: 
+  recorded_at: Tue, 29 Sep 2015 17:03:47 GMT
 recorded_with: VCR 2.9.3
