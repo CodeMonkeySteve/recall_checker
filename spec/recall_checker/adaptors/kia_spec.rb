@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe RecallChecker::Adaptors::Kia do
 
-    it "loads recall data for VIN KNAFZ4A87E5050719 with recalls" do
+    it "loads recall data for VIN KNAFZ4A87E5050719 with a recall" do
       VCR.use_cassette('kia', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Kia.new("KNAFZ4A87E5050719")
         expect(@checker.response).not_to be_empty
@@ -18,6 +18,14 @@ describe RecallChecker::Adaptors::Kia do
         expect(r['remedy']).to start_with "KIA WILL NOTIFY OWNERS"
         expect(r['status']).to eq "RECALL INCOMPLETE"
         expect(r['notes']).to eq ""
+      end
+    end
+
+    it "loads recall data for VIN KNDJT2A27B7237019 with 2 recalls" do
+      VCR.use_cassette('kia', :record => :new_episodes) do
+        @checker = RecallChecker::Adaptors::Kia.new("KNDJT2A27B7237019")
+        expect(@checker.response).not_to be_empty
+        expect(@checker.recalls.count).to eq 2
       end
     end
 

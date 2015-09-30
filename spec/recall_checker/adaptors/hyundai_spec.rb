@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Hyundai do
     end
 
 =begin
-    it "loads recall data for VIN 5XYZU3LB6DG036138 with safety recalls" do
+    it "loads recall data for VIN 5XYZU3LB6DG036138 with a safety recall" do
       # VCR.use_cassette('hyundai', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Hyundai.new("5XYZU3LB6DG036138")
         expect(@checker.response).not_to be_empty
@@ -25,6 +25,14 @@ describe RecallChecker::Adaptors::Hyundai do
         expect(r['remedy']).to eq nil
         expect(r['status']).to eq nil
         expect(r['notes']).to eq nil
+      # end
+    end
+
+    it "loads recall data for VIN KMHTC6AD1CU059124 with 2 safety recalls" do
+      # VCR.use_cassette('hyundai', :record => :new_episodes) do
+        @checker = RecallChecker::Adaptors::Hyundai.new("KMHTC6AD1CU059124")
+        expect(@checker.response).not_to be_empty
+        expect(@checker.recalls.count).to eq 2
       # end
     end
 

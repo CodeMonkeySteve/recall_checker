@@ -3,7 +3,7 @@ require 'spec_helper'
 # tests for GM makes using Chevrolet VINS
 describe RecallChecker::Adaptors::GMMakes do
 
-    it "loads recall data for VIN 2G1FL1EP7E9800295 with recalls" do
+    it "loads recall data for VIN 2G1FL1EP7E9800295 with a recall" do
       VCR.use_cassette('chevrolet', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Chevrolet.new("2G1FL1EP7E9800295")
         expect(@checker.response).not_to be_empty
@@ -21,6 +21,15 @@ describe RecallChecker::Adaptors::GMMakes do
         expect(r['notes']).to eq nil
       end
     end
+
+    it "loads recall data for VIN 1G1YM3D7XE5117202 with 2 recalls" do
+      VCR.use_cassette('chevrolet', :record => :new_episodes) do
+        @checker = RecallChecker::Adaptors::Chevrolet.new("1G1YM3D7XE5117202")
+        expect(@checker.response).not_to be_empty
+        expect(@checker.recalls.count).to eq 2
+      end
+    end
+
 
     it "returns [] for real VIN 2G1FT3DW8E9240520 with no recalls" do
       VCR.use_cassette('chevrolet', :record => :new_episodes) do

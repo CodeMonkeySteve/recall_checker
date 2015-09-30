@@ -10,7 +10,8 @@ describe RecallChecker::Adaptors::Mazda do
     end
 
 =begin
-    it "loads recall data for VIN JM3TB28A380142569 with open recalls" do
+
+    it "loads recall data for VIN JM3TB28A380142569 with an open recall" do
       @checker = RecallChecker::Adaptors::Mazda.new("JM3TB28A380142569")
       expect(@checker.response).not_to be_empty
       expect(@checker.recalls.count).to eq 1
@@ -27,6 +28,12 @@ describe RecallChecker::Adaptors::Mazda do
       expect(r['notes']).to eq nil
     end
 
+    # it "loads recall data for VIN JM1GJ1U59E1102132 with 2 open recalls" do
+    #   @checker = RecallChecker::Adaptors::Mazda.new("JM1GJ1U59E1102132")
+    #   expect(@checker.response).not_to be_empty
+    #   expect(@checker.recalls.count).to eq 2
+    # end
+
     it "returns [] for real VIN JM3TB2CA8F0451524 with no recalls" do
       @checker = RecallChecker::Adaptors::Mazda.new("JM3TB2CA8F0451524")
       expect(@checker.recalls).to be_empty
@@ -37,5 +44,6 @@ describe RecallChecker::Adaptors::Mazda do
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
     end
 =end
+
 
 end

@@ -152,4 +152,87 @@ http_interactions:
       string: "\r\n\r\n\r\n\r\n{\"statusCode\":500,\"statusDesc\":\"INVALID_VIN\",\"result\":{}}"
     http_version: 
   recorded_at: Wed, 16 Sep 2015 12:29:36 GMT
+- request:
+    method: get
+    uri: http://www.kia.com/us/en/data/owners/recalls/search/KNDJT2A27B7237019
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Language:
+      - en-US
+      X-Kma-Cache-Key:
+      - FULVI-W1PK3
+      X-Edgeconnect-Midmile-Rtt:
+      - '19'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '1320'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=86113
+      Expires:
+      - Thu, 01 Oct 2015 10:46:11 GMT
+      Date:
+      - Wed, 30 Sep 2015 10:50:58 GMT
+      Content-Length:
+      - '3455'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n\r\n\r\n{\"statusCode\":200,\"statusDesc\":\"Successfully completed
+        request\",\"result\":{\"recallsResult\":{\"make\":\"Kia\",\"manufacturer_id\":4.0,\"model\":\"SOUL
+        PLUS AUTO\",\"number_of_recalls\":2.0,\"recalls_available\":true,\"recalls\":[{\"mfr_notes\":\"\",\"mfr_recall_number\":\"SC098AM\",\"mfr_recall_status\":11.0,\"nhtsa_recall_number\":\"13V114000\",\"recall_date\":\"1364799600000\",\"recall_description\":\"KIA
+        IS RECALLING CERTAIN MODEL YEAR 2007-2010 RONDO, MODEL YEAR 2007-2011 SEDONA,
+        SORENTO AND SPORTAGE, MODEL YEAR 2010-2011 SOUL, MODEL YEAR 2008-2011 OPTIMA,
+        MODEL YEAR 2010 FORTE, MODEL YEAR 2007-2009 AMANTI, AND MODEL YEAR 2009 BORREGO
+        VEHICLES. ORIGINALLY, IN APRIL 2013, KIA RECALLED 623,658 MODEL YEAR 2007-2010
+        RONDO AND SPORTAGE, MODEL YEAR 2007-2011 SORENTO, MODEL YEAR 2007 SEDONA,
+        MODEL YEAR 2010-2011 SOUL, AND MODEL YEAR 2011 OPTIMA VEHICLES. IN SEPTEMBER
+        2013, KIA INFORMED THE AGENCY THAT IT WAS ADDING AN ADDITIONAL 356,719 VEHICLES
+        TO THIS CAMPAIGN. THE TOTAL NUMBER OF VEHICLES BEING RECALLED IS NOW 980,377.
+        IN THE AFFECTED VEHICLES, THE STOP LAMP SWITCH MAY MALFUNCTION. A MALFUNCTIONING
+        STOP LAMP SWITCH MAY CAUSE THE BRAKE LIGHTS TO NOT ILLUMINATE WHEN THE BRAKE
+        PEDAL IS DEPRESSED OR MAY CAUSE AN INABILITY TO DEACTIVATE THE CRUISE CONTROL
+        BY DEPRESSING THE BRAKE PEDAL. ADDITIONALLY, A MALFUNCTIONING STOP LAMP SWITCH
+        MAY ALSO RESULT IN INTERMITTENT OPERATION OF THE PUSH-BUTTON START FEATURE,
+        AFFECT THE OPERATION OF THE BRAKE-TRANSMISSION SHIFT INTERLOCK FEATURE PREVENTING
+        THE SHIFTER FROM BEING MOVED OUT OF THE PARK POSITION AND CAUSE THE ELECTRONIC
+        STABILITY CONTROL (ESC) MALFUNCTION LIGHT TO ILLUMINATE.\",\"refresh_date\":\"1443510000000\",\"remedy_description\":\"KIA
+        WILL SEND AN INTERIM NOTIFICATION TO OWNERS IN MAY 2013. WHEN PARTS ARE AVAILABLE,
+        OWNERS WILL RECEIVE A SECOND NOTIFICATION AND DEALERS WILL REPLACE THE STOP
+        LAMP SWITCH FREE OF CHARGE. IF YOU HAVE ANY QUESTIONS REGARDING THIS RECALL,
+        PLEASE CONTACT YOUR KIA DEALER, LOG ON TO THE OWNER\\u0027S SECTION OF WWW.KIA.COM,
+        OR CONTACT THE KIA CONSUMER ASSISTANCE CENTER AT 1-800-333-4542(4KIA), MONDAY
+        THROUGH FRIDAY, 5 AM TO 6PM PST.\",\"safety_risk_description\":\"FAILURE TO
+        ILLUMINATE THE STOP LAMPS DURING BRAKING OR INABILITY TO DISENGAGE THE CRUISE
+        CONTROL COULD INCREASE THE RISK OF A CRASH. ADDITIONALLY, WHEN THE IGNITION
+        IS IN THE \\\"ON\\\" POSITION, THE TRANSMISSION SHIFTER MAY BE ABLE TO BE
+        MOVED OUT OF PARK WITHOUT FIRST APPLYING THE BRAKE. THIS MAY LEAD TO UNINTENTIONAL
+        MOVEMENT OF THE CAR WHICH MAY INCREASE THE RISK OF A CRASH.\",\"recall_status\":\"RECALL
+        INCOMPLETE\"},{\"mfr_notes\":\"SC112\",\"mfr_recall_number\":\"SC112\",\"mfr_recall_status\":11.0,\"nhtsa_recall_number\":\"14V822000\",\"recall_date\":\"1419840000000\",\"recall_description\":\"KIA
+        IS RECALLING CERTAIN MODEL YEAR 2010-2013 KIA SOUL VEHICLES MANUFACTURED JANUARY
+        8, 2009 TO OCTOBER 2, 2013, EQUIPPED WITH A SUN ROOF. A HEADLINER PLATE MAY
+        DETACH DURING DEPLOYMENT OF THE CURTAIN AIR BAG.\",\"refresh_date\":\"1443510000000\",\"remedy_description\":\"KIA
+        WILL NOTIFY OWNERS, AND DEALERS WILL INSTALL INDUSTRIAL ADHESIVE STRIPS TO
+        SECURE THE HEADLINER PLATES, FREE OF CHARGE. THE RECALL IS EXPECTED TO BEGIN
+        FEBRUARY 2, 2015. OWNERS MAY CONTACT KIA CUSTOMER SERVICE AT 1-800-333-4542.\",\"safety_risk_description\":\"A
+        DETACHED HEADLINER PLATE MAY INCREASE THE RISK OF INJURY TO THE OCCUPANT DURING
+        A VEHICLE CRASH.\",\"recall_status\":\"RECALL INCOMPLETE\"}],\"refresh_date\":\"1443510000000\",\"status\":true,\"vin\":\"KNDJT2A27B7237019\",\"year\":2011.0}}}"
+    http_version: 
+  recorded_at: Wed, 30 Sep 2015 10:51:01 GMT
 recorded_with: VCR 2.9.3

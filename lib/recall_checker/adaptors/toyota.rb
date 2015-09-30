@@ -4,7 +4,7 @@ module RecallChecker
       make 'toyota'
       base_uri 'http://www.toyota.com'
 
-      attr_reader :captcha_image_src, :captcha_key
+      attr_reader :captcha_image, :captcha_key
       attr_accessor :captcha_answer
 
       FIELDS = {
@@ -25,9 +25,9 @@ module RecallChecker
       def request_captcha
         page = self.class.get(captcha_url)
         @headers = { 'Cookie' => page.headers['Set-Cookie'] }
-        @captcha_image_src = 'data:image/png;base64, ' + page.parsed_response['captcha']['captcha']
+        @captcha_image = page.parsed_response['captcha']['captcha']
         @captcha_key = page.parsed_response['captcha']['key']
-        @captcha_image_src
+        @captcha_image
       end
 
       def url
@@ -37,6 +37,8 @@ module RecallChecker
       end
 
       def request
+        @captcha = CaptchaSolver.new(request_captcha)
+        @captcha_answer = @captcha.solve
         self.class.get(url, headers: @headers)
       end
 
