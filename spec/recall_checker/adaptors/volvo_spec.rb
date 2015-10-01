@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe RecallChecker::Adaptors::Volvo do
 
-    it "loads recall data for VIN YV1622FSXC2140424 with open recalls" do
+    it "loads recall data for VIN YV1622FSXC2140424 with an open recall" do
       VCR.use_cassette('volvo', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Volvo.new("YV1622FSXC2140424")
         expect(@checker.response).not_to be_empty
@@ -21,6 +21,13 @@ describe RecallChecker::Adaptors::Volvo do
       end
     end
 
+    it "loads recall data for VIN YV1622FS8C2129437 with 2 open recalls" do
+      VCR.use_cassette('volvo', :record => :new_episodes) do
+        @checker = RecallChecker::Adaptors::Volvo.new("YV1622FS8C2129437")
+        expect(@checker.response).not_to be_empty
+        expect(@checker.recalls.count).to eq 2
+      end
+    end
 
     it "loads recall data for VIN YV126MFK0G2397287 with open recalls but no info" do
       VCR.use_cassette('volvo', :record => :new_episodes) do

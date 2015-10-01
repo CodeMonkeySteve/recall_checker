@@ -133,4 +133,75 @@ http_interactions:
       string: '{"make":"","modelYear":0,"recalls":[],"vehicleName":"","vin":"1N4AL3APXFC420000"}'
     http_version: 
   recorded_at: Mon, 21 Sep 2015 08:39:33 GMT
+- request:
+    method: get
+    uri: http://www.nissanusa.com/dealercenter/api/recalls?vin=1N4AL3AP6DN408008
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Thu, 01 Oct 2015 12:18:23 GMT
+      Content-Length:
+      - '2710'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Thu, 01 Oct 2015 12:12:56 GMT
+    body:
+      encoding: UTF-8
+      string: '{"make":"NISSAN","modelYear":2013,"recalls":[{"effectiveDate":"2014-10-10T05:00:00Z","make":"NISSAN","modelCode":"ALTIMA
+        2.5 SL","modelYear":2013,"nhtsaId":"14V-565","nnaId":"R1413","primaryDescription":"The
+        secondary hood latch may not function properly due to mechanical binding.  More
+        specifically, the secondary hood latch may not engage when the hood is closed.  Corrosion
+        in certain geographic locations and dirt and debris buildup may worsen this
+        condition.","remedyDescription":"Nissan will inspect, clean, lubricate, and
+        modify the bend angle on the secondary hood latch.  This repair should take
+        less than an hour to complete. If significant corrosion is identified during
+        inspection, the latch assembly will be replaced.","riskIfNotRepaired":"In
+        certain circumstances if the primary hood latch is not engaged, the hood to
+        open while driving and partially obscure the driver?s vision, which can increase
+        the risk of a crash.","secondaryDescription":"HOOD LATCH","typeCode":"Recall
+        Campaign","vin":"1N4AL3AP6DN408008"},{"effectiveDate":"2014-04-10T05:00:00Z","make":"NISSAN","modelCode":"ALTIMA
+        2.5 SL","modelYear":2013,"nhtsaId":"14V-138","nnaId":"R1405","primaryDescription":"In
+        the affected vehicles, the occupant classification system (OCS) software may
+        incorrectly classify the passenger seat as empty, when it is occupied by an
+        adult.","remedyDescription":"Dealers will update the OCS software.","riskIfNotRepaired":"If
+        the OCS does not detect an adult occupant in the passenger seat, the passenger
+        airbag would be deactivated.  Failure of the passenger airbag to deploy during
+        a crash (where deployment is warranted) could increase the risk of injury
+        to the passenger.","secondaryDescription":"OCCUPANT CLASS SYSTEM OCS","typeCode":"Recall
+        Campaign","vin":"1N4AL3AP6DN408008"},{"effectiveDate":"2013-04-24T05:00:00Z","make":"NISSAN","modelCode":"ALTIMA
+        2.5 SL","modelYear":2013,"nhtsaId":"13V-158","nnaId":"PC228","primaryDescription":"The
+        spare tires may have been significantly over- or under-inflated.","remedyDescription":"Dealers
+        will inspect and adjust the spare tire pressure, as necessary.","riskIfNotRepaired":"Tires
+        that are significantly over- or under-inflated may fail without warning, increasing
+        the risk of a crash.","secondaryDescription":"ALTIMS L33 SPARE TIRE","typeCode":"Recall
+        Campaign","vin":"1N4AL3AP6DN408008"},{"effectiveDate":"2013-05-09T05:00:00Z","make":"NISSAN","modelCode":"ALTIMA
+        2.5 SL","modelYear":2013,"nhtsaId":"","nnaId":"PC212","primaryDescription":"","remedyDescription":"","riskIfNotRepaired":"","secondaryDescription":"HEATED
+        SEAT HARNESS","typeCode":"Service Campaign","vin":"1N4AL3AP6DN408008"}],"vehicleName":"ALTIMA
+        2.5 SL","vin":"1N4AL3AP6DN408008"}'
+    http_version: 
+  recorded_at: Thu, 01 Oct 2015 12:18:29 GMT
 recorded_with: VCR 2.9.3

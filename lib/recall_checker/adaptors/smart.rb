@@ -21,7 +21,9 @@ module RecallChecker
       end
 
       def vin_invalid?
-        JSON.parse(@response.parsed_response)['page']['recallCampaign']['status'] == "vinError"
+        r = @response.parsed_response
+        raise MalformedDataError, "The server returned empty answer" if r.nil?
+        JSON.parse(r)['page']['recallCampaign']['status'] == "vinError"
       end
 
       def recalls_raw

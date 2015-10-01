@@ -25,7 +25,7 @@ module RecallChecker
 
     # Returns the captcha solution string
     def solve
-      raise CaptchaZeroBalanceError if balance < 1
+      raise CaptchaZeroBalanceError, "No credits left on your decaptcha service balance" if balance < 1
       body = { action: "upload", key: @@access_key, gen_task_id: @task_id, file: @image_base64 }
       post_request(body).chomp
     end
@@ -45,8 +45,8 @@ module RecallChecker
     private
     def post_request body
       self.class.post("", body: body)
-    rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, Errno::ETIMEDOUT
-      raise CaptchaConnectionError
+    rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, Errno::ETIMEDOUT => e
+      raise CaptchaConnectionError, e
     end
   end
 end

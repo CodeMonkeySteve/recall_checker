@@ -25,4 +25,7 @@ module RecallChecker
   # Cannot connect to the decaptcha service
   class CaptchaConnectionError < CaptchaSolverError; end
 
+  # Too many failed attempts to solve captcha
+  class CaptchaTooManyFailuresError < CaptchaSolverError; end
+
 end

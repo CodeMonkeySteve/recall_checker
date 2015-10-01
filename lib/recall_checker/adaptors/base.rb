@@ -52,6 +52,8 @@ module RecallChecker
         @response ||= request
         raise VinError if vin_invalid?
         @response
+      rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, Errno::ETIMEDOUT => e
+        raise ConnectionError, e
       end
 
       def parsed_response
@@ -79,6 +81,8 @@ module RecallChecker
             [field, respond_to?(converter) ? send(converter, value) : value ]
           end]
         end
+      rescue NoMethodError, TypeError, KeyError => e
+        raise MalformedDataError, e
       end
       
       def convert_created_at time

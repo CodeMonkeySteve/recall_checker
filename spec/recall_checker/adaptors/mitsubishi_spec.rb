@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe RecallChecker::Adaptors::Mitsubishi do
 
-    it "loads recall data for VIN JA3215H17CU014800 with recalls" do
+    it "loads recall data for VIN JA3215H17CU014800 with a recall" do
       VCR.use_cassette('mitsubishi', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Mitsubishi.new("JA3215H17CU014800")
         expect(@checker.response).not_to be_empty
@@ -20,6 +20,15 @@ describe RecallChecker::Adaptors::Mitsubishi do
         expect(r['notes']).to eq nil
       end
     end
+
+    it "loads recall data for VIN 4A4AP5AU3DE022512 2 recalls" do
+      VCR.use_cassette('mitsubishi', :record => :new_episodes) do
+        @checker = RecallChecker::Adaptors::Mitsubishi.new("4A4AP5AU3DE022512")
+        expect(@checker.response).not_to be_empty
+        expect(@checker.recalls.count).to eq 2
+      end
+    end
+
 
     it "returns [] for real VIN JA4AZ3A32GZ004183 with no recalls" do
       VCR.use_cassette('mitsubishi', :record => :new_episodes) do

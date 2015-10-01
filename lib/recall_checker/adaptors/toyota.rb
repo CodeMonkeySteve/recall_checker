@@ -42,8 +42,20 @@ module RecallChecker
         self.class.get(url, headers: @headers)
       end
 
+      def response
+        attempts = 0
+        begin
+          @response = nil
+          attempts += 1
+          raise CaptchaTooManyFailuresError, "Too many failed attempts to solve the captcha" if attempts > 3
+          super
+          @captcha.request_refund if captcha_error?
+        end until !captcha_error?
+        @response
+      end
+
       def vin_invalid?
-        @response.parsed_response['status'] == "NOT_FOUND" || !@response.parsed_response['success']
+        @response.parsed_response['status'] == "NOT_FOUND" 
       end
 
       def captcha_error?

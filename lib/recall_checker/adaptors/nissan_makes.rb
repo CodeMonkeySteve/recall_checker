@@ -17,6 +17,10 @@ module RecallChecker
         @response.parsed_response['make'].empty?
       end
 
+      def recalls_raw
+        parsed_response.fetch('recalls', []).select { |x| x['typeCode'] == "Recall Campaign" }
+      end
+
       def convert_created_at time
         Time.parse(time[0..9] + " " + time[11..18])
       end

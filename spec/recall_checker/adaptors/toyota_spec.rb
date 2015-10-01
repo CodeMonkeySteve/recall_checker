@@ -14,6 +14,7 @@ describe RecallChecker::Adaptors::Toyota do
     true
   end
 
+
 =begin
   it "loads recall data for VIN 4T1BD1EB1DU003609 with recalls" do
     @checker = RecallChecker::Adaptors::Toyota.new("4T1BD1EB1DU003609")

@@ -3,7 +3,7 @@ require 'spec_helper'
 # tests for Mopar makes using Chrysler VINS
 describe RecallChecker::Adaptors::MoparMakes do
 
-    it "loads recall data for VIN 2C4RC1BG1ER211106 with open recalls" do
+    it "loads recall data for VIN 2C4RC1BG1ER211106 with an open recall" do
       VCR.use_cassette('chrysler', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Chrysler.new("2C4RC1BG1ER211106")
         expect(@checker.response).not_to be_empty
@@ -19,6 +19,14 @@ describe RecallChecker::Adaptors::MoparMakes do
         expect(r['remedy']).to start_with "THE REAR QUARTER VENT WINDOW SWITCH MUST BE REPLACED"
         expect(r['status']).to start_with "INCOMPLETE BUT REPAIR PARTS ARE AVAILABLE"
         expect(r['notes']).to eq nil
+      end
+    end
+
+    it "loads recall data for VIN 2C4RC1CG7DR569002 with 2 open recalls" do
+      VCR.use_cassette('chrysler', :record => :new_episodes) do
+        @checker = RecallChecker::Adaptors::Chrysler.new("2C4RC1CG7DR569002")
+        expect(@checker.response).not_to be_empty
+        expect(@checker.recalls.count).to eq 2
       end
     end
 
