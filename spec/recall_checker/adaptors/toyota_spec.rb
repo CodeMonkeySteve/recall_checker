@@ -20,7 +20,7 @@ describe RecallChecker::Adaptors::Toyota do
     @checker = RecallChecker::Adaptors::Toyota.new("4T1BD1EB1DU003609")
     r = @checker.recalls.first
     expect(r['title']).to start_with "Safety Recall"
-    expect(r['created_at']).to eq Time.parse("17 Oct 2013")
+    expect(r['created_at'].to_date).to eq Date.parse("17 Oct 2013")
     expect(r['nhtsa_id']).to eq "13V442"
     expect(r['manufacturer_id']).to eq "D0T"
     expect(r['description']).to start_with "Toyota is recalling certain model year"

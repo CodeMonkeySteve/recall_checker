@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Volvo do
 
         r = @checker.recalls.first
         expect(r['title']).to start_with "Recall R29436: Oil Pressure Sensor"
-        expect(r['created_at']).to eq Time.parse("3 Dec 2013")
+        expect(r['created_at'].to_date).to eq Date.parse("3 Dec 2013")
         expect(r['nhtsa_id']).to eq "13V592"
         expect(r['manufacturer_id']).to eq "R29436"
         expect(r['description']).to start_with "Recall R29436: Oil Pressure Sensor"

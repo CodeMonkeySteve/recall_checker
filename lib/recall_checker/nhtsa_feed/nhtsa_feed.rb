@@ -18,8 +18,8 @@ module RecallChecker
       "notes" => "Notes"
     }
     
-    def initialize start_time = Time.now - (31*24*3600)
-      @start_time = start_time
+    def initialize start_date = (Time.now - (14*24*3600)).to_date
+      @start_date = start_date
       @recalls_raw = {}
     end
 
@@ -43,9 +43,13 @@ module RecallChecker
       @recalls_raw[nhtsa_id] ||= get_recalls_for_id(nhtsa_id)
     end
 
+    def feed_item_date item
+      Date.parse(/Dated: (\w+ \w+, \w+)/.match(item['description'])[1])
+    end
+
     def feed_nhtsa_ids
       feed
-        .select { |x| Time.parse(x['pubDate']) >= @start_time }
+        .select { |x| feed_item_date(x) >= @start_date }
         .map { |x| /\( *([A-Z0-9]+) *\)/.match(x['guid']['__content__'])[1] }
         .uniq
     end

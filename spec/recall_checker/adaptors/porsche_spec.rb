@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Porsche do
 
         r = @checker.recalls.first
         expect(r['title']).to eq "Replace upper part of lid lock"
-        expect(r['created_at']).to eq Time.parse("11 Nov 2014")
+        expect(r['created_at'].to_date).to eq Date.parse("11 Nov 2014")
         expect(r['nhtsa_id']).to eq "14V698"
         expect(r['manufacturer_id']).to eq "AE04"
         expect(r['description']).to start_with "Due to a temporary manufacturing error"

@@ -3,7 +3,7 @@ require 'spec_helper'
 describe RecallChecker::NHTSAFeed do
 
   before :each do
-    @nhtsa_feed = RecallChecker::NHTSAFeed.new
+    @nhtsa_feed = RecallChecker::NHTSAFeed.new(Date.new(2015,9,15))
 
     allow(@nhtsa_feed).to receive(:feed) do
       [ { "title"=>"BUICK  ( 15V599000 )", 

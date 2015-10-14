@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Smart do
 
         r = @checker.recalls.first
         expect(r['title']).to eq "STEER BOLT"
-        expect(r['created_at']).to eq Time.parse("27 Mar 2015")
+        expect(r['created_at'].to_date).to eq Date.parse("27 Mar 2015")
         expect(r['nhtsa_id']).to eq "15V192"
         expect(r['manufacturer_id']).to eq "2015040002"
         expect(r['description']).to start_with "Daimler AG (DAG), the manufacturer of smart vehicles"

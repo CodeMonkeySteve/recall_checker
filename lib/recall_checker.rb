@@ -1,5 +1,6 @@
 require "httparty"
 require "nokogiri"
+require "active_support"
 require "recall_checker/captcha_solver/captcha_solver"
 require "recall_checker/nhtsa_feed/nhtsa_feed"
 require "recall_checker/version"
