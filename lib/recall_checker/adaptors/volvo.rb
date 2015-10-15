@@ -1,7 +1,7 @@
 module RecallChecker
   module Adaptors
     class Volvo < Base
-      make 'Volvo'
+      make 'volvo'
       base_uri 'http://www.volvocars.com/us/own/owner-info/recall-information'
 
       FIELDS = {

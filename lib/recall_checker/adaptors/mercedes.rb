@@ -1,7 +1,6 @@
 module RecallChecker
   module Adaptors
-    class MercedesBenz < Base
-      make 'mercedes-benz'
+    class MercedesMakes < Base
       base_uri 'http://www.mbusa.com/mercedes'
 
       FIELDS = {
@@ -35,6 +34,14 @@ module RecallChecker
         Time.parse(time) if !time.empty?
       end
 
+    end
+
+    class MercedesBenz < MercedesMakes
+      make 'mercedes-benz'
+    end
+
+    class Maybach < MercedesMakes
+      make 'maybach'
     end
   end
 end

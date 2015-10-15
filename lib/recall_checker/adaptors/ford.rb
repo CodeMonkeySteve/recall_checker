@@ -1,7 +1,6 @@
 module RecallChecker
   module Adaptors
-    class Ford < Base
-      make 'ford'
+    class FordMakes < Base
       base_uri 'http://owner.ford.com/sharedServices/recalls/query.do'
 
       FIELDS = {
@@ -30,6 +29,18 @@ module RecallChecker
         r.is_a?(Array) ? r : [r]
       end
 
+    end
+
+    class Ford < FordMakes
+      make 'ford'
+    end
+
+    class Lincoln < FordMakes
+      make 'lincoln'
+    end
+
+    class Mercury < FordMakes
+      make 'mercury'
     end
   end
 end

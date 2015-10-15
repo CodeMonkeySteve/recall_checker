@@ -43,7 +43,7 @@ module RecallChecker
     end
 
     class LandRover < JaguarLandRover
-      make 'landrover'
+      make 'land rover'
       base_uri 'http://www.landroverusa.com/ownership/product-recall-search.html'
     end
 
