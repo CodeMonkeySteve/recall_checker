@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::JaguarLandRover do
 
         r = @checker.recalls.first
         expect(r['title']).to start_with "Jaguar Land Rover is conducting"
-        expect(r['created_at']).to eq Time.parse("26 Jan 2015")
+        expect(r['created_at'].to_date).to eq Date.parse("26 Jan 2015")
         expect(r['nhtsa_id']).to eq "15V-038"
         expect(r['manufacturer_id']).to eq "J049"
         expect(r['description']).to start_with "Jaguar Land Rover is conducting"

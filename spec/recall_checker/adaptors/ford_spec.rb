@@ -10,11 +10,11 @@ describe RecallChecker::Adaptors::Ford do
 
         r = @checker.recalls.first
         expect(r['title']).to eq "DRIVER AIRBAG INFLATOR REPLACEMENT"
-        expect(r['created_at']).to eq Time.parse("27 May 2015")
+        expect(r['created_at'].to_date).to eq Date.parse("27 May 2015")
         expect(r['nhtsa_id']).to eq "15V319"
         expect(r['manufacturer_id']).to eq "15S21"
         expect(r['description']).to start_with "IN THE SUBJECT VEHICLES"
-        expect(r['risks']).to start_with "IN INFLATOR RUPTURE COULD RESULT"
+        expect(r['risks']).to start_with "AN INFLATOR RUPTURE COULD RESULT"
         expect(r['remedy']).to start_with "DEALERS WILL REPLACE"
         expect(r['status']).to start_with "12 - RECALL INCOMPLETE"
         expect(r['notes']).to start_with "TO CHECK FOR NON-SAFETY-RELATED PROGRAMS"

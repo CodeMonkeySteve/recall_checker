@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Nissan do
         
         r = @checker.recalls.first
         expect(r['title']).to eq "OCCUPANT CLASS SYSTEM OCS"
-        expect(r['created_at']).to eq Time.parse("10 APR 2014 05:00:00")
+        expect(r['created_at'].to_date).to eq Date.parse("10 APR 2014 05:00:00")
         expect(r['nhtsa_id']).to eq "14V-138"
         expect(r['manufacturer_id']).to eq "R1405"
         expect(r['description']).to start_with "In the affected vehicles"

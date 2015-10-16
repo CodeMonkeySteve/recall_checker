@@ -1,7 +1,6 @@
 module RecallChecker
   module Adaptors
-    class Toyota < Base
-      make 'toyota'
+    class ToyotaMakes < Base
       base_uri 'http://www.toyota.com'
 
       attr_reader :captcha_image, :captcha_key
@@ -75,5 +74,18 @@ module RecallChecker
       end
 
     end
+
+    class Toyota < ToyotaMakes
+      make 'toyota'
+    end
+
+    class Lexus < ToyotaMakes
+      make 'lexus'
+    end
+
+    class Scion < ToyotaMakes
+      make 'scion'
+    end
+
   end
 end

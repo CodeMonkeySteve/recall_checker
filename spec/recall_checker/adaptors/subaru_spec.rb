@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Subaru do
 
         r = @checker.recalls.first
         expect(r['title']).to eq "Driver Assist System Delay in Warning Indicator"
-        expect(r['created_at']).to eq Time.parse("4 Jun 2015")
+        expect(r['created_at'].to_date).to eq Date.parse("4 Jun 2015")
         expect(r['nhtsa_id']).to eq "15V366000"
         expect(r['manufacturer_id']).to eq "WQS54"
         expect(r['description']).to start_with "Subaru of America, Inc. (Subaru) is recalling"

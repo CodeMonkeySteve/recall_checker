@@ -65,5 +65,9 @@ module RecallChecker
       make 'hummer'
     end
 
+    class Saab < GMMakes
+      make 'saab'
+    end
+
   end
 end

@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Mitsubishi do
 
         r = @checker.recalls.first
         expect(r['title']).to start_with "DUE TO EITHER OF THE FOLLOWING REASONS"
-        expect(r['created_at']).to eq Time.parse("29 Aug 2014")
+        expect(r['created_at'].to_date).to eq Date.parse("29 Aug 2014")
         expect(r['nhtsa_id']).to eq "14V522"
         expect(r['manufacturer_id']).to eq "SR-14-007"
         expect(r['description']).to start_with "DUE TO EITHER OF THE FOLLOWING REASONS"

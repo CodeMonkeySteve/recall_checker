@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::BMW do
 
         r = @checker.recalls.first
         expect(r['title']).to eq "FRONT SIDE MARKER LAMPS"
-        expect(r['created_at']).to eq Time.parse("13 Aug 2015")
+        expect(r['created_at'].to_date).to eq Date.parse("13 Aug 2015")
         expect(r['nhtsa_id']).to eq "15V-520"
         expect(r['manufacturer_id']).to eq "NA"
         expect(r['description']).to start_with "Your vehicle was updated"

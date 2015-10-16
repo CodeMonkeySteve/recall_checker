@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Audi do
 
         r = @checker.recalls.first
         expect(r['title']).to start_with "Airbag Control Unit Deployment Parameter"
-        expect(r['created_at']).to eq Time.parse("24 Oct 2014")
+        expect(r['created_at'].to_date).to eq Date.parse("24 Oct 2014")
         expect(r['nhtsa_id']).to eq "14V667"
         expect(r['manufacturer_id']).to eq "69K5"
         expect(r['description']).to start_with "In rare cases, it is possible"
