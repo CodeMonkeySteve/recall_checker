@@ -50,7 +50,7 @@ module RecallChecker
 
       def response
         @response ||= request
-        raise VinError if vin_invalid?
+        raise VinError, "#{@vin} is invalid" if vin_invalid?
         @response
       rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, Errno::ETIMEDOUT => e
         raise ConnectionError, e
