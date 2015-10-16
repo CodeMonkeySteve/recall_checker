@@ -31,12 +31,20 @@ module RecallChecker
       "http://www.nhtsa.gov/webapi/api/Recalls/vehicle/CampaignNumber/#{nhtsa_id}?format=json"
     end
 
+    def get_url url
+      self.class.get(url)
+    rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, Errno::ETIMEDOUT => e
+      raise ConnectionError, e
+    end
+
     def feed
-      @feed ||= self.class.get(feed_url).parsed_response['rss']['channel']['item']
+      @feed ||= get_url(feed_url).parsed_response['rss']['channel']['item']
+    rescue NoMethodError, TypeError, KeyError => e
+      raise MalformedDataError, e
     end
 
     def get_recalls_for_id nhtsa_id
-      self.class.get(json_api_url nhtsa_id).parsed_response['Results']
+      get_url(json_api_url nhtsa_id).parsed_response['Results']
     end
 
     def recalls_for_id nhtsa_id
