@@ -12,7 +12,7 @@ module RecallChecker
         end
       
         def find_by_make_and_vin make, vin
-          @@adaptors[make].new(vin)
+          @@adaptors[make.downcase.tr('^a-z0-9', '')].new(vin)
         end
 
         def supported? make

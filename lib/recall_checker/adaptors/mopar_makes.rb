@@ -74,7 +74,7 @@ module RecallChecker
     end
 
     class AlfaRomeo < MoparMakes
-      make 'alfa romeo'
+      make 'alfaromeo'
     end
 
     class Ram < MoparMakes

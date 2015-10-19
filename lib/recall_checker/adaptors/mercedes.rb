@@ -37,7 +37,7 @@ module RecallChecker
     end
 
     class MercedesBenz < MercedesMakes
-      make 'mercedes-benz'
+      make 'mercedesbenz'
     end
 
     class Maybach < MercedesMakes
