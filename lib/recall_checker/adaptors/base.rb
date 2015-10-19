@@ -21,7 +21,10 @@ module RecallChecker
       end
 
       def initialize vin
-        @vin = vin
+        @vin = vin.upcase
+        raise VinError, "Invalid VIN format: #{vin}" if !VINValidator.format_valid?(@vin)
+        # Uncomment this if you need to implement local validation by the check digit
+        # raise VinError, "Invalid check digit in the VIN: #{vin}" if !VINValidator.check_digit_valid?(@vin)
       end
 
       def url
@@ -50,7 +53,7 @@ module RecallChecker
 
       def response
         @response ||= request
-        raise VinError, "#{@vin} is invalid" if vin_invalid?
+        raise VinError, "VIN is not recognized by the manufacturer: #{@vin}" if vin_invalid?
         @response
       rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, Errno::ETIMEDOUT => e
         raise ConnectionError, e
