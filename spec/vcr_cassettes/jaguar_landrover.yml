@@ -315,4 +315,45 @@ http_interactions:
         OiJSZWNhbGwgb3V0c3RhbmRpbmcifV19
     http_version: 
   recorded_at: Thu, 17 Sep 2015 18:12:12 GMT
+- request:
+    method: get
+    uri: http://www.jaguarusa.com/owners/vin-recall.html?view=vinRecallQuery&vin=1G1YM3D7XE5117202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Language:
+      - en-US
+      Content-Type:
+      - application/json;charset=UTF-8
+      Server:
+      - Apache-Coyote/1.1
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Date:
+      - Tue, 20 Oct 2015 16:21:27 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - Transfer-Encoding
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"errorMessage":"Please check your details and try again.","error":400,"errorTitle":"Sorry,
+        that is not a valid VIN.","vin":"1G1YM3D7XE5117202"}'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:21:27 GMT
 recorded_with: VCR 2.9.3

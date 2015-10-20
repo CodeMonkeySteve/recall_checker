@@ -1,0 +1,198 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.toyota.com/SSCLookupApp/sscl/pageLoad?lang=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.17 (Red Hat Enterprise Web Server)
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Tue, 20 Oct 2015 16:13:18 GMT
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2692'
+      Date:
+      - Tue, 20 Oct 2015 16:13:18 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=4FB30F354B1F8F1026552D6FA4EFCD3F.tas3-2_vmplappp04; Path=/SSCLookupApp
+      - cpda_is=false; path=/; domain=.toyota.com
+      - cpda_it=false; path=/; domain=.toyota.com
+      - cpda_iw=false; path=/; domain=.toyota.com
+      E-Ak-Long:
+      - '37.58'
+      E-Ak-Lat:
+      - '55.75'
+      E-Ak-City:
+      - MOSCOW
+      E-Ak-Region:
+      - ''
+      E-Ak-Zip:
+      - ''
+    body:
+      encoding: UTF-8
+      string: '{"status":"SUCCESS","sscDatabaseUpdateDate":1445324400000,"captcha":{"captcha":"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\r\n","key":"facf6d6f-05c0-4633-9d57-0fc8c8c4da30"},"invalid":false,"exception":false,"success":true,"incorrect":false,"timeout":false,"notFound":false}'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:13:18 GMT
+- request:
+    method: post
+    uri: http://www.fasttypers.org/imagepost.ashx
+    body:
+      encoding: UTF-8
+      string: action=balance&key=FAKE_KEY
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/plain; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/8.5
+      Set-Cookie:
+      - ".ASPXANONYMOUS=ljSdkNhRDrVTLtIDZDdFyhGo0InaEamGRKk5k3TvuqDyER9NSbOk3od_i-zZ3YjezUyy3npmBU7pdRRltvMg6GcOqDkxkYF9TbOvCB3-HaPTbqD2BjeKFQb91mC_qkI3s55ea6UzTA9v-Mgo9nX_Ch0o2VjkkdaDTW7UV6ImIshO69PGlG-0FcUk45Dss2nZ0;
+        expires=Tue, 20-Oct-2015 17:13:30 GMT; path=/; HttpOnly"
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      Cachecontrolheader:
+      - max-age=604800
+      Date:
+      - Tue, 20 Oct 2015 16:13:30 GMT
+      Content-Length:
+      - '124'
+    body:
+      encoding: ASCII-8BIT
+      string: '4951'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:13:29 GMT
+- request:
+    method: post
+    uri: http://www.fasttypers.org/imagepost.ashx
+    body:
+      encoding: UTF-8
+      string: action=upload&key=FAKE_KEY&gen_task_id=270861752&file=iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAAGoklEQVR42u2dzSt8XxzHJ09fsZk8%0D%0A5WEjC4UUO%2BVhYcHCgqSs6MdqLNhMIgsWFlLKL4nCJEWiPC2UMYzBZppSIjGNKA8b4vsHfMvv9%2BFw%0D%0A5sx9OPfcc%2B98mZnzWUz3dc8953yc%2B5n3%2BZwzd4blP2HCwmAWMQTCwhJYvz8Mwe8vEyjQIFr%2BfBg6%0D%0A%2B%2BfLBAo0iO%2BKdXBwgM7CgUCBpqAFDPO7ggkUaAq%2Bvb2hEENBJ1CgKWhBMyJmbnx5eamoqLDIjLEp%0D%0AqF5ZWalY3YhXFHS73YoOm95RbGJwKkRzJDc2NjZalIy9KUWjl2oapd%2FOzk61KsZHQ2Dw%2FiHjw6mp%0D%0AKUpkaDalWZ07sNT6pfRofDQEBhULGwdOT08nJiZSNIPeFEt144pF9svoMN9oCPxEMtzwPgQ7BgIB%0D%0AlhtMb4qlLl9gyfsFh7OyslhEjmM0BGL8TGKw6ULIuEtLS%2FEtyczMpAiAvClIn8nqVquVkvtzKxbZ%0D%0AryRhp%2FTIMRoCJQJmSP2wxcXF6Z0KJfn%2B5OQkZSpk9KqhoQHXbWpqkpSSPYLDlB7FdAbW1dUFrx6P%0D%0AhzM2yIhjx%2F7%2BfvJ%2B2O12umbIm1LMh9RWhSxera2t4YqghSCoZKkkYR8fH1dzg2M0Ih1fX1%2FhtaWl%0D%0ABUUSadwtB%2FeKcLEm7u%2Fvk%2Flve3u7Woqt2BSkz%2BQ1SGY0A4vu1d3dXXZ2Np7j%2FH4%2FWQoO%2F%2Fr1i3SY%0D%0AEt96RyNysaamBl59Pt%2FR0ZFHxS4uLng6wqckyygKbmxskHeiuLiYIjlqTbHIlXxxR0FyEpSXpqWl%0D%0AkaV7e3ua3TH2G0EIWoBlaXV11cNmfP2G7EBK5ilFhPyXvAc4%2F6Wn2JQZUG%2BpIo6NjeHrbTYbWSpf%0D%0AYayvrzO%2BE%2FQOzg%2FEp6cnlC1BQulhtt3dXagFWgWvGRkZHP1KN4o0kZL%2FaqoOJd%2Bn71fRvdrZ2cnJ%0D%0AycHodDrJUvkSgUUdGUfjByLSGJCloaEhdlkCW1lZQQlWUVERynOMuGGgTvhLdd3m8Hn18xFEBSG8%0D%0AbVwuF7sswfV46We%2Bk%2BQmBAXVMm7yYrXsG8%2FxaptMlImJ7pXD4SBdIkslO%2BySUjWfGUfjexHi4OHh%0D%0AASGHLAUCAYRhdZIpDNUS9p%2BjWCkpKVtbWxjB4fT0dNJhMmGPXMVC2ZJeWUJ1Ubb0N30W9hMN5BbS%0D%0AHb5saXBwECribOkbjEzmyT0JOUoybsWL2TvV7EjXxXg3AZWSCXt8fDxeYcibomgkvV%2FTEQIiPz%2B%2F%0D%0Arq7u%2FPzc5%2FNBKUgsezChbOn29vb5%2Bfm7%2FoSQVSE5uJLgMPjISvjeCRSvTPSZPhp8mJSUlJeXd39%2F%0D%0Af3Nz09bWZrfbR0dHvV4vZX%2BSLkuQLT0%2BPmJZCofPHBjcII2g%2BVLuVUJCQjh85s4tQNTROqu2tra1%0D%0AtbWnpweFwubmpseAfW%2B2pBdNvuuSDe7oNqvVWlhYWFVV1dzcbLPZQD%2FgxkMy5Ha7PSbZj8iW%2FsL7%0D%0AkmJlZWUDAwNOp3NsbOwfY9bf3%2F%2Fvl%2FX19aGT4Aa%2BYHl5mbx%2BYWGBLCWPDRr68%2BGgt7d3ZGQE4ezs%0D%0A7NLSEuiHx2xbXFyE0IT1LNrkxE%2F4ROI%2BbTDHkjz5pPdBKIgnjzAtw2J2enoKIgdShyZNyLhZ7kIE%0D%0AoQkpRXJysvxZixg3GJCZmZnh4eHu7m40OCUlJZmZmSj9ivRPjfRtvvPVzM3Njdmo2t7enp%2BfR2EE%0D%0AS7z6%2Bvry8vLYihvGj3R0IaST8ukPcizItMg05erqCs6jYzigIzqAvArnWJKL1fInzZYpyNLU4eHh%0D%0A3NzcxMQEoN%2FvBzdSU1Oj5gmIMKF0cciIoPOSqHI4HORTBpoPXdGR44GtcHQkkBMlnwGzI4gTGVWw%0D%0AKiY%2FIZf3x9gyvW5HRwf9g2q9SOnRYMsxjiH3htQ0TVR7zlDxrjO2TN8NgYPq6mrJBS6Xi%2FtPMMVn%0D%0AgcpIrhLJjXlNPDk5kTxvr7Y3oatlel35VKvLZzlSAtpgyzGOIcpPPhWviV6vFwdWQUEB%2Fbs3jC3T%0D%0APybX%2FLYFB1JmQ4MtxziGfBdMr5GKJUxYyPcKkXDhX2FjRxxVx8fHeusKjHr8FDEsZYxIpu0wJ%2Bqq%0D%0AKzAW0ML33VmzviwrMFrRwid619fXZGCJKUCgBIMPleJFIwsqKhZfUwKjEi3oZ0nJmZIFyagC9dJV%0D%0AV2AsoIX8WVIcd5qI4uny8vLs7AxnbXxNCYxK%2FPjxtY%2Bp8e3DBAo0BT%2BzLVSAtUegQIP4%2BeuR6B8K%0D%0A4LMCBRrE938rh84iBRMo0BQU%2F69QWFjsfyhT7WKiedFRAAAAAElFTkSuQmCC%0D%0A
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/plain; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/8.5
+      Set-Cookie:
+      - ".ASPXANONYMOUS=ZMzozmYKj7aBDC_sXamWNzUQFlIgo6sq70AgpAkaMy5OMVGnsjtlisnfu2-UkA-V0CLfvib0BAn9AlSJjlnawqE9Yuwg0HfdEY4eLlpabX5ga4Ri5EqC0mBhkk1NlCag0vfO0hxFVOcgJaB9aKjN2UAMZEzo7zuQDIxsx5g9_tG1Wupk6q5HkXuEv87BiAGl0;
+        expires=Tue, 20-Oct-2015 17:13:41 GMT; path=/; HttpOnly"
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      Cachecontrolheader:
+      - max-age=604800
+      Date:
+      - Tue, 20 Oct 2015 16:13:45 GMT
+      Content-Length:
+      - '123'
+    body:
+      encoding: ASCII-8BIT
+      string: '4474'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:13:44 GMT
+- request:
+    method: get
+    uri: http://www.toyota.com/SSCLookupApp/sscl/getSSC/WMWXM5C52ET935269/facf6d6f-05c0-4633-9d57-0fc8c8c4da30/4474?lang=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - JSESSIONID=4FB30F354B1F8F1026552D6FA4EFCD3F.tas3-2_vmplappp04; Path=/SSCLookupApp,
+        cpda_is=false; path=/; domain=.toyota.com, cpda_it=false; path=/; domain=.toyota.com,
+        cpda_iw=false; path=/; domain=.toyota.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.17 (Red Hat Enterprise Web Server)
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Tue, 20 Oct 2015 16:13:45 GMT
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '210'
+      Date:
+      - Tue, 20 Oct 2015 16:13:45 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - cpda_is=false; path=/; domain=.toyota.com
+      - cpda_it=false; path=/; domain=.toyota.com
+      - cpda_iw=false; path=/; domain=.toyota.com
+      E-Ak-Long:
+      - '37.58'
+      E-Ak-Lat:
+      - '55.75'
+      E-Ak-City:
+      - MOSCOW
+      E-Ak-Region:
+      - ''
+      E-Ak-Zip:
+      - ''
+    body:
+      encoding: UTF-8
+      string: '{"status":"NOT_FOUND","vin":"WMWXM5C52ET935269","modelYear":null,"model":null,"brand":null,"sscviewModels":[],"invalid":false,"exception":false,"success":false,"incorrect":false,"timeout":false,"notFound":true}'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:13:45 GMT
+recorded_with: VCR 2.9.3

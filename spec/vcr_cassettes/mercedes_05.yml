@@ -19,7 +19,7 @@ http_interactions:
       Content-Type:
       - text/html;charset=UTF-8
       Date:
-      - Mon, 19 Oct 2015 05:13:25 GMT
+      - Tue, 20 Oct 2015 16:22:46 GMT
       Expires:
       - Thu, 01 Dec 1994 16:00:00 GMT
       P3p:
@@ -27,9 +27,9 @@ http_interactions:
       Server:
       - ECS (fcn/41C6)
       Set-Cookie:
-      - JSESSIONID=0000UBibFq4maHSW-Ut-6EltIuq:18bmdc89v; Path=/; HttpOnly
+      - JSESSIONID=0000MVqZPBOya03IcF5LeTT1FXP:18bmdc4m2; Path=/; HttpOnly
       - MBUSA_OWNERS_STATUS=0; Expires=Thu, 01-Dec-94 16:00:00 GMT; Path=/; Domain=.mbusa.com
-      - MBUSA_UUID=f18a6aaf-3167-4c64-9c5b-6877bcefee01; Expires=Thu, 27-Jun-47 07:00:32
+      - MBUSA_UUID=1655d5d2-3729-42fa-985c-9029015b9580; Expires=Fri, 28-Jun-47 18:09:27
         GMT; Path=/; Domain=.mbusa.com
       - WAS8.mbusaprod-BGN.sticky.prod-80=R3067760920; path=/
       Srvrname:
@@ -50,10 +50,10 @@ http_interactions:
         8]>    <html class=\"no-js lt-ie10 lt-ie9\" lang=\"en\"> <![endif]-->\n<!--[if
         IE 9]>    <html class=\"no-js lt-ie10\" lang=\"en\"> <![endif]-->\n<!--[if
         gt IE 9]><!--> <html class=\"no-js\" lang=\"en\"> <!--<![endif]-->\n<head>\n
-        \   <!-- execId:sndcaaabgn08-20151019:0113.53630-->\n    <meta charset=\"utf-8\">\n
+        \   <!-- execId:sndcaaabgn06-20151020:1222.48680-->\n    <meta charset=\"utf-8\">\n
         \   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta
         name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta
-        name=\"Site-Version\" content=\"mbusa-PROD-web-release1585C-2015-10-15-16-33-38.root-r48734\"
+        name=\"Site-Version\" content=\"mbusa-PROD-web-release1586C-2015-10-19-16-04-02.root-r48810\"
         />\n    <meta http-equiv=\"imagetoolbar\" content=\"no\" />\n    <meta name=\"format-detection\"
         content=\"telephone=no\" />\n    <meta http-equiv=\"Content-Type\" content=\"text/html;
         charset=utf-8\" />\n    <meta http-equiv=\"Content-Style-Type\" content=\"text/css\"
@@ -82,7 +82,7 @@ http_interactions:
         media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n        <script
         src=\"/mercedes/js/responsive/lib/request_animation_shim.js\"></script>\n
         \   <![endif]-->\n\n    <!-- TAGGING PROPS HERE -->\n        <script type=\"text/javascript\">
-        var pageProps = {\"contextPath\":\"/mercedes\",\"combineMinify\":true,\"iperceptionUrl\":\"//ips-invite.iperceptions.com/webValidator.aspx?sdfc=44ac590b-783-629832ab-2ba5-6a89-c3ed-9270a0e350a3&lID=1&loc=STUDY&cD=90&rF=False&iType=1&domainname=0\",\"fbAppId\":\"122854091098579\",\"sections\":[\"recall\"]};
+        var pageProps = {\"contextPath\":\"/mercedes\",\"combineMinify\":true,\"fbAppId\":\"122854091098579\",\"sections\":[\"recall\"]};
         </script>\n        \n        <script type=\"text/javascript\">var applicationSettings
         = {mediaServerBrand: 'mbusa',mediaServerClient: 'mb',mediaServerContext: 'iris',mediaServerDomain:
         'mediaserver.mbusa.com',mediaServerUrl: 'iris', fbAppId: '122854091098579'};</script>\n
@@ -889,7 +889,7 @@ http_interactions:
         \              \t\t \n\t\t\t\t                            </ul>\n\t\t\t\t
         \                        </div>\n\t\t\t\t                     </li>\n\t                \t\t\t\n\n\t
         \               \t</ul>\n\n                \t\n                \t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n</div>\n<div
-        class=\"content\" data-props='{\"contextPath\":\"/mercedes\",\"combineMinify\":true,\"iperceptionUrl\":\"//ips-invite.iperceptions.com/webValidator.aspx?sdfc=44ac590b-783-629832ab-2ba5-6a89-c3ed-9270a0e350a3&lID=1&loc=STUDY&cD=90&rF=False&iType=1&domainname=0\",\"fbAppId\":\"122854091098579\",\"sections\":[\"recall\"]}'>\n
+        class=\"content\" data-props='{\"contextPath\":\"/mercedes\",\"combineMinify\":true,\"fbAppId\":\"122854091098579\",\"sections\":[\"recall\"]}'>\n
         \   \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div class=\"recall-content\">\t\t\r\n\t
         \   <div class=\"top-section-wrapper liquid-wrapper clearer\">\r\n    \t\t<h1>Recalls</h1>
         \      \r\n\t\t\t<div class=\"recall-text\">Mercedes is concerned about safety.
@@ -900,12 +900,12 @@ http_interactions:
         class=\"vin-title\">Find recall campaign for your Vehicle</h2>\r\n\t     \t<div
         class=\"form-controls\">\r\n\t   \t\t\t<form id=\"recall-form\" action=\"/mercedes/json/recall/campaigns\"
         method=\"post\">\r\n\t   \t\t\t\t<input type=\"hidden\" id=\"CSRF_TOKEN\"
-        name=\"CSRF_TOKEN\" value=\"QDHIFMP8W2V3CRSKUETA09O4X1NG6LY5\">\t   \t\t\t\t\r\n\t\t
+        name=\"CSRF_TOKEN\" value=\"8N0JBHMLSEIRQ7CGDOFPKZVWXY69T1U3\">\t   \t\t\t\t\r\n\t\t
         \           <input type=\"text\" class=\"vin std-input\" name=\"vin\" placeholder=\"Enter
         VIN\" />\r\n\t            \t<button type=\"submit\" id=\"submit-recall\" class=\"std-cta\"
         disabled>Submit</button>\r\n\t            \t<div id=\"recall-errors\"> </div>\r\n\t
         \     \t\t</form>\r\n\t      \t\t<div class=\"recall-disclaimer\">Last updated:
-        Oct 18, 2015</div>\t      \t\t\r\n      \t\t</div>\r\n      \t\t<div class=\"recall-contact-text
+        Oct 19, 2015</div>\t      \t\t\r\n      \t\t</div>\r\n      \t\t<div class=\"recall-contact-text
         liquid-wrapper\">Recall information is available going back to January 1,
         1990. Please contact the Customer Assistance Center at 1-(800) FOR-MERCEDES
         (1-800-367-6372)</div>\r\n\t     </div>\r\n\t     <div class=\"recall-results
@@ -1328,19 +1328,19 @@ http_interactions:
         defer=\"defer\"></script>\n        \n        <script type=\"text/javascript\">_satellite.pageBottom();</script>\n
         \   \n\n</body>\n</html>\n"
     http_version: 
-  recorded_at: Mon, 19 Oct 2015 05:13:51 GMT
+  recorded_at: Tue, 20 Oct 2015 16:23:12 GMT
 - request:
     method: post
     uri: http://www.mbusa.com/mercedes/json/recall/campaigns
     body:
       encoding: UTF-8
-      string: CSRF_TOKEN=QDHIFMP8W2V3CRSKUETA09O4X1NG6LY5&vin=WDDLJ6FB8FA150000
+      string: CSRF_TOKEN=8N0JBHMLSEIRQ7CGDOFPKZVWXY69T1U3&vin=1G1YM3D7XE5117202
     headers:
       Cookie:
-      - WAS8.mbusaprod-BGN.sticky.prod-80=R3067760920; path=/, JSESSIONID=0000UBibFq4maHSW-Ut-6EltIuq:18bmdc89v;
+      - WAS8.mbusaprod-BGN.sticky.prod-80=R3067760920; path=/, JSESSIONID=0000MVqZPBOya03IcF5LeTT1FXP:18bmdc4m2;
         Path=/; HttpOnly, MBUSA_OWNERS_STATUS=0; Expires=Thu, 01-Dec-94 16:00:00 GMT;
-        Path=/; Domain=.mbusa.com, MBUSA_UUID=f18a6aaf-3167-4c64-9c5b-6877bcefee01;
-        Expires=Thu, 27-Jun-47 07:00:32 GMT; Path=/; Domain=.mbusa.com
+        Path=/; Domain=.mbusa.com, MBUSA_UUID=1655d5d2-3729-42fa-985c-9029015b9580;
+        Expires=Fri, 28-Jun-47 18:09:27 GMT; Path=/; Domain=.mbusa.com
   response:
     status:
       code: 200
@@ -1351,7 +1351,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 19 Oct 2015 05:13:26 GMT
+      - Tue, 20 Oct 2015 16:22:47 GMT
       P3p:
       - CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
       Server:
@@ -1366,11 +1366,11 @@ http_interactions:
       - Servlet/3.0
       X-Ua-Compatible:
       - IE=edge
-      Content-Length:
-      - '639'
+      Transfer-Encoding:
+      - chunked
     body:
       encoding: UTF-8
-      string: '{"page":{"activeCampaign":null,"analyticsParameters":[],"applicationSettings":null,"browserTitle":"","campaigns":[],"canonicalURL":"","disclaimer":null,"errors":[],"gsaDescription":"","gsaTitle":"","id":"","linkBack":"JE1TRDWIPGN3ZA5FQHY2K4V7X68LUC09","metaDescription":"","metaKeywords":"","preferredDealer":null,"recallCampaign":{"closedOtherCampaigns":[],"closedRecalls":[],"contactDesc":"","errorCode":0,"id":"","make":"","manufacturerId":0,"model":"","openOtherCampaigns":[],"recalls":[],"recallsAvailable":false,"refreshDate":"","status":"vinError","type":"","typeDesc":"","vin":"","year":""},"searchKeywords":[],"socialMedia":null}}'
+      string: '{"page":{"activeCampaign":null,"analyticsParameters":[],"applicationSettings":null,"browserTitle":"","campaigns":[],"canonicalURL":"","disclaimer":null,"errors":[],"gsaDescription":"","gsaTitle":"","id":"","linkBack":"TIPJ73N2HGEX0LQBV16DU5KRY8CZW49S","metaDescription":"","metaKeywords":"","preferredDealer":null,"recallCampaign":{"closedOtherCampaigns":[],"closedRecalls":[],"contactDesc":"","errorCode":0,"id":"","make":"","manufacturerId":0,"model":"","openOtherCampaigns":[],"recalls":[],"recallsAvailable":false,"refreshDate":"","status":"vinError","type":"","typeDesc":"","vin":"","year":""},"searchKeywords":[],"socialMedia":null}}'
     http_version: 
-  recorded_at: Mon, 19 Oct 2015 05:13:52 GMT
+  recorded_at: Tue, 20 Oct 2015 16:23:13 GMT
 recorded_with: VCR 2.9.3

@@ -43,9 +43,9 @@ describe RecallChecker::Adaptors::MercedesBenz do
       end
     end
 
-    it "vin_invalid? for fake VIN WDDLJ6FB8FA150000" do
+    it "vin_invalid? for other company's VIN 1G1YM3D7XE5117202" do
       VCR.use_cassette('mercedes_05', :record => :new_episodes) do
-        @checker = RecallChecker::Adaptors::MercedesBenz.new("WDDLJ6FB8FA150000")
+        @checker = RecallChecker::Adaptors::MercedesBenz.new("1G1YM3D7XE5117202")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end

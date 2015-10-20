@@ -1,0 +1,318 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.toyota.com/SSCLookupApp/sscl/pageLoad?lang=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.17 (Red Hat Enterprise Web Server)
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Tue, 20 Oct 2015 16:00:25 GMT
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3576'
+      Date:
+      - Tue, 20 Oct 2015 16:00:25 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=39E70DC95154BCCF2BC0EF57DF1E2BAB.tas3-2_vmplappp07; Path=/SSCLookupApp
+      - cpda_is=false; path=/; domain=.toyota.com
+      - cpda_it=false; path=/; domain=.toyota.com
+      - cpda_iw=false; path=/; domain=.toyota.com
+      E-Ak-Long:
+      - '37.58'
+      E-Ak-Lat:
+      - '55.75'
+      E-Ak-City:
+      - MOSCOW
+      E-Ak-Region:
+      - ''
+      E-Ak-Zip:
+      - ''
+    body:
+      encoding: UTF-8
+      string: '{"status":"SUCCESS","sscDatabaseUpdateDate":1445324400000,"captcha":{"captcha":"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\r\n","key":"47e20d99-2987-4fcc-b631-e09051b08177"},"invalid":false,"exception":false,"success":true,"incorrect":false,"timeout":false,"notFound":false}'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:00:25 GMT
+- request:
+    method: post
+    uri: http://www.fasttypers.org/imagepost.ashx
+    body:
+      encoding: UTF-8
+      string: action=balance&key=FAKE_KEY
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/plain; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/8.5
+      Set-Cookie:
+      - ".ASPXANONYMOUS=Ya8Jehv1xY2JpPCn93hOVDEdTyz2fJLjCBKxpabspHpT7OHzzl4veCRrJSoL1E1dol4RX-67yZ7ZVaGmnfSD0FbNYgXaFyYFScaRBOd1xiQx6cUyxgEvgkbhj7stZ56RuWKufJThW-c_x9CJXsvmQLVQ0zq601eNnAWFZcbsWuBf9gUV6_O93qfzfFRmrdV-0;
+        expires=Tue, 20-Oct-2015 17:00:37 GMT; path=/; HttpOnly"
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      Cachecontrolheader:
+      - max-age=604800
+      Date:
+      - Tue, 20 Oct 2015 16:00:37 GMT
+      Content-Length:
+      - '124'
+    body:
+      encoding: ASCII-8BIT
+      string: '4953'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:00:36 GMT
+- request:
+    method: post
+    uri: http://www.fasttypers.org/imagepost.ashx
+    body:
+      encoding: UTF-8
+      string: action=upload&key=FAKE_KEY&gen_task_id=354226645&file=iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAAJF0lEQVR42u1da0gVTxRfUsteZA%2FF%0D%0A3mUaPcyECOxF5CMV4SopJUalEEaGREUPKxSV7Emhhr3QJCswszLsYbeuN4uIqEiwMCosyYoo%2BxL0%0D%0AIfD%2F%2F%2BnYts7e3Tv7uGo658Oyv9k5Z2dmz57HzNy9wn%2BcOLmABD4EnFyiWD86iIAff4hDDg1C4XcH%0D%0AkdLff4hDDg3CdotVW1tLSnHCIYc4%2F%2FnzJ05evXplt9txrkOUABJxuwXjsF%2FCX79%2BNTc3r1mzBpr0%0D%0A6NEju4Q%2Bf%2F6sR3JbWxtRMaJ0HPYTCI1paWn5%2BPEjMUvqpONGAvGIInYKodq5ubkrVqwIDw%2F38vIa%0D%0ANGiQu7s7joGBgStXrrxw4YLValURZbPZdu3aFRcX5%2BPjQ3hHjRplsViOHz8OyezNMA4rKiqKi4sT%0D%0AExOnTp3anfftQfjly5empqbXr1%2FbtZC%2B%2B%2F51hcRHqsBTp04Benh4CKoEjSkoKHAoKi8vb8KECUqM%0D%0Ao0ePvnbtmnozKisro6KiAKGUaImnp2dAQABgfn4%2BSxegTIDLly%2BHMklvzcL7j8KQkBAoR319%2FYMH%0D%0AD9iVqa6uDrwbN27EETGWvma0k5guqkBBCyUkJDgU5ZR2796t1AwYRRXG4OBgBAdKvLBMU6ZMUeJl%0D%0A6f4%2FAVtbW4nrePHiBRUqqdP9%2B%2FcfP368ffv2mJgYBFWQY0KraiWkAgXtJPKmp6ezc5HKVDNgopwy%0D%0Aos6BAwfkvOztZB%2BNXgKhE3hhiMOyaySwZGdnE0bzGylVN3EewiEkNG7cOHLy6dMn6dXp06fLHxgs%0D%0AqsMHCU90%2BfLl79%2B%2Fi1B61c3N7d69e6LkhoaGYcOGMSoldAtBnrQL7Aqt3v3eA79%2B%2Ffr%2B%2FfvU1NRj%0D%0Ax45pcnAPHz589uwZovVFixYhtHVpIzvnsURSgUFBQdAGpas3b96cNWsW9aiio6Nxyc%2FPT1ro7e19%0D%0A9epVKS8gIjNpHYgSr86ZM4cSu3jx4qKiIlsHZWVl%2Bfr6Sq%2FiDSYJhNxiIdtA3qBisdhHozsh3kDR%0D%0AJmmyTKj85MkTqU3qtjYL5ppoeSCfmZlJFSIrZOHds2cPygsLC6lyEipRvEOGDJHWSUtLk16NiIjI%0D%0AyMgoKytT8oy9zdnBZks1Ce8PuzIhMXeVd9OqDFKNMwgpcnd3R0wtLRkxYgTeP4e8uCStOXv2bJTD%0D%0A4Mv1Us6bnJwsrTN27Fj2RpIKpnTfCCSq8PLlSxxramrYNQmpNDn58OEDjj3YBXqcxXkI8bJuKFcs%0D%0AqgQJixJvaGgoVRnRAKWXILhjOW9JSQlVjURpLI0Ucxnj3dcEoQTNzc2NjY2AVVVV7JpE1A4q2NTU%0D%0A1M1t1gDFIvHd1Q3JI1cnJLQqouTeUMnAOOWFN2SvbEr3nUIPDw8c4%2BPj9%2B7dqzV9Ky0txYnFYgkI%0D%0ACHBpI82CgvQ9pvyFVogkhXpgStOhDkWRmQKWqQGVZrBU1idZH5w0aVJkZCQJorVOB%2BTm5iYlJZHg%0D%0A3dxWdQMUqNjZCJw8eTL1qOQJnYqo8vJyTdNjUoi8kr2yJslaIdJ4JPPr16%2B3aye8mYgplyxZYuJD%0D%0A6SnoMokKdPfuXXbe4cOHy5WVkXfo0KHsNzLYfehEYmJidnb2pUuX2NUIUSA5iY6ORqo7YMCAPqBP%0D%0AXaB0EkIfLCwspOL0iRMnOlxYVBdFVfb09IyJiaEKg4KC5LywE%2FKZUqUbOQze2fvb2tpK4h7Ei2Qx%0D%0AhF2ZyDILeAMDA40Pey%2BHRpX0%2FPnzXl5e1HKyPtsgTyrz8%2FNVRMH%2BKV0lBsC4xRo4cCDRia1btxYV%0D%0AFcHnao27cUxJSQkJCcEo9TWbZMx99QsaPHgw%2FBEef2xs7IYNGzIzM0%2BcOHHlyhWta3BWqxX6l56e%0D%0AHhERMX78%2BP47oNJgnprscQoRJVC2SozWSWWllWN1yRS9efNGZbMNoU2bNjHe6Nu3b%2F7%2B%2FoivExIS%0D%0AwJWTk3P69Onr16%2Fb9RKEnzt3rr6%2B%2Fu3btzgnIYHWkexjsHMRmnoMjBAekFpIQSqkVNnh82av3NjY%0D%0AqHQVZqa6ulpePnLkyBkzZpB9bZs3b96%2Ff39JSUldXZ3dDIIle%2F78OSTPmzcPWYLWoevz8O8EqXH3%0D%0ASZb2TMnC1CtDmxE%2FiYEUwiw86fDw8NWrV2%2Fbtu3w4cOwH5qWRNTJZrOVl5efPHmS%2BMQtW7YsWLCg%0D%0AP4RHBqFOBzp37tzU1NTk5OSkpCT4FIvFEhUVFRoaChczf%2F58XJ05c6afnx9cmI%2BPD9wlIhg3Nzfd%0D%0A%2Fhq8vr6%2BwcHBuMu6det27tx59OjRixcvIqAxS4EgCgIhdseOHbhFZGQkeoGbGml2vyatmkiWe6FP%0D%0A%2Bt7%2B27dvV1VVVVRUkBJYgoKCgiNHjuAczzUjIwNWB4HzwYMHkQ%2BeOXOmuLhY0%2BQQY0h06NAhZHkw%0D%0AcmFhYcj8x4wZQ6wgtzSm5YOia%2ByyDV4Bnj17lkCol713040bN4jzamhoWLVq1dKlS6keOXzBNI0G%0D%0AhypQg%2BkqKysTIfxg79EhpHVI7tLS0uLj4%2BGLp02bRnacGonkODRt8l29KrwYFWPBG8JuQcNIZXix%0D%0ArKysffv2ETsBH4csDJnjnTt34Ptu3bolrmDo81%2BVlZXkBHeMjY0lPz5xUX7AoclLOipw7dq1uncE%0D%0AkF9okRgcUby%2Fv7%2B3tzfielxtaWnBEfE%2BLM2yZcsQMiMPgO1BdIXyp0%2Bf4oiaZMOJXDJyQOM7IMzd%0D%0A4sFhF8VyuDnJaOrojCgrqLRHilBeXp4UwjSy82rqgqbR4FARUmvAStBg4qk7V9XEK65P6%2BB12GbG%0D%0AweFQcdipHzXIocHpDHYJKSkpVDMYGcPCwmpqapS6YGQWxungcOgASrNE6cQ8BQ1aLHZR8mY4ZRFj%0D%0AOIddMKXNHGqFXbYqS3fFy6ERnyKKslqtOCJCJ0tsZFoyLi4OSaXSfd%2B9e5eTk4OThQsXCh17vAgX%0D%0AWfCurq5W74Lx5XmWweGQHvZaTpxcQJ2GS%2FwKG4ccmgI7jZhoyjjk0BQo9OyPZTnsq1DgdptDV8C%2F%0D%0Am0rFpJFDDo1DgXyWVOopOeTQOBSknyUV9Y5DDg3Czm%2FeAbR1EIccmgIF6Ue6xYyRQw4Nws6vR5I%2F%0D%0AFBBLOeTQIGz%2FWzlSSiwYhxyaAvn%2FFXJyCf0Pgv61tnBOr5MAAAAASUVORK5CYII%3D%0D%0A
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/plain; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/8.5
+      Set-Cookie:
+      - ".ASPXANONYMOUS=3WriAVeTJeL__yA0aDWznsAvc4Z6IOILFk5mABF266AGm2U3Nf5lOazR07Zw-izZ0cRuE6TOU7z7CZ1SJo7ICWuvp3h_9-1xBywQQZ36z7LUn72qsE-UKv51OUKMUJz3Kabub3aRO3RbeZf6PoD4ekW804NByJ35iajJ5EDcB9O27nlhBkWEgQBsQItRoxAU0;
+        expires=Tue, 20-Oct-2015 17:00:48 GMT; path=/; HttpOnly"
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      Cachecontrolheader:
+      - max-age=604800
+      Date:
+      - Tue, 20 Oct 2015 16:00:53 GMT
+      Content-Length:
+      - '123'
+    body:
+      encoding: ASCII-8BIT
+      string: '2091'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:00:52 GMT
+- request:
+    method: get
+    uri: http://www.toyota.com/SSCLookupApp/sscl/getSSC/4T1BD1EB1DU003609/47e20d99-2987-4fcc-b631-e09051b08177/2091?lang=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cookie:
+      - JSESSIONID=39E70DC95154BCCF2BC0EF57DF1E2BAB.tas3-2_vmplappp07; Path=/SSCLookupApp,
+        cpda_is=false; path=/; domain=.toyota.com, cpda_it=false; path=/; domain=.toyota.com,
+        cpda_iw=false; path=/; domain=.toyota.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.17 (Red Hat Enterprise Web Server)
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Tue, 20 Oct 2015 16:00:52 GMT
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '5096'
+      Date:
+      - Tue, 20 Oct 2015 16:00:58 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - cpda_is=false; path=/; domain=.toyota.com
+      - cpda_it=false; path=/; domain=.toyota.com
+      - cpda_iw=false; path=/; domain=.toyota.com
+      E-Ak-Long:
+      - '37.58'
+      E-Ak-Lat:
+      - '55.75'
+      E-Ak-City:
+      - MOSCOW
+      E-Ak-Region:
+      - ''
+      E-Ak-Zip:
+      - ''
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdGF0dXMiOiJTVUNDRVNTIiwidmluIjoiNFQxQkQxRUIxRFUwMDM2MDki
+        LCJtb2RlbFllYXIiOiIyMDEzIiwibW9kZWwiOiJBdmFsb24gSFYiLCJicmFu
+        ZCI6IlRveW90YSIsInNzY3ZpZXdNb2RlbHMiOlt7InN0YXR1cyI6bnVsbCwi
+        c2NoZWR1bGVTZXJ2aWNlIjpudWxsLCJsYXN0VXBkYXRlZCI6IjIwMTUtMTAt
+        MjBUMDA6MDA6MDAuMDAwLTA3MDAiLCJ0aXRsZSI6IlNhZmV0eSBSZWNhbGwg
+        RDBUIFJlbWVkeSBOb3RpY2UgLSBDZXJ0YWluIDIwMTIgLSAyMDEzIE1ZIEF2
+        YWxvbiwgQ2FtcnksIENhbXJ5IEh5YnJpZCwgVmVuemEsIGFuZCBDZXJ0YWlu
+        IDIwMTMgTVkgQXZhbG9uIEh5YnJpZCB2ZWhpY2xlcyAtIEhWQUMgQXNzZW1i
+        bHkiLCJzc2NTdGF0dXMiOiJSZW1lZHkgQXZhaWxhYmxlIiwiZGVzY3JpcHRp
+        b24iOiJUb3lvdGEgaXMgcmVjYWxsaW5nIGNlcnRhaW4gbW9kZWwgeWVhciAy
+        MDEyLTIwMTMgYXZhbG9uLCBhdmFsb24gaHYsIHZlbnphLCBjYW1yeSwgYW5k
+        IGNhbXJ5IGh2IHZlaGljbGVzLiBJbiB0aGUgYWZmZWN0ZWQgdmVoaWNsZXMs
+        IHRoZSBkcmFpbiBob3NlIGZvciB0aGUgYWlyIGNvbmRpdGlvbmluZyBjb25k
+        ZW5zZXIgbWF5IGJlY29tZSBjbG9nZ2VkIGNhdXNpbmcgd2F0ZXIgdG8gYWNj
+        dW11bGF0ZSBhdCB0aGUgYm90dG9tIG9mIHRoZSBhaXIgY29uZGl0aW9uaW5n
+        IGNvbmRlbnNlciB1bml0IGhvdXNpbmcuIFRoZSBhY2N1bXVsYXRlZCB3YXRl
+        ciBtYXkgdGhlbiBsZWFrIHRocm91Z2ggYSBzZWFtIGluIHRoZSBob3VzaW5n
+        IG9udG8gdGhlIGFpciBiYWcgY29udHJvbCBtb2R1bGUgcG90ZW50aWFsbHkg
+        cmVzdWx0aW5nIGluIGEgc2hvcnQgY2lyY3VpdCBvZiB0aGUgbW9kdWxlLiBB
+        IHNob3J0IGNpcmN1aXQgbWF5IGNhdXNlIHRoZSBhaXIgYmFncyB0byBiZWNv
+        bWUgZGlzYWJsZWQgb3IgaW5hZHZlcnRlbnRseSBkZXBsb3kuIEFuIGluYWR2
+        ZXJ0ZW50IGFpcmJhZyBkZXBsb3ltZW50IGNhbiBpbmNyZWFzZSB0aGUgcmlz
+        ayBvZiBpbmp1cnkgb3IgdGhlIHBvc3NpYmlsaXR5IG9mIGEgY3Jhc2guIEFu
+        IGlub3BlcmF0aXZlIGFpcmJhZyBjYW4gaW5jcmVhc2UgdGhlIHJpc2sgb2Yg
+        aW5qdXJ5IGluIGEgc2V2ZXJlIGNyYXNoLiBUaGUgcG93ZXIgc3RlZXJpbmcg
+        YXNzaXN0IGNvdWxkIGFsc28gYmVjb21lIGlub3BlcmFibGUgcmVzdWx0aW5n
+        IGluIGluY3JlYXNlZCBzdGVlcmluZyBlZmZvcnQgYW5kIGNhbiBpbmNyZWFz
+        ZSB0aGUgcmlzayBvZiBhIGNyYXNoIGF0IGxvdyBzcGVlZHMuIiwicmVtZWR5
+        IjoiVG95b3RhIHdpbGwgbm90aWZ5IG93bmVycywgYW5kIGRlYWxlcnMgd2ls
+        bCBzZWFsIHRoZSBhaXIgY29uZGl0aW9uaW5nIGNvbmRlbnNlciB1bml0IGhv
+        dXNpbmcgYW5kIGluc3RhbGwgYSBwcm90ZWN0aXZlIGNvdmVyIG9uIHRoZSBh
+        aXJiYWcgY29udHJvbCBtb2R1bGUsIGZyZWUgb2YgY2hhcmdlLiBUaGUgcmVj
+        YWxsIGJlZ2FuIG9uIGZlYnJ1YXJ5IDUsIDIwMTQuIE93bmVycyBtYXkgY29u
+        dGFjdCBUb3lvdGEgYXQgMS04MDAtMzMxLTQzMzEuIiwicmVjYWxsRGF0ZSI6
+        IjIwMTMtMTAtMTdUMDA6MDA6MDAuMDAwLTA3OjAwIiwiZGVhbGVyUmVmZXJl
+        bmNlSWQiOiJEMFQiLCJjYW1wYWlnbkRhdGUiOiIyMDEzLTEyLTAyVDAwOjAw
+        OjAwLjAwMC0wODowMCIsImNhbXBhaWduRXhwaXJhdGlvbkRhdGUiOm51bGws
+        InNjaGVkdWxlU2VydmljZUxpbmsiOiJZIiwicmVjYWxsIjp0cnVlLCJmYXF0
+        ZXh0IjoiRm9yIGFuc3dlcnMgdG8gZnJlcXVlbnRseSBhc2tlZCBxdWVzdGlv
+        bnMsIHBsZWFzZSBjbGljayIsImZhcSI6Imh0dHBzOi8vdGVjaGluZm8udG95
+        b3RhLmNvbS90ZWNoSW5mb1BvcnRhbC9zdGF0aWNjb250ZW50L2VuL3RlY2hp
+        bmZvL2h0bWwvcHJlbG9naW4vZG9jcy9jcC9kMHR0b2ZhcS5wZGYiLCJuaHRz
+        YXJlZmVyZW5jZUlkIjoiMTNWNDQyIiwiaW52YWxpZCI6ZmFsc2UsImV4Y2Vw
+        dGlvbiI6ZmFsc2UsInN1Y2Nlc3MiOmZhbHNlLCJpbmNvcnJlY3QiOmZhbHNl
+        LCJ0aW1lb3V0IjpmYWxzZSwibm90Rm91bmQiOmZhbHNlfSx7InN0YXR1cyI6
+        bnVsbCwic2NoZWR1bGVTZXJ2aWNlIjpudWxsLCJsYXN0VXBkYXRlZCI6IjIw
+        MTUtMTAtMjBUMDA6MDA6MDAuMDAwLTA3MDAiLCJ0aXRsZSI6IkxpbWl0ZWQg
+        U2VydmljZSBDYW1wYWlnbiAoTFNDKSBGMEIgKFBoYXNlIDEgJiAyKSAtIENl
+        cnRhaW4gMjAxMyBNWSBBdmFsb24sIEF2YWxvbiBIeWJyaWQsIENlcnRhaW4g
+        MjAxMiAtIDIwMTMgTVkgQ2FtcnksIENhbXJ5IEh5YnJpZCwgUHJpdXMgQywg
+        YW5kIFlhcmlzIFZlaGljbGVzIC0gRnJvbnQgUGFzc2VuZ2VyIFN1cHBsZW1l
+        bnRhbCBSZXN0cmFpbnQgU3lzdGVtIiwic3NjU3RhdHVzIjoiUmVtZWR5IEF2
+        YWlsYWJsZSIsImRlc2NyaXB0aW9uIjoiVGhlIGZyb250IHBhc3NlbmdlciBz
+        ZWF0IGFzc2VtYmx5IGlzIGVxdWlwcGVkIHdpdGggc2Vuc29ycyBmb3IgdGhl
+        IG9jY3VwYW50IGNsYXNzaWZpY2F0aW9uIHN5c3RlbSB3aGljaCBhcmUgdXNl
+        ZCB0byBjb250cm9sIHRoZSBvcGVyYXRpb24gb2Ygc3VwcGxlbWVudGFsIHJl
+        c3RyYWludCBzeXN0ZW1zIChTUlMpLCBpbmNsdWRpbmcgdGhlIGZyb250IHBh
+        c3NlbmdlciBhaXJiYWcuICBUaGUgc2Vuc29ycyBjbGFzc2lmeSB0aGUgd2Vp
+        Z2h0IG9mIHRoZSBvY2N1cGFudCBhbmQgYWN0aXZhdGUgb3IgZGVhY3RpdmF0
+        ZSB0aGUgZnJvbnQgcGFzc2VuZ2VyIGFpcmJhZyBhY2NvcmRpbmdseS4gIEFk
+        ZGl0aW9uYWxseSwgdGhlIHNlbnNvcnMgYXJlIHVzZWQgdG8gZGV0ZWN0IGNl
+        cnRhaW4gdmVoaWNsZSBjb2xsaXNpb25zLiBEdWUgdG8gdGhlIGN1cnJlbnQg
+        Y29sbGlzaW9uIGRldGVjdGlvbiB0aHJlc2hvbGRzLCB0aGUgc3lzdGVtIG1h
+        eSBpbnRlcnByZXQgY2VydGFpbiBvY2N1cGFudCBzZWF0aW5nIHVzYWdlcyBv
+        ciByb2FkIGNvbmRpdGlvbnMgYXMgYSByZWFyIGNvbGxpc2lvbiBhbmQgaWxs
+        dW1pbmF0ZSB0aGUgQWlyYmFnIFdhcm5pbmcgTGlnaHQgYW5kIFwiQUlSIEJB
+        RyBPRkZcIiBpbmRpY2F0b3IsIGRpc2FibGluZyB0aGUgZnJvbnQgcGFzc2Vu
+        Z2VyIGFpciBiYWcuIFRveW90YSBkZWFsZXJzIHdpbGwgcGVyZm9ybSB0aGUg
+        cmVtZWR5IGF0IG5vIGNoYXJnZSB0byB2ZWhpY2xlIG93bmVycy4gIiwicmVt
+        ZWR5IjoiVGhlIHJlbWVkeSBmb3IgdGhpcyBTcGVjaWFsIFNlcnZpY2UgQ2Ft
+        cGFpZ24gd2lsbCB2YXJ5IGJ5IG1vZGVsIGFuZCBtb2RlbCBwcm9kdWN0aW9u
+        IGRhdGVzLiAgVG95b3RhIGRlYWxlcnMgd2lsbCBwZXJmb3JtIHRoZSByZW1l
+        ZHkgYXQgbm8gY2hhcmdlIHRvIHZlaGljbGUgb3duZXJzLiBUaGUgcmVtZWR5
+        IHdpbGwgaW52b2x2ZSByZXBsYWNpbmcgdGhlIGZyb250IHBhc3NlbmdlciBz
+        ZWF0IG9jY3VwYW50IGNsYXNzaWZpY2F0aW9uIHN5c3RlbSBzZW5zb3JzLiBB
+        ZGRpdGlvbmFsbHksIGRlcGVuZGVudCBvbiB2ZWhpY2xlIHByb2R1Y3Rpb24g
+        ZGF0ZSwgaW4gc29tZSBjYXNlcyBkZWFsZXJzIHdpbGwgYWxzbyByZXBsYWNl
+        IHRoZSBPY2N1cGFudCBDbGFzc2lmaWNhdGlvbiBTeXN0ZW0gRUNVIGFuZCBp
+        bnN0YWxsIGFuIE93bmVyJ3MgTWFudWFsIFVwZGF0ZSBzdGlja2VyLiBUaGlz
+        IExTQyB3aWxsIGJlIGF2YWlsYWJsZSB1bnRpbCBEZWNlbWJlciAzMSwgMjAx
+        NywgYW5kIHdpbGwgb25seSBiZSBhdmFpbGFibGUgYXQgYW4gYXV0aG9yaXpl
+        ZCBUb3lvdGEgRGVhbGVyLiIsInJlY2FsbERhdGUiOm51bGwsImRlYWxlclJl
+        ZmVyZW5jZUlkIjoiRjBCIiwiY2FtcGFpZ25EYXRlIjoiMjAxNS0wMS0yMlQw
+        MDowMDowMC4wMDAtMDg6MDAiLCJjYW1wYWlnbkV4cGlyYXRpb25EYXRlIjoi
+        MjAxNy0xMi0zMVQwMDowMDowMC4wMDAtMDg6MDAiLCJzY2hlZHVsZVNlcnZp
+        Y2VMaW5rIjoiWSIsInJlY2FsbCI6ZmFsc2UsImZhcXRleHQiOm51bGwsImZh
+        cSI6bnVsbCwibmh0c2FyZWZlcmVuY2VJZCI6bnVsbCwiaW52YWxpZCI6ZmFs
+        c2UsImV4Y2VwdGlvbiI6ZmFsc2UsInN1Y2Nlc3MiOmZhbHNlLCJpbmNvcnJl
+        Y3QiOmZhbHNlLCJ0aW1lb3V0IjpmYWxzZSwibm90Rm91bmQiOmZhbHNlfSx7
+        InN0YXR1cyI6bnVsbCwic2NoZWR1bGVTZXJ2aWNlIjpudWxsLCJsYXN0VXBk
+        YXRlZCI6IjIwMTUtMTAtMjBUMDA6MDA6MDAuMDAwLTA3MDAiLCJ0aXRsZSI6
+        IkxpbWl0ZWQgU2VydmljZSBDYW1wYWlnbiBFMEogLSBDZXJ0YWluIDIwMTMg
+        4oCTIDIwMTQgTW9kZWwgWWVhciBBdmFsb24gYW5kIEF2YWxvbiBIeWJyaWQg
+        VmVoaWNsZXMgLSBEcml2ZXIgYW5kIFBhc3NlbmdlciBGcm9udCBTZWF0YmFj
+        ayBCb2FyZCIsInNzY1N0YXR1cyI6IlJlbWVkeSBBdmFpbGFibGUiLCJkZXNj
+        cmlwdGlvbiI6IldoYXQgaXMgdGhlIENvbmRpdGlvbj8gT24gMjAxMyBhbmQg
+        Y2VydGFpbiAyMDE0IE1vZGVsIFllYXIgQXZhbG9uIGFuZCBBdmFsb24gSHli
+        cmlkIHZlaGljbGVzLCB0aGUgZHJpdmVyIGFuZCBwYXNzZW5nZXIgZnJvbnQg
+        c2VhdGJhY2sgYm9hcmQgY291bGQgYmVjb21lIGxvb3NlIGFuZCBzZXBhcmF0
+        ZSBmcm9tIHRoZSBzZWF0IGFzc2VtYmx5LiAiLCJyZW1lZHkiOiJUaGlzIGlz
+        IGEgTGltaXRlZCBTZXJ2aWNlIENhbXBhaWduLiAgUGxlYXNlIGNvbnRhY3Qg
+        eW91ciBhdXRob3JpemVkIFRveW90YSBkZWFsZXIgYW5kIHNjaGVkdWxlIGFu
+        IGFwcG9pbnRtZW50IHRvIGhhdmUgdGhpcyBjYW1wYWlnbiBjb21wbGV0ZWQg
+        YmVmb3JlIDcvMzEvMjAxNy4iLCJyZWNhbGxEYXRlIjpudWxsLCJkZWFsZXJS
+        ZWZlcmVuY2VJZCI6IkUwSiIsImNhbXBhaWduRGF0ZSI6IjIwMTQtMDctMzBU
+        MDA6MDA6MDAuMDAwLTA3OjAwIiwiY2FtcGFpZ25FeHBpcmF0aW9uRGF0ZSI6
+        IjIwMTctMDctMzFUMDA6MDA6MDAuMDAwLTA3OjAwIiwic2NoZWR1bGVTZXJ2
+        aWNlTGluayI6IlkiLCJyZWNhbGwiOmZhbHNlLCJmYXF0ZXh0IjpudWxsLCJm
+        YXEiOm51bGwsIm5odHNhcmVmZXJlbmNlSWQiOm51bGwsImludmFsaWQiOmZh
+        bHNlLCJleGNlcHRpb24iOmZhbHNlLCJzdWNjZXNzIjpmYWxzZSwiaW5jb3Jy
+        ZWN0IjpmYWxzZSwidGltZW91dCI6ZmFsc2UsIm5vdEZvdW5kIjpmYWxzZX1d
+        LCJpbnZhbGlkIjpmYWxzZSwiZXhjZXB0aW9uIjpmYWxzZSwic3VjY2VzcyI6
+        dHJ1ZSwiaW5jb3JyZWN0IjpmYWxzZSwidGltZW91dCI6ZmFsc2UsIm5vdEZv
+        dW5kIjpmYWxzZX0=
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:00:58 GMT
+recorded_with: VCR 2.9.3

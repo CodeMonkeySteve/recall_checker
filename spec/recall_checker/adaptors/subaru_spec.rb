@@ -42,9 +42,9 @@ describe RecallChecker::Adaptors::Subaru do
       end
     end
 
-    it "vin_invalid? for fake VIN 4S3BNBN64F3040000" do
+    it "vin_invalid? for other company's VIN 1G1YM3D7XE5117202" do
       VCR.use_cassette('subaru', :record => :new_episodes) do
-        @checker = RecallChecker::Adaptors::Subaru.new("4S3BNBN64F3040000")
+        @checker = RecallChecker::Adaptors::Subaru.new("1G1YM3D7XE5117202")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end

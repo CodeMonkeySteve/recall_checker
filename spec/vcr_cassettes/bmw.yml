@@ -403,4 +403,52 @@ http_interactions:
         LAMP BULB CARRIER"}],"RefreshDate":"September 29, 2015","Vin":"WBANU53538CT12139","Year":2008}}'
     http_version: 
   recorded_at: Tue, 29 Sep 2015 18:45:16 GMT
+- request:
+    method: get
+    uri: http://www.bmwusa.com/Services/VinRecallService.svc/GetRecallCampaignsForVin/1N4AL3AP6DN408008
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '193'
+      Content-Type:
+      - application/json
+      Server:
+      - Microsoft-IIS/7.5
+      - WWW702
+      X-Aspnet-Version:
+      - 4.0.30319
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Tue, 20 Oct 2015 16:18:16 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ASP.NET_SessionId=2pcae20atq4gjmvfhfl2vqx3; path=/; HttpOnly
+      - LK9H33C=b9fgCswaCBuvTTeaDAIxZ/BdAxSlrK6W/fMWd/AsRnKsV2z9EPQzn6+Ru9atkdB6;
+        expires=Sun, 20-Oct-2019 16:18:03 GMT; path=/
+      - VisitorID=88e0427a-8738-4044-bd4c-4cac14f85384; expires=Fri, 20-Oct-3015 16:18:03
+        GMT; path=/
+      - WK9733P=hFxCduEfUdZKXGbmFnLNZA9cVwM0+v8NaC38Zad4cNK18BKRuZFNTQFR1mZHwCDs;
+        path=/
+    body:
+      encoding: UTF-8
+      string: '{"Status":0,"StatusData":{"ContractValidationResults":[],"ExceptionDetail":null},"ViewModel":{"Error":2,"Make":null,"Model":null,"RecallCampaigns":[],"RefreshDate":null,"Vin":null,"Year":null}}'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:18:16 GMT
 recorded_with: VCR 2.9.3

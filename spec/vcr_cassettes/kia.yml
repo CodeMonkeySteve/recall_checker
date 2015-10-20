@@ -235,4 +235,49 @@ http_interactions:
         A VEHICLE CRASH.\",\"recall_status\":\"RECALL INCOMPLETE\"}],\"refresh_date\":\"1443510000000\",\"status\":true,\"vin\":\"KNDJT2A27B7237019\",\"year\":2011.0}}}"
     http_version: 
   recorded_at: Wed, 30 Sep 2015 10:51:01 GMT
+- request:
+    method: get
+    uri: http://www.kia.com/us/en/data/owners/recalls/search/1G1YM3D7XE5117202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Language:
+      - en-US
+      X-Kma-Cache-Key:
+      - FULVI-W1PK3
+      X-Edgeconnect-Midmile-Rtt:
+      - '22'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '285'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=86382
+      Expires:
+      - Wed, 21 Oct 2015 16:21:29 GMT
+      Date:
+      - Tue, 20 Oct 2015 16:21:47 GMT
+      Content-Length:
+      - '65'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n\r\n\r\n{\"statusCode\":500,\"statusDesc\":\"INVALID_VIN\",\"result\":{}}"
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:21:47 GMT
 recorded_with: VCR 2.9.3

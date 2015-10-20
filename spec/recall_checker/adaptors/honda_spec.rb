@@ -29,9 +29,9 @@ describe RecallChecker::Adaptors::Honda do
       end
     end
 
-    it "vin_invalid? for fake VIN 1HGCR6F39FA000000" do
+    it "vin_invalid? for other company's VIN 1N4AL3AP6DN408008" do
       VCR.use_cassette('honda', :record => :new_episodes) do
-        @checker = RecallChecker::Adaptors::Honda.new("1HGCR6F39FA000000")
+        @checker = RecallChecker::Adaptors::Honda.new("1N4AL3AP6DN408008")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end

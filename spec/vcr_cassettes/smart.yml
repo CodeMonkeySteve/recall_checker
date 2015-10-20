@@ -146,4 +146,39 @@ http_interactions:
       string: '{"page":{"activeCampaign":null,"analyticsParameters":[],"applicationSettings":null,"browserTitle":"","campaigns":[],"canonicalURL":"","disclaimer":null,"errors":[],"gsaDescription":"","gsaTitle":"","id":"","linkBack":"5U7KC0FXEDN2IRO69SQWPM1BHLZV3YTJ","metaDescription":"","metaKeywords":"","preferredDealer":null,"recallCampaign":{"closedOtherCampaigns":[],"closedRecalls":[],"contactDesc":"","errorCode":0,"id":"","make":"","manufacturerId":0,"model":"","openOtherCampaigns":[],"recalls":[],"recallsAvailable":false,"refreshDate":"","status":"vinError","type":"","typeDesc":"","vin":"","year":""},"searchKeywords":[],"socialMedia":null}}'
     http_version: 
   recorded_at: Mon, 21 Sep 2015 09:06:53 GMT
+- request:
+    method: get
+    uri: http://www.smartusa.com/getrecallsjson/1G1YM3D7XE5117202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/plain;charset=ISO-8859-1
+      Date:
+      - Tue, 20 Oct 2015 16:25:24 GMT
+      Server:
+      - Apache/2.4.7 (Ubuntu)
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":{"activeCampaign":null,"analyticsParameters":[],"applicationSettings":null,"browserTitle":"","campaigns":[],"canonicalURL":"","disclaimer":null,"errors":[],"gsaDescription":"","gsaTitle":"","id":"","linkBack":"VRMPK6B79L5SFCQN1Z40A3DIGWOXTUH2","metaDescription":"","metaKeywords":"","preferredDealer":null,"recallCampaign":{"closedOtherCampaigns":[],"closedRecalls":[],"contactDesc":"","errorCode":0,"id":"","make":"","manufacturerId":0,"model":"","openOtherCampaigns":[],"recalls":[],"recallsAvailable":false,"refreshDate":"","status":"vinError","type":"","typeDesc":"","vin":"","year":""},"searchKeywords":[],"socialMedia":null}}'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:25:19 GMT
 recorded_with: VCR 2.9.3

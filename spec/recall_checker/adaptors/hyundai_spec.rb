@@ -42,9 +42,9 @@ describe RecallChecker::Adaptors::Hyundai do
     end
   end
 
-  it "vin_invalid? for fake VIN KM8SM4HF1EU040000" do
+  it "vin_invalid? for other company's VIN 1N4AL3AP6DN408008" do
     VCR.use_cassette('hyundai_vin_invalid', :record => :new_episodes) do
-      @checker = RecallChecker::Adaptors::Hyundai.new("KM8SM4HF1EU040000")
+      @checker = RecallChecker::Adaptors::Hyundai.new("1N4AL3AP6DN408008")
       expect { @checker.recalls }.to raise_error RecallChecker::VinError
     end
   end

@@ -653,4 +653,40 @@ http_interactions:
         Found\n</h1>\n</body></html>\n"
     http_version: 
   recorded_at: Tue, 22 Sep 2015 15:29:07 GMT
+- request:
+    method: get
+    uri: http://www.subaru.com/services/vehicles/recalls?vin=1G1YM3D7XE5117202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - Day-Servlet-Engine/4.1.42
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '93'
+      Cache-Control:
+      - max-age=3600
+      Date:
+      - Tue, 20 Oct 2015 16:25:37 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<html><head><title>\n404\n \nNot Found\n</title></head><body><h1>\nNot
+        Found\n</h1>\n</body></html>\n"
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:25:37 GMT
 recorded_with: VCR 2.9.3

@@ -28,9 +28,9 @@ describe RecallChecker::Adaptors::Mazda do
       end
     end
 
-    it "vin_invalid? for invalid VIN WDDLJ6FB8FA150000" do
+    it "vin_invalid? for other company's VIN 1G1YM3D7XE5117202" do
       VCR.use_cassette('mazda_03', :record => :new_episodes) do
-        @checker = RecallChecker::Adaptors::Mazda.new("WDDLJ6FB8FA150000")
+        @checker = RecallChecker::Adaptors::Mazda.new("1G1YM3D7XE5117202")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end

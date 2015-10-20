@@ -251,4 +251,80 @@ http_interactions:
         class=\"psicon psicon-chevron-right\"></span></td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</button>\n\t\t\t\t</div>\n\n"
     http_version: 
   recorded_at: Mon, 21 Sep 2015 18:47:55 GMT
+- request:
+    method: get
+    uri: http://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?fin=1G1YM3D7XE5117202&language=us&openagent=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '0'
+      Location:
+      - https://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?openagent=&fin=1G1YM3D7XE5117202&language=us
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:25:01 GMT
+- request:
+    method: get
+    uri: https://recall.porsche.com/prod/pag/vinrecalllookup.nsf/GetVINResult?fin=1G1YM3D7XE5117202&language=us&openagent=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Lotus-Domino
+      Date:
+      - Tue, 20 Oct 2015 16:25:04 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '527'
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - SERVERID=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+    body:
+      encoding: ASCII-8BIT
+      string: "\n\t\t\t\t<div class=\"alert alert-warning\">\n\t\t\t\t\t<p>The vehicle
+        identification number you entered is 1G1YM3D7XE5117202. We could not find
+        campaign information about this vehicle because the number you entered contains
+        an error or is not in our system.</p>\r\n<div class=\"show-grid-top\">\r\n<p>Please
+        verify that the number you entered is correct, or <a href=\"javascript:openNewWindow('http://www.porschedealer.com/dealer/usLocator/')\">contact
+        your authorized Porsche dealer for assistance.</a></p>\r\n</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div
+        class=\"row show-grid-top\">\n\t\t\t\t\t<button onclick=\"newSearch()\" style=\"width:150px;\"
+        class=\"btn btn-default\">\n\t\t\t\t\t\t<table class=\"table table-no-border
+        table-condensed small\" style=\"margin-bottom: 0px;\">\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td
+        class=\"text-left\">Back</td>\n\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span
+        class=\"psicon psicon-chevron-right\"></span></td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</button>\n\t\t\t\t</div>\n\n"
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:25:02 GMT
 recorded_with: VCR 2.9.3

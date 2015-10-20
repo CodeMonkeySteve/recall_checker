@@ -28,9 +28,9 @@ describe RecallChecker::Adaptors::Mini do
       end
     end
 
-    it "vin_invalid? for fake VIN WMWZB3C54EWR30000" do
+    it "vin_invalid? for other company's VIN 1G1YM3D7XE5117202" do
       VCR.use_cassette('mini', :record => :new_episodes) do
-        @checker = RecallChecker::Adaptors::Mini.new("WMWZB3C54EWR30000")
+        @checker = RecallChecker::Adaptors::Mini.new("1G1YM3D7XE5117202")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end

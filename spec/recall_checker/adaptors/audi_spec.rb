@@ -28,9 +28,9 @@ describe RecallChecker::Adaptors::Audi do
       end
     end
 
-    it "vin_invalid? for fake VIN WAUFFAFL8EN010000" do
+    it "vin_invalid? for other company's VIN WMWXM5C52ET935269" do
       VCR.use_cassette('audi', :record => :new_episodes) do
-        @checker = RecallChecker::Adaptors::Audi.new("WAUFFAFL8EN010000")
+        @checker = RecallChecker::Adaptors::Audi.new("WMWXM5C52ET935269")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end

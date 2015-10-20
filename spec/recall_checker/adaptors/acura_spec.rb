@@ -37,9 +37,9 @@ describe RecallChecker::Adaptors::Acura do
       end
     end
 
-    it "vin_invalid? for fake VIN 5FRYD4H25FB000000" do
+    it "vin_invalid? for other company's VIN WMWXM5C52ET935269" do
       VCR.use_cassette('acura', :record => :new_episodes) do
-        @checker = RecallChecker::Adaptors::Acura.new("5FRYD4H25FB000000")
+        @checker = RecallChecker::Adaptors::Acura.new("WMWXM5C52ET935269")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end

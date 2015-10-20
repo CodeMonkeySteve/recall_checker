@@ -178,4 +178,51 @@ http_interactions:
       string: '{"vin":"WMWZB3C54EWR30000","status":false,"error_code":91}'
     http_version: 
   recorded_at: Fri, 18 Sep 2015 12:13:14 GMT
+- request:
+    method: get
+    uri: http://www.miniusa.com/api/safetyRecall.action?vin=1G1YM3D7XE5117202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Content-Disposition:
+      - inline
+      Content-Type:
+      - application/json
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Tue, 20 Oct 2015 16:23:34 GMT
+      Content-Length:
+      - '58'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=6101d9a6dc20e53287828491f89c.0; Path=/api; HttpOnly
+      - circle_framework_visitor_id=205454179; Expires=Wed, 19-Oct-2016 16:23:34 GMT;
+        Path=/
+    body:
+      encoding: UTF-8
+      string: '{"vin":"1G1YM3D7XE5117202","status":false,"error_code":91}'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:23:35 GMT
 recorded_with: VCR 2.9.3

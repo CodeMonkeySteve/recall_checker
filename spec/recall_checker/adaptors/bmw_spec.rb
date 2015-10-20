@@ -37,9 +37,9 @@ describe RecallChecker::Adaptors::BMW do
       end
     end
 
-    it "vin_invalid? for fake VIN WBA3N9C55FK240000" do
+    it "vin_invalid? for other company's VIN 1N4AL3AP6DN408008" do
       VCR.use_cassette('bmw', :record => :new_episodes) do
-        @checker = RecallChecker::Adaptors::BMW.new("WBA3N9C55FK240000")
+        @checker = RecallChecker::Adaptors::BMW.new("1N4AL3AP6DN408008")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end

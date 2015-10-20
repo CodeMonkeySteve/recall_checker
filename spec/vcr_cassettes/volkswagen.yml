@@ -145,4 +145,45 @@ http_interactions:
       string: '{"vin":"3VWFP7ATXEM620000","status":false,"errorCode":91}'
     http_version: 
   recorded_at: Fri, 18 Sep 2015 11:40:53 GMT
+- request:
+    method: get
+    uri: http://www.vw.com/s2f/vwrecall-nhtsa2/vin/1G1YM3D7XE5117202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Language:
+      - en-US
+      Content-Type:
+      - application/json;charset=ISO-8859-1
+      Date:
+      - Tue, 20 Oct 2015 16:25:55 GMT
+      Dynatrace:
+      - PT=4182910;PA=1309795536;SP=VW.COM PRD;PS=-1731672259
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - BIGipServerwww-origin.vw.com_Pool_p80=99521034.20480.0000; path=/
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Dynatrace:
+      - PT=4182910;PA=1309795536;SP=VW.COM PRD;PS=-1731672259
+      Content-Length:
+      - '77'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"vin":"1G1YM3D7XE5117202","status":false,"errorCode":91}'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:25:56 GMT
 recorded_with: VCR 2.9.3

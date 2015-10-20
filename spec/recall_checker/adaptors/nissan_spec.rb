@@ -37,9 +37,9 @@ describe RecallChecker::Adaptors::Nissan do
       end
     end
 
-    it "vin_invalid? for fake VIN 1N4AL3APXFC420000" do
+    it "vin_invalid? for other company's VIN 1G1YM3D7XE5117202" do
       VCR.use_cassette('nissan', :record => :new_episodes) do
-        @checker = RecallChecker::Adaptors::Nissan.new("1N4AL3APXFC420000")
+        @checker = RecallChecker::Adaptors::Nissan.new("1G1YM3D7XE5117202")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end

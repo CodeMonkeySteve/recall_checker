@@ -37,9 +37,9 @@ describe RecallChecker::Adaptors::JaguarLandRover do
       end
     end
 
-    it "vin_invalid? for fake VIN SAJWA0FB6CLS30000" do
+    it "vin_invalid? for other company's VIN 1G1YM3D7XE5117202" do
       VCR.use_cassette('jaguar_landrover', :record => :new_episodes) do
-        @checker = RecallChecker::Adaptors::Jaguar.new("SAJWA0FB6CLS30000")
+        @checker = RecallChecker::Adaptors::Jaguar.new("1G1YM3D7XE5117202")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
     end

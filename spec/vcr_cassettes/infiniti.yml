@@ -175,4 +175,45 @@ http_interactions:
       string: '{"make":"","modelYear":0,"recalls":[],"vehicleName":"","vin":"JN1CV6AP9FM500000"}'
     http_version: 
   recorded_at: Wed, 16 Sep 2015 17:41:27 GMT
+- request:
+    method: get
+    uri: http://www.infinitiusa.com/dealercenter/api/recalls?vin=1G1YM3D7XE5117202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Tue, 20 Oct 2015 16:21:08 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Tue, 20 Oct 2015 16:21:08 GMT
+      Content-Length:
+      - '81'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"make":"","modelYear":0,"recalls":[],"vehicleName":"","vin":"1G1YM3D7XE5117202"}'
+    http_version: 
+  recorded_at: Tue, 20 Oct 2015 16:21:08 GMT
 recorded_with: VCR 2.9.3

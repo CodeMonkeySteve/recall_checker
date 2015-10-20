@@ -23,8 +23,7 @@ module RecallChecker
       def initialize vin
         @vin = vin.upcase
         raise VinError, "Invalid VIN format: #{vin}" if !VINValidator.format_valid?(@vin)
-        # Uncomment this if you need to implement local validation by the check digit
-        # raise VinError, "Invalid check digit in the VIN: #{vin}" if !VINValidator.check_digit_valid?(@vin)
+        raise VinError, "Invalid check digit in the VIN: #{vin}" if !VINValidator.check_digit_valid?(@vin)
       end
 
       def url
