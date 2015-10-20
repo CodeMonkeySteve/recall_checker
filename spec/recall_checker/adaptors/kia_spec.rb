@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Kia do
 
         r = @checker.recalls.first
         expect(r['title']).to start_with "IF THE COOLING FAN RESISTOR OVERHEATS"
-        expect(r['created_at'].to_date).to eq Date.parse("2015-01-23 11:00:00")
+        expect(r['created_at']).to eq Date.parse("2015-01-23")
         expect(r['nhtsa_id']).to eq "15V-015"
         expect(r['manufacturer_id']).to eq "SC113A"
         expect(r['description']).to start_with "KIA IS RECALLING CERTAIN MODEL"

@@ -30,11 +30,11 @@ module RecallChecker
       end
 
       def convert_created_at time
-        Time.at(time.to_i / 1000)
+        Time.at(time.to_i / 1000).to_date
       end
 
       def convert_updated_at time
-        Time.at(time.to_i / 1000)
+        Time.at(time.to_i / 1000).to_date
       end
 
     end

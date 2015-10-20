@@ -65,12 +65,12 @@ module RecallChecker
         parsed_response['sscviewModels'].select { |x| x['recall'] }
       end
 
-      def convert_created_at time
-        Time.parse(time[0..9])
+      def convert_created_at date
+        Date.parse(date)
       end
 
-      def convert_updated_at time
-        Time.parse(time[0..9])
+      def convert_updated_at date
+        convert_created_at date
       end
 
     end

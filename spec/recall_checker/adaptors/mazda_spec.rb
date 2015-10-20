@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Mazda do
 
         r = @checker.recalls.first
         expect(r['title']).to start_with "Water may enter the front suspension"
-        expect(r['created_at'].to_date).to eq Date.parse("16 Jul 2015")
+        expect(r['created_at']).to eq Date.parse("16 Jul 2015")
         expect(r['nhtsa_id']).to eq "15V-451"
         expect(r['manufacturer_id']).to eq "8515G"
         expect(r['description']).to start_with "Water may enter the front suspension"

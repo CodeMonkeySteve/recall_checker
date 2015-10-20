@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Volkswagen do
 
         r = @checker.recalls.first
         expect(r['title']).to eq "Fuel Rail"
-        expect(r['created_at'].to_date).to eq Date.parse("22 Jan 2015")
+        expect(r['created_at']).to eq Date.parse("22 Jan 2015")
         expect(r['nhtsa_id']).to eq "15V-028"
         expect(r['manufacturer_id']).to eq "24BL"
         expect(r['description']).to start_with "During engine operation"

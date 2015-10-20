@@ -26,13 +26,12 @@ module RecallChecker
         parsed_response['CampaignTypes'].first['Campaigns'] or []
       end
 
-      def convert_created_at time
-        DateTime.strptime(time + " " + Time.now.getlocal.zone, "%m/%d/%Y %Z").to_time
+      def convert_created_at date
+        Date.strptime(date, '%m/%d/%Y')
       end
 
-      def convert_updated_at time
-        t = response.fetch("LastUpdated", "")
-        !t.empty? ? Time.parse(t) : convert_created_at(time)
+      def convert_updated_at date
+        Date.parse(parsed_response["LastUpdated"])
       end
 
     end

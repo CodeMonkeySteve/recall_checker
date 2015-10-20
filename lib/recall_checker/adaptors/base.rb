@@ -88,12 +88,12 @@ module RecallChecker
         raise MalformedDataError, e
       end
       
-      def convert_created_at time
-        Time.parse(time) if time
+      def convert_created_at date
+        Date.parse(date) if date
       end
 
-      def convert_updated_at time
-        Time.parse(time) if time
+      def convert_updated_at date
+        Date.parse(date) if date
       end
     end
   end

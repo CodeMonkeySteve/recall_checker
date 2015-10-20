@@ -20,8 +20,8 @@ describe RecallChecker::Adaptors::Base, "when there are recalls" do
 
   before :each do
     @checker = RecallChecker::Adaptors::Base.new('11111111111111111')
-    @date_created = Time.new(2015,8,30) 
-    @date_updated = Time.new(2015,9,15) 
+    @date_created = Date.new(2015,8,30) 
+    @date_updated = Date.new(2015,9,15) 
     allow(@checker).to receive(:parsed_response) do 
       {
         'recalls' => [

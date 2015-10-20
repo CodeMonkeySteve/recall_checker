@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Mini do
 
         r = @checker.recalls.select {|i| i['nhtsa_id'] == "14V-619"}.first # 3 recalls in the answer
         expect(r['title']).to start_with "SPARE WHEEL CARRIER"
-        expect(r['created_at'].to_date).to eq Date.parse("2 Oct 2014")
+        expect(r['created_at']).to eq Date.parse("2 Oct 2014")
         expect(r['nhtsa_id']).to eq "14V-619"
         expect(r['manufacturer_id']).to eq "NA"
         expect(r['description']).to start_with "On certain Model Year 2014 MINI Cooper Hardtop"

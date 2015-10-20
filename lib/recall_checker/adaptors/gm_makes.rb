@@ -28,7 +28,7 @@ module RecallChecker
       end
 
       def convert_updated_at time
-        Time.parse(parsed_response['data']['refresh_date'])
+        Date.parse(parsed_response['data']['refresh_date'])
       end
 
     end

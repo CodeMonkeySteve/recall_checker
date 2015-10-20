@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Infiniti do
         
         r = @checker.recalls.first
         expect(r['title']).to eq "PASSENGER AIR BAG INFLATOR"
-        expect(r['created_at'].to_date).to eq Date.parse("25 AUG 2014 05:00:00")
+        expect(r['created_at']).to eq Date.parse("25 AUG 2014 05:00:00")
         expect(r['nhtsa_id']).to eq "14V-361"
         expect(r['manufacturer_id']).to eq "R1406"
         expect(r['description']).to start_with "Infiniti was notified by its supplier"

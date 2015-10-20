@@ -30,8 +30,8 @@ module RecallChecker
         parsed_response["page"]["recallCampaign"]["recalls"]
       end
 
-      def convert_updated_at time
-        Time.parse(time) if !time.empty?
+      def convert_updated_at date
+        Date.parse(date) unless date.empty?
       end
 
     end

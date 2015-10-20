@@ -67,8 +67,8 @@ module RecallChecker
         htmlpage.css('.recall_row p b').text.split("\n")[0].gsub("Last Updated:","").strip
       end
 
-      def convert_created_at time
-        DateTime.strptime(time + " " + Time.now.getlocal.zone, "%m/%d/%y %Z").to_time
+      def convert_created_at date
+        Date.strptime(date, "%m/%d/%y")
       end
 
     end

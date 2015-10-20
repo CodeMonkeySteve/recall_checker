@@ -10,7 +10,7 @@ describe RecallChecker::Adaptors::Honda do
 
         r = @checker.recalls.first
         expect(r['title']).to eq "M-CVT DRIVE PULLEY SHAFT"
-        expect(r['created_at'].to_date).to eq Date.parse("4 Sep 2015")
+        expect(r['created_at']).to eq Date.parse("4 Sep 2015")
         expect(r['nhtsa_id']).to eq "AWAITING#"
         expect(r['manufacturer_id']).to eq "JU2"
         expect(r['description']).to eq ""

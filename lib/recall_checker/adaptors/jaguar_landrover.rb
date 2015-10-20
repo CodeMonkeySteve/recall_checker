@@ -27,12 +27,12 @@ module RecallChecker
         parsed_response.has_key?('error') ? [] : parsed_response['results']
       end
 
-      def convert_created_at time
-        DateTime.strptime(time + " " + Time.now.getlocal.zone, "%m/%d/%Y %Z").to_time
+      def convert_created_at date
+        Date.strptime(date, "%m/%d/%Y")
       end
 
-      def convert_updated_at time
-        convert_created_at time
+      def convert_updated_at date
+        convert_created_at date
       end
 
     end

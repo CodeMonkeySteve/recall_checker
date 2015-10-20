@@ -26,12 +26,12 @@ module RecallChecker
         r.select { |i| i.fetch('type',"") == "Safety" && i.fetch('status',"") == "Open" }
       end
 
-      def convert_created_at time
-        Time.parse("#{time['day']} #{time['month']} #{time['year']}")
+      def convert_created_at date
+        Date.parse(date["fullDate"])
       end
 
-      def convert_updated_at time
-        Time.parse("#{time['day']} #{time['month']} #{time['year']}")
+      def convert_updated_at date
+        convert_created_at date
       end
 
       def convert_notes notes

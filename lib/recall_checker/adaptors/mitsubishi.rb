@@ -36,8 +36,8 @@ module RecallChecker
         "Recall status information is not available"
       end
 
-      def convert_updated_at time
-        Time.parse(parsed_response['nhtsaVehicle']['recallRefreshDate'])
+      def convert_updated_at date
+        Date.parse(parsed_response['nhtsaVehicle']['recallRefreshDate'])
       end
 
     end
