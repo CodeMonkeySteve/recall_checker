@@ -12,11 +12,16 @@ module RecallChecker
         end
       
         def find_by_make_and_vin make, vin
-          @@adaptors[make.downcase.tr('^a-z0-9', '')].new(vin)
+          @@adaptors[normalize(make)].new(vin)
         end
 
         def supported? make
-          @@adaptors.include? make.downcase.tr('^a-z0-9', '')
+          @@adaptors.include? normalize(make)
+        end
+        
+        private
+        def normalize make
+          make.downcase.tr('^a-z0-9', '')
         end
       end
 
