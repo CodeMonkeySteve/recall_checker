@@ -16,7 +16,7 @@ module RecallChecker
         end
 
         def supported? make
-          @@adaptors.include? make
+          @@adaptors.include? make.downcase.tr('^a-z0-9', '')
         end
       end
 

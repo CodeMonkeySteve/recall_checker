@@ -18,7 +18,7 @@ module RecallChecker
       "notes" => "Notes"
     }
     
-    def initialize start_date = (Time.now - (14*24*3600)).to_date
+    def initialize start_date = Date.today - 14
       @start_date = start_date
       @recalls_raw = {}
     end
