@@ -28,6 +28,7 @@ module RecallChecker
         rec_desc = htmlpage.css('#recallResult div.recall_row.table_container').to_a
         raise MalformedDataError if rec_ids.count != rec_desc.count 
         rec = rec_ids.map.with_index { |r,i| Nokogiri::HTML(r.to_html + rec_desc[i].to_html) }
+        rec = rec.select { |r| r.css('.recall_info').text.include? "NHTSA Recall" }
         rec.select { |r| r.css('.table_container .tableElement')[3].text.strip != "Repair Completed" }
       end
 

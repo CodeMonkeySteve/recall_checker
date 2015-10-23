@@ -283,4 +283,87 @@ http_interactions:
       string: '{"lang_script_c":"","return_status":{"description":"Data not found","code":"02"},"fsa_items":{"count":0},"lang_iso_c":"EN","lang_region_c":"","stpr_state_c":"  ","country_iso3_c":"USA","vin":"1N4AL3AP6DN408008"}'
     http_version: 
   recorded_at: Tue, 20 Oct 2015 16:19:04 GMT
+- request:
+    method: get
+    uri: http://owner.ford.com/sharedServices/recalls/query.do?country=USA&language=EN&vin=11111111111111111
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Powered-By:
+      - Servlet/3.0
+      Content-Length:
+      - '218'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Access-Control-Allow-Origin:
+      - origin.owner.ford.com
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Fri, 23 Oct 2015 05:58:53 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"lang_script_c":"","return_status":{"description":"Input parameter
+        invalid","code":"01"},"fsa_items":{"count":0},"lang_iso_c":"EN","lang_region_c":"","stpr_state_c":"  ","country_iso3_c":"USA","vin":11111111111111111}'
+    http_version: 
+  recorded_at: Fri, 23 Oct 2015 05:58:58 GMT
+- request:
+    method: get
+    uri: http://owner.ford.com/sharedServices/recalls/query.do?country=USA&language=EN&vin=1FM5K7B96EGA76353
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Powered-By:
+      - Servlet/3.0
+      Content-Length:
+      - '211'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en-US
+      Access-Control-Allow-Origin:
+      - origin.owner.ford.com
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Date:
+      - Fri, 23 Oct 2015 06:03:51 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"lang_script_c":"","return_status":{"description":"Data not found","code":"02"},"fsa_items":{"count":0},"lang_iso_c":"EN","lang_region_c":"","stpr_state_c":"  ","country_iso3_c":"USA","vin":"1FM5K7B96EGA76353"}'
+    http_version: 
+  recorded_at: Fri, 23 Oct 2015 06:03:56 GMT
 recorded_with: VCR 2.9.3

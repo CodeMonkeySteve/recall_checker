@@ -28,8 +28,15 @@ describe RecallChecker::Adaptors::Mazda do
       end
     end
 
-    it "vin_invalid? for other company's VIN 1G1YM3D7XE5117202" do
+    it "returns [] for real VIN JM1BM1W33F1238092 with special service programs but no NHTSA recalls" do
       VCR.use_cassette('mazda_03', :record => :new_episodes) do
+        @checker = RecallChecker::Adaptors::Mazda.new("JM1BM1W33F1238092")
+        expect(@checker.recalls).to be_empty
+      end
+    end
+
+    it "vin_invalid? for other company's VIN 1G1YM3D7XE5117202" do
+      VCR.use_cassette('mazda_04', :record => :new_episodes) do
         @checker = RecallChecker::Adaptors::Mazda.new("1G1YM3D7XE5117202")
         expect { @checker.recalls }.to raise_error RecallChecker::VinError
       end
