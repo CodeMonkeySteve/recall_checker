@@ -18,8 +18,8 @@ module RecallChecker
         {query: {view: "vinRecallQuery", vin: @vin}}
       end
 
-      def response_not_ok? r
-        !(r.response.is_a?(Net::HTTPOK) || r.response.is_a?(Net::HTTPBadRequest))
+      def response_not_ok?
+        !(@response.response.is_a?(Net::HTTPOK) || @response.response.is_a?(Net::HTTPBadRequest))
       end
 
       def vin_invalid?

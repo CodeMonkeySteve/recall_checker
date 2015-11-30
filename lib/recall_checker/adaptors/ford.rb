@@ -20,8 +20,8 @@ module RecallChecker
         {query: {country: 'USA', language: 'EN', vin: @vin}}
       end
 
-      def response_not_ok? r
-        !(r.response.is_a?(Net::HTTPOK) || r.response.is_a?(Net::HTTPCreated))
+      def response_not_ok?
+        !(@response.response.is_a?(Net::HTTPOK) || @response.response.is_a?(Net::HTTPCreated))
       end
 
       def vin_invalid?
