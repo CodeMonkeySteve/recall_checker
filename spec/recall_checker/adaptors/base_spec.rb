@@ -49,6 +49,13 @@ describe RecallChecker::Adaptors::Base, "when there are recalls" do
   it "passes recall hash with no change when no conversion" do
     expect(@checker.recalls.first).to eq @checker.recalls_raw.first.merge('created_at' => @date_created, 'updated_at' => @date_updated)
   end
+
+  it "raises ServiceError when the server returns an empty response" do
+    @checker2 = RecallChecker::Adaptors::Base.new("11111111111111111")
+    allow(@checker2).to receive(:url) { "http://www.example.com" }
+    stub_request(:any, "http://www.example.com").to_return(headers: { 'Content-Length' => 0 })
+    expect { @checker2.recalls }.to raise_error RecallChecker::ServiceError
+  end
 end
 
 describe RecallChecker::Adaptors::Base, "VIN checks in the constructor" do

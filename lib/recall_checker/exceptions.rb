@@ -12,6 +12,9 @@ module RecallChecker
   # Raised if the data returned from the server cannot be parsed properly
   class MalformedDataError < Error; end  
 
+  # Raised when the server returns an empty response
+  class ServiceError < Error; end
+
   # Captcha request was not sent before executing the main request
   class CaptchaNotRequestedError < Error; end
 
