@@ -52,12 +52,21 @@ module RecallChecker
       end
 
       def request
-        @request ||= self.class.get(url, options)
+        self.class.get(url, options)
+      end
+
+      def response_empty? r
+        r.parsed_response.nil? || r.parsed_response.empty?
+      end
+
+      def response_not_ok? r
+        !r.response.is_a?(Net::HTTPOK)
       end
 
       def response
         @response ||= request
-        raise ServiceError, "The server returned an empty response" if (@response.parsed_response.nil? || @response.parsed_response.empty?)
+        raise ServiceError, "The server returned an empty response" if response_empty?(@response)
+        raise ServiceError, "The server returned status #{@response.response.class}" if response_not_ok?(@response)
         raise VinError, "VIN is not recognized by the manufacturer: #{@vin}" if vin_invalid?
         @response
       rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, Errno::ETIMEDOUT => e

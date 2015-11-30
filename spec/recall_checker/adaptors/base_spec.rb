@@ -56,6 +56,13 @@ describe RecallChecker::Adaptors::Base, "when there are recalls" do
     stub_request(:any, "http://www.example.com").to_return(headers: { 'Content-Length' => 0 })
     expect { @checker2.recalls }.to raise_error RecallChecker::ServiceError
   end
+
+  it "raises ServiceError when the server returns status not equal to 200" do
+    @checker2 = RecallChecker::Adaptors::Base.new("11111111111111111")
+    allow(@checker2).to receive(:url) { "http://www.example.com" }
+    stub_request(:any, "http://www.example.com").to_return(body: "oops", status: 403, headers: { 'Content-Length' => 4 })
+    expect { @checker2.recalls }.to raise_error RecallChecker::ServiceError
+  end
 end
 
 describe RecallChecker::Adaptors::Base, "VIN checks in the constructor" do

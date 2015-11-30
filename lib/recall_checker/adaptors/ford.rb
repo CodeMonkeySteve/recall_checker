@@ -20,6 +20,10 @@ module RecallChecker
         {query: {country: 'USA', language: 'EN', vin: @vin}}
       end
 
+      def response_not_ok? r
+        !(r.response.is_a?(Net::HTTPOK) || r.response.is_a?(Net::HTTPCreated))
+      end
+
       def vin_invalid?
         @response.parsed_response['return_status']['code'].to_i == 1
       end

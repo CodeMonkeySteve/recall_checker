@@ -17,6 +17,10 @@ module RecallChecker
         "notes" => "recallLetter"
       }
 
+      def response_not_ok? r
+        !(r.response.is_a?(Net::HTTPOK) || r.response.is_a?(Net::HTTPNotFound))
+      end
+
       def vin_invalid?
         @response.response.is_a?(Net::HTTPNotFound)
       end
