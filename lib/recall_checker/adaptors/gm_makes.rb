@@ -23,6 +23,10 @@ module RecallChecker
         !(@response.response.is_a?(Net::HTTPOK) || @response.response.is_a?(Net::HTTPBadRequest))
       end
 
+      def server_error_msg
+        "Server returned error: " + (@response.parsed_response['messages'] + @response.parsed_response['serverErrorMsgs']).join(" ")
+      end
+
       def vin_invalid?
         @response.parsed_response['data'].nil?
       end

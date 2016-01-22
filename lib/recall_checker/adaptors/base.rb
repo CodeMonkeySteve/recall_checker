@@ -63,11 +63,14 @@ module RecallChecker
         !@response.response.is_a?(Net::HTTPOK)
       end
 
+      def server_error_msg
+      end
+
       def response
         @response ||= request
         raise ServiceError, "The server returned an empty response" if response_empty?
         raise ServiceError, "The server returned status #{@response.code}" if response_not_ok?
-        raise VinError, "VIN is not recognized by the manufacturer: #{@vin}" if vin_invalid?
+        raise VinError, server_error_msg || "VIN is not recognized by the manufacturer: #{@vin}" if vin_invalid?
         @response
       rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, Errno::ETIMEDOUT => e
         raise ConnectionError, e

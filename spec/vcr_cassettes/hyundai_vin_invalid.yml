@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://autoservice.hyundaiusa.com/campaignhome?vin=KM8SM4HF1EU040000
+    uri: https://autoservice.hyundaiusa.com/campaignhome?vin=1N4AL3AP6DN408008
     body:
       encoding: US-ASCII
       string: ''
@@ -27,7 +27,7 @@ http_interactions:
       Server:
       - Microsoft-IIS/7.5
       Set-Cookie:
-      - ASP.NET_SessionId=rbnt1aaex0e54pn1y32pgjua; path=/; secure; HttpOnly
+      - ASP.NET_SessionId=wicbllzjhsgnsat1w2lz5kuc; path=/; secure; HttpOnly
       X-Aspnetmvc-Version:
       - '5.2'
       X-Aspnet-Version:
@@ -37,7 +37,7 @@ http_interactions:
       X-Ua-Compatible:
       - IE=edge
       Date:
-      - Tue, 20 Oct 2015 02:35:28 GMT
+      - Fri, 22 Jan 2016 19:13:15 GMT
       Content-Length:
       - '145'
     body:
@@ -45,7 +45,7 @@ http_interactions:
       string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
         moved to <a href=\"/Campaignhome/Campaign/Index\">here</a>.</h2>\r\n</body></html>\r\n"
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 02:35:29 GMT
+  recorded_at: Fri, 22 Jan 2016 19:13:08 GMT
 - request:
     method: get
     uri: https://autoservice.hyundaiusa.com/Campaignhome/Campaign/Index
@@ -54,7 +54,7 @@ http_interactions:
       string: ''
     headers:
       Cookie:
-      - ASP.NET_SessionId=rbnt1aaex0e54pn1y32pgjua
+      - ASP.NET_SessionId=wicbllzjhsgnsat1w2lz5kuc
   response:
     status:
       code: 200
@@ -75,9 +75,9 @@ http_interactions:
       X-Ua-Compatible:
       - IE=edge
       Date:
-      - Tue, 20 Oct 2015 02:35:28 GMT
+      - Fri, 22 Jan 2016 19:13:22 GMT
       Content-Length:
-      - '10932'
+      - '11303'
     body:
       encoding: UTF-8
       string: "\r\n\r\n<!DOCTYPE html>\r\n<meta charset=\"utf-8\" />\r\n<meta http-equiv=\"X-UA-Compatible\"
@@ -141,12 +141,13 @@ http_interactions:
         + '?VIN=' + hdnVinValue + '&Campaigns='+campaigns.replace(/&quot;/g,'\"');\r\n
         \               window.open(url,'_blank');\r\n                \r\n        }\r\n
         \   </script>\r\n</head>\r\n\r\n<input type=\"hidden\" value='https://www.hmarcuf.com'
-        id=\"HdnJNRReimbursementSiteURL\" />\r\n<input type=\"hidden\" value='KM8SM4HF1EU040000'
-        id=\"HdnVIN\" />\r\n<input type=\"hidden\" id=\"hdnHasRecall\" value=\"1\"
+        id=\"HdnJNRReimbursementSiteURL\" />\r\n<input type=\"hidden\" value='1N4AL3AP6DN408008'
+        id=\"HdnVIN\" />\r\n<input type=\"hidden\" id=\"hdnHasRecall\" value=\"0\"
         />\r\n\r\n<div class=\"header-wrapper\">\r\n    <div class=\"header\">\r\n
-        \       <a href=\"#\" class=\"logo\">\r\n            <img src=\"/Campaignhome/images/Logo.png\"
-        alt=\"HYUNDAI\">\r\n        </a>\r\n        <h1 class=\"heading\">Campaigns
-        for your vehicle\r\n                <label id=\"lblmodelYear\">\r\n\r\n                </label>\r\n\r\n
+        \       <a href=\"https://www.hyundaiusa.com/CampaignHome\" class=\"logo\">\r\n
+        \           <img src=\"/Campaignhome/images/Logo.png\" alt=\"HYUNDAI\">\r\n
+        \       </a>\r\n        <h1 class=\"heading\">Campaigns for your vehicle\r\n
+        \               <label id=\"lblmodelYear\">\r\n\r\n                </label>\r\n\r\n
         \           <!--<label id=\"lblmodelYear\"></label> -->\r\n        </h1>\r\n
         \       <a class=\"menu open-popup-link\" href=\"#contact\">\r\n            <span
         class=\"contact\">Contact Us</span>\r\n        </a>\r\n    </div>\r\n</div>\r\n<hr
@@ -175,19 +176,23 @@ http_interactions:
         \       <div class=\"campaign-info-wrapper\">\r\n            <p id=\"VINNumber\"
         class=\"vin-number\">\r\n                <strong class=\"open-msg\">Open Campaigns
         for </strong>\r\n                <strong class=\"closed-msg\">Closed Campaigns
-        for </strong>\r\n                <strong id=\"VinNumberValue\">VIN# KM8SM4HF1EU040000</strong>\r\n
-        \           </p>\r\n            <p class=\"error\" id=\"recallMsg\">\r\n\r\n
-        \           </p>\r\n        </div>\r\n    </div>\r\n    <div class=\"open-campaign-wrapper\">\r\n
-        \       <div class=\"accordian-open-campaign\">\r\n            <p class=\"open-btn\">Open
-        Campaigns</p>\r\n        </div>\r\n        <!--Load Partial View in below
-        div -->\r\n        <!--<div id=\"divOpenCampaign\"></div>-->\r\n        <table
-        name=\"open-campaign\" id=\"open-campaign-table\">\r\n            <thead>\r\n
-        \               <tr>\r\n                    <th>Campaign #</th>\r\n                    <th>Campaign
-        Type</th>\r\n                    <th>Campaign Description</th>\r\n                    <th>Campaign
-        Date</th>\r\n                    \r\n                    <th>Customer Action</th>\r\n
-        \               </tr>\r\n            </thead>\r\n            <tbody>\r\n                                    <tr
+        for </strong>\r\n                <strong id=\"VinNumberValue\">VIN# 1N4AL3AP6DN408008</strong>\r\n
+        \           </p>\r\n            <p class=\"error\" id=\"recallMsg\">\r\n                    <strong>There
+        are no open recall campaigns for the VIN.</strong>\r\n\r\n            </p>\r\n
+        \       </div>\r\n    </div>\r\n\r\n    <div class=\"open-campaign-wrapper\">\r\n<div
+        style=\"text-align:right;\">\r\n\r\n</div>\r\n        <div class=\"accordian-open-campaign\">\r\n
+        \           <p class=\"open-btn\">Open Campaigns</p>\r\n        </div>\r\n
+        \       <!--Load Partial View in below div -->\r\n        <!--<div id=\"divOpenCampaign\"></div>-->\r\n
+        \       <table name=\"open-campaign\" id=\"open-campaign-table\">\r\n            <thead>\r\n
+        \               <tr>\r\n <th>Campaign #</th>\r\n                    <th>NHTSA
+        Recall #</th>                    \r\n                    <th>Description</th>\r\n
+        \                   <th>Safety Risk</th>\r\n                    <th>Remedy</th>
+        \                   \r\n                    <th>Status</th>\r\n                    <th>Campaign
+        Date</th>                                        \r\n                    <th>Updated</th>
+        \    \r\n\r\n                                                      \r\n                </tr>\r\n
+        \           </thead>\r\n            <tbody>\r\n                                    <tr
         class=\"campaign-individual campaign-alert\">\r\n                        <td
-        colspan=\"6\">There are no open campaigns for this VIN\r\n                        </td>\r\n
+        colspan=\"8\">There are no open campaigns for this VIN\r\n                        </td>\r\n
         \                   </tr>\r\n\r\n            </tbody>\r\n        </table>\r\n
         \       <div class=\"btn\">\r\n            <input type=\"button\" value=\"Schedule
         Appointment\" title=\"Schedule Appointment\" class=\"docked-btn schedule-button\"
@@ -211,56 +216,10 @@ http_interactions:
         class=\"footer-logo\">\r\n            <img src=\"/Campaignhome/images/footer-logo.png\"
         alt=\"HYUNDAI\">\r\n        </div>\r\n        <p class=\"txt-copyright\">\r\n
         \           Hyundai is a registered trademark of Hyundai Motor Company. All
-        rights reserved.\r\n            &copy; 2015 Hyundai Motor America\r\n        </p>\r\n
+        rights reserved.\r\n            &copy; 2016 Hyundai Motor America\r\n        </p>\r\n
         \       <ul class=\"links\">\r\n            <li><a href=\"https://www.hyundaiusa.com/privacy-policy.aspx\"
         target=\"_blank\">Privacy Policy</a></li>\r\n            <li><a href=\"https://www.hyundaiusa.com/legal.aspx\"
         target=\"_blank\">Legal Notice</a></li>\r\n        </ul>\r\n    </div>\r\n</div>\r\n\r\n\r\n"
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 02:35:29 GMT
-- request:
-    method: get
-    uri: https://autoservice.hyundaiusa.com/campaignhome?vin=1N4AL3AP6DN408008
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 302
-      message: Found
-    headers:
-      Cache-Control:
-      - private
-      Content-Type:
-      - text/html; charset=utf-8
-      Location:
-      - "/Campaignhome/Campaign/Index"
-      Server:
-      - Microsoft-IIS/7.5
-      Set-Cookie:
-      - ASP.NET_SessionId=tj0ijpqla1rbearvwkmv0mil; path=/; secure; HttpOnly
-      X-Aspnetmvc-Version:
-      - '5.2'
-      X-Aspnet-Version:
-      - 4.0.30319
-      X-Powered-By:
-      - ASP.NET
-      X-Ua-Compatible:
-      - IE=edge
-      Date:
-      - Tue, 20 Oct 2015 16:20:31 GMT
-      Content-Length:
-      - '145'
-    body:
-      encoding: UTF-8
-      string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
-        moved to <a href=\"/Campaignhome/Campaign/Index\">here</a>.</h2>\r\n</body></html>\r\n"
-    http_version: 
-  recorded_at: Tue, 20 Oct 2015 16:20:31 GMT
+  recorded_at: Fri, 22 Jan 2016 19:13:16 GMT
 recorded_with: VCR 2.9.3

@@ -21,19 +21,19 @@ http_interactions:
       Cache-Control:
       - max-age=0
       Expires:
-      - Tue, 20 Oct 2015 16:10:38 GMT
+      - Fri, 22 Jan 2016 19:19:40 GMT
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Content-Type:
       - application/json
       Content-Length:
-      - '3504'
+      - '2868'
       Date:
-      - Tue, 20 Oct 2015 16:10:38 GMT
+      - Fri, 22 Jan 2016 19:19:41 GMT
       Connection:
       - keep-alive
       Set-Cookie:
-      - JSESSIONID=184431C883678C9065B959BDBD49EAC4.tas3-2_vmplappp04; Path=/SSCLookupApp
+      - JSESSIONID=5E9B710B848443E20DFB96EA5564F66B.tas3-2_vmplappp07; Path=/SSCLookupApp
       - cpda_is=false; path=/; domain=.toyota.com
       - cpda_it=false; path=/; domain=.toyota.com
       - cpda_iw=false; path=/; domain=.toyota.com
@@ -49,15 +49,15 @@ http_interactions:
       - ''
     body:
       encoding: UTF-8
-      string: '{"status":"SUCCESS","sscDatabaseUpdateDate":1445324400000,"captcha":{"captcha":"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\r\n","key":"883bb46b-b9ee-4e7f-b7d2-361ddd8deecf"},"invalid":false,"exception":false,"success":true,"incorrect":false,"timeout":false,"notFound":false}'
+      string: '{"status":"SUCCESS","sscDatabaseUpdateDate":1453449600000,"captcha":{"captcha":"iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAAHIElEQVR42u2dW0gVXRTHx1Ak0TDT\r\nSkGyh4REuzxU+hIZGkUXSLyBHjGohyCxhx6SyiQFhYK8IKURBXahiwVBKXg3ukjZQ4moDyaIWgb2\r\n6ENg31/XaRx3c/aZq19931oPw/zO7D0ze/Z/1lp7z5xzlJ9sbC6YwpeAzRVhfV8wgu+/jJHRJio/\r\nFow+/fHLGBlt4rzH6urqok+xwsjoCCowlec9GCOjIzg3N0cSI9ExMjqCCkVElf3i7OxseXl5RkZG\r\nWlpaeHh4cHBwYGAglomJidnZ2Xfv3m1razO4K2s4ODh48+ZNj8cTHR1tsO7Y2Fhpaem+ffvi4uJc\r\nOitGARdDIcVICTY0NACDgoIUqa1du7a2tlZbV7FkwmlAGRATlKEtIzlniAn6g5j87pnRJfT2EJkE\r\nTckiMzNTratYNSgjNzdXEJMgLO1JkjMzsmcj7WW0i10ak6A1r2Ototn9mzqQwfYy2kKt3NR5CF0k\r\ni4mJoZXJyUnt1vj4+N+7sLe3V3HZdE/Sr68y0l5GO+hNU1ST4JYtWx4/fuxr64sXLxISEoRePHDg\r\ngCMeKyoqas+ePb58j3oa2k0YWOhWMd5eRjvocGj4PZE3XvfgwYPauhj0paenl5SUNDU1UWG/oZCq\r\nAFFFEhw5YC0PLrnvbaJggYGBFuomJSXpFvblfiR7lgjLkfYyyjpUnYdQN1tGwYKCgozUff78uTbq\r\nPXnyRLewXFi6e/YlLKfay+gThW6zg8jAdHvRSF3dWkJhySjP5p4ZHUdF62yEwGQWr169KvSimjbJ\r\n6+p6FDcKO9teRgmKM0B2cMOGDUIv0mS9kbqw2NhY44Uls2V2CjM6ha7t0Vjh3NxcyxIR4p39swoJ\r\nCYmIiIiJiSHcvn17SkpKamoqIfxxdXV1bW1td3c38PDhw/v3709LS6OtO3bs2LZtW2JiIiFukvXr\r\n10dGRhIi1wwICPjfyUuYCrKAdXV1GAD+7n7kdYXHL34P5Esfq1atwnJqaoq6HH2M5ejoKDArK8vj\r\n8Rw/fvzUqVNnzpw5f/58RUUFPn/37h0VfvToEVZ6e3u7l8VwIBwUKw8ePMDy7du3hDU1NVh++PCB\r\n8OzZs1gODAwQFhYWYjkyMkIIQWP5+fNnQggay4mJCUIIGstv374RQtD2+9ca2hXpnTt3wsPDtf29\r\nZs0aO47k0KFDFy9eVH0DrnJZWVlVVRUcxrVr127fvn3//v2nT5+2tLTQtWOTW3t7O13J5uZmCBr9\r\nRVhfXw9BX7lyhfDChQu41Lj9CE+cOAFB5+fnOxi+ls9Wr169devWI0eOFBUVoYUPHz5kHfxpBoVZ\r\n6VptMi/MSPnFjo4OwVfR3Kak7q5du7KzsxGJ4HuePXv251y+zs5OxKlXr15h/datWzi99+/fU2zC\r\nfVxeXo5zxifYWlpaWlxc/OnTp48fPwIvXbpUWVnZ399PWxsbG1H9zZs3r1+/BqKN8Kw9PT1/r7Dg\r\nt8xqw/sQWvcBrV+ER0W2q1UVUhmkq7Q+MzPz5cuX3bt3I8VBZtPX1+fSxYUaXr58iVSpqanpxo0b\r\n6H70MRKpc+fOwasjtcJZwZ9nZmYi3U5PTx8bG0MShhtg06ZNSMump6eRotFLZqaabwFxlJUrV+Jw\r\nSIC+fv2KNHTjxo3x8fFIj8bHx3FWGCvgiiF5QoKIsz169GhOTs7w8PDQ0BDcxsmTJ1VBI2xpBY2g\r\nphU0Qp6Dgs7LyzPb3sUJUvvhE43EVtz3169fRx9bbga8IK0gx4JvgCwokUpOTsYwbfPmzegMDNwQ\r\nQyHrFStWuDeQ/M+gKmh1xEqCVsezJGi6zqqgCSFo5CoWjutYttTQ0GBBRq2trbjV4F3g2NC2uLg4\r\nYXTJ9reaWSVSxNW+nYLl3r17DQ7Q6urqEKGysrJ27ty5bt06mt1xdaqMJ0j/nQlSNTQKbwToIqK4\r\ntpNCQ0NJVboaQiJ8+fJlZDmESCzk7xoYQbN1dQcrFo7LaBZN3Mr0XpRgUBXyKlVMKHb69Gn3XIjZ\r\nug66akaLk+/yolCPX1VhnWLi8qjK8Uc6jG490pFgQUGBQVVJdhUWFqbdQ0lJibkH5tJ3cpx6IYLR\r\nKRT7TI4SVZkdN1RVVRk/rnHXZbMwozMoPOX1hVqLjIxsa2szriraw7Fjx4TP7927Jznuco6L/Taf\r\n0SwukZfWpwnoy2MZUZWR7zUYKez2nIuk+YymUTtK1E7My18bJ23BbxmJgLQrX19oNntc97QlOQ1G\r\ns7gkEAjfXJB/kYFiosFAg10FBwdLtuoed5mjobz5jKZwyXfB2NicMq/jUn+FjZHREfQ6MdWVMTI6\r\nggp/Z5fRDVTYbzO6gYsvlaqDRkZG+6jQz5JqIyUjo31UtD9LquqOkdEmKvTjs4C5BWNkdAS92RZt\r\nUEeMjIw20fvrkfSHAuqnjIw2cf5v5ehT8mCMjI4g/18hmyv2DzX6Tu6Wa4LPAAAAAElFTkSuQmCC\r\n","key":"a6fb6697-b6f1-42bb-8411-2750ef33d2fd"},"invalid":false,"exception":false,"success":true,"incorrect":false,"timeout":false,"notFound":false}'
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 16:10:38 GMT
+  recorded_at: Fri, 22 Jan 2016 19:19:34 GMT
 - request:
     method: post
     uri: http://www.fasttypers.org/imagepost.ashx
     body:
       encoding: UTF-8
-      string: action=balance&key=FAKE_KEY
+      string: action=upload&key=FAKE_KEY&gen_task_id=650447162&file=iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAAHIElEQVR42u2dW0gVXRTHx1Ak0TDT%0D%0ASkGyh4REuzxU%2BhIZGkUXSLyBHjGohyCxhx6SyiQFhYK8IKURBXahiwVBKXg3ukjZQ4moDyaIWgb2%0D%0A6ENg31%2FXaRx3c%2FaZq19931oPw%2FzO7D0ze%2FZ%2F1lp7z5xzlJ9sbC6YwpeAzRVhfV8wgu%2B%2FjJHRJio%2F%0D%0AFow%2B%2FfHLGBlt4rzH6urqok%2BxwsjoCCowlec9GCOjIzg3N0cSI9ExMjqCCkVElf3i7OxseXl5RkZG%0D%0AWlpaeHh4cHBwYGAglomJidnZ2Xfv3m1razO4K2s4ODh48%2BZNj8cTHR1tsO7Y2Fhpaem%2Bffvi4uJc%0D%0AOitGARdDIcVICTY0NACDgoIUqa1du7a2tlZbV7FkwmlAGRATlKEtIzlniAn6g5j87pnRJfT2EJkE%0D%0ATckiMzNTratYNSgjNzdXEJMgLO1JkjMzsmcj7WW0i10ak6A1r2Ototn9mzqQwfYy2kKt3NR5CF0k%0D%0Ai4mJoZXJyUnt1vj4%2BN%2B7sLe3V3HZdE%2FSr68y0l5GO%2BhNU1ST4JYtWx4%2Ffuxr64sXLxISEoRePHDg%0D%0AgCMeKyoqas%2BePb58j3oa2k0YWOhWMd5eRjvocGj4PZE3XvfgwYPauhj0paenl5SUNDU1UWG%2FoZCq%0D%0AAFFFEhw5YC0PLrnvbaJggYGBFuomJSXpFvblfiR7lgjLkfYyyjpUnYdQN1tGwYKCgozUff78uTbq%0D%0APXnyRLewXFi6e%2FYlLKfay%2BgThW6zg8jAdHvRSF3dWkJhySjP5p4ZHUdF62yEwGQWr169KvSimjbJ%0D%0A6%2Bp6FDcKO9teRgmKM0B2cMOGDUIv0mS9kbqw2NhY44Uls2V2CjM6ha7t0Vjh3NxcyxIR4p39swoJ%0D%0ACYmIiIiJiSHcvn17SkpKamoqIfxxdXV1bW1td3c38PDhw%2Fv3709LS6OtO3bs2LZtW2JiIiFukvXr%0D%0A10dGRhIi1wwICPjfyUuYCrKAdXV1GAD%2B7n7kdYXHL34P5Esfq1atwnJqaoq6HH2M5ejoKDArK8vj%0D%0A8Rw%2FfvzUqVNnzpw5f%2F58RUUFPn%2F37h0VfvToEVZ6e3u7l8VwIBwUKw8ePMDy7du3hDU1NVh%2B%2BPCB%0D%0A8OzZs1gODAwQFhYWYjkyMkIIQWP5%2BfNnQggay4mJCUIIGstv374RQtD2%2B9ca2hXpnTt3wsPDtf29%0D%0AZs0aO47k0KFDFy9eVH0DrnJZWVlVVRUcxrVr127fvn3%2F%2Fv2nT5%2B2tLTQtWOTW3t7O13J5uZmCBr9%0D%0ARVhfXw9BX7lyhfDChQu41Lj9CE%2BcOAFB5%2BfnOxi%2Bls9Wr169devWI0eOFBUVoYUPHz5kHfxpBoVZ%0D%0A6VptMi%2FMSPnFjo4OwVfR3Kak7q5du7KzsxGJ4HuePXv251y%2Bzs5OxKlXr15h%2FdatWzi99%2B%2FfU2zC%0D%0AfVxeXo5zxifYWlpaWlxc%2FOnTp48fPwIvXbpUWVnZ399PWxsbG1H9zZs3r1%2B%2FBqKN8Kw9PT1%2Fr7Dg%0D%0At8xqw%2FsQWvcBrV%2BER0W2q1UVUhmkq7Q%2BMzPz5cuX3bt3I8VBZtPX1%2BfSxYUaXr58iVSpqanpxo0b%0D%0A6H70MRKpc%2BfOwasjtcJZwZ9nZmYi3U5PTx8bG0MShhtg06ZNSMump6eRotFLZqaabwFxlJUrV%2BJw%0D%0ASIC%2Bfv2KNHTjxo3x8fFIj8bHx3FWGCvgiiF5QoKIsz169GhOTs7w8PDQ0BDcxsmTJ1VBI2xpBY2g%0D%0AphU0Qp6Dgs7LyzPb3sUJUvvhE43EVtz3169fRx9bbga8IK0gx4JvgCwokUpOTsYwbfPmzegMDNwQ%0D%0AQyHrFStWuDeQ%2FM%2BgKmh1xEqCVsezJGi6zqqgCSFo5CoWjutYttTQ0GBBRq2trbjV4F3g2NC2uLg4%0D%0AYXTJ9reaWSVSxNW%2BnYLl3r17DQ7Q6urqEKGysrJ27ty5bt06mt1xdaqMJ0j%2FnQlSNTQKbwToIqK4%0D%0AtpNCQ0NJVboaQiJ8%2BfJlZDmESCzk7xoYQbN1dQcrFo7LaBZN3Mr0XpRgUBXyKlVMKHb69Gn3XIjZ%0D%0Aug66akaLk%2B%2FyolCPX1VhnWLi8qjK8Uc6jG490pFgQUGBQVVJdhUWFqbdQ0lJibkH5tJ3cpx6IYLR%0D%0AKRT7TI4SVZkdN1RVVRk%2FrnHXZbMwozMoPOX1hVqLjIxsa2szriraw7Fjx4TP7927Jznuco6L%2FTaf%0D%0A0SwukZfWpwnoy2MZUZWR7zUYKez2nIuk%2BYymUTtK1E7My18bJ23BbxmJgLQrX19oNntc97QlOQ1G%0D%0As7gkEAjfXJB%2FkYFiosFAg10FBwdLtuoed5mjobz5jKZwyXfB2NicMq%2FjUn%2BFjZHREfQ6MdWVMTI6%0D%0Aggp%2FZ5fRDVTYbzO6gYsvlaqDRkZG%2B6jQz5JqIyUjo31UtD9LquqOkdEmKvTjs4C5BWNkdAS92RZt%0D%0AUEeMjIw20fvrkfSHAuqnjIw2cf5v5ehT8mCMjI4g%2F18hmyv2DzX6Tu6Wa4LPAAAAAElFTkSuQmCC%0D%0A
     headers:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -72,83 +72,39 @@ http_interactions:
     headers:
       Cache-Control:
       - private
+      Transfer-Encoding:
+      - chunked
       Content-Type:
       - text/plain; charset=utf-8
       Vary:
       - Accept-Encoding
       Server:
       - Microsoft-IIS/8.5
-      Set-Cookie:
-      - ".ASPXANONYMOUS=JECjojoisL-y0AVD4aBdUR69l4tm2SVQ14udTLRrmNikE7dhxd9q-R9wXDXsU5yidT30ZavqO88OTn8Wp-ixtw07V5QKeQYo651iD_4kj_jXHy-dDjiWBHGRxf6WyRMPKNxLAmrKpnFu1l9yQ68100WbgdJGQi8RmyR6gS3qWCoTXgFBLfFqjVRz4ZEqftV00;
-        expires=Tue, 20-Oct-2015 17:10:50 GMT; path=/; HttpOnly"
-      Access-Control-Allow-Origin:
-      - "*"
       X-Aspnet-Version:
       - 4.0.30319
-      Cachecontrolheader:
-      - max-age=604800
-      Date:
-      - Tue, 20 Oct 2015 16:10:49 GMT
-      Content-Length:
-      - '124'
-    body:
-      encoding: ASCII-8BIT
-      string: '4952'
-    http_version: 
-  recorded_at: Tue, 20 Oct 2015 16:10:48 GMT
-- request:
-    method: post
-    uri: http://www.fasttypers.org/imagepost.ashx
-    body:
-      encoding: UTF-8
-      string: action=upload&key=FAKE_KEY&gen_task_id=640048579&file=iVBORw0KGgoAAAANSUhEUgAAAMgAAAAyCAIAAACWMwO2AAAI5UlEQVR42u2daUhVTRjHL5VomSm2%0D%0AEkIWKERRGbRAeYlMqYiiAoukUgqhxaCkxYW%2BVHDbbKEFTY2QbDEqwaToljdaKKSIkrCyEonSDxl9%0D%0AiIjA9%2F3nY%2BM459xz5yz3fa85z4fL%2FZ0z25l5zjPPMzNeXf8oURIEcakuUBIUxfraKQRf%2F4hChTbR%0D%0A9atT6OqvP6JQoU38bbHq6uroKr4oVOgIuiCMf1swhQodwY6ODlIxUjqFCh1BF82IjOWxra2ttLQ0%0D%0AIyMjISEhIiIiLCwMn4mJiampqQUFBR8%2FfjQu6vXr1wcPHnS73bGxseHh4cg%2BcODAcePGpaSklJWV%0D%0AffnyxSDvu3fvDh8%2BnJycHBkZGdYp0dHRM2fOzM7ObmhoMKjXZUZM9YZCAbunQpojZfDHjx%2BFhYVR%0D%0AUVEGozJgwAB8FhcXa4tqbW1NT08POK779u3TbUZWVlbAem%2FduqWb15RiSfaGQn%2FY%2FXayrjfGiRMn%0D%0Amn3vWd63b99OmjRJMq%2FH4%2BHzwgrOnj1bMi8q0j6CWYtloXMUdmMdJwERM5fZ954vSl6rSGDzWN6k%0D%0ApCT5jJiUYbeER7BmseQ7R2E38urG1iF08du3b3CnhN4fPHgwffn58ydStrS0EI4dO5ZPRkWVlJTo%0D%0ADiHuwqm6ffu2v7vIm5%2Bfr3v3%2B%2FfvuFtfX2%2BQ16ytkukNhcbYtY7FxAC1jlF8fPylS5f85a2pqZky%0D%0AZQp%2Fd9q0aXz2nJwcbd5FixbxaQYNGoSLHz58QGTAX4fbXllZKeTdtGmT0ELEAXyrtKZU%2FvEVmkLZ%0D%0AqbCioqJfv37CkJs1lZSFidfr1SauqqoSnHHdKWzdunW6FU2YMIFPlpaW5m8qVBNWsLHHu%2BsPEckL%0D%0AQ0tXZPIyFFTz7t27uon5NKNHj9ZVrPLyct28CFe1QaJuyZJtVmgZXWwdgt0WEA7QkCFD%2BFHBxATX%0D%0AWCYvj9HR0XwhBQUF2sRPnz4V1FdXsaCUuhVduXJF1w3XelqSbVZoEdklIRTi8dChQ8ZxkzxqDY9u%0D%0AYpKwsDDe8OjW7i8vk%2BXLlxvctfAIfz36fD4E7wsWLADu3r3bWlEufjmrhx3ToK4ZkMxLWFxcLFOU%0D%0A9i7TMCYshNRWJKRcuHChg4%2FwNyEUqK2tDbh48eINGzYAHz9%2BDPT1FGiYhYpcgldrjNqBOXXqFG9g%0D%0A%2BFUuU0WhnO3bt%2FNX1qxZw77HxMQI6ffv3y9Z8ogRIwzuxsXFud1uyTb3XoTJx5POmDGD0OPxIBrD%0D%0Ay%2BmTEMRJFuqVSpSYmCikJwdLfoGUx5SUFGt5TbXZVFGmSg5xDA8Pj4%2BPJ8Ozbds2uDEXLlzw2RDr%0D%0AreIXIXRRWCaAXLt2bcyYMQFHKDc3V7dk9hLoClkjoRlaqa2tFUouKioSAk%2BZqVYQ6H1ra6tBb4QO%0D%0A0qjPmTMHny9evGB64LMn9%2B%2Ffp3JoTefTp0%2FWGhlYDbW%2Bs7BcZKwlQsnV1dWOWCyoe05ODsOsrCyt%0D%0AK2bNYiUlJXm93pCySQioSWMyMzMRTZ88edLnhMBAsKLmzZs3fvx4hP8OPoKSEJJhw4ZRULZ%2B%2FXoE%0D%0AZSUlJTdu3LCpQLTyfOzYMTiyq1atgpFLSEjQTkROCj9H8GsSWhTkyJEj2sR5eXkGZxzwqvEXV69e%0D%0ATV9WrlwZ8HyE5HvQ2NgoXKFX0OABz507p1sUJhf5zrGAGO9Ro0ZNnTq1qanp1atXwPLy8ps3b9rU%0D%0AoXv37qEiuFZbt2598%2BZNc3MzEI5XMB7BH3ZtQgtD6A91x1s%2BsbB0uWPHDv7ugwcPJCsaPny4gWLB%0D%0AIRCuTJ8%2B3Vqb0UL5zjHG9vZ2%2BG0IypYtW4bp%2B9mzZwjsJYMyA0EJKAelbd68eenSpSgftaAuR9ps%0D%0AB7sXSO3HWcaJ4WgPHTqUIUy9fN6jR4%2Fyd1EUv9kcERExa9YsPrGQfe7cudbaDE8rFIIyElgy2LM9%0D%0Ae%2FYQws6NHDkSkUrIhqjKpbEukZGR8FTgr2RkZMC8wYOBVbYflNXU1MCvgneFoGz%2B%2FPl4Cfl3steI%0D%0AzQVSyxGBgxUZ5z1x4oT9B0RQhoiJBp6CsuvXrzsVlOXn5xNSUPZ3LMx2%2B1jCEQDdEwFMLl%2B%2BjLsN%0D%0ADQ1nzpyJiooyTowXjpxHYQvZX718qE9nIiQbCZ9DOLYVExMjmRdNEoKy7Ozs58%2BfOxKUQR4%2BfEhB%0D%0AGdULX5A%2FdyTZyF6EslYBZp8fsOrqatZlcHGM33u32y2sW%2FIbQdp62RiT8Epp3MiNGzcKVfPxppCY%0D%0AgnA4K7RThgnIkaCMzgLhC4Ky9PR0bef0LQyYVDg%2BmpeXJyyTsFvag6bCJmCQJsSqqirhD4fYui6d%0D%0AFoRQUObxeBxZoYaBrKiooKIoKIuLi%2BvTauRvS8cAhYOdeBFZ%2Fz558oQlRlDWv39%2FYR70t7GoW5G%2F%0D%0AVSXcTUtLKysr080LZ4X%2BdoiCMjRvxYoVp0%2Bfdiooo0UmCsqamppQLwvK%2BvL5iADHYbRndg2QBLYB%0D%0ANp%2BZK2YqDDZVtCLsbTOl8adYQmI%2BKCssLAxSUIYC%2BaDMVF%2F1aeR3EANicnIyy3j%2B%2FHk2GBhRWAjh%0D%0AgCht6LK8dODOrBQVFbFmpKamsp0yZ4OytWvXsp0yqreystJs5yjUOXEp%2FLmBMZKQe8HLnTt3zp49%0D%0Au2vXrkxOWN5MacnNzd27d%2B%2Fx48dra2sdmcXIjMnvlNGBesneUKiPfJTIL8wbY2xs7MWLF30hKQjs%0D%0AaacM35ubmz9%2F%2FiwsdvgTJNuyZYuF3lCoxR5HlflT8QGxtLT06tWrsFter%2Fd%2FUSAKyg4cOLBz504E%0D%0AZVAmBGXt7e0GbYZntmTJErZ6Qj9kwqbslpYWy72hUMAefwtmU%2F4zlWLV1SkJVekyXOxX2Czj5MmT%0D%0A6TT%2Bo0eP6DwaPhsbG9%2B%2Ff28W4WPhs76%2B%2FuXLlxSUOdVIhf8ZdhkxZsrsI5uMHC9ZYS9Cl%2FqbXYXB%0D%0AQJey2wqDgd2HSlnQqFChfXTRz5LyM6VChfaxx0%2B4Mr1TqNAmdv74WufU2NEpChU6gi7%2BR7pZxKhQ%0D%0AoU3s%2BvVI%2BocC7KpChTbx97%2BVo6tkwRQqdATV%2FytUEhT5F4mS8Sm1IED3AAAAAElFTkSuQmCC%0D%0A
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - private
-      Content-Type:
-      - text/plain; charset=utf-8
-      Vary:
-      - Accept-Encoding
-      Server:
-      - Microsoft-IIS/8.5
-      Set-Cookie:
-      - ".ASPXANONYMOUS=7M4w28UtjyJN5WJbQjXVa5cXBnJp9lll8IOaSu4o7IH5D5MpHmCSsUXix1yezus8az_wpRUicWE2-uqLYkKxp9l4fZ-OkJiiReq7KhdIklatBFQaMd_AtyZf6e9Of32yXK55pHxT0Rda8iCunpE9wxwO9_R7DyWISS6cfOKIm2eog2LAHe-4KSmVFiNgMeCA0;
-        expires=Tue, 20-Oct-2015 17:11:01 GMT; path=/; HttpOnly"
       Access-Control-Allow-Origin:
       - "*"
-      X-Aspnet-Version:
-      - 4.0.30319
-      Cachecontrolheader:
-      - max-age=604800
+      Set-Cookie:
+      - ".ASPPXANONYMOUYSS=_rv9DcWW0QEkAAAAZWZmNTZkYTMtNjA2Zi00NjQ0LTg1ZTAtYmFkY2YwNDA4NTQyrS6SwBprdaIOWdqo8HMVurRvrUk1;
+        expires=Fri, 15-Apr-2016 03:15:25 GMT; path=/; HttpOnly"
+      X-Powered-By:
+      - ASP.NET
       Date:
-      - Tue, 20 Oct 2015 16:11:07 GMT
-      Content-Length:
-      - '124'
+      - Fri, 22 Jan 2016 19:15:29 GMT
     body:
       encoding: ASCII-8BIT
-      string: '6895'
+      string: '2711'
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 16:11:06 GMT
+  recorded_at: Fri, 22 Jan 2016 19:19:52 GMT
 - request:
     method: get
-    uri: http://www.toyota.com/SSCLookupApp/sscl/getSSC/4T1BK1EB9DU030210/883bb46b-b9ee-4e7f-b7d2-361ddd8deecf/6895?lang=en
+    uri: http://www.toyota.com/SSCLookupApp/sscl/getSSC/4T1BK1EB9DU030210/a6fb6697-b6f1-42bb-8411-2750ef33d2fd/2711?lang=en
     body:
       encoding: US-ASCII
       string: ''
     headers:
       Cookie:
-      - JSESSIONID=184431C883678C9065B959BDBD49EAC4.tas3-2_vmplappp04; Path=/SSCLookupApp,
+      - JSESSIONID=5E9B710B848443E20DFB96EA5564F66B.tas3-2_vmplappp07; Path=/SSCLookupApp,
         cpda_is=false; path=/; domain=.toyota.com, cpda_it=false; path=/; domain=.toyota.com,
         cpda_iw=false; path=/; domain=.toyota.com
   response:
@@ -165,7 +121,7 @@ http_interactions:
       Cache-Control:
       - max-age=0
       Expires:
-      - Tue, 20 Oct 2015 16:11:06 GMT
+      - Fri, 22 Jan 2016 19:19:59 GMT
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Content-Type:
@@ -173,7 +129,7 @@ http_interactions:
       Content-Length:
       - '218'
       Date:
-      - Tue, 20 Oct 2015 16:11:07 GMT
+      - Fri, 22 Jan 2016 19:20:00 GMT
       Connection:
       - keep-alive
       Set-Cookie:
@@ -194,5 +150,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"status":"SUCCESS","vin":"4T1BK1EB9DU030210","modelYear":"2013","model":"Avalon","brand":"Toyota","sscviewModels":[],"invalid":false,"exception":false,"success":true,"incorrect":false,"timeout":false,"notFound":false}'
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 16:11:07 GMT
+  recorded_at: Fri, 22 Jan 2016 19:19:53 GMT
 recorded_with: VCR 2.9.3

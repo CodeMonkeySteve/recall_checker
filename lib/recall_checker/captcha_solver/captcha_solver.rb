@@ -45,7 +45,9 @@ module RecallChecker
 
     private
     def post_request body
-      self.class.post("", body: body)
+      r = self.class.post("", body: body)
+      raise CaptchaSolverError, r if r =~ /\AError/
+      r
     rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, Errno::ETIMEDOUT => e
       raise CaptchaConnectionError, e
     end

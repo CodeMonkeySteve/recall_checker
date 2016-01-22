@@ -9,13 +9,14 @@ describe RecallChecker::Adaptors::Hyundai do
       expect(@checker.recalls.count).to eq 1
 
       r = @checker.recalls.first
-      expect(r['title']).to start_with "SANTA FE SPORT AXLE"
-      expect(r['nhtsa_id']).to eq nil
+      expect(r['title']).to start_with "HYUNDAI IS RECALLING CERTAIN MODEL YEAR 2013"
+      expect(r['nhtsa_id']).to eq "13V355000"
       expect(r['manufacturer_id']).to eq "112"
-      expect(r['description']).to eq nil
-      expect(r['risks']).to eq nil
-      expect(r['remedy']).to eq nil
-      expect(r['status']).to eq nil
+      expect(r['created_at']).to eq Date.parse("12 Aug 2013")
+      expect(r['description']).to start_with "HYUNDAI IS RECALLING CERTAIN MODEL YEAR 2013"
+      expect(r['risks']).to start_with "A FRACTURED FRONT AXLE MAY RESULT IN A LOSS OF POWER"
+      expect(r['remedy']).to start_with "HYUNDAI WILL NOTIFY OWNERS"
+      expect(r['status']).to eq "RecallINCOMPLETE"
       expect(r['notes']).to eq nil
     end
   end

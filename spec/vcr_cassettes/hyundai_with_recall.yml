@@ -27,7 +27,7 @@ http_interactions:
       Server:
       - Microsoft-IIS/7.5
       Set-Cookie:
-      - ASP.NET_SessionId=3qdda1ln2it5jgt5yqyxdrje; path=/; secure; HttpOnly
+      - ASP.NET_SessionId=1bf4qt2rrpxfz4pun4mrqcho; path=/; secure; HttpOnly
       X-Aspnetmvc-Version:
       - '5.2'
       X-Aspnet-Version:
@@ -37,7 +37,7 @@ http_interactions:
       X-Ua-Compatible:
       - IE=edge
       Date:
-      - Tue, 20 Oct 2015 02:35:24 GMT
+      - Fri, 22 Jan 2016 19:12:08 GMT
       Content-Length:
       - '145'
     body:
@@ -45,7 +45,7 @@ http_interactions:
       string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
         moved to <a href=\"/Campaignhome/Campaign/Index\">here</a>.</h2>\r\n</body></html>\r\n"
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 02:35:24 GMT
+  recorded_at: Fri, 22 Jan 2016 19:12:01 GMT
 - request:
     method: get
     uri: https://autoservice.hyundaiusa.com/Campaignhome/Campaign/Index
@@ -54,7 +54,7 @@ http_interactions:
       string: ''
     headers:
       Cookie:
-      - ASP.NET_SessionId=3qdda1ln2it5jgt5yqyxdrje
+      - ASP.NET_SessionId=1bf4qt2rrpxfz4pun4mrqcho
   response:
     status:
       code: 200
@@ -75,9 +75,9 @@ http_interactions:
       X-Ua-Compatible:
       - IE=edge
       Date:
-      - Tue, 20 Oct 2015 02:35:24 GMT
+      - Fri, 22 Jan 2016 19:12:24 GMT
       Content-Length:
-      - '16147'
+      - '20841'
     body:
       encoding: UTF-8
       string: "\r\n\r\n<!DOCTYPE html>\r\n<meta charset=\"utf-8\" />\r\n<meta http-equiv=\"X-UA-Compatible\"
@@ -144,10 +144,11 @@ http_interactions:
         id=\"HdnJNRReimbursementSiteURL\" />\r\n<input type=\"hidden\" value='5XYZU3LB6DG036138'
         id=\"HdnVIN\" />\r\n<input type=\"hidden\" id=\"hdnHasRecall\" value=\"1\"
         />\r\n\r\n<div class=\"header-wrapper\">\r\n    <div class=\"header\">\r\n
-        \       <a href=\"#\" class=\"logo\">\r\n            <img src=\"/Campaignhome/images/Logo.png\"
-        alt=\"HYUNDAI\">\r\n        </a>\r\n        <h1 class=\"heading\">Campaigns
-        for your vehicle\r\n                <label id=\"lblmodelYear\">\r\n                -&nbsp;2013
-        SANTA FE SPORT FWD 2.4\r\n\r\n                </label>\r\n\r\n            <!--<label
+        \       <a href=\"https://www.hyundaiusa.com/CampaignHome\" class=\"logo\">\r\n
+        \           <img src=\"/Campaignhome/images/Logo.png\" alt=\"HYUNDAI\">\r\n
+        \       </a>\r\n        <h1 class=\"heading\">Campaigns for your vehicle\r\n
+        \               <label id=\"lblmodelYear\">\r\n                -&nbsp;2013
+        SANTA FE SPORT SPORT\r\n\r\n                </label>\r\n\r\n            <!--<label
         id=\"lblmodelYear\"></label> -->\r\n        </h1>\r\n        <a class=\"menu
         open-popup-link\" href=\"#contact\">\r\n            <span class=\"contact\">Contact
         Us</span>\r\n        </a>\r\n    </div>\r\n</div>\r\n<hr class=\"header-hr\"
@@ -178,72 +179,129 @@ http_interactions:
         for </strong>\r\n                <strong class=\"closed-msg\">Closed Campaigns
         for </strong>\r\n                <strong id=\"VinNumberValue\">VIN# 5XYZU3LB6DG036138</strong>\r\n
         \           </p>\r\n            <p class=\"error\" id=\"recallMsg\">\r\n\r\n
-        \           </p>\r\n        </div>\r\n    </div>\r\n    <div class=\"open-campaign-wrapper\">\r\n
-        \       <div class=\"accordian-open-campaign\">\r\n            <p class=\"open-btn\">Open
-        Campaigns</p>\r\n        </div>\r\n        <!--Load Partial View in below
-        div -->\r\n        <!--<div id=\"divOpenCampaign\"></div>-->\r\n        <table
-        name=\"open-campaign\" id=\"open-campaign-table\">\r\n            <thead>\r\n
-        \               <tr>\r\n                    <th>Campaign #</th>\r\n                    <th>Campaign
-        Type</th>\r\n                    <th>Campaign Description</th>\r\n                    <th>Campaign
-        Date</th>\r\n                    \r\n                    <th>Customer Action</th>\r\n
+        \           </p>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"open-campaign-wrapper\">\r\n<div
+        style=\"text-align:right;\">\r\n                    Refresh Date : Jan 22,
+        2016\r\n</div>\r\n        <div class=\"accordian-open-campaign\">\r\n            <p
+        class=\"open-btn\">Open Campaigns</p>\r\n        </div>\r\n        <!--Load
+        Partial View in below div -->\r\n        <!--<div id=\"divOpenCampaign\"></div>-->\r\n
+        \       <table name=\"open-campaign\" id=\"open-campaign-table\">\r\n            <thead>\r\n
+        \               <tr>\r\n <th class=\"width7per\">Campaign #</th>\r\n                    <th
+        class=\"width7per\">NHTSA Recall #</th>                    \r\n                    <th
+        style=\"width:50%;\">Description</th>\r\n                    <th class=\"width7per\">Safety
+        Risk</th>\r\n                    <th class=\"width7per\">Remedy</th>                    \r\n
+        \                   <th class=\"width7per\">Status</th>\r\n                    <th
+        class=\"width7per\">Campaign Date</th>                                        \r\n
+        \                   <th style=\"width:20%;\">Updated</th>     \r\n\r\n                                                      \r\n
         \               </tr>\r\n            </thead>\r\n            <tbody>\r\n                    <tr
         class=\"campaign-individual\">\r\n                        <td data-label=\"Campaign#\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                                <a
+        onclick=\"OpenCampaignSite('https://www.hyundaiusa.com/Campaign112?VIN=5XYZU3LB6DG036138')\"
+        class=\"campaign-number\">Campaign112</a>\r\n                        </td>\r\n
+        \                       <td data-label=\"NHTSA RECALL #\">\r\n                            <p
+        class=\"colon\">:</p>\r\n13V355000                        </td>                      \r\n
+        \                       <td class=\"tool-tip tleft\" data-label=\"Campaign
+        Description\">\r\n                            <p class=\"colon\">:</p>\r\nHYUNDAI
+        IS RECALLING CERTAIN MODEL YEAR 2013 FRONT WHEEL DRIVE SANTA FE SPORT VEHICLES
+        MANUFACTURED JULY 13, 2012, THROUGH MARCH 12, 2013; AND EQUIPPED WITH 2.4
+        LITER ENGINES. DUE TO A MANUFACTURING ISSUE, THE RIGHT FRONT AXLE SHAFT MAY
+        FRACTURE.                            </td>\r\n                        <td
+        class=\"tool-tip tleft\" data-label=\"Safety Risk\">\r\n                            <p
+        class=\"colon\">:</p>\r\n                               <p class=\"colon\">:</p>\r\nA
+        FRACTURED FRONT AXLE MAY RESULT IN A LOSS OF POWER TO THE WHEELS.       ADDITIONALLY,
+        IF THE VEHICLE IS PARKED WITHOUT THE PARKING BRAKE APPLIED, IT MAY ROLL AWAY.
+        EITHER CONDITION INCREASES THE RISK OF A CRASH.                            </td>\r\n
+        \                           <td class=\"tool-tip tleft\" data-label=\"Remedy\">\r\n
+        \                           <p class=\"colon\">:</p>\r\nHYUNDAI WILL NOTIFY
+        OWNERS, AND DEALERS WILL REPLACE THE FRONT AXLE SHAFT ASSEMBLY, FREE OF CHARGE.
+        THE RECALL BEGAN ON SEPTEMBER 19, 2013. OWNERS MAY CONTACT HYUNDAI CUSTOM
+        CARE CENTER AT 1-800-633-5151. HYUNDAI&#39;S RECALL NUMBER IS 112.                            </td>
+        \                          \r\n                            <td data-label=\"Status\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                                    Recall<br
+        />INCOMPLETE\r\n                        </td>\r\n                        <td
+        data-label=\"Campaign Date\">\r\n                            <p class=\"colon\">:</p>\r\nAug
+        12, 2013\r\n                        </td>\r\n                        <td data-label=\"Updated\">\r\n
+        \                           <p class=\"colon\">:</p>\r\nJan 22, 2016                        </td>
+        \                     \r\n                    </tr>\r\n                    <tr
+        class=\"campaign-individual\">\r\n                        <td data-label=\"Campaign#\">\r\n
         \                           <p class=\"colon\">:</p>\r\nCampaignTN8                        </td>\r\n
-        \                       <td data-label=\"Campaign Type\">\r\n                            <p
-        class=\"colon\">:</p>\r\nService</td>\r\n                        <td class=\"tool-tip\"
+        \                       <td data-label=\"NHTSA RECALL #\">\r\n                            <p
+        class=\"colon\">:</p>\r\n                                &nbsp;\r\n                        </td>
+        \                     \r\n                        <td class=\"tool-tip tleft\"
         data-label=\"Campaign Description\">\r\n                            <p class=\"colon\">:</p>\r\nMDPS
         S/W UPDATE                            </td>\r\n                        <td
-        data-label=\"Campaign Date\">\r\n                            <p class=\"colon\">:</p>\r\n01/16/2013</td>\r\n
-        \                       <td class=\"tool-tip\" data-label=\"Customer Action\">\r\n
-        \                           <p class=\"colon\">:</p>\r\nSchedule an Appointment
-        with Authorized Hyundai Dealer.                          </td>\r\n                    </tr>\r\n
-        \                   <tr class=\"campaign-individual\">\r\n                        <td
-        data-label=\"Campaign#\">\r\n                            <p class=\"colon\">:</p>\r\n
-        \                               <a onclick=\"OpenCampaignSite('https://www.hyundaiusa.com/Campaign112?VIN=5XYZU3LB6DG036138')\"
-        class=\"campaign-number\">Campaign112</a>\r\n                        </td>\r\n
-        \                       <td data-label=\"Campaign Type\">\r\n                            <p
-        class=\"colon\">:</p>\r\nRecall</td>\r\n                        <td class=\"tool-tip\"
-        data-label=\"Campaign Description\">\r\n                            <p class=\"colon\">:</p>\r\nSANTA
-        FE SPORT AXLE SHAFT RECALL CAMPAIGN                            </td>\r\n                        <td
-        data-label=\"Campaign Date\">\r\n                            <p class=\"colon\">:</p>\r\n09/12/2013</td>\r\n
-        \                       <td class=\"tool-tip\" data-label=\"Customer Action\">\r\n
-        \                           <p class=\"colon\">:</p>\r\nSchedule an Appointment
-        with Authorized Hyundai Dealer.                          </td>\r\n                    </tr>\r\n
+        class=\"tool-tip tleft\" data-label=\"Safety Risk\">\r\n                            <p
+        class=\"colon\">:</p>\r\n                               <p class=\"colon\">:</p>\r\n
+        \                               &nbsp;\r\n                            </td>\r\n
+        \                           <td class=\"tool-tip tleft\" data-label=\"Remedy\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                                &nbsp;\r\n
+        \                           </td>                           \r\n                            <td
+        data-label=\"Status\">\r\n                            <p class=\"colon\">:</p>\r\nService
+        \                       </td>\r\n                        <td data-label=\"Campaign
+        Date\">\r\n                            <p class=\"colon\">:</p>\r\nJan 16,
+        2013\r\n                        </td>\r\n                        <td data-label=\"Updated\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                                &nbsp;\r\n
+        \                       </td>                      \r\n                    </tr>\r\n
         \                   <tr class=\"campaign-individual\">\r\n                        <td
         data-label=\"Campaign#\">\r\n                            <p class=\"colon\">:</p>\r\n
         \                               <a onclick=\"OpenCampaignSite('https://www.hyundaiusa.com/Campaign934?VIN=5XYZU3LB6DG036138')\"
         class=\"campaign-number\">Campaign934</a>\r\n                        </td>\r\n
-        \                       <td data-label=\"Campaign Type\">\r\n                            <p
-        class=\"colon\">:</p>\r\nService</td>\r\n                        <td class=\"tool-tip\"
+        \                       <td data-label=\"NHTSA RECALL #\">\r\n                            <p
+        class=\"colon\">:</p>\r\n                                &nbsp;\r\n                        </td>
+        \                     \r\n                        <td class=\"tool-tip tleft\"
         data-label=\"Campaign Description\">\r\n                            <p class=\"colon\">:</p>\r\nSANTA
         FE SPORT SHIFTER CABLE SERVICE CAMPAIGN                            </td>\r\n
-        \                       <td data-label=\"Campaign Date\">\r\n                            <p
-        class=\"colon\">:</p>\r\n03/12/2015</td>\r\n                        <td class=\"tool-tip\"
-        data-label=\"Customer Action\">\r\n                            <p class=\"colon\">:</p>\r\nSchedule
-        an Appointment with Authorized Hyundai Dealer.                          </td>\r\n
-        \                   </tr>\r\n                    <tr class=\"campaign-individual\">\r\n
-        \                       <td data-label=\"Campaign#\">\r\n                            <p
-        class=\"colon\">:</p>\r\n                                <a onclick=\"OpenCampaignSite('https://www.hyundaiusa.com/Campaign935?VIN=5XYZU3LB6DG036138')\"
+        \                       <td class=\"tool-tip tleft\" data-label=\"Safety Risk\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                               <p
+        class=\"colon\">:</p>\r\n                                &nbsp;\r\n                            </td>\r\n
+        \                           <td class=\"tool-tip tleft\" data-label=\"Remedy\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                                &nbsp;\r\n
+        \                           </td>                           \r\n                            <td
+        data-label=\"Status\">\r\n                            <p class=\"colon\">:</p>\r\nService
+        \                       </td>\r\n                        <td data-label=\"Campaign
+        Date\">\r\n                            <p class=\"colon\">:</p>\r\nMar 12,
+        2015\r\n                        </td>\r\n                        <td data-label=\"Updated\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                                &nbsp;\r\n
+        \                       </td>                      \r\n                    </tr>\r\n
+        \                   <tr class=\"campaign-individual\">\r\n                        <td
+        data-label=\"Campaign#\">\r\n                            <p class=\"colon\">:</p>\r\n
+        \                               <a onclick=\"OpenCampaignSite('https://www.hyundaiusa.com/Campaign935?VIN=5XYZU3LB6DG036138')\"
         class=\"campaign-number\">Campaign935</a>\r\n                        </td>\r\n
-        \                       <td data-label=\"Campaign Type\">\r\n                            <p
-        class=\"colon\">:</p>\r\nService</td>\r\n                        <td class=\"tool-tip\"
+        \                       <td data-label=\"NHTSA RECALL #\">\r\n                            <p
+        class=\"colon\">:</p>\r\n                                &nbsp;\r\n                        </td>
+        \                     \r\n                        <td class=\"tool-tip tleft\"
         data-label=\"Campaign Description\">\r\n                            <p class=\"colon\">:</p>\r\nSANTA
         FE &amp; SONATA ENGINE CONTROL MODULE SERVICE CAMPAIGN                            </td>\r\n
-        \                       <td data-label=\"Campaign Date\">\r\n                            <p
-        class=\"colon\">:</p>\r\n03/12/2015</td>\r\n                        <td class=\"tool-tip\"
-        data-label=\"Customer Action\">\r\n                            <p class=\"colon\">:</p>\r\nSchedule
-        an Appointment with Authorized Hyundai Dealer.                          </td>\r\n
-        \                   </tr>\r\n                    <tr class=\"campaign-individual\">\r\n
-        \                       <td data-label=\"Campaign#\">\r\n                            <p
-        class=\"colon\">:</p>\r\nCampaignTX5                        </td>\r\n                        <td
-        data-label=\"Campaign Type\">\r\n                            <p class=\"colon\">:</p>\r\nService</td>\r\n
-        \                       <td class=\"tool-tip\" data-label=\"Campaign Description\">\r\n
-        \                           <p class=\"colon\">:</p>\r\nBLUETOOTH S/W UPDATE
-        \                            </td>\r\n                        <td data-label=\"Campaign
-        Date\">\r\n                            <p class=\"colon\">:</p>\r\n05/08/2015</td>\r\n
-        \                       <td class=\"tool-tip\" data-label=\"Customer Action\">\r\n
-        \                           <p class=\"colon\">:</p>\r\nSchedule an Appointment
-        with Authorized Hyundai Dealer.                          </td>\r\n                    </tr>\r\n
+        \                       <td class=\"tool-tip tleft\" data-label=\"Safety Risk\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                               <p
+        class=\"colon\">:</p>\r\n                                &nbsp;\r\n                            </td>\r\n
+        \                           <td class=\"tool-tip tleft\" data-label=\"Remedy\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                                &nbsp;\r\n
+        \                           </td>                           \r\n                            <td
+        data-label=\"Status\">\r\n                            <p class=\"colon\">:</p>\r\nService
+        \                       </td>\r\n                        <td data-label=\"Campaign
+        Date\">\r\n                            <p class=\"colon\">:</p>\r\nMar 12,
+        2015\r\n                        </td>\r\n                        <td data-label=\"Updated\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                                &nbsp;\r\n
+        \                       </td>                      \r\n                    </tr>\r\n
+        \                   <tr class=\"campaign-individual\">\r\n                        <td
+        data-label=\"Campaign#\">\r\n                            <p class=\"colon\">:</p>\r\nCampaignTX5
+        \                       </td>\r\n                        <td data-label=\"NHTSA
+        RECALL #\">\r\n                            <p class=\"colon\">:</p>\r\n                                &nbsp;\r\n
+        \                       </td>                      \r\n                        <td
+        class=\"tool-tip tleft\" data-label=\"Campaign Description\">\r\n                            <p
+        class=\"colon\">:</p>\r\nBLUETOOTH S/W UPDATE                             </td>\r\n
+        \                       <td class=\"tool-tip tleft\" data-label=\"Safety Risk\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                               <p
+        class=\"colon\">:</p>\r\n                                &nbsp;\r\n                            </td>\r\n
+        \                           <td class=\"tool-tip tleft\" data-label=\"Remedy\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                                &nbsp;\r\n
+        \                           </td>                           \r\n                            <td
+        data-label=\"Status\">\r\n                            <p class=\"colon\">:</p>\r\nService
+        \                       </td>\r\n                        <td data-label=\"Campaign
+        Date\">\r\n                            <p class=\"colon\">:</p>\r\nMay 08,
+        2015\r\n                        </td>\r\n                        <td data-label=\"Updated\">\r\n
+        \                           <p class=\"colon\">:</p>\r\n                                &nbsp;\r\n
+        \                       </td>                      \r\n                    </tr>\r\n
         \               \r\n            </tbody>\r\n        </table>\r\n        <div
         class=\"btn\">\r\n            <input type=\"button\" value=\"Schedule Appointment\"
         title=\"Schedule Appointment\" class=\"docked-btn schedule-button\" />\r\n
@@ -267,10 +325,10 @@ http_interactions:
         class=\"footer-logo\">\r\n            <img src=\"/Campaignhome/images/footer-logo.png\"
         alt=\"HYUNDAI\">\r\n        </div>\r\n        <p class=\"txt-copyright\">\r\n
         \           Hyundai is a registered trademark of Hyundai Motor Company. All
-        rights reserved.\r\n            &copy; 2015 Hyundai Motor America\r\n        </p>\r\n
+        rights reserved.\r\n            &copy; 2016 Hyundai Motor America\r\n        </p>\r\n
         \       <ul class=\"links\">\r\n            <li><a href=\"https://www.hyundaiusa.com/privacy-policy.aspx\"
         target=\"_blank\">Privacy Policy</a></li>\r\n            <li><a href=\"https://www.hyundaiusa.com/legal.aspx\"
         target=\"_blank\">Legal Notice</a></li>\r\n        </ul>\r\n    </div>\r\n</div>\r\n\r\n\r\n"
     http_version: 
-  recorded_at: Tue, 20 Oct 2015 02:35:24 GMT
+  recorded_at: Fri, 22 Jan 2016 19:12:18 GMT
 recorded_with: VCR 2.9.3
