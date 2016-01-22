@@ -36,7 +36,7 @@ module RecallChecker
       end
 
       def retrieve_title item
-        recall_td(item, 2)
+        recall_td(item, 2).split('.').first
       end
 
       def retrieve_description item

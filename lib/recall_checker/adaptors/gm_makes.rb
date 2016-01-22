@@ -1,7 +1,7 @@
 module RecallChecker
   module Adaptors
     class GMMakes < Base
-      base_uri 'http://recalls.gm.com/recall/services'
+      base_uri 'https://my.gm.com/na-gm/services/'
 
       FIELDS = {
         "title" => "recall_title",
@@ -24,7 +24,10 @@ module RecallChecker
       end
 
       def server_error_msg
-        "Server returned error: " + (@response.parsed_response['messages'] + @response.parsed_response['serverErrorMsgs']).join(" ")
+        r1 = @response.parsed_response.fetch('messages', [])
+        r2 = @response.parsed_response.fetch('serverErrorMsgs', [])
+        errors = (r1 + r2).join(" ")
+        "Server returned error: #{errors}"
       end
 
       def vin_invalid?
