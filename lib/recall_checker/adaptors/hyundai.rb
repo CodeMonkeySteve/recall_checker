@@ -58,9 +58,6 @@ module RecallChecker
       def retrieve_created_at item
         recall_td(item, 6)
       end
-
-      def convert_updated_at date
-      end
     end
   end
 end

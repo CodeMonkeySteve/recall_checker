@@ -37,7 +37,6 @@ describe RecallChecker::Adaptors::Volvo do
 
         r = @checker.recalls.first
         expect(r['title']).to eq nil
-        expect(r['created_at']).to eq nil
         expect(r['nhtsa_id']).to eq nil
         expect(r['manufacturer_id']).to eq nil
         expect(r['description']).to eq nil

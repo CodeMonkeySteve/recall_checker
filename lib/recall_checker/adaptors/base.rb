@@ -106,11 +106,11 @@ module RecallChecker
       end
       
       def convert_created_at date
-        Date.parse(date) if date
+        date ? Date.parse(date) : Time.now.to_date
       end
 
       def convert_updated_at date
-        Date.parse(date) if date
+        date ? Date.parse(date) : Time.now.to_date
       end
     end
   end
