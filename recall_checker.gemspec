@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.1.0"
   spec.add_development_dependency "webmock"
   spec.add_development_dependency "vcr"
-  spec.add_development_dependency "nokogiri"
+  spec.add_development_dependency "nokogiri", "~> 1.6.7.2"
   spec.add_development_dependency "launchy"
   spec.add_development_dependency "activesupport"
 end
