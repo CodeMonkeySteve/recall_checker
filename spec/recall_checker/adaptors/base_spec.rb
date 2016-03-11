@@ -63,6 +63,12 @@ describe RecallChecker::Adaptors::Base, "when there are recalls" do
     stub_request(:any, "http://www.example.com").to_return(body: "oops", status: 403, headers: { 'Content-Length' => 4 })
     expect { @checker2.recalls }.to raise_error RecallChecker::ServiceError
   end
+
+  it "uses fallback adaptor for unsupported makes" do
+    expect(RecallChecker::Adaptors::Recallmasters).to receive(:new) { "Yay!" }
+    expect(RecallChecker.find_by_make_and_vin("parovoz","11111111111111111")).to eq "Yay!"
+    expect(RecallChecker.find_by_make_and_vin("ford","11111111111111111")).not_to eq "Yay!"
+  end
 end
 
 describe RecallChecker::Adaptors::Base, "VIN checks in the constructor" do

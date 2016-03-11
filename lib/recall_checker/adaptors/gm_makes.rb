@@ -44,40 +44,42 @@ module RecallChecker
 
     end
 
+    # commented out to use Recallmasters instead
+    
     class Buick < GMMakes
-      make 'buick'
+      # make 'buick'
     end
 
     class Chevrolet < GMMakes
-      make 'chevrolet'
+      # make 'chevrolet'
     end
 
     class GMC < GMMakes
-      make 'gmc'
+      # make 'gmc'
     end
 
     class Cadillac < GMMakes
-      make 'cadillac'
+      # make 'cadillac'
     end
 
     class Pontiac < GMMakes
-      make 'pontiac'
+      # make 'pontiac'
     end
 
     class Oldsmobile < GMMakes
-      make 'oldsmobile'
+      # make 'oldsmobile'
     end
 
     class Saturn < GMMakes
-      make 'saturn'
+      # make 'saturn'
     end
 
     class Hummer < GMMakes
-      make 'hummer'
+      # make 'hummer'
     end
 
     class Saab < GMMakes
-      make 'saab'
+      # make 'saab'
     end
 
   end

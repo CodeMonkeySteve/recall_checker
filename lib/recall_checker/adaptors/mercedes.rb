@@ -36,12 +36,14 @@ module RecallChecker
 
     end
 
+    # commented out to use Recallmasters instead
+    
     class MercedesBenz < MercedesMakes
-      make 'mercedesbenz'
+      # make 'mercedesbenz'
     end
 
     class Maybach < MercedesMakes
-      make 'maybach'
+      # make 'maybach'
     end
   end
 end

@@ -75,16 +75,18 @@ module RecallChecker
 
     end
 
+    # commented out to use Recallmasters instead
+
     class Toyota < ToyotaMakes
-      make 'toyota'
+      # make 'toyota'
     end
 
     class Lexus < ToyotaMakes
-      make 'lexus'
+      # make 'lexus'
     end
 
     class Scion < ToyotaMakes
-      make 'scion'
+      # make 'scion'
     end
 
   end
