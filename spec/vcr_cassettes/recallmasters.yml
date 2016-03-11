@@ -1,0 +1,200 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://app.recallmasters.com/api/v1/lookup/1ZVBP8AMXD5277023/?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Token FAKE_KEY
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.1
+      Date:
+      - Fri, 11 Mar 2016 11:09:27 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Content-Security-Policy-Report-Only:
+      - 'default-src https:; script-src https: ''unsafe-eval'' ''unsafe-inline'';
+        style-src https: ''unsafe-inline''; img-src https: data:; font-src https:
+        data: https://fonts.gsatic.com http://fonts.gstatic.com; report-uri /csp-report'
+    body:
+      encoding: UTF-8
+      string: '{"vin":"1ZVBP8AMXD5277023","make":"Ford","model_name":"Mustang","model_year":"2013","updated_time":"2016-03-11T11:09:27.009672Z","recalls":[{"nhtsa_id":"15V319000","oem_id":"FORD
+        15S21","type":"recall","effective_date":"2015-05-27","expiration_date":null,"parts_available":"Not
+        Available","is_remedy_available":false,"name":"Driver Airbag Inflator may
+        be Defective and Cause injury During a Crash","description":"Safety Risk -
+        Driver Airbag Inflator","risk":"In Inflator Rupture Could Result In Metal
+        Fragments Striking And Potentially Injuring Vehicle Occupants","remedy":"Dealers
+        Will Replace The Driver Airbag Inflator With A New One, Free Of Charge.","overall_rank":2,"risk_rank":5,"profit_rank":3,"labor_min":null,"labor_max":null,"labor_difficulty":2,"age":0,"created_time":"2016-03-11T11:09:26.762Z","updated_time":"2016-03-11T11:09:26.762Z","reimbursement":null}],"status":"OK","error_description":"","recall_count":1,"customer":null}'
+    http_version: 
+  recorded_at: Fri, 11 Mar 2016 11:09:27 GMT
+- request:
+    method: get
+    uri: https://app.recallmasters.com/api/v1/lookup/3FA6P0H79DR185703/?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Token FAKE_KEY
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.1
+      Date:
+      - Fri, 11 Mar 2016 11:09:34 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Content-Security-Policy-Report-Only:
+      - 'default-src https:; script-src https: ''unsafe-eval'' ''unsafe-inline'';
+        style-src https: ''unsafe-inline''; img-src https: data:; font-src https:
+        data: https://fonts.gsatic.com http://fonts.gstatic.com; report-uri /csp-report'
+    body:
+      encoding: UTF-8
+      string: '{"vin":"3FA6P0H79DR185703","make":"Ford","model_name":"Fusion","model_year":"2013","updated_time":"2016-03-11T11:09:34.855050Z","recalls":[{"nhtsa_id":"14V597000","oem_id":"FORD
+        14S21","type":"recall","effective_date":"2014-09-25","expiration_date":null,"parts_available":"Not
+        Available","is_remedy_available":false,"name":"Restraints Control Module Replacement","description":"Safety
+        Risk - Restraints Control Module Replacement","risk":"Depending On The Location
+        Of The Short Circuit, The Deployable Restraint Systems And Other Systems That
+        Use Inertial Data From The Rcm May Not Function As Intended, Increasing The
+        Risk Of Injury. Ford Is Not Aware Of Any Accident Or Injury Related To This
+        Condition.","remedy":"Dealers Will Be Instructed To Replace The Rcm. There
+        Will Be No Charge To Owners For This Service. An Initial Notification Letter
+        Will Be Mailed To All Owners The Week Of November 10, 2014. Due To Limited
+        Parts Availability, We Will Instruct Owners To Contact Their Dealer For Service
+        If They Have An Illuminated Airbag Warning Indicator. Owners Who Have Not
+        Already Had This Service Performed Will Be Mailed A Follow-Up Letter When
+        Parts Are Available, Advising Them To Schedule A Service Appointment. In Accordance
+        With Part 573.13(D)(1), Fords General Reimbursement Plan For The Cost Of Remedies
+        Paid For By Vehicle Owners Prior To Notification Of A Safety Recall Was Provided
+        To The Agency On February 20, 2013. The Ending Date For Reimbursement Eligibility
+        For The Cost Of Remedies Paid For By Vehicle Owners Per Fords General Reimbursement
+        Plan Is November 30, 2014. Ford Will Upload A Copy Of The Notification Letters
+        To Dealers On Nhtsas Safercar.Gov Website When Available.","overall_rank":2,"risk_rank":4,"profit_rank":5,"labor_min":"1.10","labor_max":"1.70","labor_difficulty":3,"age":0,"created_time":"2016-03-11T11:09:34.848Z","updated_time":"2016-03-11T11:09:34.848Z","reimbursement":180.2},{"nhtsa_id":"15V246000","oem_id":"FORD
+        15S16","type":"recall","effective_date":"2015-04-23","expiration_date":null,"parts_available":"Not
+        Available","is_remedy_available":true,"name":"Door Latch Replacement","description":"Safety
+        Risk - Door Latch Replacement","risk":"A Door Latch With A Broken Pawl Spring
+        Tab Typically Results In A Door Will Not Close Condition. Should The Customer
+        Be Able To Latch The Door, There Is A Potential The Door May Unlatch While
+        Driving, Increasing The Risk Of Injury.","remedy":"Owners Will Be Notified
+        By Mail And Instructed To Take Their Vehicle To A Ford Or Lincoln Dealer To
+        Have All Four Door Latches Replaced With A More Robust Service Part. There
+        Will Be No Charge For This Service. Ford Provided The General Reimbursement
+        Plan For The Cost Of Remedies Paid For By Vehicle Owners Prior To Notification
+        Of A Safety Recall In February 2015. The Ending Date For Reimbursement Eligibility
+        Is December 1, 2015. Ford Will Forward A Copy Of The Notification Letters
+        To Dealers To The Agency When Available.","overall_rank":2,"risk_rank":3,"profit_rank":3,"labor_min":"0.20","labor_max":"0.20","labor_difficulty":2,"age":0,"created_time":"2016-03-11T11:09:34.837Z","updated_time":"2016-03-11T11:09:34.837Z","reimbursement":21.2}],"status":"OK","error_description":"","recall_count":2,"customer":null}'
+    http_version: 
+  recorded_at: Fri, 11 Mar 2016 11:09:35 GMT
+- request:
+    method: get
+    uri: https://app.recallmasters.com/api/v1/lookup/1FM5K7B96EGA76353/?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Token FAKE_KEY
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.1
+      Date:
+      - Fri, 11 Mar 2016 11:09:42 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Content-Security-Policy-Report-Only:
+      - 'default-src https:; script-src https: ''unsafe-eval'' ''unsafe-inline'';
+        style-src https: ''unsafe-inline''; img-src https: data:; font-src https:
+        data: https://fonts.gsatic.com http://fonts.gstatic.com; report-uri /csp-report'
+    body:
+      encoding: UTF-8
+      string: '{"vin":"1FM5K7B96EGA76353","make":"Ford","model_name":"Explorer","model_year":"2014","updated_time":"2016-03-11T11:09:42.626356Z","recalls":[],"status":"OK","error_description":"","recall_count":0,"customer":null}'
+    http_version: 
+  recorded_at: Fri, 11 Mar 2016 11:09:42 GMT
+- request:
+    method: get
+    uri: https://app.recallmasters.com/api/v1/lookup/11111111111111111/?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Token FAKE_KEY
+  response:
+    status:
+      code: 400
+      message: BAD REQUEST
+    headers:
+      Server:
+      - nginx/1.2.1
+      Date:
+      - Fri, 11 Mar 2016 11:09:48 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept, Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+    body:
+      encoding: UTF-8
+      string: '{"vin":"11111111111111111","make":null,"model_name":"","model_year":"","updated_time":"2016-03-11T10:48:44.130259Z","recalls":[],"status":"ERROR","error_description":"Vendor
+        is not supported or invalid VIN.","recall_count":0,"customer":null}'
+    http_version: 
+  recorded_at: Fri, 11 Mar 2016 11:09:48 GMT
+recorded_with: VCR 3.0.1
