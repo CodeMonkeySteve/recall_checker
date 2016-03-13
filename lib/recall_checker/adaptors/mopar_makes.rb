@@ -3,6 +3,10 @@ module RecallChecker
     class MoparMakes < Base
       base_uri 'http://www.moparownerconnect.com/oc/us/en-us/sub/Pages/RecallsResults.aspx'
 
+      def options
+        super.merge({ verify: false }) # disables SSL verification to suppress the timeout error
+      end
+
       def htmlpage
         @htmlpage ||= Nokogiri::HTML(parsed_response)
       end
