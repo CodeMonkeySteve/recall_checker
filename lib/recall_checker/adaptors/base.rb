@@ -6,15 +6,14 @@ module RecallChecker
       @@adaptors = {}
       FIELDS = {}
 
-      FALLBACK_ADAPTOR = 'recallmasters'
-
       class << self
         def make make
           @@adaptors[make] = self
         end
       
         def find_by_make_and_vin make, vin
-          (@@adaptors[normalize(make)] || @@adaptors[FALLBACK_ADAPTOR]).new(vin)
+          raise MakeError, "Make not supported: #{make}" unless supported?(make)
+          @@adaptors[normalize(make)].new(vin)
         end
 
         def supported? make

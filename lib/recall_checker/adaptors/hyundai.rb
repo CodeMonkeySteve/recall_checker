@@ -1,7 +1,7 @@
 module RecallChecker
   module Adaptors
     class Hyundai < Base
-      make 'hyundai'
+      # make 'hyundai'
       base_uri 'https://autoservice.hyundaiusa.com/campaignhome'
 
       NBSP = "\u00a0"

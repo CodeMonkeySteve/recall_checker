@@ -64,10 +64,9 @@ describe RecallChecker::Adaptors::Base, "when there are recalls" do
     expect { @checker2.recalls }.to raise_error RecallChecker::ServiceError
   end
 
-  it "uses fallback adaptor for unsupported makes" do
-    expect(RecallChecker::Adaptors::Recallmasters).to receive(:new) { "Yay!" }
-    expect(RecallChecker.find_by_make_and_vin("parovoz","11111111111111111")).to eq "Yay!"
-    expect(RecallChecker.find_by_make_and_vin("ford","11111111111111111")).not_to eq "Yay!"
+  it "raises MakeError for unsupported makes" do
+    expect { RecallChecker.find_by_make_and_vin("parovoz","11111111111111111") }.to raise_error RecallChecker::MakeError
+    expect { RecallChecker.find_by_make_and_vin("bmw","11111111111111111") }.not_to raise_error
   end
 end
 

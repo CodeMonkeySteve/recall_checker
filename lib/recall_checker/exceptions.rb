@@ -3,6 +3,9 @@ module RecallChecker
   class Error < StandardError; end
   class CaptchaSolverError < Error; end
 
+  # Raised when the supplied make is not supported by this library
+  class MakeError < Error; end
+
   # Raised when the supplied VIN is invalid
   class VinError < Error; end
 
